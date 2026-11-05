@@ -1,0 +1,579 @@
+{
+  "provider": "elevenlabs",
+  "clips": [
+    {
+      "src": "projects/kiraci-tahliye/voice.mp3",
+      "start": 0,
+      "duration": 55.71918367346939
+    }
+  ],
+  "sceneStarts": [
+    0,
+    6.758,
+    14.223,
+    21.375,
+    29.352,
+    36.433,
+    45.698,
+    51.399
+  ],
+  "words": [
+    {
+      "text": "Ev",
+      "start": 0,
+      "end": 0.221
+    },
+    {
+      "text": "sahibi,",
+      "start": 0.29,
+      "end": 0.998
+    },
+    {
+      "text": "oğlum",
+      "start": 1.44,
+      "end": 1.776
+    },
+    {
+      "text": "evlenecek,",
+      "start": 1.823,
+      "end": 2.589
+    },
+    {
+      "text": "evi",
+      "start": 2.705,
+      "end": 2.914
+    },
+    {
+      "text": "boşalt",
+      "start": 2.961,
+      "end": 3.425
+    },
+    {
+      "text": "dedi.",
+      "start": 3.495,
+      "end": 3.924
+    },
+    {
+      "text": "Peki",
+      "start": 4.307,
+      "end": 4.621
+    },
+    {
+      "text": "kiracı",
+      "start": 4.679,
+      "end": 5.155
+    },
+    {
+      "text": "çıkmak",
+      "start": 5.19,
+      "end": 5.573
+    },
+    {
+      "text": "zorunda",
+      "start": 5.631,
+      "end": 6.06
+    },
+    {
+      "text": "mı?",
+      "start": 6.107,
+      "end": 6.397
+    },
+    {
+      "text": "Çoğu",
+      "start": 6.838,
+      "end": 7.163
+    },
+    {
+      "text": "kiracı",
+      "start": 7.233,
+      "end": 7.686
+    },
+    {
+      "text": "bu",
+      "start": 7.721,
+      "end": 7.814
+    },
+    {
+      "text": "sözü",
+      "start": 7.86,
+      "end": 8.115
+    },
+    {
+      "text": "duyunca",
+      "start": 8.15,
+      "end": 8.696
+    },
+    {
+      "text": "hemen",
+      "start": 9.067,
+      "end": 9.381
+    },
+    {
+      "text": "taşınması",
+      "start": 9.439,
+      "end": 9.973
+    },
+    {
+      "text": "gerektiğini",
+      "start": 10.019,
+      "end": 10.565
+    },
+    {
+      "text": "düşünür.",
+      "start": 10.6,
+      "end": 11.273
+    },
+    {
+      "text": "Ama",
+      "start": 11.784,
+      "end": 12.005
+    },
+    {
+      "text": "iş",
+      "start": 12.051,
+      "end": 12.156
+    },
+    {
+      "text": "o",
+      "start": 12.237,
+      "end": 12.272
+    },
+    {
+      "text": "kadar",
+      "start": 12.33,
+      "end": 12.62
+    },
+    {
+      "text": "basit",
+      "start": 12.701,
+      "end": 13.061
+    },
+    {
+      "text": "değil.",
+      "start": 13.131,
+      "end": 13.607
+    },
+    {
+      "text": "Kanun,",
+      "start": 14.303,
+      "end": 15.047
+    },
+    {
+      "text": "ev",
+      "start": 15.256,
+      "end": 15.43
+    },
+    {
+      "text": "sahibinin",
+      "start": 15.488,
+      "end": 16.057
+    },
+    {
+      "text": "kendisi,",
+      "start": 16.126,
+      "end": 16.834
+    },
+    {
+      "text": "eşi,",
+      "start": 16.904,
+      "end": 17.194
+    },
+    {
+      "text": "çocukları",
+      "start": 17.229,
+      "end": 17.81
+    },
+    {
+      "text": "ya",
+      "start": 17.845,
+      "end": 17.891
+    },
+    {
+      "text": "da",
+      "start": 17.949,
+      "end": 18.019
+    },
+    {
+      "text": "anne",
+      "start": 18.088,
+      "end": 18.379
+    },
+    {
+      "text": "babası",
+      "start": 18.437,
+      "end": 18.739
+    },
+    {
+      "text": "için",
+      "start": 18.785,
+      "end": 19.017
+    },
+    {
+      "text": "gerçek",
+      "start": 19.087,
+      "end": 19.517
+    },
+    {
+      "text": "bir",
+      "start": 19.575,
+      "end": 19.668
+    },
+    {
+      "text": "konut",
+      "start": 19.702,
+      "end": 20.004
+    },
+    {
+      "text": "ihtiyacı",
+      "start": 20.062,
+      "end": 20.62
+    },
+    {
+      "text": "arar.",
+      "start": 20.643,
+      "end": 21.072
+    },
+    {
+      "text": "Kiracı",
+      "start": 21.455,
+      "end": 21.966
+    },
+    {
+      "text": "kendi",
+      "start": 22.001,
+      "end": 22.338
+    },
+    {
+      "text": "isteğiyle",
+      "start": 22.361,
+      "end": 22.779
+    },
+    {
+      "text": "çıkmazsa,",
+      "start": 22.825,
+      "end": 23.603
+    },
+    {
+      "text": "ev",
+      "start": 23.847,
+      "end": 24.01
+    },
+    {
+      "text": "sahibi",
+      "start": 24.079,
+      "end": 24.439
+    },
+    {
+      "text": "tahliye",
+      "start": 24.497,
+      "end": 24.892
+    },
+    {
+      "text": "davası",
+      "start": 24.938,
+      "end": 25.473
+    },
+    {
+      "text": "açar",
+      "start": 25.542,
+      "end": 25.902
+    },
+    {
+      "text": "ve",
+      "start": 26.227,
+      "end": 26.366
+    },
+    {
+      "text": "ihtiyacını",
+      "start": 26.459,
+      "end": 27.098
+    },
+    {
+      "text": "mahkemede",
+      "start": 27.133,
+      "end": 27.644
+    },
+    {
+      "text": "ispatlamak",
+      "start": 27.678,
+      "end": 28.305
+    },
+    {
+      "text": "zorundadır.",
+      "start": 28.363,
+      "end": 29.106
+    },
+    {
+      "text": "Yani",
+      "start": 29.432,
+      "end": 29.745
+    },
+    {
+      "text": "kiracı",
+      "start": 29.791,
+      "end": 30.291
+    },
+    {
+      "text": "hemen",
+      "start": 30.337,
+      "end": 30.604
+    },
+    {
+      "text": "çıkmak",
+      "start": 30.651,
+      "end": 31.022
+    },
+    {
+      "text": "zorunda",
+      "start": 31.08,
+      "end": 31.475
+    },
+    {
+      "text": "değil.",
+      "start": 31.521,
+      "end": 31.881
+    },
+    {
+      "text": "İhtiyaç",
+      "start": 32.206,
+      "end": 32.729
+    },
+    {
+      "text": "gerçekse",
+      "start": 32.81,
+      "end": 33.356
+    },
+    {
+      "text": "ve",
+      "start": 33.402,
+      "end": 33.495
+    },
+    {
+      "text": "mahkeme",
+      "start": 33.553,
+      "end": 33.983
+    },
+    {
+      "text": "karar",
+      "start": 34.029,
+      "end": 34.307
+    },
+    {
+      "text": "verirse",
+      "start": 34.377,
+      "end": 34.737
+    },
+    {
+      "text": "tahliye",
+      "start": 34.795,
+      "end": 35.155
+    },
+    {
+      "text": "gerçekleşir.",
+      "start": 35.225,
+      "end": 36.13
+    },
+    {
+      "text": "Asıl",
+      "start": 36.513,
+      "end": 36.838
+    },
+    {
+      "text": "şaşırtan",
+      "start": 36.885,
+      "end": 37.407
+    },
+    {
+      "text": "kısım:",
+      "start": 37.454,
+      "end": 37.883
+    },
+    {
+      "text": "ihtiyaç",
+      "start": 38.208,
+      "end": 38.708
+    },
+    {
+      "text": "diyerek",
+      "start": 38.766,
+      "end": 39.068
+    },
+    {
+      "text": "kiracıyı",
+      "start": 39.102,
+      "end": 39.648
+    },
+    {
+      "text": "çıkaran",
+      "start": 39.683,
+      "end": 40.078
+    },
+    {
+      "text": "ev",
+      "start": 40.136,
+      "end": 40.24
+    },
+    {
+      "text": "sahibi,",
+      "start": 40.298,
+      "end": 40.914
+    },
+    {
+      "text": "haklı",
+      "start": 41.157,
+      "end": 41.517
+    },
+    {
+      "text": "bir",
+      "start": 41.564,
+      "end": 41.657
+    },
+    {
+      "text": "sebep",
+      "start": 41.68,
+      "end": 41.993
+    },
+    {
+      "text": "olmadan",
+      "start": 42.063,
+      "end": 42.493
+    },
+    {
+      "text": "evi",
+      "start": 42.562,
+      "end": 42.771
+    },
+    {
+      "text": "üç",
+      "start": 42.806,
+      "end": 42.969
+    },
+    {
+      "text": "yıl",
+      "start": 43.015,
+      "end": 43.131
+    },
+    {
+      "text": "boyunca",
+      "start": 43.201,
+      "end": 43.584
+    },
+    {
+      "text": "başkasına",
+      "start": 43.642,
+      "end": 44.164
+    },
+    {
+      "text": "kiralayamaz.",
+      "start": 44.211,
+      "end": 45.174
+    },
+    {
+      "text": "Kurala",
+      "start": 45.778,
+      "end": 46.184
+    },
+    {
+      "text": "uymazsa,",
+      "start": 46.219,
+      "end": 46.974
+    },
+    {
+      "text": "eski",
+      "start": 47.218,
+      "end": 47.554
+    },
+    {
+      "text": "kiracısına",
+      "start": 47.601,
+      "end": 48.251
+    },
+    {
+      "text": "en",
+      "start": 48.344,
+      "end": 48.483
+    },
+    {
+      "text": "az",
+      "start": 48.565,
+      "end": 48.669
+    },
+    {
+      "text": "bir",
+      "start": 48.75,
+      "end": 48.913
+    },
+    {
+      "text": "yıllık",
+      "start": 48.971,
+      "end": 49.25
+    },
+    {
+      "text": "kira",
+      "start": 49.273,
+      "end": 49.575
+    },
+    {
+      "text": "tutarında",
+      "start": 49.621,
+      "end": 50.085
+    },
+    {
+      "text": "tazminat",
+      "start": 50.132,
+      "end": 50.619
+    },
+    {
+      "text": "öder.",
+      "start": 50.678,
+      "end": 51.037
+    },
+    {
+      "text": "Sence",
+      "start": 51.479,
+      "end": 51.804
+    },
+    {
+      "text": "bu",
+      "start": 51.862,
+      "end": 51.966
+    },
+    {
+      "text": "kural",
+      "start": 52.001,
+      "end": 52.28
+    },
+    {
+      "text": "kiracıyı",
+      "start": 52.349,
+      "end": 52.883
+    },
+    {
+      "text": "yeterince",
+      "start": 52.941,
+      "end": 53.418
+    },
+    {
+      "text": "koruyor",
+      "start": 53.487,
+      "end": 53.835
+    },
+    {
+      "text": "mu?",
+      "start": 53.87,
+      "end": 54.091
+    },
+    {
+      "text": "Yorumlara",
+      "start": 54.37,
+      "end": 54.95
+    },
+    {
+      "text": "yaz.",
+      "start": 54.996,
+      "end": 55.681
+    }
+  ],
+  "total": 55.71918367346939,
+  "sayHash": "b060913c5f84"
+}

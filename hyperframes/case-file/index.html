@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="tr" data-composition-variables='[
+  {"id":"title","type":"string","label":"Folder tab","default":"DAVA DOSYASI · N° 001"},
+  {"id":"label","type":"string","label":"Sheet header","default":"OLAY ÖZETİ"},
+  {"id":"lines","type":"string","label":"Lines on the sheet, max 4 (a list in the storyboard, or a | b | c)","default":"Kiracı 8 yıldır aynı evde. | Ev sahibi: oğlum evlenecek. | Tahliye ihtarı gönderildi."},
+  {"id":"highlightLine","type":"number","label":"Line to highlight (1-4, 0 = none)","default":2},
+  {"id":"stamp","type":"string","label":"Stamp text (empty = no stamp)","default":"İNCELEMEDE"},
+  {"id":"cue_highlight","type":"number","label":"Highlight time (s)","default":2.6},
+  {"id":"cue_stamp","type":"number","label":"Stamp time (s)","default":3.6},
+  {"id":"duration","type":"number","label":"Scene length (s)","default":6},
+  {"id":"ink","type":"color","label":"Ink","default":"#1b2a41"},
+  {"id":"surface","type":"color","label":"Paper","default":"#fbf7ee"},
+  {"id":"accent","type":"color","label":"Accent","default":"#b58a3c"},
+  {"id":"muted","type":"color","label":"Muted","default":"#8c8677"},
+  {"id":"danger","type":"color","label":"Stamp","default":"#9a3a2e"}
+]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=940, height=720" />
+    <link rel="stylesheet" href="assets/kettek.css" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      #stage { perspective: 1400px; }
+      .folder-back, .folder-front, .tab {
+        position: absolute;
+        background: color-mix(in srgb, var(--accent) 55%, #f6e7c1);
+        border: 4px solid color-mix(in srgb, var(--accent) 70%, var(--ink));
+      }
+      #folder { position: absolute; left: 20px; top: 110px; width: 800px; height: 570px; transform-origin: 50% 100%; }
+      .folder-back { left: 0; top: 0; width: 800px; height: 570px; border-radius: 22px; box-shadow: 0 28px 60px rgba(20, 25, 40, 0.28); }
+      /* The sheet lives in a pocket the size of the folder, so it never shows outside it */
+      #pocket { position: absolute; left: 0; top: 0; width: 800px; height: 570px; overflow: hidden; border-radius: 22px; }
+      .tab {
+        left: 36px; top: -58px; height: 66px; padding: 0 30px; border-bottom: none; border-radius: 16px 16px 0 0;
+        display: flex; align-items: center; font-family: var(--mono); font-size: 25px; letter-spacing: 5px; color: var(--ink); white-space: nowrap;
+      }
+      .folder-front {
+        left: 0; top: 390px; width: 800px; height: 180px; border-radius: 6px 6px 22px 22px;
+        background: color-mix(in srgb, var(--accent) 62%, #f1dca8);
+        box-shadow: 0 -10px 24px rgba(20, 25, 40, 0.14);
+      }
+      .front-line { position: absolute; left: 40px; right: 40px; top: 34px; height: 3px; background: color-mix(in srgb, var(--accent) 70%, var(--ink)); opacity: 0.35; }
+      #sheet {
+        position: absolute; left: 70px; top: 40px; width: 660px; height: 600px; border-radius: 10px;
+        background: var(--surface); border: 3px solid color-mix(in srgb, var(--ink) 18%, transparent);
+        box-shadow: 0 14px 34px rgba(20, 25, 40, 0.18); padding: 46px 52px; overflow: hidden;
+      }
+      #sheet::before { content: ""; position: absolute; left: 30px; top: 0; bottom: 0; width: 2px; background: var(--danger); opacity: 0.35; }
+      .label { font-family: var(--mono); font-size: 22px; letter-spacing: 6px; color: color-mix(in srgb, var(--ink) 70%, var(--surface)); margin-bottom: 26px; }
+      .line { position: relative; font-family: var(--serif); font-weight: 600; font-size: 38px; line-height: 1.25; color: var(--ink); margin-bottom: 22px; }
+      .line .ink { position: relative; z-index: 1; display: inline; }
+      .line .marker {
+        position: absolute; left: -8px; right: -8px; top: 14%; bottom: 6%; z-index: 0; border-radius: 6px;
+        background: color-mix(in srgb, var(--accent) 45%, transparent); transform-origin: 0 50%;
+      }
+      #stamp {
+        position: absolute; left: 330px; top: 250px; z-index: 5; padding: 14px 34px; border: 8px double var(--danger); border-radius: 14px;
+        font-family: var(--mono); font-size: 54px; letter-spacing: 8px; color: var(--danger); white-space: nowrap;
+        background: transparent; mix-blend-mode: multiply;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="case-file" data-start="0" data-duration="6" data-width="940" data-height="720">
+      <div id="shell">
+        <div id="fit">
+          <div id="stage" style="position:absolute;inset:0">
+            <div id="folder">
+              <div class="folder-back"></div>
+              <div class="tab" id="tab" data-layout-allow-overflow>DAVA DOSYASI</div>
+              <div id="pocket">
+                <div id="sheet" data-layout-allow-overflow>
+                  <div class="label" id="label">OLAY ÖZETİ</div>
+                  <div id="lines"></div>
+                </div>
+              </div>
+              <div class="folder-front"><div class="front-line"></div></div>
+              <div id="stamp" data-layout-allow-overlap data-layout-allow-occlusion>İNCELEMEDE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/kettek.js"></script>
+    <script>
+      KT.fit("#fit", 840, 720);
+      KT.text("#tab", "title");
+      KT.text("#label", "label");
+      var lines = KT.list("lines").slice(0, 4);
+      var box = document.getElementById("lines");
+      lines.forEach(function (t, i) {
+        var d = document.createElement("div");
+        d.className = "line";
+        d.id = "line" + (i + 1);
+        d.innerHTML = '<span class="marker"></span><span class="ink"></span>';
+        d.querySelector(".ink").textContent = t;
+        box.appendChild(d);
+      });
+      var stampText = KT.vars.stamp === undefined ? "İNCELEMEDE" : String(KT.vars.stamp);
+      var stamp = document.getElementById("stamp");
+      stamp.textContent = stampText;
+
+      var tl = gsap.timeline({ paused: true });
+      // Folder swings up into view
+      tl.fromTo("#folder", { y: 160, rotationX: 38, opacity: 0 }, { y: 0, rotationX: 0, opacity: 1, duration: 0.75, ease: "power3.out" }, 0);
+      // Sheet slides out of the folder
+      tl.fromTo("#sheet", { y: 560 }, { y: -18, duration: 0.85, ease: "power3.out" }, 0.45);
+      tl.fromTo("#label", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, ease: "power2.out" }, 0.95);
+      // Lines write in one after another
+      lines.forEach(function (_, i) {
+        tl.fromTo("#line" + (i + 1) + " .ink", { clipPath: "inset(0 100% 0 0)", opacity: 0.2 }, { clipPath: "inset(0 0% 0 0)", opacity: 1, duration: 0.55, ease: "power2.inOut" }, 1.15 + i * 0.42);
+        tl.set("#line" + (i + 1) + " .marker", { scaleX: 0 }, 0);
+      });
+      // Highlighter on one line, on its cue
+      var hl = Number(KT.vars.highlightLine === undefined ? 2 : KT.vars.highlightLine);
+      if (hl >= 1 && hl <= lines.length) {
+        tl.fromTo("#line" + hl + " .marker", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power2.out" }, KT.cue("highlight", 1.15 + lines.length * 0.42 + 0.2));
+      }
+      // Stamp slams down, the sheet takes the hit
+      if (stampText) {
+        var ts = KT.cue("stamp", Math.max(2, KT.dur * 0.65));
+        tl.set("#stamp", { opacity: 0, scale: 2.4, rotation: -4 }, 0);
+        tl.to("#stamp", { opacity: 0.92, scale: 1, rotation: -9, duration: 0.18, ease: "power4.in" }, ts);
+        tl.fromTo("#folder", { x: 0 }, { x: 7, duration: 0.05, yoyo: true, repeat: 3, ease: "none" }, ts + 0.18);
+      } else {
+        stamp.style.display = "none";
+      }
+      window.__timelines = window.__timelines || {};
+      window.__timelines["case-file"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

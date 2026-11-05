@@ -1,0 +1,79 @@
+{
+  "slug": "qr-kod",
+  "title": "QR kod neden yırtılsa bile çalışır?",
+  "style": "kettek-dark",
+  "handle": "@kettek",
+  "voice": { "provider": "elevenlabs" },
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "Bir QR kodun neredeyse üçte birini silseniz bile, telefonunuz onu yine okur. Peki nasıl?",
+      "visual": { "type": "kinetic", "lines": ["Üçte birini sil", "yine okunur"], "emphasis": ["okunur"] }
+    },
+    {
+      "id": "tarih-giris",
+      "say": "Önce kısa bir tarih dersi.",
+      "visual": { "type": "mascot", "bubble": "Önce kısa bir tarih dersi!", "mood": "curious" }
+    },
+    {
+      "id": "yil",
+      "say": "QR kod, bin dokuz yüz doksan dörtte Japonya'da, Denso Wave şirketinde geliştirildi.",
+      "visual": { "type": "bigNumber", "value": 1994, "grouping": false, "label": "Japonya · Denso Wave" }
+    },
+    {
+      "id": "amac",
+      "say": "Amaç basitti: fabrikada araba parçalarını hızlıca takip etmek.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          { "icon": "Factory", "label": "Fabrika" },
+          { "icon": "Car", "label": "Araba parçaları" },
+          { "icon": "ScanLine", "label": "Hızlı takip" }
+        ]
+      }
+    },
+    {
+      "id": "okuma",
+      "say": "Telefon önce köşelerdeki üç büyük kareyi bulur, açıyı düzeltir, sonra her küçük kareyi sıfıra ya da bire çevirir.",
+      "visual": {
+        "type": "steps",
+        "title": "Telefon ne yapar?",
+        "steps": ["Üç köşe kareyi bulur", "Açıyı düzeltir", "Kareleri 0 ve 1'e çevirir"]
+      }
+    },
+    {
+      "id": "sir",
+      "say": "Asıl sır şurada: kod, verinin yanında onu onarmaya yarayan ek bilgi de taşır.",
+      "visual": {
+        "type": "compare",
+        "left": { "title": "Sıradan veri", "items": ["Bir parça silinir", "Bilgi kaybolur"] },
+        "right": { "title": "QR kod", "items": ["Onarım verisi taşır", "Eksiği yeniden hesaplar"] }
+      }
+    },
+    {
+      "id": "seviyeler",
+      "say": "En yüksek seviyede, kodun yaklaşık yüzde otuzu hasar görse bile veri kurtarılabilir.",
+      "visual": {
+        "type": "bars",
+        "title": "Onarılabilen hasar (%)",
+        "bars": [
+          { "label": "L seviyesi", "value": 7 },
+          { "label": "M seviyesi", "value": 15 },
+          { "label": "Q seviyesi", "value": 25 },
+          { "label": "H seviyesi", "value": 30 }
+        ],
+        "highlight": 3
+      }
+    },
+    {
+      "id": "logo",
+      "say": "Ortasına logo konan QR kodların çalışmasının sebebi de tam olarak bu.",
+      "visual": { "type": "kinetic", "lines": ["Logolu QR kodlar", "bu yüzden çalışır"], "emphasis": ["logolu"] }
+    },
+    {
+      "id": "cta",
+      "say": "Gündelik teknolojinin sırları için takip et.",
+      "visual": { "type": "mascot", "bubble": "Sıradaki sır için takip et!", "mood": "happy" }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "hf-demo",
+  "title": "HyperFrames örnek sahneleri",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law Trust",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "episode": 2,
+  "voice": {
+    "provider": "elevenlabs"
+  },
+  "scenes": [
+    {
+      "id": "dosya",
+      "chapter": "Kira hukuku · İhtiyaç nedeniyle tahliye",
+      "headline": "Dosyada *ne* var?",
+      "source": "TBK m.350",
+      "say": "Dosyaya bakalım. Kiracı sekiz yıldır aynı evde oturuyor, ev sahibi ise oğlunun evleneceğini söylüyor. Mahkeme bu iddiayı inceleyecek.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "case-file",
+        "vars": {
+          "title": "VAKA N° 002",
+          "label": "OLAY ÖZETİ",
+          "lines": [
+            "Kiracı 8 yıldır aynı evde.",
+            "Ev sahibi: oğlum evlenecek.",
+            "Tahliye davası açıldı."
+          ],
+          "highlightLine": 2,
+          "stamp": "İNCELEMEDE"
+        },
+        "cues": {
+          "highlight": "oğlunun",
+          "stamp": {
+            "word": "inceleyecek",
+            "sfx": "thud"
+          }
+        }
+      }
+    },
+    {
+      "id": "madde",
+      "chapter": "Kör nokta",
+      "headline": "Kanun *ne* diyor?",
+      "source": "TBK m.355/1",
+      "say": "Kanun açık: ev sahibi, haklı bir sebep olmadıkça, evi üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "TBK",
+          "article": "m. 355/1",
+          "text": "Kiraya veren, gereksinim amacıyla kiralananın boşaltılmasını sağladığında, haklı sebep olmaksızın, kiralananı üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz.",
+          "highlight": "üç yıl geçmedikçe",
+          "note": "Yeniden kiralama yasağı"
+        },
+        "cues": {
+          "highlight": {
+            "word": "üç",
+            "sfx": "tick"
+          }
+        }
+      }
+    },
+    {
+      "id": "surec",
+      "chapter": "Süreç",
+      "headline": "Adım adım *tahliye*",
+      "source": "TBK m.350",
+      "say": "Süreç şöyle işler: önce ihtiyaç bildirilir, sonra dava açılır, mahkeme ihtiyacı inceler ve sonunda karar verir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            {
+              "when": "1. adım",
+              "what": "İhtiyaç bildirilir"
+            },
+            {
+              "when": "2. adım",
+              "what": "Tahliye davası açılır"
+            },
+            {
+              "when": "3. adım",
+              "what": "Mahkeme ihtiyacı inceler"
+            },
+            {
+              "when": "4. adım",
+              "what": "Karar verilir"
+            }
+          ],
+          "active": 4
+        },
+        "cues": {
+          "e1": {
+            "word": "ihtiyaç",
+            "sfx": "pop"
+          },
+          "e2": {
+            "word": "dava",
+            "sfx": "pop"
+          },
+          "e3": {
+            "word": "mahkeme",
+            "sfx": "pop"
+          },
+          "e4": {
+            "word": "karar",
+            "sfx": "ding"
+          }
+        }
+      }
+    }
+  ]
+}

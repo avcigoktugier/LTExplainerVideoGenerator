@@ -1,0 +1,540 @@
+{
+  "provider": "elevenlabs",
+  "clips": [
+    {
+      "src": "projects/dugun-takilari/voice.mp3",
+      "start": 0,
+      "duration": 56.55510204081633
+    }
+  ],
+  "sceneStarts": [
+    0,
+    4.436,
+    10.021,
+    14.247,
+    23.338,
+    29.909000000000002,
+    36.109,
+    45.513000000000005,
+    52.931000000000004
+  ],
+  "words": [
+    {
+      "text": "Düğünde",
+      "start": 0,
+      "end": 0.476
+    },
+    {
+      "text": "damada",
+      "start": 0.534,
+      "end": 0.94
+    },
+    {
+      "text": "takılan",
+      "start": 0.987,
+      "end": 1.382
+    },
+    {
+      "text": "altınlar,",
+      "start": 1.451,
+      "end": 2.136
+    },
+    {
+      "text": "boşanınca",
+      "start": 2.415,
+      "end": 2.995
+    },
+    {
+      "text": "kime",
+      "start": 3.065,
+      "end": 3.344
+    },
+    {
+      "text": "kalır?",
+      "start": 3.402,
+      "end": 3.913
+    },
+    {
+      "text": "Çoğu",
+      "start": 4.516,
+      "end": 4.818
+    },
+    {
+      "text": "kişi",
+      "start": 4.876,
+      "end": 5.12
+    },
+    {
+      "text": "şöyle",
+      "start": 5.166,
+      "end": 5.503
+    },
+    {
+      "text": "bilir:",
+      "start": 5.561,
+      "end": 6.026
+    },
+    {
+      "text": "kim",
+      "start": 6.467,
+      "end": 6.722
+    },
+    {
+      "text": "takarsa",
+      "start": 6.792,
+      "end": 7.279
+    },
+    {
+      "text": "taksın,",
+      "start": 7.338,
+      "end": 7.814
+    },
+    {
+      "text": "bütün",
+      "start": 7.86,
+      "end": 8.208
+    },
+    {
+      "text": "takılar",
+      "start": 8.266,
+      "end": 8.684
+    },
+    {
+      "text": "gelinindir.",
+      "start": 8.742,
+      "end": 9.497
+    },
+    {
+      "text": "Ama",
+      "start": 10.101,
+      "end": 10.333
+    },
+    {
+      "text": "Yargıtay,",
+      "start": 10.403,
+      "end": 11.157
+    },
+    {
+      "text": "iki",
+      "start": 11.436,
+      "end": 11.656
+    },
+    {
+      "text": "bin",
+      "start": 11.714,
+      "end": 11.865
+    },
+    {
+      "text": "yirmi",
+      "start": 11.923,
+      "end": 12.179
+    },
+    {
+      "text": "dörtte",
+      "start": 12.214,
+      "end": 12.55
+    },
+    {
+      "text": "bu",
+      "start": 12.608,
+      "end": 12.713
+    },
+    {
+      "text": "görüşü",
+      "start": 12.771,
+      "end": 13.142
+    },
+    {
+      "text": "değiştirdi.",
+      "start": 13.189,
+      "end": 13.944
+    },
+    {
+      "text": "Artık",
+      "start": 14.327,
+      "end": 14.71
+    },
+    {
+      "text": "önce",
+      "start": 14.838,
+      "end": 15.139
+    },
+    {
+      "text": "eşlerin",
+      "start": 15.197,
+      "end": 15.662
+    },
+    {
+      "text": "anlaşmasına",
+      "start": 15.732,
+      "end": 16.393
+    },
+    {
+      "text": "bakılıyor.",
+      "start": 16.451,
+      "end": 17.009
+    },
+    {
+      "text": "Anlaşma",
+      "start": 17.52,
+      "end": 18.077
+    },
+    {
+      "text": "yoksa",
+      "start": 18.124,
+      "end": 18.414
+    },
+    {
+      "text": "yöresel",
+      "start": 18.484,
+      "end": 18.948
+    },
+    {
+      "text": "örf",
+      "start": 19.064,
+      "end": 19.331
+    },
+    {
+      "text": "ve",
+      "start": 19.377,
+      "end": 19.436
+    },
+    {
+      "text": "adete.",
+      "start": 19.505,
+      "end": 20.028
+    },
+    {
+      "text": "O",
+      "start": 20.237,
+      "end": 20.306
+    },
+    {
+      "text": "da",
+      "start": 20.376,
+      "end": 20.434
+    },
+    {
+      "text": "yoksa",
+      "start": 20.492,
+      "end": 20.771
+    },
+    {
+      "text": "takı,",
+      "start": 20.829,
+      "end": 21.305
+    },
+    {
+      "text": "kime",
+      "start": 21.514,
+      "end": 21.816
+    },
+    {
+      "text": "takıldıysa",
+      "start": 21.862,
+      "end": 22.524
+    },
+    {
+      "text": "onun.",
+      "start": 22.57,
+      "end": 22.919
+    },
+    {
+      "text": "Kararda",
+      "start": 23.418,
+      "end": 23.94
+    },
+    {
+      "text": "açıkça",
+      "start": 23.975,
+      "end": 24.37
+    },
+    {
+      "text": "yazıyor:",
+      "start": 24.416,
+      "end": 24.881
+    },
+    {
+      "text": "erkeğe",
+      "start": 25.194,
+      "end": 25.647
+    },
+    {
+      "text": "ve",
+      "start": 25.682,
+      "end": 25.74
+    },
+    {
+      "text": "kadına",
+      "start": 25.798,
+      "end": 26.1
+    },
+    {
+      "text": "takılanlar,",
+      "start": 26.146,
+      "end": 26.982
+    },
+    {
+      "text": "kural",
+      "start": 27.226,
+      "end": 27.539
+    },
+    {
+      "text": "olarak",
+      "start": 27.597,
+      "end": 27.911
+    },
+    {
+      "text": "kendilerine",
+      "start": 27.957,
+      "end": 28.619
+    },
+    {
+      "text": "aittir.",
+      "start": 28.665,
+      "end": 29.397
+    },
+    {
+      "text": "Yani",
+      "start": 29.989,
+      "end": 30.337
+    },
+    {
+      "text": "damada",
+      "start": 30.395,
+      "end": 30.813
+    },
+    {
+      "text": "takılan",
+      "start": 30.86,
+      "end": 31.231
+    },
+    {
+      "text": "çeyrek",
+      "start": 31.278,
+      "end": 31.626
+    },
+    {
+      "text": "altınlar,",
+      "start": 31.707,
+      "end": 32.357
+    },
+    {
+      "text": "artık",
+      "start": 32.601,
+      "end": 32.973
+    },
+    {
+      "text": "kural",
+      "start": 33.008,
+      "end": 33.298
+    },
+    {
+      "text": "olarak",
+      "start": 33.367,
+      "end": 33.727
+    },
+    {
+      "text": "damadın",
+      "start": 33.902,
+      "end": 34.482
+    },
+    {
+      "text": "sayılıyor.",
+      "start": 34.598,
+      "end": 35.248
+    },
+    {
+      "text": "Bir",
+      "start": 36.189,
+      "end": 36.398
+    },
+    {
+      "text": "istisna",
+      "start": 36.444,
+      "end": 36.966
+    },
+    {
+      "text": "var:",
+      "start": 37.013,
+      "end": 37.396
+    },
+    {
+      "text": "takı",
+      "start": 37.57,
+      "end": 37.86
+    },
+    {
+      "text": "karşı",
+      "start": 37.907,
+      "end": 38.244
+    },
+    {
+      "text": "cinse",
+      "start": 38.278,
+      "end": 38.615
+    },
+    {
+      "text": "özgüyse,",
+      "start": 38.685,
+      "end": 39.37
+    },
+    {
+      "text": "ona",
+      "start": 39.521,
+      "end": 39.741
+    },
+    {
+      "text": "verilmiş",
+      "start": 39.788,
+      "end": 40.252
+    },
+    {
+      "text": "sayılır.",
+      "start": 40.345,
+      "end": 40.925
+    },
+    {
+      "text": "Damada",
+      "start": 41.529,
+      "end": 41.959
+    },
+    {
+      "text": "takılan",
+      "start": 42.005,
+      "end": 42.388
+    },
+    {
+      "text": "bir",
+      "start": 42.435,
+      "end": 42.528
+    },
+    {
+      "text": "kadın",
+      "start": 42.574,
+      "end": 42.876
+    },
+    {
+      "text": "bileziği,",
+      "start": 42.934,
+      "end": 43.677
+    },
+    {
+      "text": "gelinin",
+      "start": 44.06,
+      "end": 44.525
+    },
+    {
+      "text": "olur.",
+      "start": 44.583,
+      "end": 44.989
+    },
+    {
+      "text": "Neyin",
+      "start": 45.593,
+      "end": 45.941
+    },
+    {
+      "text": "kime",
+      "start": 46.011,
+      "end": 46.301
+    },
+    {
+      "text": "takıldığını",
+      "start": 46.359,
+      "end": 46.928
+    },
+    {
+      "text": "mahkemede",
+      "start": 46.974,
+      "end": 47.497
+    },
+    {
+      "text": "göstermeniz",
+      "start": 47.543,
+      "end": 48.205
+    },
+    {
+      "text": "gerekebilir.",
+      "start": 48.263,
+      "end": 49.087
+    },
+    {
+      "text": "Düğün",
+      "start": 49.784,
+      "end": 50.109
+    },
+    {
+      "text": "videosunu",
+      "start": 50.155,
+      "end": 50.655
+    },
+    {
+      "text": "ve",
+      "start": 50.678,
+      "end": 50.759
+    },
+    {
+      "text": "fotoğrafları",
+      "start": 50.805,
+      "end": 51.467
+    },
+    {
+      "text": "bu",
+      "start": 51.502,
+      "end": 51.618
+    },
+    {
+      "text": "yüzden",
+      "start": 51.641,
+      "end": 51.978
+    },
+    {
+      "text": "saklayın.",
+      "start": 52.036,
+      "end": 52.628
+    },
+    {
+      "text": "Sence",
+      "start": 53.011,
+      "end": 53.395
+    },
+    {
+      "text": "yeni",
+      "start": 53.464,
+      "end": 53.673
+    },
+    {
+      "text": "kural",
+      "start": 53.731,
+      "end": 54.021
+    },
+    {
+      "text": "daha",
+      "start": 54.091,
+      "end": 54.312
+    },
+    {
+      "text": "mı",
+      "start": 54.358,
+      "end": 54.439
+    },
+    {
+      "text": "adil?",
+      "start": 54.497,
+      "end": 54.915
+    },
+    {
+      "text": "Yorumlara",
+      "start": 55.159,
+      "end": 55.798
+    },
+    {
+      "text": "yaz.",
+      "start": 55.856,
+      "end": 56.518
+    }
+  ],
+  "total": 56.55510204081633,
+  "sayHash": "4daa5e56542f"
+}

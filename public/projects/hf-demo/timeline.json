@@ -1,0 +1,438 @@
+{
+  "slug": "hf-demo",
+  "title": "HyperFrames örnek sahneleri",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law Trust",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "episode": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 871,
+  "clips": [
+    {
+      "src": "projects/hf-demo/voice.mp3",
+      "from": 0
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 271,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 305,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/tick.mp3",
+      "from": 421,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 560,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 624,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 691,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 732,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 816,
+      "volume": 0.25
+    }
+  ],
+  "words": [
+    {
+      "text": "Dosyaya",
+      "start": 0,
+      "end": 0.569
+    },
+    {
+      "text": "bakalım.",
+      "start": 0.615,
+      "end": 1.138
+    },
+    {
+      "text": "Kiracı",
+      "start": 1.579,
+      "end": 2.067
+    },
+    {
+      "text": "sekiz",
+      "start": 2.101,
+      "end": 2.438
+    },
+    {
+      "text": "yıldır",
+      "start": 2.496,
+      "end": 2.74
+    },
+    {
+      "text": "aynı",
+      "start": 2.775,
+      "end": 3.007
+    },
+    {
+      "text": "evde",
+      "start": 3.042,
+      "end": 3.274
+    },
+    {
+      "text": "oturuyor,",
+      "start": 3.32,
+      "end": 3.785
+    },
+    {
+      "text": "ev",
+      "start": 3.82,
+      "end": 4.005
+    },
+    {
+      "text": "sahibi",
+      "start": 4.063,
+      "end": 4.505
+    },
+    {
+      "text": "ise",
+      "start": 4.528,
+      "end": 4.888
+    },
+    {
+      "text": "oğlunun",
+      "start": 5.329,
+      "end": 5.84
+    },
+    {
+      "text": "evleneceğini",
+      "start": 5.898,
+      "end": 6.594
+    },
+    {
+      "text": "söylüyor.",
+      "start": 6.629,
+      "end": 7.221
+    },
+    {
+      "text": "Mahkeme",
+      "start": 7.825,
+      "end": 8.29
+    },
+    {
+      "text": "bu",
+      "start": 8.348,
+      "end": 8.487
+    },
+    {
+      "text": "iddiayı",
+      "start": 8.557,
+      "end": 9.021
+    },
+    {
+      "text": "inceleyecek.",
+      "start": 9.044,
+      "end": 9.903
+    },
+    {
+      "text": "Kanun",
+      "start": 10.344,
+      "end": 10.762
+    },
+    {
+      "text": "açık:",
+      "start": 10.82,
+      "end": 11.262
+    },
+    {
+      "text": "ev",
+      "start": 11.587,
+      "end": 11.784
+    },
+    {
+      "text": "sahibi,",
+      "start": 11.854,
+      "end": 12.272
+    },
+    {
+      "text": "haklı",
+      "start": 12.318,
+      "end": 12.62
+    },
+    {
+      "text": "bir",
+      "start": 12.666,
+      "end": 12.748
+    },
+    {
+      "text": "sebep",
+      "start": 12.771,
+      "end": 13.084
+    },
+    {
+      "text": "olmadıkça,",
+      "start": 13.201,
+      "end": 13.746
+    },
+    {
+      "text": "evi",
+      "start": 13.769,
+      "end": 13.99
+    },
+    {
+      "text": "üç",
+      "start": 14.048,
+      "end": 14.211
+    },
+    {
+      "text": "yıl",
+      "start": 14.28,
+      "end": 14.373
+    },
+    {
+      "text": "geçmedikçe",
+      "start": 14.443,
+      "end": 15.186
+    },
+    {
+      "text": "eski",
+      "start": 15.511,
+      "end": 15.917
+    },
+    {
+      "text": "kiracısından",
+      "start": 15.964,
+      "end": 16.718
+    },
+    {
+      "text": "başkasına",
+      "start": 16.776,
+      "end": 17.252
+    },
+    {
+      "text": "kiralayamaz.",
+      "start": 17.298,
+      "end": 18.251
+    },
+    {
+      "text": "Süreç",
+      "start": 18.854,
+      "end": 19.191
+    },
+    {
+      "text": "şöyle",
+      "start": 19.226,
+      "end": 19.539
+    },
+    {
+      "text": "işler:",
+      "start": 19.586,
+      "end": 20.085
+    },
+    {
+      "text": "önce",
+      "start": 20.468,
+      "end": 20.735
+    },
+    {
+      "text": "ihtiyaç",
+      "start": 20.793,
+      "end": 21.188
+    },
+    {
+      "text": "bildirilir,",
+      "start": 21.269,
+      "end": 22.059
+    },
+    {
+      "text": "sonra",
+      "start": 22.662,
+      "end": 22.964
+    },
+    {
+      "text": "dava",
+      "start": 23.022,
+      "end": 23.336
+    },
+    {
+      "text": "açılır,",
+      "start": 23.382,
+      "end": 23.951
+    },
+    {
+      "text": "mahkeme",
+      "start": 24.392,
+      "end": 24.891
+    },
+    {
+      "text": "ihtiyacı",
+      "start": 24.915,
+      "end": 25.437
+    },
+    {
+      "text": "inceler",
+      "start": 25.507,
+      "end": 26.006
+    },
+    {
+      "text": "ve",
+      "start": 26.517,
+      "end": 26.668
+    },
+    {
+      "text": "sonunda",
+      "start": 26.726,
+      "end": 27.144
+    },
+    {
+      "text": "karar",
+      "start": 27.202,
+      "end": 27.55
+    },
+    {
+      "text": "verir.",
+      "start": 27.608,
+      "end": 28.282
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dosya",
+      "say": "Dosyaya bakalım. Kiracı sekiz yıldır aynı evde oturuyor, ev sahibi ise oğlunun evleneceğini söylüyor. Mahkeme bu iddiayı inceleyecek.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "case-file",
+        "vars": {
+          "title": "VAKA N° 002",
+          "label": "OLAY ÖZETİ",
+          "lines": [
+            "Kiracı 8 yıldır aynı evde.",
+            "Ev sahibi: oğlum evlenecek.",
+            "Tahliye davası açıldı."
+          ],
+          "highlightLine": 2,
+          "stamp": "İNCELEMEDE"
+        },
+        "cues": {
+          "highlight": "oğlunun",
+          "stamp": {
+            "word": "inceleyecek",
+            "sfx": "thud"
+          }
+        }
+      },
+      "chapter": "Kira hukuku · İhtiyaç nedeniyle tahliye",
+      "headline": "Dosyada *ne* var?",
+      "source": "TBK m.350",
+      "from": 0,
+      "durationInFrames": 308,
+      "asset": "projects/hf-demo/hf/dosya-a34305d4da.webm",
+      "assetFresh": true
+    },
+    {
+      "id": "madde",
+      "say": "Kanun açık: ev sahibi, haklı bir sebep olmadıkça, evi üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "TBK",
+          "article": "m. 355/1",
+          "text": "Kiraya veren, gereksinim amacıyla kiralananın boşaltılmasını sağladığında, haklı sebep olmaksızın, kiralananı üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz.",
+          "highlight": "üç yıl geçmedikçe",
+          "note": "Yeniden kiralama yasağı"
+        },
+        "cues": {
+          "highlight": {
+            "word": "üç",
+            "sfx": "tick"
+          }
+        }
+      },
+      "chapter": "Kör nokta",
+      "headline": "Kanun *ne* diyor?",
+      "source": "TBK m.355/1",
+      "from": 308,
+      "durationInFrames": 255,
+      "asset": "projects/hf-demo/hf/madde-e0a9a59f41.webm",
+      "assetFresh": true
+    },
+    {
+      "id": "surec",
+      "say": "Süreç şöyle işler: önce ihtiyaç bildirilir, sonra dava açılır, mahkeme ihtiyacı inceler ve sonunda karar verir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            {
+              "when": "1. adım",
+              "what": "İhtiyaç bildirilir"
+            },
+            {
+              "when": "2. adım",
+              "what": "Tahliye davası açılır"
+            },
+            {
+              "when": "3. adım",
+              "what": "Mahkeme ihtiyacı inceler"
+            },
+            {
+              "when": "4. adım",
+              "what": "Karar verilir"
+            }
+          ],
+          "active": 4
+        },
+        "cues": {
+          "e1": {
+            "word": "ihtiyaç",
+            "sfx": "pop"
+          },
+          "e2": {
+            "word": "dava",
+            "sfx": "pop"
+          },
+          "e3": {
+            "word": "mahkeme",
+            "sfx": "pop"
+          },
+          "e4": {
+            "word": "karar",
+            "sfx": "ding"
+          }
+        }
+      },
+      "chapter": "Süreç",
+      "headline": "Adım adım *tahliye*",
+      "source": "TBK m.350",
+      "from": 563,
+      "durationInFrames": 308,
+      "asset": "projects/hf-demo/hf/surec-4b6b2b43f8.webm",
+      "assetFresh": true
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="tr" data-composition-variables='[
+  {"id":"code","type":"string","label":"Law (short)","default":"TBK"},
+  {"id":"article","type":"string","label":"Article","default":"m. 355/1"},
+  {"id":"text","type":"string","label":"Quoted text","default":"Kiraya veren, gereksinim amacıyla kiralananın boşaltılmasını sağladığında, haklı sebep olmaksızın, kiralananı üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz."},
+  {"id":"highlight","type":"string","label":"Phrase to highlight (exact words from text)","default":"üç yıl geçmedikçe"},
+  {"id":"note","type":"string","label":"Footer note (optional)","default":"Yeniden kiralama yasağı"},
+  {"id":"cue_highlight","type":"number","label":"Highlight time (s)","default":3.2},
+  {"id":"duration","type":"number","label":"Scene length (s)","default":6},
+  {"id":"ink","type":"color","label":"Ink","default":"#1b2a41"},
+  {"id":"surface","type":"color","label":"Card","default":"#fbf7ee"},
+  {"id":"accent","type":"color","label":"Accent","default":"#b58a3c"},
+  {"id":"muted","type":"color","label":"Muted","default":"#8c8677"}
+]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=940, height=720" />
+    <link rel="stylesheet" href="assets/kettek.css" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      #stage { position: absolute; inset: 0; perspective: 1600px; }
+      #ref { position: absolute; left: 40px; top: 20px; display: flex; align-items: baseline; gap: 22px; }
+      #code {
+        font-family: var(--mono); font-size: 30px; letter-spacing: 6px; color: var(--surface);
+        background: var(--ink); padding: 8px 18px; border-radius: 8px;
+      }
+      #article { display: flex; font-family: var(--serif); font-weight: 800; font-size: 104px; line-height: 1.05; color: var(--ink); letter-spacing: -2px; }
+      .slot { display: inline-block; overflow: hidden; height: 1.12em; }
+      .slot > span { display: inline-block; white-space: pre; }
+      #rule { position: absolute; left: 40px; right: 40px; top: 168px; height: 4px; background: var(--accent); transform-origin: 0 50%; }
+      #card {
+        position: absolute; left: 40px; right: 40px; top: 200px; padding: 44px 48px 48px 64px; border-radius: 14px;
+        background: var(--surface); border: 3px solid color-mix(in srgb, var(--ink) 15%, transparent);
+        box-shadow: 0 22px 50px rgba(20, 25, 40, 0.16); transform-origin: 50% 0%;
+      }
+      #quote-mark { position: absolute; left: 18px; top: -6px; font-family: var(--serif); font-size: 120px; color: color-mix(in srgb, var(--accent) 80%, var(--ink)); line-height: 1; }
+      #text { font-family: var(--serif); font-weight: 500; font-size: 38px; line-height: 1.42; color: var(--ink); }
+      .w { position: relative; display: inline-block; margin-right: 0.26em; }
+      .w > .t { position: relative; z-index: 1; }
+      .w > .mk {
+        position: absolute; left: -0.16em; right: -0.2em; top: 18%; bottom: 4%; z-index: 0; border-radius: 4px;
+        background: color-mix(in srgb, var(--accent) 50%, transparent); transform-origin: 0 50%;
+      }
+      #note { margin-top: 26px; font-family: var(--mono); font-size: 22px; letter-spacing: 5px; color: color-mix(in srgb, var(--ink) 70%, var(--surface)); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="law-article" data-start="0" data-duration="6" data-width="940" data-height="720">
+      <div id="shell">
+        <div id="fit">
+          <div id="stage">
+            <div id="ref"><div id="code">TBK</div><div id="article"></div></div>
+            <div id="rule"></div>
+            <div id="card">
+              <div id="quote-mark">“</div>
+              <div id="text"></div>
+              <div id="note"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/kettek.js"></script>
+    <script>
+      KT.fit("#fit", 860, 720);
+      KT.text("#code", "code");
+      var v = KT.vars;
+      var article = String(v.article === undefined ? "m. 355/1" : v.article);
+      var text = String(v.text || "");
+      var note = String(v.note || "");
+      document.getElementById("note").textContent = note.toLocaleUpperCase("tr-TR");
+      if (!note) document.getElementById("note").style.display = "none";
+
+      // Article number: one rolling slot per character
+      var art = document.getElementById("article");
+      article.split("").forEach(function (ch, i) {
+        var s = document.createElement("span");
+        s.className = "slot";
+        s.innerHTML = '<span id="ch' + i + '"></span>';
+        s.firstChild.textContent = ch;
+        art.appendChild(s);
+      });
+
+      // Quote words; the highlight phrase is matched word by word (case/punctuation-insensitive)
+      var norm = function (s) { return s.toLocaleLowerCase("tr-TR").replace(/[^\p{L}\p{N}]/gu, ""); };
+      var words = text.split(/\s+/).filter(Boolean);
+      var target = String(v.highlight || "").split(/\s+/).filter(Boolean).map(norm);
+      var hlStart = -1;
+      if (target.length) {
+        for (var i = 0; i + target.length <= words.length && hlStart < 0; i++) {
+          var ok = true;
+          for (var j = 0; j < target.length; j++) if (norm(words[i + j]) !== target[j]) { ok = false; break; }
+          if (ok) hlStart = i;
+        }
+      }
+      var box = document.getElementById("text");
+      words.forEach(function (w, i) {
+        var hl = hlStart >= 0 && i >= hlStart && i < hlStart + target.length;
+        var el = document.createElement("span");
+        el.className = "w" + (hl ? " hl" : "");
+        el.id = "w" + i;
+        el.innerHTML = (hl ? '<span class="mk"></span>' : "") + '<span class="t"></span>';
+        el.querySelector(".t").textContent = w;
+        box.appendChild(el);
+      });
+
+      var tl = gsap.timeline({ paused: true });
+      tl.fromTo("#code", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 0);
+      article.split("").forEach(function (_, i) {
+        tl.fromTo("#ch" + i, { yPercent: 110 }, { yPercent: 0, duration: 0.5, ease: "back.out(1.6)" }, 0.12 + i * 0.05);
+      });
+      tl.fromTo("#rule", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.inOut" }, 0.35);
+      tl.fromTo("#card", { opacity: 0, rotationX: -22, y: 40 }, { opacity: 1, rotationX: 0, y: 0, duration: 0.7, ease: "power3.out" }, 0.55);
+      tl.fromTo("#quote-mark", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 0.85);
+      // Words fade up quickly in reading order (whole quote in ~1.6 s)
+      var per = Math.min(0.07, 1.6 / Math.max(1, words.length));
+      words.forEach(function (_, i) {
+        tl.fromTo("#w" + i, { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, 0.95 + i * per);
+      });
+      if (note) tl.fromTo("#note", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.95 + words.length * per + 0.1);
+      // Highlighter sweeps across the phrase on its cue
+      if (hlStart >= 0) {
+        var th = KT.cue("highlight", 0.95 + words.length * per + 0.4);
+        for (var k = 0; k < target.length; k++) {
+          tl.fromTo("#w" + (hlStart + k) + " .mk", { scaleX: 0 }, { scaleX: 1, duration: 0.16, ease: "none" }, th + k * 0.14);
+        }
+        tl.to("#card", { scale: 1.015, duration: 0.25, yoyo: true, repeat: 1, ease: "power1.inOut" }, th);
+      }
+      window.__timelines = window.__timelines || {};
+      window.__timelines["law-article"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

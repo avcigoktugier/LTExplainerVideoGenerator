@@ -1,0 +1,1071 @@
+{
+  "slug": "dugun-takilari",
+  "title": "Düğünde damada takılan altınlar boşanınca kimin?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "episode": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1718,
+  "clips": [
+    {
+      "src": "projects/dugun-takilari/voice.mp3",
+      "from": 0
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 92,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 130,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 194,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 204,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 248,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 236,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 262,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 298,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 396,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 343,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 424,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 472,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 572,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 656,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 697,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/tick.mp3",
+      "from": 817,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 894,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 978,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 992,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1080,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1246,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1322,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1288,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1337,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1362,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1505,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1524,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1561,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1585,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1594,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1655,
+      "volume": 0.22
+    }
+  ],
+  "words": [
+    {
+      "text": "Düğünde",
+      "start": 0,
+      "end": 0.476
+    },
+    {
+      "text": "damada",
+      "start": 0.534,
+      "end": 0.94
+    },
+    {
+      "text": "takılan",
+      "start": 0.987,
+      "end": 1.382
+    },
+    {
+      "text": "altınlar,",
+      "start": 1.451,
+      "end": 2.136
+    },
+    {
+      "text": "boşanınca",
+      "start": 2.415,
+      "end": 2.995
+    },
+    {
+      "text": "kime",
+      "start": 3.065,
+      "end": 3.344
+    },
+    {
+      "text": "kalır?",
+      "start": 3.402,
+      "end": 3.913
+    },
+    {
+      "text": "Çoğu",
+      "start": 4.516,
+      "end": 4.818
+    },
+    {
+      "text": "kişi",
+      "start": 4.876,
+      "end": 5.12
+    },
+    {
+      "text": "şöyle",
+      "start": 5.166,
+      "end": 5.503
+    },
+    {
+      "text": "bilir:",
+      "start": 5.561,
+      "end": 6.026
+    },
+    {
+      "text": "kim",
+      "start": 6.467,
+      "end": 6.722
+    },
+    {
+      "text": "takarsa",
+      "start": 6.792,
+      "end": 7.279
+    },
+    {
+      "text": "taksın,",
+      "start": 7.338,
+      "end": 7.814
+    },
+    {
+      "text": "bütün",
+      "start": 7.86,
+      "end": 8.208
+    },
+    {
+      "text": "takılar",
+      "start": 8.266,
+      "end": 8.684
+    },
+    {
+      "text": "gelinindir.",
+      "start": 8.742,
+      "end": 9.497
+    },
+    {
+      "text": "Ama",
+      "start": 10.101,
+      "end": 10.333
+    },
+    {
+      "text": "Yargıtay,",
+      "start": 10.403,
+      "end": 11.157
+    },
+    {
+      "text": "iki",
+      "start": 11.436,
+      "end": 11.656
+    },
+    {
+      "text": "bin",
+      "start": 11.714,
+      "end": 11.865
+    },
+    {
+      "text": "yirmi",
+      "start": 11.923,
+      "end": 12.179
+    },
+    {
+      "text": "dörtte",
+      "start": 12.214,
+      "end": 12.55
+    },
+    {
+      "text": "bu",
+      "start": 12.608,
+      "end": 12.713
+    },
+    {
+      "text": "görüşü",
+      "start": 12.771,
+      "end": 13.142
+    },
+    {
+      "text": "değiştirdi.",
+      "start": 13.189,
+      "end": 13.944
+    },
+    {
+      "text": "Artık",
+      "start": 14.327,
+      "end": 14.71
+    },
+    {
+      "text": "önce",
+      "start": 14.838,
+      "end": 15.139
+    },
+    {
+      "text": "eşlerin",
+      "start": 15.197,
+      "end": 15.662
+    },
+    {
+      "text": "anlaşmasına",
+      "start": 15.732,
+      "end": 16.393
+    },
+    {
+      "text": "bakılıyor.",
+      "start": 16.451,
+      "end": 17.009
+    },
+    {
+      "text": "Anlaşma",
+      "start": 17.52,
+      "end": 18.077
+    },
+    {
+      "text": "yoksa",
+      "start": 18.124,
+      "end": 18.414
+    },
+    {
+      "text": "yöresel",
+      "start": 18.484,
+      "end": 18.948
+    },
+    {
+      "text": "örf",
+      "start": 19.064,
+      "end": 19.331
+    },
+    {
+      "text": "ve",
+      "start": 19.377,
+      "end": 19.436
+    },
+    {
+      "text": "adete.",
+      "start": 19.505,
+      "end": 20.028
+    },
+    {
+      "text": "O",
+      "start": 20.237,
+      "end": 20.306
+    },
+    {
+      "text": "da",
+      "start": 20.376,
+      "end": 20.434
+    },
+    {
+      "text": "yoksa",
+      "start": 20.492,
+      "end": 20.771
+    },
+    {
+      "text": "takı,",
+      "start": 20.829,
+      "end": 21.305
+    },
+    {
+      "text": "kime",
+      "start": 21.514,
+      "end": 21.816
+    },
+    {
+      "text": "takıldıysa",
+      "start": 21.862,
+      "end": 22.524
+    },
+    {
+      "text": "onun.",
+      "start": 22.57,
+      "end": 22.919
+    },
+    {
+      "text": "Kararda",
+      "start": 23.418,
+      "end": 23.94
+    },
+    {
+      "text": "açıkça",
+      "start": 23.975,
+      "end": 24.37
+    },
+    {
+      "text": "yazıyor:",
+      "start": 24.416,
+      "end": 24.881
+    },
+    {
+      "text": "erkeğe",
+      "start": 25.194,
+      "end": 25.647
+    },
+    {
+      "text": "ve",
+      "start": 25.682,
+      "end": 25.74
+    },
+    {
+      "text": "kadına",
+      "start": 25.798,
+      "end": 26.1
+    },
+    {
+      "text": "takılanlar,",
+      "start": 26.146,
+      "end": 26.982
+    },
+    {
+      "text": "kural",
+      "start": 27.226,
+      "end": 27.539
+    },
+    {
+      "text": "olarak",
+      "start": 27.597,
+      "end": 27.911
+    },
+    {
+      "text": "kendilerine",
+      "start": 27.957,
+      "end": 28.619
+    },
+    {
+      "text": "aittir.",
+      "start": 28.665,
+      "end": 29.397
+    },
+    {
+      "text": "Yani",
+      "start": 29.989,
+      "end": 30.337
+    },
+    {
+      "text": "damada",
+      "start": 30.395,
+      "end": 30.813
+    },
+    {
+      "text": "takılan",
+      "start": 30.86,
+      "end": 31.231
+    },
+    {
+      "text": "çeyrek",
+      "start": 31.278,
+      "end": 31.626
+    },
+    {
+      "text": "altınlar,",
+      "start": 31.707,
+      "end": 32.357
+    },
+    {
+      "text": "artık",
+      "start": 32.601,
+      "end": 32.973
+    },
+    {
+      "text": "kural",
+      "start": 33.008,
+      "end": 33.298
+    },
+    {
+      "text": "olarak",
+      "start": 33.367,
+      "end": 33.727
+    },
+    {
+      "text": "damadın",
+      "start": 33.902,
+      "end": 34.482
+    },
+    {
+      "text": "sayılıyor.",
+      "start": 34.598,
+      "end": 35.248
+    },
+    {
+      "text": "Bir",
+      "start": 36.189,
+      "end": 36.398
+    },
+    {
+      "text": "istisna",
+      "start": 36.444,
+      "end": 36.966
+    },
+    {
+      "text": "var:",
+      "start": 37.013,
+      "end": 37.396
+    },
+    {
+      "text": "takı",
+      "start": 37.57,
+      "end": 37.86
+    },
+    {
+      "text": "karşı",
+      "start": 37.907,
+      "end": 38.244
+    },
+    {
+      "text": "cinse",
+      "start": 38.278,
+      "end": 38.615
+    },
+    {
+      "text": "özgüyse,",
+      "start": 38.685,
+      "end": 39.37
+    },
+    {
+      "text": "ona",
+      "start": 39.521,
+      "end": 39.741
+    },
+    {
+      "text": "verilmiş",
+      "start": 39.788,
+      "end": 40.252
+    },
+    {
+      "text": "sayılır.",
+      "start": 40.345,
+      "end": 40.925
+    },
+    {
+      "text": "Damada",
+      "start": 41.529,
+      "end": 41.959
+    },
+    {
+      "text": "takılan",
+      "start": 42.005,
+      "end": 42.388
+    },
+    {
+      "text": "bir",
+      "start": 42.435,
+      "end": 42.528
+    },
+    {
+      "text": "kadın",
+      "start": 42.574,
+      "end": 42.876
+    },
+    {
+      "text": "bileziği,",
+      "start": 42.934,
+      "end": 43.677
+    },
+    {
+      "text": "gelinin",
+      "start": 44.06,
+      "end": 44.525
+    },
+    {
+      "text": "olur.",
+      "start": 44.583,
+      "end": 44.989
+    },
+    {
+      "text": "Neyin",
+      "start": 45.593,
+      "end": 45.941
+    },
+    {
+      "text": "kime",
+      "start": 46.011,
+      "end": 46.301
+    },
+    {
+      "text": "takıldığını",
+      "start": 46.359,
+      "end": 46.928
+    },
+    {
+      "text": "mahkemede",
+      "start": 46.974,
+      "end": 47.497
+    },
+    {
+      "text": "göstermeniz",
+      "start": 47.543,
+      "end": 48.205
+    },
+    {
+      "text": "gerekebilir.",
+      "start": 48.263,
+      "end": 49.087
+    },
+    {
+      "text": "Düğün",
+      "start": 49.784,
+      "end": 50.109
+    },
+    {
+      "text": "videosunu",
+      "start": 50.155,
+      "end": 50.655
+    },
+    {
+      "text": "ve",
+      "start": 50.678,
+      "end": 50.759
+    },
+    {
+      "text": "fotoğrafları",
+      "start": 50.805,
+      "end": 51.467
+    },
+    {
+      "text": "bu",
+      "start": 51.502,
+      "end": 51.618
+    },
+    {
+      "text": "yüzden",
+      "start": 51.641,
+      "end": 51.978
+    },
+    {
+      "text": "saklayın.",
+      "start": 52.036,
+      "end": 52.628
+    },
+    {
+      "text": "Sence",
+      "start": 53.011,
+      "end": 53.395
+    },
+    {
+      "text": "yeni",
+      "start": 53.464,
+      "end": 53.673
+    },
+    {
+      "text": "kural",
+      "start": 53.731,
+      "end": 54.021
+    },
+    {
+      "text": "daha",
+      "start": 54.091,
+      "end": 54.312
+    },
+    {
+      "text": "mı",
+      "start": 54.358,
+      "end": 54.439
+    },
+    {
+      "text": "adil?",
+      "start": 54.497,
+      "end": 54.915
+    },
+    {
+      "text": "Yorumlara",
+      "start": 55.159,
+      "end": 55.798
+    },
+    {
+      "text": "yaz.",
+      "start": 55.856,
+      "end": 56.518
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "Düğünde damada takılan altınlar, boşanınca kime kalır?",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "case-file",
+        "vars": {
+          "title": "VAKA N° 002",
+          "label": "OLAY",
+          "lines": [
+            "Çift boşanıyor.",
+            "Damada takılan altınlar?"
+          ],
+          "highlightLine": 2,
+          "stamp": "TARTIŞMALI"
+        },
+        "cues": {
+          "highlight": "damada",
+          "stamp": {
+            "word": "kime",
+            "sfx": "thud"
+          }
+        }
+      },
+      "chapter": "Aile hukuku · Düğün takıları",
+      "headline": "Damadın altını *kimin*?",
+      "source": "Yargıtay 2. HD · 2024 / 2026",
+      "from": 0,
+      "durationInFrames": 133,
+      "asset": "projects/dugun-takilari/hf/hook-9f776c5b8a.webm",
+      "assetFresh": true
+    },
+    {
+      "id": "ilk-tepki",
+      "say": "Çoğu kişi şöyle bilir: kim takarsa taksın, bütün takılar gelinindir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 260,
+            "y": 660,
+            "color": "cast1",
+            "look": "right",
+            "outfit": "suit",
+            "cue": "kim"
+          },
+          {
+            "kind": "art",
+            "name": "wedding-sash",
+            "x": 260,
+            "y": 525,
+            "w": 62,
+            "anchor": "center",
+            "cue": "takarsa"
+          },
+          {
+            "kind": "person",
+            "x": 680,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "left",
+            "hair": "bun",
+            "outfit": "dress",
+            "accessories": [
+              "veil"
+            ],
+            "cue": "takılar"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 560,
+            "y": 200,
+            "w": 110,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "bütün"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 690,
+            "y": 150,
+            "w": 90,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "takılar"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 810,
+            "y": 220,
+            "w": 100,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "gelinindir"
+          }
+        ]
+      },
+      "chapter": "İlk tepki",
+      "headline": "Herkes der ki: *hepsi gelinin!*",
+      "from": 133,
+      "durationInFrames": 168
+    },
+    {
+      "id": "degisim",
+      "say": "Ama Yargıtay, iki bin yirmi dörtte bu görüşü değiştirdi.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 290,
+            "w": 520,
+            "label": "Eski görüş",
+            "value": "Hepsi gelinin",
+            "strike": true,
+            "cue": "değiştirdi"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 520,
+            "text": "2024",
+            "rotate": -5,
+            "cue": "iki"
+          }
+        ]
+      },
+      "chapter": "Yeni kural",
+      "headline": "Yargıtay *fikrini* değiştirdi.",
+      "source": "Yargıtay 2. HD · 04.04.2024",
+      "from": 301,
+      "durationInFrames": 126
+    },
+    {
+      "id": "sira",
+      "say": "Artık önce eşlerin anlaşmasına bakılıyor. Anlaşma yoksa yöresel örf ve adete. O da yoksa takı, kime takıldıysa onun.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            {
+              "when": "1. sıra",
+              "what": "Eşlerin anlaşması"
+            },
+            {
+              "when": "2. sıra",
+              "what": "Yöresel örf ve adet"
+            },
+            {
+              "when": "3. sıra",
+              "what": "Kime takıldıysa onun"
+            }
+          ],
+          "active": 3
+        },
+        "cues": {
+          "e1": {
+            "word": "anlaşmasına",
+            "sfx": "pop"
+          },
+          "e2": {
+            "word": "örf",
+            "sfx": "pop"
+          },
+          "e3": {
+            "word": "takıldıysa",
+            "sfx": "ding"
+          }
+        }
+      },
+      "chapter": "Yeni kural",
+      "headline": "Önce *anlaşma*.",
+      "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
+      "from": 427,
+      "durationInFrames": 273,
+      "asset": "projects/dugun-takilari/hf/sira-cacdb51987.webm",
+      "assetFresh": true
+    },
+    {
+      "id": "karar",
+      "say": "Kararda açıkça yazıyor: erkeğe ve kadına takılanlar, kural olarak kendilerine aittir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "Yargıtay",
+          "article": "2. HD",
+          "text": "Aksi takdirde erkeğe ve kadına takılan/verilen ve ekonomik değer taşıyan her şey kural olarak kendilerine aittir.",
+          "highlight": "kural olarak kendilerine aittir",
+          "note": "2023/5704 E. · 2024/2402 K."
+        },
+        "cues": {
+          "highlight": {
+            "word": "kural",
+            "sfx": "tick"
+          }
+        }
+      },
+      "chapter": "Kararın dili",
+      "headline": "Kime takıldıysa *onun*.",
+      "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
+      "from": 700,
+      "durationInFrames": 197,
+      "asset": "projects/dugun-takilari/hf/karar-62c6c47915.webm",
+      "assetFresh": true
+    },
+    {
+      "id": "sonuc",
+      "say": "Yani damada takılan çeyrek altınlar, artık kural olarak damadın sayılıyor.",
+      "visual": {
+        "type": "verdict",
+        "label": "Damada takılan çeyrek altın",
+        "from": "Gelinin",
+        "to": "Damadın",
+        "cue": "artık"
+      },
+      "chapter": "Sonuç",
+      "headline": "Çeyrekler *damadın*.",
+      "from": 897,
+      "durationInFrames": 186
+    },
+    {
+      "id": "istisna",
+      "say": "Bir istisna var: takı karşı cinse özgüyse, ona verilmiş sayılır. Damada takılan bir kadın bileziği, gelinin olur.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 200,
+            "y": 660,
+            "color": "cast1",
+            "look": "right",
+            "outfit": "suit",
+            "cue": "damada"
+          },
+          {
+            "kind": "person",
+            "x": 740,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "left",
+            "hair": "bun",
+            "outfit": "dress",
+            "accessories": [
+              "veil"
+            ],
+            "cue": "gelinin"
+          },
+          {
+            "kind": "art",
+            "name": "bracelet",
+            "x": 470,
+            "y": 250,
+            "w": 220,
+            "anchor": "center",
+            "idle": "sway",
+            "cue": "bileziği"
+          },
+          {
+            "kind": "tag",
+            "x": 470,
+            "y": 400,
+            "text": "Kadına özgü",
+            "cue": "bileziği"
+          },
+          {
+            "kind": "badge",
+            "x": 740,
+            "y": 290,
+            "symbol": "check",
+            "cue": "olur"
+          }
+        ]
+      },
+      "chapter": "İstisna",
+      "headline": "Kadına özgüyse *kadının*.",
+      "from": 1083,
+      "durationInFrames": 282
+    },
+    {
+      "id": "kor-nokta",
+      "say": "Neyin kime takıldığını mahkemede göstermeniz gerekebilir. Düğün videosunu ve fotoğrafları bu yüzden saklayın.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "icon",
+            "x": 300,
+            "y": 560,
+            "name": "Video",
+            "size": 190,
+            "color": "ink",
+            "cue": "videosunu"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 560,
+            "name": "Camera",
+            "size": 190,
+            "color": "accent",
+            "cue": "fotoğrafları"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 170,
+            "text": "Önemli delil",
+            "rotate": -6,
+            "cue": "saklayın"
+          }
+        ]
+      },
+      "chapter": "Kör nokta",
+      "headline": "Videoyu *sakla*.",
+      "source": "HMK m.190 · İspat yükü",
+      "from": 1365,
+      "durationInFrames": 223
+    },
+    {
+      "id": "soz-sende",
+      "say": "Sence yeni kural daha mı adil? Yorumlara yaz.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "scales",
+            "x": 470,
+            "y": 640,
+            "tilt": 0,
+            "wobble": true,
+            "left": "Adil",
+            "right": "Değil"
+          },
+          {
+            "kind": "bubble",
+            "x": 730,
+            "y": 520,
+            "text": "Yorumlara yaz",
+            "tail": "left",
+            "cue": "yorumlara"
+          }
+        ]
+      },
+      "chapter": "Söz sende",
+      "headline": "Sence *adil* mi?",
+      "from": 1588,
+      "durationInFrames": 130
+    }
+  ]
+}

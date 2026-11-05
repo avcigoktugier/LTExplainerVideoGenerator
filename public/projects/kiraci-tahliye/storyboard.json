@@ -1,0 +1,292 @@
+{
+  "slug": "kiraci-tahliye",
+  "title": "Ev sahibi 'oğlum evlenecek' derse çıkmak zorunda mısın?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg"
+  },
+  "episode": 1,
+  "voice": {
+    "provider": "elevenlabs"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "chapter": "Kira hukuku · İhtiyaç nedeniyle tahliye",
+      "headline": "Oğlum evlenecek, *çık* dedi.",
+      "source": "TBK m.350 · m.355",
+      "say": "Ev sahibi, oğlum evlenecek, evi boşalt dedi. Peki kiracı çıkmak zorunda mı?",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "case-file",
+        "vars": {
+          "title": "VAKA N° 001",
+          "label": "OLAY",
+          "lines": [
+            "Ev sahibi: oğlum evlenecek.",
+            "Talep: evi boşalt."
+          ],
+          "highlightLine": 1,
+          "stamp": "İNCELEMEDE"
+        },
+        "cues": {
+          "highlight": "evlenecek",
+          "stamp": {
+            "word": "zorunda",
+            "sfx": "thud"
+          }
+        }
+      }
+    },
+    {
+      "id": "ilk-tepki",
+      "chapter": "İlk tepki",
+      "headline": "Cevap: *hemen çık?*",
+      "say": "Çoğu kiracı bu sözü duyunca hemen taşınması gerektiğini düşünür. Ama iş o kadar basit değil.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 470,
+            "y": 660,
+            "color": "cast2",
+            "mood": "shocked"
+          },
+          {
+            "kind": "bubble",
+            "x": 640,
+            "y": 230,
+            "icon": "Truck",
+            "variant": "thought",
+            "tail": "left",
+            "cue": "taşınması"
+          },
+          {
+            "kind": "badge",
+            "x": 250,
+            "y": 300,
+            "symbol": "x",
+            "cue": "basit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kural",
+      "chapter": "Kural",
+      "headline": "İhtiyaç *gerçek* olmalı.",
+      "source": "TBK m.350",
+      "say": "Kanun, ev sahibinin kendisi, eşi, çocukları ya da anne babası için gerçek bir konut ihtiyacı arar.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 640
+          },
+          {
+            "kind": "person",
+            "x": 150,
+            "y": 640,
+            "color": "cast1",
+            "scale": 0.82,
+            "cue": "kendisi"
+          },
+          {
+            "kind": "person",
+            "x": 360,
+            "y": 640,
+            "color": "cast3",
+            "scale": 0.82,
+            "cue": "eşi"
+          },
+          {
+            "kind": "person",
+            "x": 570,
+            "y": 640,
+            "color": "cast2",
+            "scale": 0.62,
+            "mood": "happy",
+            "cue": "çocukları"
+          },
+          {
+            "kind": "person",
+            "x": 790,
+            "y": 640,
+            "color": "muted",
+            "scale": 0.82,
+            "cue": "anne"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 150,
+            "text": "Gerçek ihtiyaç",
+            "rotate": -6,
+            "cue": "gerçek"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ispat",
+      "chapter": "İspat",
+      "headline": "Söz yetmez, *dava* gerekir.",
+      "source": "TBK m.350 · Tahliye davası",
+      "say": "Kiracı kendi isteğiyle çıkmazsa, ev sahibi tahliye davası açar ve ihtiyacını mahkemede ispatlamak zorundadır.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            {
+              "when": "1. adım",
+              "what": "Kiracı kendi isteğiyle çıkmaz"
+            },
+            {
+              "when": "2. adım",
+              "what": "Ev sahibi tahliye davası açar"
+            },
+            {
+              "when": "3. adım",
+              "what": "İhtiyaç mahkemede ispatlanır"
+            }
+          ],
+          "active": 3
+        },
+        "cues": {
+          "e1": {
+            "word": "çıkmazsa",
+            "sfx": "pop"
+          },
+          "e2": {
+            "word": "davası",
+            "sfx": "pop"
+          },
+          "e3": {
+            "word": "ispatlamak",
+            "sfx": "ding"
+          }
+        }
+      }
+    },
+    {
+      "id": "sonuc",
+      "chapter": "Sonuç",
+      "headline": "Önce *mahkeme*.",
+      "say": "Yani kiracı hemen çıkmak zorunda değil. İhtiyaç gerçekse ve mahkeme karar verirse tahliye gerçekleşir.",
+      "visual": {
+        "type": "verdict",
+        "label": "Kiracının durumu",
+        "from": "Hemen çıkmalı",
+        "to": "Karar beklenir",
+        "cue": "değil"
+      }
+    },
+    {
+      "id": "kor-nokta",
+      "chapter": "Kör nokta",
+      "headline": "Üç yıl *başkasına* veremez.",
+      "source": "TBK m.355/1",
+      "say": "Asıl şaşırtan kısım: ihtiyaç diyerek kiracıyı çıkaran ev sahibi, haklı bir sebep olmadan evi üç yıl boyunca başkasına kiralayamaz.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "TBK",
+          "article": "m. 355/1",
+          "text": "Kiraya veren, gereksinim amacıyla kiralananın boşaltılmasını sağladığında, haklı sebep olmaksızın, kiralananı üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz.",
+          "highlight": "üç yıl geçmedikçe",
+          "note": "Yeniden kiralama yasağı"
+        },
+        "cues": {
+          "highlight": {
+            "word": "üç",
+            "sfx": "tick"
+          }
+        }
+      }
+    },
+    {
+      "id": "tazminat",
+      "chapter": "Kör nokta",
+      "headline": "Uymazsa *tazminat* öder.",
+      "source": "TBK m.355/3",
+      "say": "Kurala uymazsa, eski kiracısına en az bir yıllık kira tutarında tazminat öder.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 250,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "right",
+            "cue": "eski"
+          },
+          {
+            "kind": "card",
+            "x": 640,
+            "y": 250,
+            "w": 420,
+            "label": "Tazminat · en az",
+            "value": "1 yıllık kira",
+            "cue": "tazminat"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 650,
+            "name": "Banknote",
+            "size": 170,
+            "color": "accent",
+            "cue": "kira"
+          }
+        ]
+      }
+    },
+    {
+      "id": "soz-sende",
+      "chapter": "Söz sende",
+      "headline": "Sence *yeterli* mi?",
+      "say": "Sence bu kural kiracıyı yeterince koruyor mu? Yorumlara yaz.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "scales",
+            "x": 470,
+            "y": 640,
+            "tilt": 0,
+            "wobble": true,
+            "left": "Yeterli",
+            "right": "Yetersiz"
+          },
+          {
+            "kind": "bubble",
+            "x": 730,
+            "y": 520,
+            "text": "Yorumlara yaz",
+            "tail": "left",
+            "cue": "yorumlara"
+          }
+        ]
+      }
+    }
+  ]
+}
