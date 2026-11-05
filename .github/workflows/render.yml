@@ -1,0 +1,84 @@
+# Renders one video on a GitHub server, so the PC running Claude Code doesn't have to.
+# Start it from Claude Code:  gh workflow run render.yml -f slug=<slug>
+# Get the MP4:                gh run download --name <slug>  (into the current folder)
+#
+# The PC does the light work (storyboard, voice, timeline) and pushes it; this job only draws
+# HyperFrames clips and renders. Commit public/projects/<slug>/ including voice*.mp3 before running.
+name: Render
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Proje adı (public/projects/<slug>)"
+        required: true
+        default: qr-kod
+      mock:
+        description: "Sessiz deneme sesi (ses dosyası ya da API anahtarı gerekmez)"
+        type: boolean
+        default: false
+      quality:
+        description: "Kalite"
+        type: choice
+        options: [normal, draft, 4k]
+        default: normal
+
+# One render at a time; a second request waits instead of competing for the CPU
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      SLUG: ${{ inputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Remotion's headless Chrome (~100 MB) lives in node_modules/.remotion; npm ci wipes it, so restore after
+      - uses: actions/cache@v4
+        with:
+          path: node_modules/.remotion
+          key: remotion-browser-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Chrome
+        run: npx remotion browser ensure
+
+      - name: Deneme sesi
+        if: ${{ inputs.mock }}
+        run: npm run voice -- "$SLUG" --mock --force
+
+      - name: Zamanlama
+        run: npm run timeline -- "$SLUG"
+
+      - name: HyperFrames sahneleri
+        run: |
+          if grep -q '"hyperframe"' "public/projects/$SLUG/storyboard.json"; then
+            npm run frames -- "$SLUG"
+          else
+            echo "HyperFrames sahnesi yok"
+          fi
+
+      - name: Render
+        run: |
+          case "${{ inputs.quality }}" in
+            draft) npm run render -- "$SLUG" --draft ;;
+            4k)    npm run render -- "$SLUG" --4k ;;
+            *)     npm run render -- "$SLUG" ;;
+          esac
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.slug }}
+          path: out/${{ inputs.slug }}*.mp4
+          if-no-files-found: error
+          retention-days: 3
