@@ -4,517 +4,517 @@
     {
       "src": "projects/qr-kod/voice.mp3",
       "start": 0,
-      "duration": 50.991020408163266
+      "duration": 49.031836734693876
     }
   ],
   "sceneStarts": [
     0,
-    6.514,
-    8.627,
-    14.839,
-    20.307000000000002,
-    28.957,
-    36.085,
-    42.25,
-    47.846000000000004
+    6.631,
+    8.639,
+    15.025,
+    19.994000000000003,
+    27.924000000000003,
+    34.402,
+    40.636,
+    45.861000000000004
   ],
   "words": [
     {
       "text": "Bir",
       "start": 0,
-      "end": 0.197
+      "end": 0.29
     },
     {
       "text": "QR",
-      "start": 0.232,
-      "end": 0.546
+      "start": 0.348,
+      "end": 0.697
     },
     {
       "text": "kodun",
-      "start": 0.662,
-      "end": 0.94
+      "start": 0.813,
+      "end": 1.103
     },
     {
       "text": "neredeyse",
-      "start": 1.01,
-      "end": 1.498
+      "start": 1.161,
+      "end": 1.683
     },
     {
       "text": "üçte",
-      "start": 1.567,
-      "end": 1.846
+      "start": 1.753,
+      "end": 2.009
     },
     {
       "text": "birini",
-      "start": 1.892,
-      "end": 2.171
+      "start": 2.067,
+      "end": 2.345
     },
     {
       "text": "silseniz",
-      "start": 2.218,
-      "end": 2.763
+      "start": 2.38,
+      "end": 2.914
     },
     {
       "text": "bile,",
-      "start": 2.833,
-      "end": 3.251
+      "start": 2.972,
+      "end": 3.32
     },
     {
       "text": "telefonunuz",
-      "start": 3.495,
-      "end": 4.156
+      "start": 3.564,
+      "end": 4.261
     },
     {
       "text": "onu",
-      "start": 4.214,
-      "end": 4.365
+      "start": 4.319,
+      "end": 4.47
     },
     {
       "text": "yine",
-      "start": 4.4,
-      "end": 4.598
+      "start": 4.493,
+      "end": 4.667
     },
     {
       "text": "okur.",
-      "start": 4.656,
-      "end": 5.097
+      "start": 4.702,
+      "end": 5.12
     },
     {
       "text": "Peki",
-      "start": 5.375,
+      "start": 5.364,
       "end": 5.677
     },
     {
       "text": "nasıl?",
-      "start": 5.747,
-      "end": 6.316
+      "start": 5.735,
+      "end": 6.269
     },
     {
       "text": "Önce",
-      "start": 6.594,
-      "end": 6.92
+      "start": 6.711,
+      "end": 7.024
     },
     {
       "text": "kısa",
-      "start": 6.989,
-      "end": 7.221
+      "start": 7.082,
+      "end": 7.303
     },
     {
       "text": "bir",
-      "start": 7.279,
-      "end": 7.361
+      "start": 7.361,
+      "end": 7.454
     },
     {
       "text": "tarih",
-      "start": 7.396,
-      "end": 7.79
+      "start": 7.488,
+      "end": 7.86
     },
     {
       "text": "dersi.",
-      "start": 7.848,
-      "end": 8.382
+      "start": 7.941,
+      "end": 8.475
     },
     {
       "text": "QR",
-      "start": 8.707,
-      "end": 9.044
+      "start": 8.719,
+      "end": 9.021
     },
     {
       "text": "kod,",
-      "start": 9.16,
-      "end": 9.416
+      "start": 9.137,
+      "end": 9.532
     },
     {
       "text": "bin",
-      "start": 9.462,
-      "end": 9.683
+      "start": 9.741,
+      "end": 9.961
     },
     {
       "text": "dokuz",
-      "start": 9.729,
-      "end": 10.101
+      "start": 10.008,
+      "end": 10.31
     },
     {
       "text": "yüz",
-      "start": 10.136,
-      "end": 10.275
+      "start": 10.356,
+      "end": 10.507
     },
     {
       "text": "doksan",
-      "start": 10.321,
-      "end": 10.739
+      "start": 10.553,
+      "end": 10.948
     },
     {
       "text": "dörtte",
-      "start": 10.797,
-      "end": 11.146
+      "start": 11.018,
+      "end": 11.378
     },
     {
       "text": "Japonya'da,",
-      "start": 11.215,
-      "end": 12.086
+      "start": 11.447,
+      "end": 12.283
     },
     {
       "text": "Denso",
-      "start": 12.33,
-      "end": 12.748
+      "start": 12.527,
+      "end": 12.945
     },
     {
       "text": "Wave",
-      "start": 12.817,
-      "end": 13.05
+      "start": 13.003,
+      "end": 13.189
     },
     {
       "text": "şirketinde",
-      "start": 13.073,
-      "end": 13.688
+      "start": 13.224,
+      "end": 13.793
     },
     {
       "text": "geliştirildi.",
-      "start": 13.758,
-      "end": 14.594
+      "start": 13.851,
+      "end": 14.721
     },
     {
       "text": "Amaç",
-      "start": 14.919,
-      "end": 15.267
+      "start": 15.105,
+      "end": 15.441
     },
     {
       "text": "basitti:",
-      "start": 15.348,
-      "end": 16.022
+      "start": 15.523,
+      "end": 16.196
     },
     {
       "text": "fabrikada",
-      "start": 16.266,
-      "end": 16.869
+      "start": 16.521,
+      "end": 17.113
     },
     {
       "text": "araba",
-      "start": 16.927,
-      "end": 17.276
+      "start": 17.171,
+      "end": 17.52
     },
     {
       "text": "parçalarını",
-      "start": 17.322,
-      "end": 17.926
+      "start": 17.566,
+      "end": 18.17
     },
     {
       "text": "hızlıca",
-      "start": 17.961,
-      "end": 18.402
+      "start": 18.205,
+      "end": 18.681
     },
     {
       "text": "takip",
-      "start": 18.472,
-      "end": 18.866
+      "start": 18.739,
+      "end": 19.134
     },
     {
       "text": "etmek.",
-      "start": 18.913,
-      "end": 19.447
+      "start": 19.192,
+      "end": 19.691
     },
     {
       "text": "Telefon",
-      "start": 20.387,
-      "end": 20.91
+      "start": 20.074,
+      "end": 20.527
     },
     {
       "text": "önce",
-      "start": 21.003,
-      "end": 21.316
+      "start": 20.596,
+      "end": 20.805
     },
     {
       "text": "köşelerdeki",
-      "start": 21.386,
-      "end": 22.059
+      "start": 20.875,
+      "end": 21.548
     },
     {
       "text": "üç",
-      "start": 22.129,
-      "end": 22.303
+      "start": 21.595,
+      "end": 21.781
     },
     {
       "text": "büyük",
-      "start": 22.384,
-      "end": 22.628
+      "start": 21.897,
+      "end": 22.175
     },
     {
       "text": "kareyi",
-      "start": 22.663,
-      "end": 22.965
+      "start": 22.199,
+      "end": 22.535
     },
     {
       "text": "bulur,",
-      "start": 23.034,
-      "end": 23.522
+      "start": 22.605,
+      "end": 23.104
     },
     {
       "text": "açıyı",
-      "start": 23.905,
-      "end": 24.3
+      "start": 23.383,
+      "end": 23.778
     },
     {
       "text": "düzeltir,",
-      "start": 24.335,
-      "end": 25.078
+      "start": 23.824,
+      "end": 24.602
     },
     {
       "text": "sonra",
-      "start": 25.461,
-      "end": 25.786
+      "start": 24.846,
+      "end": 25.136
     },
     {
       "text": "her",
-      "start": 25.856,
-      "end": 26.041
+      "start": 25.206,
+      "end": 25.391
     },
     {
       "text": "küçük",
-      "start": 26.111,
-      "end": 26.39
+      "start": 25.461,
+      "end": 25.751
     },
     {
       "text": "kareyi",
-      "start": 26.424,
-      "end": 26.715
+      "start": 25.786,
+      "end": 26.053
     },
     {
       "text": "sıfıra",
-      "start": 26.808,
-      "end": 27.26
+      "start": 26.123,
+      "end": 26.494
     },
     {
       "text": "ya",
-      "start": 27.504,
-      "end": 27.609
+      "start": 26.541,
+      "end": 26.599
     },
     {
       "text": "da",
-      "start": 27.667,
-      "end": 27.725
+      "start": 26.657,
+      "end": 26.726
     },
     {
       "text": "bire",
-      "start": 27.783,
-      "end": 28.015
+      "start": 26.773,
+      "end": 27.005
     },
     {
       "text": "çevirir.",
-      "start": 28.073,
-      "end": 28.654
+      "start": 27.052,
+      "end": 27.62
     },
     {
       "text": "Asıl",
-      "start": 29.037,
-      "end": 29.443
+      "start": 28.004,
+      "end": 28.387
     },
     {
       "text": "sır",
-      "start": 29.501,
-      "end": 29.698
+      "start": 28.456,
+      "end": 28.654
     },
     {
       "text": "şurada:",
-      "start": 29.768,
-      "end": 30.441
+      "start": 28.712,
+      "end": 29.281
     },
     {
       "text": "kod,",
-      "start": 30.871,
-      "end": 31.44
+      "start": 29.664,
+      "end": 30.07
     },
     {
       "text": "verinin",
-      "start": 31.765,
-      "end": 32.253
+      "start": 30.14,
+      "end": 30.593
     },
     {
       "text": "yanında",
-      "start": 32.346,
-      "end": 32.775
+      "start": 30.674,
+      "end": 31.115
     },
     {
       "text": "onu",
-      "start": 32.845,
-      "end": 33.042
+      "start": 31.185,
+      "end": 31.429
     },
     {
       "text": "onarmaya",
-      "start": 33.1,
-      "end": 33.762
+      "start": 31.487,
+      "end": 32.206
     },
     {
       "text": "yarayan",
-      "start": 33.785,
-      "end": 34.157
+      "start": 32.23,
+      "end": 32.613
     },
     {
       "text": "ek",
-      "start": 34.25,
-      "end": 34.447
+      "start": 32.694,
+      "end": 32.868
     },
     {
       "text": "bilgi",
-      "start": 34.517,
-      "end": 34.807
+      "start": 32.938,
+      "end": 33.205
     },
     {
       "text": "de",
-      "start": 34.865,
-      "end": 34.934
+      "start": 33.251,
+      "end": 33.321
     },
     {
       "text": "taşır.",
-      "start": 34.992,
-      "end": 35.573
+      "start": 33.367,
+      "end": 33.878
     },
     {
       "text": "En",
-      "start": 36.165,
-      "end": 36.386
+      "start": 34.482,
+      "end": 34.702
     },
     {
       "text": "yüksek",
-      "start": 36.421,
-      "end": 36.804
+      "start": 34.76,
+      "end": 35.132
     },
     {
       "text": "seviyede,",
-      "start": 36.873,
-      "end": 37.582
+      "start": 35.202,
+      "end": 35.654
     },
     {
       "text": "kodun",
-      "start": 37.79,
-      "end": 38.127
+      "start": 35.678,
+      "end": 36.003
     },
     {
       "text": "yaklaşık",
-      "start": 38.185,
-      "end": 38.684
+      "start": 36.072,
+      "end": 36.606
     },
     {
       "text": "yüzde",
-      "start": 38.754,
-      "end": 39.068
+      "start": 36.653,
+      "end": 36.943
     },
     {
       "text": "otuzu",
-      "start": 39.137,
-      "end": 39.451
+      "start": 36.978,
+      "end": 37.396
     },
     {
       "text": "hasar",
-      "start": 39.509,
-      "end": 39.857
+      "start": 37.675,
+      "end": 38.058
     },
     {
       "text": "görse",
-      "start": 39.927,
-      "end": 40.217
+      "start": 38.127,
+      "end": 38.441
     },
     {
       "text": "bile",
-      "start": 40.275,
-      "end": 40.438
+      "start": 38.487,
+      "end": 38.801
     },
     {
       "text": "veri",
-      "start": 40.484,
-      "end": 40.67
+      "start": 39.079,
+      "end": 39.312
     },
     {
       "text": "kurtarılabilir.",
-      "start": 40.705,
-      "end": 41.726
+      "start": 39.358,
+      "end": 40.333
     },
     {
       "text": "Ortasına",
-      "start": 42.33,
-      "end": 42.899
+      "start": 40.716,
+      "end": 41.274
     },
     {
       "text": "logo",
-      "start": 42.945,
-      "end": 43.178
+      "start": 41.32,
+      "end": 41.564
     },
     {
       "text": "konan",
-      "start": 43.224,
-      "end": 43.584
+      "start": 41.622,
+      "end": 41.935
     },
     {
       "text": "QR",
-      "start": 43.909,
-      "end": 44.246
+      "start": 42.005,
+      "end": 42.342
     },
     {
       "text": "kodların",
-      "start": 44.327,
-      "end": 44.745
+      "start": 42.435,
+      "end": 42.922
     },
     {
       "text": "çalışmasının",
-      "start": 44.791,
-      "end": 45.43
+      "start": 42.98,
+      "end": 43.665
     },
     {
       "text": "sebebi",
-      "start": 45.476,
-      "end": 45.836
+      "start": 43.712,
+      "end": 44.083
     },
     {
       "text": "de",
-      "start": 45.883,
-      "end": 46.057
+      "start": 44.118,
+      "end": 44.304
     },
     {
       "text": "tam",
-      "start": 46.301,
-      "end": 46.521
+      "start": 44.583,
+      "end": 44.768
     },
     {
       "text": "olarak",
-      "start": 46.579,
-      "end": 46.916
+      "start": 44.838,
+      "end": 45.163
     },
     {
       "text": "bu.",
-      "start": 46.997,
-      "end": 47.322
+      "start": 45.244,
+      "end": 45.5
     },
     {
       "text": "Gündelik",
-      "start": 47.926,
-      "end": 48.472
+      "start": 45.941,
+      "end": 46.417
     },
     {
       "text": "teknolojinin",
-      "start": 48.53,
-      "end": 49.238
+      "start": 46.487,
+      "end": 47.148
     },
     {
       "text": "sırları",
-      "start": 49.273,
-      "end": 49.667
+      "start": 47.218,
+      "end": 47.636
     },
     {
       "text": "için",
-      "start": 49.691,
-      "end": 49.911
+      "start": 47.659,
+      "end": 47.926
     },
     {
       "text": "takip",
-      "start": 49.969,
-      "end": 50.387
+      "start": 47.996,
+      "end": 48.402
     },
     {
       "text": "et.",
-      "start": 50.445,
-      "end": 50.945
+      "start": 48.449,
+      "end": 48.994
     }
   ],
-  "total": 50.991020408163266,
+  "total": 49.031836734693876,
   "sayHash": "ba5843e0f153"
 }
