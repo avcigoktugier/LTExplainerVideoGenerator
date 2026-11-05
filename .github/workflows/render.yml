@@ -1,6 +1,6 @@
 # Renders one video on a GitHub server, so the PC running Claude Code doesn't have to.
-# Start it from Claude Code:  gh workflow run render.yml -f slug=<slug>
-# Get the MP4:                gh run download --name <slug>  (into the current folder)
+# Start it from the project:  npm run bulut -- <slug>   (push, render here, MP4 to the Desktop — pipeline/cloud.ts)
+# Or by hand:                 gh workflow run render.yml -f slug=<slug>, then gh run download --name <slug>
 #
 # The PC does the light work (storyboard, voice, timeline) and pushes it; this job only draws
 # HyperFrames clips and renders. Commit public/projects/<slug>/ including voice*.mp3 before running.
@@ -54,7 +54,8 @@ jobs:
         run: npx remotion browser ensure
 
       - name: Deneme sesi
-        if: ${{ inputs.mock }}
+        # a dispatch through the API sends booleans as text
+        if: ${{ inputs.mock == true || inputs.mock == 'true' }}
         run: npm run voice -- "$SLUG" --mock --force
 
       - name: Zamanlama

@@ -15,7 +15,8 @@
     "server": "tsx pipeline/serve.ts",
     "frames": "tsx pipeline/frames.ts",
     "hf": "tsx pipeline/hf-cli.ts",
-    "ports": "tsx pipeline/ports.ts"
+    "ports": "tsx pipeline/ports.ts",
+    "bulut": "tsx pipeline/cloud.ts"
   },
   "keywords": [],
   "author": "",
