@@ -15,39 +15,11 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "durationInFrames": 1723,
+  "durationInFrames": 1683,
   "clips": [
     {
-      "src": "projects/kiraci-tahliye-modern/voice-hook.wav",
+      "src": "projects/kiraci-tahliye-modern/voice.mp3",
       "from": 0
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-ilk-tepki.wav",
-      "from": 174
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-kural.wav",
-      "from": 385
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-ispat.wav",
-      "from": 608
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-sonuc.wav",
-      "from": 855
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-kor-nokta.wav",
-      "from": 1087
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-tazminat.wav",
-      "from": 1380
-    },
-    {
-      "src": "projects/kiraci-tahliye-modern/voice-soz-sende.wav",
-      "from": 1560
     }
   ],
   "sfx": [
@@ -58,47 +30,42 @@
     },
     {
       "src": "sfx/click.mp3",
-      "from": 71,
+      "from": 79,
       "volume": 0.3
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 171,
+      "from": 192,
       "volume": 0.32
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 250,
+      "from": 258,
       "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 268,
+      "from": 276,
       "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 349,
+      "from": 346,
       "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 363,
+      "from": 360,
       "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 382,
+      "from": 373,
       "volume": 0.32
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 429,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 448,
+      "from": 436,
       "volume": 0.22
     },
     {
@@ -108,650 +75,655 @@
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 495,
+      "from": 474,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 501,
       "volume": 0.22
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 532,
+      "from": 533,
       "volume": 0.4
     },
     {
       "src": "sfx/whoosh.mp3",
-      "from": 605,
+      "from": 600,
       "volume": 0.32
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 691,
+      "from": 677,
       "volume": 0.3
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 750,
+      "from": 740,
       "volume": 0.3
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 804,
+      "from": 799,
       "volume": 0.3
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 821,
+      "from": 812,
       "volume": 0.3
     },
     {
       "src": "sfx/whoosh.mp3",
-      "from": 852,
+      "from": 840,
       "volume": 0.32
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 1006,
+      "from": 984,
       "volume": 0.45
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 1084,
+      "from": 1069,
       "volume": 0.32
     },
     {
       "src": "sfx/riser.mp3",
-      "from": 1267,
+      "from": 1248,
       "volume": 0.18
     },
     {
       "src": "sfx/ding.mp3",
-      "from": 1291,
+      "from": 1272,
       "volume": 0.28
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 1377,
+      "from": 1351,
       "volume": 0.32
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 1415,
+      "from": 1398,
       "volume": 0.22
     },
     {
       "src": "sfx/click.mp3",
-      "from": 1521,
+      "from": 1486,
       "volume": 0.22
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 1426,
+      "from": 1410,
       "volume": 0.22
     },
     {
       "src": "sfx/whoosh.mp3",
-      "from": 1557,
+      "from": 1523,
       "volume": 0.32
     },
     {
       "src": "sfx/ding.mp3",
-      "from": 1615,
+      "from": 1580,
       "volume": 0.3
     }
   ],
   "words": [
     {
       "text": "Ev",
-      "start": 0.05,
-      "end": 0.27529147727272724
+      "start": 0,
+      "end": 0.221
     },
     {
       "text": "sahibi,",
-      "start": 0.3003238636363636,
-      "end": 0.8072296875
+      "start": 0.29,
+      "end": 0.94
     },
     {
       "text": "oğlum",
-      "start": 0.8635525568181817,
-      "end": 1.2578126420454543
+      "start": 1.184,
+      "end": 1.521
     },
     {
       "text": "evlenecek,",
-      "start": 1.3016193181818179,
-      "end": 1.9774937499999994
+      "start": 1.579,
+      "end": 2.299
     },
     {
       "text": "evi",
-      "start": 2.0525909090909087,
-      "end": 2.334205255681818
+      "start": 2.322,
+      "end": 2.577
     },
     {
       "text": "boşalt",
-      "start": 2.3654957386363633,
-      "end": 2.816078693181818
+      "start": 2.624,
+      "end": 3.1
     },
     {
       "text": "dedi.",
-      "start": 2.8661434659090905,
-      "end": 3.2604035511363634
+      "start": 3.146,
+      "end": 3.529
     },
     {
       "text": "Peki",
-      "start": 3.3042102272727267,
-      "end": 3.6421474431818175
+      "start": 3.971,
+      "end": 4.272
     },
     {
       "text": "kiracı",
-      "start": 3.679696022727272,
-      "end": 4.130278977272726
+      "start": 4.331,
+      "end": 4.853
     },
     {
       "text": "çıkmak",
-      "start": 4.180343749999999,
-      "end": 4.630926704545454
+      "start": 4.888,
+      "end": 5.271
     },
     {
       "text": "zorunda",
-      "start": 4.680991477272726,
-      "end": 5.1878973011363625
+      "start": 5.341,
+      "end": 5.782
     },
     {
       "text": "mı?",
-      "start": 5.244220170454544,
-      "end": 5.525834517045453
+      "start": 5.84,
+      "end": 6.084
     },
     {
       "text": "Çoğu",
-      "start": 5.857125,
-      "end": 6.193196875
+      "start": 6.594,
+      "end": 6.896
     },
     {
       "text": "kiracı",
-      "start": 6.230538194444445,
-      "end": 6.678634027777778
+      "start": 6.966,
+      "end": 7.419
     },
     {
       "text": "bu",
-      "start": 6.728422453703704,
-      "end": 6.952470370370371
+      "start": 7.454,
+      "end": 7.535
     },
     {
       "text": "sözü",
-      "start": 6.977364583333333,
-      "end": 7.313436458333333
+      "start": 7.581,
+      "end": 7.837
     },
     {
       "text": "duyunca",
-      "start": 7.350777777777778,
-      "end": 7.854885590277778
+      "start": 7.872,
+      "end": 8.208
     },
     {
       "text": "hemen",
-      "start": 7.910897569444445,
-      "end": 8.302981423611111
+      "start": 8.266,
+      "end": 8.533
     },
     {
       "text": "taşınması",
-      "start": 8.346546296296296,
-      "end": 8.962678067129628
+      "start": 8.591,
+      "end": 9.125
     },
     {
       "text": "gerektiğini",
-      "start": 9.031137152777777,
-      "end": 9.759292881944443
+      "start": 9.183,
+      "end": 9.764
     },
     {
       "text": "düşünür.",
-      "start": 9.840199074074073,
-      "end": 10.40031886574074
+      "start": 9.799,
+      "end": 10.333
     },
     {
       "text": "Ama",
-      "start": 10.462554398148146,
-      "end": 10.742614293981479
+      "start": 10.612,
+      "end": 10.844
     },
     {
       "text": "iş",
-      "start": 10.773732060185184,
-      "end": 10.99777997685185
+      "start": 10.913,
+      "end": 11.041
     },
     {
       "text": "o",
-      "start": 11.022674189814813,
-      "end": 11.190710127314812
+      "start": 11.122,
+      "end": 11.146
     },
     {
       "text": "kadar",
-      "start": 11.209380787037036,
-      "end": 11.601464641203702
+      "start": 11.204,
+      "end": 11.471
     },
     {
       "text": "basit",
-      "start": 11.645029513888888,
-      "end": 12.037113368055554
+      "start": 11.54,
+      "end": 11.889
     },
     {
       "text": "değil.",
-      "start": 12.08067824074074,
-      "end": 12.528774074074073
+      "start": 11.947,
+      "end": 12.33
     },
     {
       "text": "Kanun,",
-      "start": 12.878562500000001,
-      "end": 13.326214673913045
+      "start": 12.608,
+      "end": 13.259
     },
     {
       "text": "ev",
-      "start": 13.375953804347827,
-      "end": 13.599779891304348
+      "start": 13.642,
+      "end": 13.839
     },
     {
       "text": "sahibinin",
-      "start": 13.62464945652174,
-      "end": 14.240171195652174
+      "start": 13.909,
+      "end": 14.466
     },
     {
       "text": "kendisi,",
-      "start": 14.3085625,
-      "end": 14.868127717391305
+      "start": 14.536,
+      "end": 15.221
     },
     {
       "text": "eşi,",
-      "start": 14.930301630434784,
-      "end": 15.266040760869567
+      "start": 15.302,
+      "end": 15.755
     },
     {
       "text": "çocukları",
-      "start": 15.303345108695654,
-      "end": 15.918866847826088
+      "start": 15.813,
+      "end": 16.393
     },
     {
       "text": "ya",
-      "start": 15.987258152173915,
-      "end": 16.211084239130436
+      "start": 16.428,
+      "end": 16.498
     },
     {
       "text": "da",
-      "start": 16.23595380434783,
-      "end": 16.45977989130435
+      "start": 16.544,
+      "end": 16.625
     },
     {
       "text": "anne",
-      "start": 16.484649456521744,
-      "end": 16.820388586956526
+      "start": 16.684,
+      "end": 16.985
     },
     {
       "text": "babası",
-      "start": 16.857692934782612,
-      "end": 17.305345108695654
+      "start": 17.043,
+      "end": 17.38
     },
     {
       "text": "için",
-      "start": 17.355084239130438,
-      "end": 17.69082336956522
+      "start": 17.427,
+      "end": 17.67
     },
     {
       "text": "gerçek",
-      "start": 17.728127717391306,
-      "end": 18.175779891304348
+      "start": 17.752,
+      "end": 18.181
     },
     {
       "text": "bir",
-      "start": 18.22551902173913,
-      "end": 18.505301630434783
+      "start": 18.251,
+      "end": 18.344
     },
     {
       "text": "konut",
-      "start": 18.536388586956523,
-      "end": 18.928084239130435
+      "start": 18.379,
+      "end": 18.692
     },
     {
       "text": "ihtiyacı",
-      "start": 18.97160597826087,
-      "end": 19.531171195652178
+      "start": 18.739,
+      "end": 19.296
     },
     {
       "text": "arar.",
-      "start": 19.593345108695654,
-      "end": 19.985040760869566
+      "start": 19.319,
+      "end": 19.737
     },
     {
       "text": "Kiracı",
-      "start": 20.3285625,
-      "end": 20.78934435483871
+      "start": 20.178,
+      "end": 20.666
     },
     {
       "text": "kendi",
-      "start": 20.840542338709678,
-      "end": 21.243726461693548
+      "start": 20.701,
+      "end": 21.061
     },
     {
       "text": "isteğiyle",
-      "start": 21.288524697580645,
-      "end": 21.92209974798387
+      "start": 21.084,
+      "end": 21.502
     },
     {
       "text": "çıkmazsa,",
-      "start": 21.99249697580645,
-      "end": 22.626072026209677
+      "start": 21.548,
+      "end": 22.338
     },
     {
       "text": "ev",
-      "start": 22.696469254032255,
-      "end": 22.92686018145161
+      "start": 22.581,
+      "end": 22.802
     },
     {
       "text": "sahibi",
-      "start": 22.952459173387094,
-      "end": 23.413241028225805
+      "start": 22.872,
+      "end": 23.243
     },
     {
       "text": "tahliye",
-      "start": 23.464439012096772,
-      "end": 23.98281859879032
+      "start": 23.29,
+      "end": 23.673
     },
     {
       "text": "davası",
-      "start": 24.040416330645158,
-      "end": 24.50119818548387
+      "start": 23.731,
+      "end": 24.207
     },
     {
       "text": "açar",
-      "start": 24.552396169354836,
-      "end": 24.897982560483868
+      "start": 24.242,
+      "end": 24.636
     },
     {
       "text": "ve",
-      "start": 24.936381048387094,
-      "end": 25.166771975806448
+      "start": 24.961,
+      "end": 25.112
     },
     {
       "text": "ihtiyacını",
-      "start": 25.192370967741933,
-      "end": 25.883543749999998
+      "start": 25.136,
+      "end": 25.751
     },
     {
       "text": "mahkemede",
-      "start": 25.96034072580645,
-      "end": 26.593915776209677
+      "start": 25.809,
+      "end": 26.32
     },
     {
       "text": "ispatlamak",
-      "start": 26.664313004032255,
-      "end": 27.35548578629032
+      "start": 26.355,
+      "end": 26.958
     },
     {
       "text": "zorundadır.",
-      "start": 27.432282762096772,
-      "end": 28.181053276209674
+      "start": 27.016,
+      "end": 27.736
     },
     {
       "text": "Yani",
-      "start": 28.56425,
-      "end": 28.907435576923078
+      "start": 28.177,
+      "end": 28.503
     },
     {
       "text": "kiracı",
-      "start": 28.945567307692308,
-      "end": 29.403148076923078
+      "start": 28.549,
+      "end": 29.06
     },
     {
       "text": "hemen",
-      "start": 29.453990384615384,
-      "end": 29.854373557692305
+      "start": 29.118,
+      "end": 29.431
     },
     {
       "text": "çıkmak",
-      "start": 29.898860576923077,
-      "end": 30.356441346153847
+      "start": 29.489,
+      "end": 29.861
     },
     {
       "text": "zorunda",
-      "start": 30.407283653846154,
-      "end": 30.92206201923077
+      "start": 29.931,
+      "end": 30.36
     },
     {
       "text": "değil.",
-      "start": 30.979259615384617,
-      "end": 31.436840384615387
+      "start": 30.418,
+      "end": 30.766
     },
     {
       "text": "İhtiyaç",
-      "start": 31.487682692307693,
-      "end": 32.00246105769231
+      "start": 31.092,
+      "end": 31.591
     },
     {
       "text": "gerçekse",
-      "start": 32.05965865384616,
-      "end": 32.63163461538462
+      "start": 31.672,
+      "end": 32.16
     },
     {
       "text": "ve",
-      "start": 32.6951875,
-      "end": 32.92397788461539
+      "start": 32.206,
+      "end": 32.276
     },
     {
       "text": "mahkeme",
-      "start": 32.94939903846154,
-      "end": 33.46417740384616
+      "start": 32.334,
+      "end": 32.763
     },
     {
       "text": "karar",
-      "start": 33.521375000000006,
-      "end": 33.92175817307693
+      "start": 32.81,
+      "end": 33.1
     },
     {
       "text": "verirse",
-      "start": 33.966245192307696,
-      "end": 34.48102355769231
+      "start": 33.158,
+      "end": 33.692
     },
     {
       "text": "tahliye",
-      "start": 34.53822115384616,
-      "end": 35.052999519230774
+      "start": 34.017,
+      "end": 34.482
     },
     {
       "text": "gerçekleşir.",
-      "start": 35.11019711538462,
-      "end": 35.910963461538465
+      "start": 34.54,
+      "end": 35.445
     },
     {
       "text": "Asıl",
-      "start": 36.2999375,
-      "end": 36.63962225
+      "start": 35.828,
+      "end": 36.188
     },
     {
       "text": "şaşırtan",
-      "start": 36.677365,
-      "end": 37.24350625
+      "start": 36.27,
+      "end": 36.78
     },
     {
       "text": "kısım:",
-      "start": 37.30641083333334,
-      "end": 37.75932383333334
+      "start": 36.85,
+      "end": 37.28
     },
     {
       "text": "ihtiyaç",
-      "start": 37.809647500000004,
-      "end": 38.319174625
+      "start": 37.605,
+      "end": 38.174
     },
     {
       "text": "diyerek",
-      "start": 38.375788750000005,
-      "end": 38.885315875
+      "start": 38.22,
+      "end": 38.522
     },
     {
       "text": "kiracıyı",
-      "start": 38.941930000000006,
-      "end": 39.50807125000001
+      "start": 38.568,
+      "end": 39.149
     },
     {
       "text": "çıkaran",
-      "start": 39.57097583333334,
-      "end": 40.08050295833334
+      "start": 39.195,
+      "end": 39.613
     },
     {
       "text": "ev",
-      "start": 40.137117083333344,
-      "end": 40.36357358333334
+      "start": 39.671,
+      "end": 39.787
     },
     {
       "text": "sahibi,",
-      "start": 40.38873541666668,
-      "end": 40.898262541666675
+      "start": 39.857,
+      "end": 40.449
     },
     {
       "text": "haklı",
-      "start": 40.95487666666668,
-      "end": 41.35117554166668
+      "start": 40.693,
+      "end": 41.076
     },
     {
       "text": "bir",
-      "start": 41.39520875000001,
-      "end": 41.67827937500001
+      "start": 41.111,
+      "end": 41.204
     },
     {
       "text": "sebep",
-      "start": 41.70973166666668,
-      "end": 42.10603054166668
+      "start": 41.227,
+      "end": 41.552
     },
     {
       "text": "olmadan",
-      "start": 42.15006375000001,
-      "end": 42.659590875000006
+      "start": 41.645,
+      "end": 42.028
     },
     {
       "text": "evi",
-      "start": 42.71620500000001,
-      "end": 42.99927562500001
+      "start": 42.098,
+      "end": 42.318
     },
     {
       "text": "üç",
-      "start": 43.03072791666668,
-      "end": 43.257184416666675
+      "start": 42.4,
+      "end": 42.574
     },
     {
       "text": "yıl",
-      "start": 43.28234625000001,
-      "end": 43.56541687500001
+      "start": 42.69,
+      "end": 42.783
     },
     {
       "text": "boyunca",
-      "start": 43.59686916666668,
-      "end": 44.10639629166668
+      "start": 42.841,
+      "end": 43.224
     },
     {
       "text": "başkasına",
-      "start": 44.16301041666668,
-      "end": 44.78576579166668
+      "start": 43.282,
+      "end": 43.839
     },
     {
       "text": "kiralayamaz.",
-      "start": 44.854960833333344,
-      "end": 45.64755858333334
+      "start": 43.897,
+      "end": 44.884
     },
     {
       "text": "Kurala",
-      "start": 46.035624999999996,
-      "end": 46.48831016483516
+      "start": 45.209,
+      "end": 45.592
     },
     {
       "text": "uymazsa,",
-      "start": 46.538608516483514,
-      "end": 47.10446497252747
+      "start": 45.616,
+      "end": 46.324
     },
     {
       "text": "eski",
-      "start": 47.16733791208791,
-      "end": 47.50685178571428
+      "start": 46.602,
+      "end": 46.939
     },
     {
       "text": "kiracısına",
-      "start": 47.54457554945055,
-      "end": 48.223603296703295
+      "start": 46.997,
+      "end": 47.601
     },
     {
       "text": "en",
-      "start": 48.29905082417582,
-      "end": 48.5253934065934
+      "start": 47.682,
+      "end": 47.856
     },
     {
       "text": "az",
-      "start": 48.55054258241758,
-      "end": 48.77688516483516
+      "start": 47.938,
+      "end": 48.054
     },
     {
       "text": "bir",
-      "start": 48.80203434065933,
-      "end": 49.08496256868131
+      "start": 48.135,
+      "end": 48.298
     },
     {
       "text": "yıllık",
-      "start": 49.11639903846153,
-      "end": 49.5690842032967
+      "start": 48.356,
+      "end": 48.634
     },
     {
       "text": "kira",
-      "start": 49.61938255494505,
-      "end": 49.95889642857142
+      "start": 48.669,
+      "end": 48.948
     },
     {
       "text": "tutarında",
-      "start": 49.99662019230769,
-      "end": 50.61906229395604
+      "start": 49.006,
+      "end": 49.482
     },
     {
       "text": "tazminat",
-      "start": 50.688222527472526,
-      "end": 51.25407898351648
+      "start": 49.528,
+      "end": 50.039
     },
     {
       "text": "öder.",
-      "start": 51.31695192307692,
-      "end": 51.71305144230769
+      "start": 50.109,
+      "end": 50.492
     },
     {
       "text": "Sence",
-      "start": 52.057062499999994,
-      "end": 52.45627437499999
+      "start": 50.933,
+      "end": 51.27
     },
     {
       "text": "bu",
-      "start": 52.50063124999999,
-      "end": 52.728752321428566
+      "start": 51.328,
+      "end": 51.432
     },
     {
       "text": "kural",
-      "start": 52.75409910714285,
-      "end": 53.15331098214285
+      "start": 51.479,
+      "end": 51.746
     },
     {
       "text": "kiracıyı",
-      "start": 53.19766785714285,
-      "end": 53.76797053571428
+      "start": 51.815,
+      "end": 52.454
     },
     {
       "text": "yeterince",
-      "start": 53.83133749999999,
-      "end": 54.45867044642856
+      "start": 52.663,
+      "end": 53.151
     },
     {
       "text": "koruyor",
-      "start": 54.528374107142845,
-      "end": 55.04164651785713
+      "start": 53.22,
+      "end": 53.603
     },
     {
       "text": "mu?",
-      "start": 55.098676785714275,
-      "end": 55.38382812499999
+      "start": 53.65,
+      "end": 53.847
     },
     {
       "text": "Yorumlara",
-      "start": 55.41551160714285,
-      "end": 56.04284455357142
+      "start": 54.091,
+      "end": 54.66
     },
     {
       "text": "yaz.",
-      "start": 56.1125482142857,
-      "end": 56.45472982142856
+      "start": 54.718,
+      "end": 55.356
     }
   ],
   "scenes": [
@@ -769,7 +741,7 @@
       "headline": "Oğlum evlenecek, *çık* dedi.",
       "source": "TBK m.350 · m.355",
       "from": 0,
-      "durationInFrames": 174
+      "durationInFrames": 195
     },
     {
       "id": "ilk-tepki",
@@ -825,8 +797,8 @@
       "transition": "slide",
       "chapter": "İlk tepki",
       "headline": "Cevap: *hemen çık?*",
-      "from": 174,
-      "durationInFrames": 211
+      "from": 195,
+      "durationInFrames": 181
     },
     {
       "id": "kural",
@@ -885,8 +857,8 @@
       "chapter": "Kural",
       "headline": "İhtiyaç *gerçek* olmalı.",
       "source": "TBK m.350",
-      "from": 385,
-      "durationInFrames": 223
+      "from": 376,
+      "durationInFrames": 227
     },
     {
       "id": "ispat",
@@ -920,8 +892,8 @@
       "chapter": "İspat",
       "headline": "Söz yetmez, *dava* gerekir.",
       "source": "TBK m.350 · Tahliye davası",
-      "from": 608,
-      "durationInFrames": 247
+      "from": 603,
+      "durationInFrames": 240
     },
     {
       "id": "sonuc",
@@ -936,8 +908,8 @@
       "transition": "light",
       "chapter": "Sonuç",
       "headline": "Önce *mahkeme*.",
-      "from": 855,
-      "durationInFrames": 232
+      "from": 843,
+      "durationInFrames": 229
     },
     {
       "id": "kor-nokta",
@@ -953,8 +925,8 @@
       "chapter": "Kör nokta",
       "headline": "Üç yıl *başkasına* veremez.",
       "source": "TBK m.355/1",
-      "from": 1087,
-      "durationInFrames": 293
+      "from": 1072,
+      "durationInFrames": 282
     },
     {
       "id": "tazminat",
@@ -999,8 +971,8 @@
       "chapter": "Kör nokta",
       "headline": "Uymazsa *tazminat* öder.",
       "source": "TBK m.355/3",
-      "from": 1380,
-      "durationInFrames": 180
+      "from": 1354,
+      "durationInFrames": 172
     },
     {
       "id": "soz-sende",
@@ -1016,8 +988,8 @@
       "transition": "light",
       "chapter": "Söz sende",
       "headline": "Sence *yeterli* mi?",
-      "from": 1560,
-      "durationInFrames": 163
+      "from": 1526,
+      "durationInFrames": 157
     }
   ]
 }
