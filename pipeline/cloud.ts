@@ -26,7 +26,7 @@ const fail = (msg: string): never => {
 };
 const git = (args: string[], extra: string[] = []) => execFileSync("git", [...extra, ...args], { cwd: ROOT, encoding: "utf8" }).trim();
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-type Run = { id: number; html_url: string; status: string; conclusion: string | null; created_at: string };
+type Run = { id: number; html_url: string; status: string; conclusion: string | null };
 
 // ---------- who / where ----------
 const envToken = process.env.GITHUB_TOKEN?.trim();
@@ -88,6 +88,10 @@ async function main() {
   const sha = git(["rev-parse", "HEAD"]);
 
   // ---------- 3. start the render ----------
+  // the new run is the one that wasn't there before (compared by id: this computer's clock may be off)
+  const runsFor = async () =>
+    ((await (await api(`/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&head_sha=${sha}&per_page=20`)).json()) as { workflow_runs: Run[] }).workflow_runs;
+  const before = new Set((await runsFor()).map((r) => r.id));
   const started = Date.now();
   await api(`/actions/workflows/${WORKFLOW}/dispatches`, {
     method: "POST",
@@ -96,9 +100,7 @@ async function main() {
   let run: Run | undefined;
   for (let i = 0; i < 40 && !run; i++) {
     await sleep(3000);
-    const res = await api(`/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&head_sha=${sha}&per_page=10`);
-    const { workflow_runs } = (await res.json()) as { workflow_runs: Run[] };
-    run = workflow_runs.find((r) => Date.parse(r.created_at) >= started - 15000);
+    run = (await runsFor()).find((r) => !before.has(r.id));
   }
   if (!run) return fail("GitHub render işini başlatmadı (2 dakika beklendi).");
   console.log(`▶ Render GitHub'da başladı: ${run.html_url}`);
