@@ -29,7 +29,8 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 type Run = { id: number; html_url: string; status: string; conclusion: string | null; created_at: string };
 
 // ---------- who / where ----------
-let token = process.env.GITHUB_TOKEN?.trim();
+const envToken = process.env.GITHUB_TOKEN?.trim();
+let token = envToken;
 if (!token) {
   const gh = spawnSync("gh", ["auth", "token"], { encoding: "utf8", shell: process.platform === "win32" });
   if (gh.status === 0) token = gh.stdout.trim();
@@ -38,8 +39,9 @@ if (!token) fail("GITHUB_TOKEN .env dosyasında yok. Kurulumu yapan kişiden ana
 const remote = git(["remote", "get-url", "origin"]);
 const repo = process.env.GITHUB_REPO ?? remote.match(/github\.com[:/](.+?)(\.git)?$/)?.[1];
 if (!repo) fail(`GitHub deposu anlaşılamadı (origin: ${remote}).`);
-// token as a one-off header: never written into git config or the remote URL
-const auth = ["-c", `http.extraHeader=Authorization: Basic ${Buffer.from(`x-access-token:${token}`).toString("base64")}`];
+// .env token as a one-off header for git (never written into git config or the remote URL);
+// without one, git uses this computer's own GitHub login
+const auth = envToken ? ["-c", `http.extraHeader=Authorization: Basic ${Buffer.from(`x-access-token:${envToken}`).toString("base64")}`] : [];
 
 const api = async (path: string, init: RequestInit = {}) => {
   const res = await fetch(`https://api.github.com/repos/${repo}${path}`, {
