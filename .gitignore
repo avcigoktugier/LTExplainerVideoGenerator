@@ -2,3 +2,13 @@ node_modules/
 out/
 .env
 ports.json
+# voice*.mp3 is committed on purpose: the voice is made on the PC, the render runs on GitHub
+public/projects/*/voice*.wav
+public/projects/_current.json
+public/projects/*/hf/
+hyperframes/*/assets/kettek.css
+hyperframes/*/assets/kettek.js
+hyperframes/*/assets/gsap.min.js
+hyperframes/*/assets/fonts/
+hyperframes/*/.hyperframes/
+hyperframes/*/renders/
