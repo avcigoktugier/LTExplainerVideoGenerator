@@ -8,7 +8,7 @@
 import { execFileSync, spawnSync } from "node:child_process";
 import { copyFileSync, existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 import { projectDir, readJson, ROOT, slugArg } from "./lib";
 
 const slug = slugArg();
@@ -128,7 +128,9 @@ async function main() {
   const zipPath = join(outDir, `${slug}-bulut.zip`);
   writeFileSync(zipPath, Buffer.from(await zip.arrayBuffer()));
   rmSync(join(outDir, file), { force: true });
-  execFileSync("tar", ["-xf", zipPath, "-C", outDir]); // bsdtar reads zip on macOS and Windows
+  // bsdtar reads zip on macOS and Windows; on Windows name it, or Git Bash's GNU tar (no zip) may win
+  const tar = process.platform === "win32" ? join(process.env.SystemRoot ?? "C:\\Windows", "System32", "tar.exe") : "tar";
+  execFileSync(tar, ["-xf", basename(zipPath)], { cwd: outDir });
   rmSync(zipPath, { force: true });
   if (!existsSync(join(outDir, file))) fail(`İndirilen pakette ${file} yok.`);
 
