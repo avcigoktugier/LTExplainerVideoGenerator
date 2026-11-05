@@ -1,0 +1,2 @@
+# shell scripts run on Macs and on GitHub: always LF
+*.sh text eol=lf
