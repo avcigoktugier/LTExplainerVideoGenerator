@@ -12,6 +12,10 @@ import { MascotScene } from "./Mascot";
 import { StageScene } from "./Stage";
 import { StepsScene } from "./Steps";
 import { VerdictScene } from "./Verdict";
+import { SketchScene } from "./Sketch";
+import { Object3dScene } from "./Object3d";
+import { ParticlesScene } from "./Particles";
+import { PhysicsScene } from "./Physics";
 
 export type SceneProps<V> = {
   v: V;
@@ -50,5 +54,13 @@ export const SceneRenderer: React.FC<{ scene: TimelineScene; style: Style; slug:
       return <StageScene {...p} v={v} />;
     case "verdict":
       return <VerdictScene {...p} v={v} />;
+    case "sketch":
+      return <SketchScene {...p} v={v} />;
+    case "object3d":
+      return <Object3dScene {...p} v={v} />;
+    case "particles":
+      return <ParticlesScene {...p} v={v} />;
+    case "physics":
+      return <PhysicsScene {...p} v={v} />;
   }
 };

@@ -233,6 +233,57 @@ const Hyperframe = z.object({
   area: z.enum(["scene", "full"]).optional(), // scene (default): the scene box; full: whole 1080x1920 frame, over the layout
 });
 
+
+// ---------- Modern scene types (ported from the "kalem" idea: each moment gets the engine that draws it best) ----------
+// All four draw on the same 940 x 720 canvas as `stage`; elements land on `cue` words like stage elements.
+const Beat = {
+  cue: z.string().optional(), // a word from this scene's `say` (prefix match, "kira#2" = 2nd occurrence)
+  at: z.number().optional(), // seconds from scene start, if no cue
+};
+
+// Line art that draws itself (stroke by stroke), with a soft glow. Paths use canvas pixels (940 x 720).
+const Stroke = z.discriminatedUnion("kind", [
+  z.object({ kind: z.literal("path"), d: z.string(), color: Color.optional(), width: z.number().optional(), dur: z.number().optional(), ...Beat }),
+  z.object({ kind: z.literal("icon"), name: z.string(), x: z.number(), y: z.number(), size: z.number().optional(), color: Color.optional(), dur: z.number().optional(), ...Beat }), // Lucide icon, centered
+  z.object({ kind: z.literal("circle"), x: z.number(), y: z.number(), r: z.number(), color: Color.optional(), dur: z.number().optional(), ...Beat }), // hand-drawn ring around something
+  z.object({ kind: z.literal("arrow"), from: Pt, to: Pt, bend: z.number().optional(), color: Color.optional(), dur: z.number().optional(), ...Beat }), // bend: -1…1 curve
+  z.object({ kind: z.literal("underline"), x: z.number(), y: z.number(), w: z.number(), color: Color.optional(), dur: z.number().optional(), ...Beat }),
+  z.object({ kind: z.literal("text"), x: z.number(), y: z.number(), text: z.string(), size: z.number().optional(), font: z.enum(["serif", "mono", "sans"]).optional(), color: Color.optional(), dur: z.number().optional(), ...Beat }), // centered, writes on left to right
+]);
+export type SketchStroke = z.infer<typeof Stroke>;
+const Sketch = z.object({ type: z.literal("sketch"), strokes: z.array(Stroke).min(1), glow: z.boolean().optional() });
+
+// Real 3D object from built-in models, lit, with a slow camera orbit. `action` happens on `cue`.
+const Object3d = z.object({
+  type: z.literal("object3d"),
+  model: z.enum(["scales", "gavel", "house", "document", "courthouse", "key"]),
+  label: z.string().optional(), // small caption under the object
+  orbit: z.number().optional(), // degrees the camera travels over the scene (default 50)
+  tilt: z.number().min(-1).max(1).optional(), // scales: which pan goes down on the action
+  ...Beat, // when the action happens: gavel strikes, scales tip, house locks, document opens, key turns
+});
+
+// Particles: gold sparks bursting from / gathering into a central text or icon, or rising embers
+const Particles = z.object({
+  type: z.literal("particles"),
+  effect: z.enum(["burst", "gather", "rise"]).optional(), // default burst
+  text: z.string().optional(), // big center text ("30 GÜN", "%25")
+  sub: z.string().optional(), // smaller line under it
+  icon: z.string().optional(), // Lucide icon instead of / above the text
+  count: z.number().min(50).max(3000).optional(),
+  ...Beat, // when the burst/gather happens
+});
+
+// Physics: cards (documents, items) drop in on cue, collide and pile up (Matter.js, deterministic)
+const Physics = z.object({
+  type: z.literal("physics"),
+  title: z.string().optional(),
+  items: z
+    .array(z.object({ label: z.string(), icon: z.string().optional(), w: z.number().optional(), h: z.number().optional(), ...Beat }))
+    .min(1)
+    .max(12),
+});
+
 export const Visual = z.discriminatedUnion("type", [
   Kinetic,
   BigNumber,
@@ -245,16 +296,26 @@ export const Visual = z.discriminatedUnion("type", [
   Stage,
   Verdict,
   Hyperframe,
+  Sketch,
+  Object3d,
+  Particles,
+  Physics,
 ]);
 export type Visual = z.infer<typeof Visual>;
 
 export const SfxName = z.string(); // file name in public/sfx without .mp3
+
+// How a scene arrives and leaves. Scenes never overlap (cuts stay on the narration), so a transition
+// is the outgoing scene's exit + the incoming scene's entrance; "light" adds a soft gold sweep over the cut.
+export const Transition = z.enum(["fade", "slide", "wipe", "zoom", "flip", "blur", "light", "none"]);
+export type Transition = z.infer<typeof Transition>;
 
 export const Scene = z.object({
   id: z.string(),
   say: z.string().min(1), // Turkish narration for this scene
   visual: Visual,
   sfx: z.union([SfxName, z.literal("none")]).optional(), // override default sfx
+  transition: Transition.optional(), // entrance of this scene (default: the storyboard's `transition`)
   // Dossier format only — consecutive scenes with the same chapter share a progress dot
   chapter: z.string().optional(), // kicker above the headline, e.g. "CEZA HUKUKU · YAN YANA FAİLLİK"
   headline: z.string().optional(), // "İkisi de ateş etti. *Kim* öldürdü?" — *word* = italic accent
@@ -278,6 +339,7 @@ export const Storyboard = z.object({
     .optional(),
   episode: z.number().optional(), // shown after `series`
   handle: z.string().optional(), // "@kettek" watermark
+  transition: Transition.optional(), // default scene transition (default "fade")
   music: z.string().optional(), // file in public/music
   voice: z
     .object({
@@ -318,6 +380,7 @@ export type Timeline = {
   brand?: Storyboard["brand"];
   episode?: number;
   handle?: string;
+  transition?: Transition;
   fps: number;
   width: number;
   height: number;

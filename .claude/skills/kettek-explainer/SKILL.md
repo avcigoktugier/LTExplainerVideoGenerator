@@ -13,7 +13,7 @@ Work through these steps in order. Do not skip the review step.
 ## 1. Brief (ask only if missing)
 - Topic and the single question the video answers.
 - Target length: default 35–50 s.
-- Style: `kettek-dark` (default) or `paper`.
+- Style: `kettek-dark` (default) or `paper`. Law & Trust videos: `lawtrust-dark` (modern: near-black, LT gold, glass cards, gold dust — the house look from now on) or `lawtrust` (ivory paper, the older look).
 If the user gave a clear topic, don't ask — decide and say what you decided.
 
 ## 2. Research and verify
@@ -90,6 +90,36 @@ Before writing the storyboard, list what each scene must SHOW (who, what object,
 5. A whole new animated moment (chat thread, countdown, document being filled) → a new HyperFrames composition (4c).
 Review every new piece in the stills; fix proportions/overlaps before moving on. Never leave a red "art yok" box in a video — `npm run timeline` warns about missing art.
 
+## 4b++. Modern scene types — pick the engine by what the scene shows
+Each moment gets the engine that draws it best (idea from the "kalem" skill, in the modern LT look). All four draw on the same 940×720 canvas as `stage`, and their beats land on `cue` words of the scene's `say` (or `at` seconds).
+
+| The scene shows… | Type |
+|---|---|
+| a drawing that draws itself: an icon, an arrow to something, a ring around it, a crossed-out idea | `sketch` |
+| one real object, lit and turning: scales, gavel, house, document, courthouse, key | `object3d` |
+| a single striking number or word with energy: "3 YIL", "%25", "30 GÜN" | `particles` |
+| things piling up: documents, steps, costs, obligations dropping in one by one | `physics` |
+
+```json
+{ "type": "sketch", "strokes": [
+  { "kind": "icon", "name": "Truck", "x": 300, "y": 300, "size": 240, "cue": "taşınması" },
+  { "kind": "arrow", "from": [470, 330], "to": [660, 240], "bend": -0.35 },
+  { "kind": "text", "x": 710, "y": 170, "text": "Hemen taşın?", "size": 58, "font": "serif" },
+  { "kind": "circle", "x": 300, "y": 300, "r": 170, "color": "danger", "cue": "basit" },
+  { "kind": "path", "d": "M190 190 L410 410 M410 190 L190 410", "color": "danger", "width": 8 },
+  { "kind": "underline", "x": 560, "y": 210, "w": 300 } ] }
+{ "type": "object3d", "model": "gavel", "label": "Önce mahkeme kararı", "orbit": 40, "cue": "karar" }
+{ "type": "particles", "effect": "burst", "text": "3 yıl", "sub": "başkasına kiralayamaz", "cue": "üç" }
+{ "type": "physics", "items": [ { "label": "Tahliye davası", "icon": "FileText", "cue": "davası" }, { "label": "Mahkeme", "icon": "Landmark", "cue": "mahkemede" } ] }
+```
+- `sketch`: strokes without a cue draw one after another; `dur` (seconds) sets one stroke's drawing time. Paths are SVG `d` strings in canvas pixels. Colors default to gold (icon/arrow/circle/underline) and white (path/text); `"color": "danger"` for a crossed-out idea. Text is centered on (x, y). Glow is on in dark styles.
+- `object3d`: the `cue` is the action — gavel strikes, scales tip toward `tilt` (-1…1), house lights up, document opens, courthouse pediment glows, key turns. `orbit` = degrees the camera travels (default 50). 1–2 per video; it is the "vay" moment.
+- `particles`: `burst` explodes from the center on the cue, `gather` flies in and forms the text by the cue, `rise` = embers for a calm closing line. Center: `text` (≤ 10 chars reads best), `sub`, or a Lucide `icon`.
+- `physics`: 1–12 cards; each drops on its cue and a thud plays on the exact frame it hits. Up to 5 stack in one pile, more go in two piles.
+- Example with every type: `public/projects/kiraci-tahliye-modern/`.
+
+**Transitions.** Set `"transition"` on the storyboard (default for all scenes) and/or on a scene (its entrance): `fade` (default), `slide`, `wipe`, `zoom`, `flip`, `blur`, `light` (a soft gold sweep over the cut), `none`. Cuts stay on the narration — the outgoing scene leaves the way the next one arrives. Vary them; use `light` for the turn of the story (the verdict, the blind spot), not on every scene.
+
 ## 4c. HyperFrames scenes (richer animation)
 `{ "type": "hyperframe", "comp": "<name>", "vars": {…}, "cues": {…} }` plays an HTML/GSAP composition from `hyperframes/<name>/`, pre-rendered as a transparent clip at the scene's exact length (example: `public/projects/hf-demo/`). Full reference and how to make new ones: `hyperframes/README.md`.
 - Library: `case-file` (folder, sheet with lines, highlighter, stamp), `law-article` (article number + verbatim law text with a highlighted phrase), `timeline` (numbered steps that land on cue words). Variables per comp are listed in `hyperframes/README.md` and declared at the top of each `index.html`.
@@ -134,8 +164,8 @@ Output goes to `out/`. Tell the user the file path and length.
 Give the user, in Turkish: a post caption (2–3 lines, ends with a question to drive comments), 5–8 hashtags, and which second makes the best cover frame.
 
 ## Extending
-- New scene type: add a zod schema in `src/schema.ts`, a component in `src/scenes/`, a case in `src/scenes/index.tsx`, beats/sfx in `src/timing.ts`.
-- New look: add an entry to `STYLES` in `src/styles.ts` (colors, cast colors, radius, image prompt, mascot colors). `lawtrust` is a placeholder palette until the firm's brand colors arrive.
+- New scene type: add a zod schema in `src/schema.ts`, a component in `src/scenes/`, a case in `src/scenes/index.tsx`, beats/sfx in `src/timing.ts` (+ its sounds in `pipeline/timeline.ts`). Everything must be driven by the frame number: no `Math.random` (use `src/fx/random.ts`), no CSS animations, no `useFrame` in 3D.
+- New look: add an entry to `STYLES` in `src/styles.ts` (colors, cast colors, radius, image prompt, mascot colors). Dark looks set `dark: true` (glow page, glass stage, gold dust) plus `band`/`onBand` (masthead) and `skin`/`outline` (illustrated people).
 - Firm logo: put it in `public/brand/` and set `brand.logo` to the file name.
 - New illustration part: add it to the `El` union in `src/schema.ts`, draw it in `src/scenes/Stage.tsx` (or `src/stage/`), and give it a sound in `STAGE_SFX` (`src/timing.ts`).
 - SFX: `npm run sfx` generates the pack once; or drop your own `whoosh.mp3`, `pop.mp3`, etc. into `public/sfx/`.

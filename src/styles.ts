@@ -24,6 +24,12 @@ export type Style = {
   imagePrompt: string;
   // Character colors
   mascot: { body: string; belly: string; outline: string };
+  // Dark looks: a full-bleed dark page with glow, glass cards and gold dust instead of paper
+  dark?: boolean;
+  band?: string; // dossier masthead background (default: ink)
+  onBand?: string; // text on the masthead (default: bg)
+  skin?: string; // illustrated people: face/hands (default: bg2)
+  outline?: string; // illustrated people: line color (default: ink)
 };
 
 export const STYLES: Record<string, Style> = {
@@ -87,6 +93,32 @@ export const STYLES: Record<string, Style> = {
     imagePrompt:
       "flat editorial vector illustration, navy #1B2A41 and brass #B58A3C on warm ivory paper #F2ECDF, thin dark outlines, no text, no letters, no logos, centered subject, minimal legal infographic style",
     mascot: { body: "#B58A3C", belly: "#F0DDB3", outline: "#1B2A41" },
+  },
+  // Law & Trust, modern: near-black page, LT gold as the single accent, glass cards, soft glow
+  "lawtrust-dark": {
+    name: "lawtrust-dark",
+    font: sans,
+    fontSerif: serif,
+    fontMono: mono,
+    bg: "#0B0F17",
+    bg2: "#141B27",
+    ink: "#F2F4F8",
+    muted: "#8A93A6",
+    accent: "#C9A45C",
+    accent2: "#7E93B3",
+    danger: "#E0645A",
+    radius: 22,
+    grain: true,
+    grid: false,
+    cast: ["#C9A45C", "#7E93B3", "#D9DDE4"],
+    imagePrompt:
+      "modern premium 3D-lit editorial illustration, near-black background #0B0F17, warm gold #C9A45C highlights and soft rim light, subtle glass and metal materials, no text, no letters, no logos, centered subject, generous empty space",
+    mascot: { body: "#C9A45C", belly: "#F0DDB3", outline: "#0B0F17" },
+    dark: true,
+    band: "#0F1520",
+    onBand: "#F2F4F8",
+    skin: "#EDE6DA",
+    outline: "#0B0F17",
   },
 };
 

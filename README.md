@@ -28,6 +28,8 @@ Built to be driven by Claude Code: the skill in `.claude/skills/kettek-explainer
 - **explainer** (default): bold kinetic text, icons, charts, mascot. Sample: `qr-kod`.
 - **dossier**: editorial case-file look for legal explainers — brand header, chapter progress dots, serif headline with an italic accent word, legal source line, flat character illustrations that appear on spoken words, boxed captions. Sample: `kiraci-tahliye` (Law Trust, placeholder palette `lawtrust`).
 
+**Modern scene types** (`lawtrust-dark` look): `sketch` (line art that draws itself), `object3d` (lit 3D scales, gavel, house, document, courthouse, key), `particles` (gold burst / gather / embers), `physics` (cards that drop and pile up, Matter.js) and scene transitions (`slide`, `wipe`, `zoom`, `flip`, `blur`, `light`). Sample: `kiraci-tahliye-modern`. Idea from [kalem](https://github.com/leodavincs/kalem) (MIT): pick the engine by what the scene shows.
+
 **HyperFrames scenes** (either format): richer HTML/GSAP animations — case folder with a stamp, law article with a highlighted phrase, step timeline — rendered by [HyperFrames](https://github.com/heygen-com/hyperframes) as transparent clips at each scene's exact length and synced to spoken words. Sample: `hf-demo`. Library and how to make new ones: `hyperframes/README.md`.
 
 ```bash

@@ -6,6 +6,12 @@ import { DOSSIER_SIDE, DOSSIER_STAGE } from "../layout";
 import type { Timeline, TimelineScene, Word } from "../schema";
 import { trUpper, type Style } from "../styles";
 import { chunk } from "./Captions";
+import { DarkPage, Glass } from "../fx/DarkPage";
+import { alpha } from "../fx/random";
+
+// Masthead colors; dark styles set their own, light ones invert ink/bg
+const bandBg = (s: Style) => s.band ?? s.ink;
+const onBand = (s: Style) => s.onBand ?? s.bg;
 
 // Vertical layout (1080x1920). The stage area is where scene visuals render.
 export const DOSSIER = {
@@ -36,7 +42,7 @@ const groupBy = (scenes: TimelineScene[], keyOf: (s: TimelineScene) => string): 
 
 const pad2 = (n: number) => String(n).padStart(2, "0");
 
-const Paper: React.FC<{ style: Style }> = ({ style }) => (
+const Paper: React.FC<{ style: Style }> = ({ style }) => style.dark ? <DarkPage style={style} /> : (
   <AbsoluteFill style={{ backgroundColor: style.bg }}>
     {/* soft dot texture instead of a grid */}
     <AbsoluteFill
@@ -53,14 +59,39 @@ const Paper: React.FC<{ style: Style }> = ({ style }) => (
 
 // Navy masthead block with a brass edge and the brand mark, faint, on the right
 const Band: React.FC<{ style: Style; watermark?: string }> = ({ style, watermark }) => (
-  <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: DOSSIER.bandBottom, background: style.ink, overflow: "hidden" }}>
+  <div
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      height: DOSSIER.bandBottom,
+      // dark: a translucent masthead over the glowing page, so the page reads as one surface
+      background: style.dark ? `linear-gradient(180deg, ${alpha(bandBg(style), 0.95)} 0%, ${alpha(bandBg(style), 0.55)} 100%)` : bandBg(style),
+      overflow: "hidden",
+    }}
+  >
     {watermark && (
       <Img
         src={staticFile(`brand/${watermark}`)}
         style={{ position: "absolute", right: -70, top: 150, height: 420, width: "auto", opacity: 0.06 }}
       />
     )}
-    <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 8, background: style.accent }} />
+    {style.dark ? (
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          bottom: 0,
+          height: 2,
+          background: `linear-gradient(90deg, transparent 0%, ${style.accent} 30%, ${style.accent} 70%, transparent 100%)`,
+          boxShadow: `0 0 24px ${alpha(style.accent, 0.7)}`,
+        }}
+      />
+    ) : (
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 8, background: style.accent }} />
+    )}
   </div>
 );
 
@@ -101,14 +132,14 @@ const Header: React.FC<{ tl: Timeline; style: Style }> = ({ tl, style }) => {
           >
             <span style={{ transform: "rotate(-45deg)" }}>§</span>
           </div>
-          <div style={{ fontFamily: style.fontSerif, fontWeight: 700, fontSize: 36, letterSpacing: 1, color: style.bg }}>
+          <div style={{ fontFamily: style.fontSerif, fontWeight: 700, fontSize: 36, letterSpacing: 1, color: onBand(style) }}>
             {brand?.name ?? tl.title}
           </div>
         </div>
       )}
       {brand?.series && (
         <div style={{ display: "flex", alignItems: "baseline", gap: 12 }}>
-          <span style={{ fontFamily: style.fontMono, fontSize: 22, letterSpacing: 4, color: style.bg, opacity: 0.6 }}>{trUpper(brand.series)}</span>
+          <span style={{ fontFamily: style.fontMono, fontSize: 22, letterSpacing: 4, color: onBand(style), opacity: 0.6 }}>{trUpper(brand.series)}</span>
           <span style={{ fontFamily: style.fontSerif, fontWeight: 700, fontSize: 46, color: style.accent }}>
             {String(tl.episode ?? 1).padStart(3, "0")}
           </span>
@@ -128,8 +159,8 @@ const Progress: React.FC<{ chapters: Group[]; style: Style }> = ({ chapters, sty
   return (
     <div style={{ position: "absolute", top: DOSSIER.progressY - 3, left: DOSSIER.side, right: DOSSIER.side, height: 6, display: "flex", gap: 10 }}>
       {chapters.map((_, i) => (
-        <div key={i} style={{ flex: 1, height: 6, borderRadius: 3, background: `${style.bg}33`, overflow: "hidden" }}>
-          <div style={{ height: "100%", width: `${(i < cur ? 1 : i === cur ? p : 0) * 100}%`, background: i === cur ? style.accent : style.bg }} />
+        <div key={i} style={{ flex: 1, height: 6, borderRadius: 3, background: `${onBand(style)}33`, overflow: "hidden" }}>
+          <div style={{ height: "100%", width: `${(i < cur ? 1 : i === cur ? p : 0) * 100}%`, background: i === cur ? style.accent : onBand(style) }} />
         </div>
       ))}
     </div>
@@ -176,7 +207,7 @@ const Headline: React.FC<{ text: string; style: Style }> = ({ text, style }) => 
         fontSize: size,
         lineHeight: 1.08,
         letterSpacing: -1.5,
-        color: style.bg,
+        color: onBand(style),
       }}
     >
       {words.map((w, i) => {
@@ -231,14 +262,18 @@ const Kicker: React.FC<{ text: string; index: number; style: Style }> = ({ text,
       }}
     >
       <span style={{ color: style.accent }}>§ {pad2(index + 1)}</span>
-      <span style={{ color: style.bg, opacity: 0.45 }}> — </span>
-      <span style={{ color: style.bg, opacity: 0.85 }}>{trUpper(text)}</span>
+      <span style={{ color: onBand(style), opacity: 0.45 }}> — </span>
+      <span style={{ color: onBand(style), opacity: 0.85 }}>{trUpper(text)}</span>
     </div>
   );
 };
 
 // Corner marks framing the stage
 const Frame: React.FC<{ style: Style }> = ({ style }) => {
+  if (style.dark) {
+    const pad = 26;
+    return <Glass x={DOSSIER.side - pad} y={DOSSIER.stage.top + 6} w={1080 - (DOSSIER.side - pad) * 2} h={DOSSIER.stage.height - 12} style={style} />;
+  }
   const x0 = DOSSIER.side - 26;
   const x1 = 1080 - DOSSIER.side + 26;
   const y0 = DOSSIER.stage.top + 6;
@@ -308,6 +343,22 @@ const CaptionBar: React.FC<{ words: Word[]; style: Style; fps: number }> = ({ wo
           const said = t >= w.start;
           const now = said && t < w.end + 0.05;
           const mark = now ? interpolate(t, [w.start, w.start + 0.12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
+          if (style.dark)
+            return (
+              <span
+                key={i}
+                style={{
+                  color: now ? style.bg : style.ink,
+                  opacity: said ? 1 : 0.32,
+                  padding: "0 12px",
+                  borderRadius: 12,
+                  background: now ? alpha(style.accent, mark) : "transparent",
+                  boxShadow: now ? `0 0 ${28 * mark}px ${alpha(style.accent, 0.45 * mark)}` : "none",
+                }}
+              >
+                {w.text}
+              </span>
+            );
           return (
             <span
               key={i}

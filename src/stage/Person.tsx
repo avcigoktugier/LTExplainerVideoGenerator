@@ -33,8 +33,8 @@ export const Person: React.FC<{
   frame: number;
   seed?: number;
 }> = ({ style, color, pose = "stand", mood = "neutral", look, sign, hair = "short", outfit = "plain", accessories = [], hairColor, frame, seed = 0 }) => {
-  const ink = style.ink;
-  const face = style.bg2;
+  const ink = style.outline ?? style.ink;
+  const face = style.skin ?? style.bg2;
   const dark = shade(color);
   const sw = 5;
 

@@ -4,7 +4,7 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { FPS, HEIGHT, WIDTH, type Timeline, type TimelineScene, type VoiceResult } from "../src/schema";
 import { cueFrame } from "../src/cues";
-import { beats, DEFAULT_SFX, hyperframeCues, STAGE_SFX } from "../src/timing";
+import { beats, DEFAULT_SFX, hyperframeCues, OBJECT3D_SFX, STAGE_SFX } from "../src/timing";
 import { findHyperframeAsset, planHyperframe } from "./hf";
 import { loadStoryboard, projectDir, PUBLIC, readJson, sayHash, slugArg, writeJson } from "./lib";
 
@@ -90,6 +90,23 @@ scenes.forEach((s, i) => {
     });
   } else if (s.visual.type === "hyperframe") {
     for (const c of Object.values(hyperframeCues(s.visual, ctx))) if (c.sfx) addSfx(c.sfx, s.from + c.frame, c.sfx === "thud" ? 0.4 : 0.25);
+  } else if (s.visual.type === "sketch") {
+    // quiet pen strokes for the drawn shapes; text writes on silently
+    s.visual.strokes.forEach((st, k) => {
+      if (st.cue && cueFrame(ctx, st.cue) === null) console.log(`  ! scene ${s.id}: cue "${st.cue}" not found in its narration`);
+      if (st.kind !== "text" && b[k] > 2) addSfx("swoosh", s.from + b[k], 0.14);
+    });
+  } else if (s.visual.type === "object3d") {
+    if (s.visual.cue && cueFrame(ctx, s.visual.cue) === null) console.log(`  ! scene ${s.id}: cue "${s.visual.cue}" not found in its narration`);
+    addSfx(OBJECT3D_SFX[s.visual.model], s.from + b[0], s.visual.model === "gavel" ? 0.45 : 0.3);
+  } else if (s.visual.type === "particles") {
+    if (s.visual.effect !== "rise") {
+      addSfx("riser", Math.max(s.from, s.from + b[0] - 24), 0.18);
+      addSfx("ding", s.from + b[0], 0.28);
+    }
+  } else if (s.visual.type === "physics") {
+    // b = the frame each card first hits something, straight from the simulation
+    for (const x of b) addSfx("thud", s.from + x, 0.3);
   } else if (defaults.beat) {
     for (const x of b.slice(1)) addSfx(defaults.beat, s.from + x, 0.25);
   }
@@ -103,6 +120,7 @@ const timeline: Timeline = {
   brand: sb.brand,
   episode: sb.episode,
   handle: sb.handle,
+  transition: sb.transition,
   fps: FPS,
   width: WIDTH,
   height: HEIGHT,

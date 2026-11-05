@@ -1,0 +1,1023 @@
+{
+  "slug": "kiraci-tahliye-modern",
+  "title": "Ev sahibi 'oğlum evlenecek' derse çıkmak zorunda mısın?",
+  "style": "lawtrust-dark",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "episode": 1,
+  "transition": "slide",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1723,
+  "clips": [
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-hook.wav",
+      "from": 0
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-ilk-tepki.wav",
+      "from": 174
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-kural.wav",
+      "from": 385
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-ispat.wav",
+      "from": 608
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-sonuc.wav",
+      "from": 855
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-kor-nokta.wav",
+      "from": 1087
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-tazminat.wav",
+      "from": 1380
+    },
+    {
+      "src": "projects/kiraci-tahliye-modern/voice-soz-sende.wav",
+      "from": 1560
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 71,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 171,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 250,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 268,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 349,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 363,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 382,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 429,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 448,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 459,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 495,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 532,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 605,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 691,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 750,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 804,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 821,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 852,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1006,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1084,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/riser.mp3",
+      "from": 1267,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1291,
+      "volume": 0.28
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1377,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1415,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 1521,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1426,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 1557,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1615,
+      "volume": 0.3
+    }
+  ],
+  "words": [
+    {
+      "text": "Ev",
+      "start": 0.05,
+      "end": 0.27529147727272724
+    },
+    {
+      "text": "sahibi,",
+      "start": 0.3003238636363636,
+      "end": 0.8072296875
+    },
+    {
+      "text": "oğlum",
+      "start": 0.8635525568181817,
+      "end": 1.2578126420454543
+    },
+    {
+      "text": "evlenecek,",
+      "start": 1.3016193181818179,
+      "end": 1.9774937499999994
+    },
+    {
+      "text": "evi",
+      "start": 2.0525909090909087,
+      "end": 2.334205255681818
+    },
+    {
+      "text": "boşalt",
+      "start": 2.3654957386363633,
+      "end": 2.816078693181818
+    },
+    {
+      "text": "dedi.",
+      "start": 2.8661434659090905,
+      "end": 3.2604035511363634
+    },
+    {
+      "text": "Peki",
+      "start": 3.3042102272727267,
+      "end": 3.6421474431818175
+    },
+    {
+      "text": "kiracı",
+      "start": 3.679696022727272,
+      "end": 4.130278977272726
+    },
+    {
+      "text": "çıkmak",
+      "start": 4.180343749999999,
+      "end": 4.630926704545454
+    },
+    {
+      "text": "zorunda",
+      "start": 4.680991477272726,
+      "end": 5.1878973011363625
+    },
+    {
+      "text": "mı?",
+      "start": 5.244220170454544,
+      "end": 5.525834517045453
+    },
+    {
+      "text": "Çoğu",
+      "start": 5.857125,
+      "end": 6.193196875
+    },
+    {
+      "text": "kiracı",
+      "start": 6.230538194444445,
+      "end": 6.678634027777778
+    },
+    {
+      "text": "bu",
+      "start": 6.728422453703704,
+      "end": 6.952470370370371
+    },
+    {
+      "text": "sözü",
+      "start": 6.977364583333333,
+      "end": 7.313436458333333
+    },
+    {
+      "text": "duyunca",
+      "start": 7.350777777777778,
+      "end": 7.854885590277778
+    },
+    {
+      "text": "hemen",
+      "start": 7.910897569444445,
+      "end": 8.302981423611111
+    },
+    {
+      "text": "taşınması",
+      "start": 8.346546296296296,
+      "end": 8.962678067129628
+    },
+    {
+      "text": "gerektiğini",
+      "start": 9.031137152777777,
+      "end": 9.759292881944443
+    },
+    {
+      "text": "düşünür.",
+      "start": 9.840199074074073,
+      "end": 10.40031886574074
+    },
+    {
+      "text": "Ama",
+      "start": 10.462554398148146,
+      "end": 10.742614293981479
+    },
+    {
+      "text": "iş",
+      "start": 10.773732060185184,
+      "end": 10.99777997685185
+    },
+    {
+      "text": "o",
+      "start": 11.022674189814813,
+      "end": 11.190710127314812
+    },
+    {
+      "text": "kadar",
+      "start": 11.209380787037036,
+      "end": 11.601464641203702
+    },
+    {
+      "text": "basit",
+      "start": 11.645029513888888,
+      "end": 12.037113368055554
+    },
+    {
+      "text": "değil.",
+      "start": 12.08067824074074,
+      "end": 12.528774074074073
+    },
+    {
+      "text": "Kanun,",
+      "start": 12.878562500000001,
+      "end": 13.326214673913045
+    },
+    {
+      "text": "ev",
+      "start": 13.375953804347827,
+      "end": 13.599779891304348
+    },
+    {
+      "text": "sahibinin",
+      "start": 13.62464945652174,
+      "end": 14.240171195652174
+    },
+    {
+      "text": "kendisi,",
+      "start": 14.3085625,
+      "end": 14.868127717391305
+    },
+    {
+      "text": "eşi,",
+      "start": 14.930301630434784,
+      "end": 15.266040760869567
+    },
+    {
+      "text": "çocukları",
+      "start": 15.303345108695654,
+      "end": 15.918866847826088
+    },
+    {
+      "text": "ya",
+      "start": 15.987258152173915,
+      "end": 16.211084239130436
+    },
+    {
+      "text": "da",
+      "start": 16.23595380434783,
+      "end": 16.45977989130435
+    },
+    {
+      "text": "anne",
+      "start": 16.484649456521744,
+      "end": 16.820388586956526
+    },
+    {
+      "text": "babası",
+      "start": 16.857692934782612,
+      "end": 17.305345108695654
+    },
+    {
+      "text": "için",
+      "start": 17.355084239130438,
+      "end": 17.69082336956522
+    },
+    {
+      "text": "gerçek",
+      "start": 17.728127717391306,
+      "end": 18.175779891304348
+    },
+    {
+      "text": "bir",
+      "start": 18.22551902173913,
+      "end": 18.505301630434783
+    },
+    {
+      "text": "konut",
+      "start": 18.536388586956523,
+      "end": 18.928084239130435
+    },
+    {
+      "text": "ihtiyacı",
+      "start": 18.97160597826087,
+      "end": 19.531171195652178
+    },
+    {
+      "text": "arar.",
+      "start": 19.593345108695654,
+      "end": 19.985040760869566
+    },
+    {
+      "text": "Kiracı",
+      "start": 20.3285625,
+      "end": 20.78934435483871
+    },
+    {
+      "text": "kendi",
+      "start": 20.840542338709678,
+      "end": 21.243726461693548
+    },
+    {
+      "text": "isteğiyle",
+      "start": 21.288524697580645,
+      "end": 21.92209974798387
+    },
+    {
+      "text": "çıkmazsa,",
+      "start": 21.99249697580645,
+      "end": 22.626072026209677
+    },
+    {
+      "text": "ev",
+      "start": 22.696469254032255,
+      "end": 22.92686018145161
+    },
+    {
+      "text": "sahibi",
+      "start": 22.952459173387094,
+      "end": 23.413241028225805
+    },
+    {
+      "text": "tahliye",
+      "start": 23.464439012096772,
+      "end": 23.98281859879032
+    },
+    {
+      "text": "davası",
+      "start": 24.040416330645158,
+      "end": 24.50119818548387
+    },
+    {
+      "text": "açar",
+      "start": 24.552396169354836,
+      "end": 24.897982560483868
+    },
+    {
+      "text": "ve",
+      "start": 24.936381048387094,
+      "end": 25.166771975806448
+    },
+    {
+      "text": "ihtiyacını",
+      "start": 25.192370967741933,
+      "end": 25.883543749999998
+    },
+    {
+      "text": "mahkemede",
+      "start": 25.96034072580645,
+      "end": 26.593915776209677
+    },
+    {
+      "text": "ispatlamak",
+      "start": 26.664313004032255,
+      "end": 27.35548578629032
+    },
+    {
+      "text": "zorundadır.",
+      "start": 27.432282762096772,
+      "end": 28.181053276209674
+    },
+    {
+      "text": "Yani",
+      "start": 28.56425,
+      "end": 28.907435576923078
+    },
+    {
+      "text": "kiracı",
+      "start": 28.945567307692308,
+      "end": 29.403148076923078
+    },
+    {
+      "text": "hemen",
+      "start": 29.453990384615384,
+      "end": 29.854373557692305
+    },
+    {
+      "text": "çıkmak",
+      "start": 29.898860576923077,
+      "end": 30.356441346153847
+    },
+    {
+      "text": "zorunda",
+      "start": 30.407283653846154,
+      "end": 30.92206201923077
+    },
+    {
+      "text": "değil.",
+      "start": 30.979259615384617,
+      "end": 31.436840384615387
+    },
+    {
+      "text": "İhtiyaç",
+      "start": 31.487682692307693,
+      "end": 32.00246105769231
+    },
+    {
+      "text": "gerçekse",
+      "start": 32.05965865384616,
+      "end": 32.63163461538462
+    },
+    {
+      "text": "ve",
+      "start": 32.6951875,
+      "end": 32.92397788461539
+    },
+    {
+      "text": "mahkeme",
+      "start": 32.94939903846154,
+      "end": 33.46417740384616
+    },
+    {
+      "text": "karar",
+      "start": 33.521375000000006,
+      "end": 33.92175817307693
+    },
+    {
+      "text": "verirse",
+      "start": 33.966245192307696,
+      "end": 34.48102355769231
+    },
+    {
+      "text": "tahliye",
+      "start": 34.53822115384616,
+      "end": 35.052999519230774
+    },
+    {
+      "text": "gerçekleşir.",
+      "start": 35.11019711538462,
+      "end": 35.910963461538465
+    },
+    {
+      "text": "Asıl",
+      "start": 36.2999375,
+      "end": 36.63962225
+    },
+    {
+      "text": "şaşırtan",
+      "start": 36.677365,
+      "end": 37.24350625
+    },
+    {
+      "text": "kısım:",
+      "start": 37.30641083333334,
+      "end": 37.75932383333334
+    },
+    {
+      "text": "ihtiyaç",
+      "start": 37.809647500000004,
+      "end": 38.319174625
+    },
+    {
+      "text": "diyerek",
+      "start": 38.375788750000005,
+      "end": 38.885315875
+    },
+    {
+      "text": "kiracıyı",
+      "start": 38.941930000000006,
+      "end": 39.50807125000001
+    },
+    {
+      "text": "çıkaran",
+      "start": 39.57097583333334,
+      "end": 40.08050295833334
+    },
+    {
+      "text": "ev",
+      "start": 40.137117083333344,
+      "end": 40.36357358333334
+    },
+    {
+      "text": "sahibi,",
+      "start": 40.38873541666668,
+      "end": 40.898262541666675
+    },
+    {
+      "text": "haklı",
+      "start": 40.95487666666668,
+      "end": 41.35117554166668
+    },
+    {
+      "text": "bir",
+      "start": 41.39520875000001,
+      "end": 41.67827937500001
+    },
+    {
+      "text": "sebep",
+      "start": 41.70973166666668,
+      "end": 42.10603054166668
+    },
+    {
+      "text": "olmadan",
+      "start": 42.15006375000001,
+      "end": 42.659590875000006
+    },
+    {
+      "text": "evi",
+      "start": 42.71620500000001,
+      "end": 42.99927562500001
+    },
+    {
+      "text": "üç",
+      "start": 43.03072791666668,
+      "end": 43.257184416666675
+    },
+    {
+      "text": "yıl",
+      "start": 43.28234625000001,
+      "end": 43.56541687500001
+    },
+    {
+      "text": "boyunca",
+      "start": 43.59686916666668,
+      "end": 44.10639629166668
+    },
+    {
+      "text": "başkasına",
+      "start": 44.16301041666668,
+      "end": 44.78576579166668
+    },
+    {
+      "text": "kiralayamaz.",
+      "start": 44.854960833333344,
+      "end": 45.64755858333334
+    },
+    {
+      "text": "Kurala",
+      "start": 46.035624999999996,
+      "end": 46.48831016483516
+    },
+    {
+      "text": "uymazsa,",
+      "start": 46.538608516483514,
+      "end": 47.10446497252747
+    },
+    {
+      "text": "eski",
+      "start": 47.16733791208791,
+      "end": 47.50685178571428
+    },
+    {
+      "text": "kiracısına",
+      "start": 47.54457554945055,
+      "end": 48.223603296703295
+    },
+    {
+      "text": "en",
+      "start": 48.29905082417582,
+      "end": 48.5253934065934
+    },
+    {
+      "text": "az",
+      "start": 48.55054258241758,
+      "end": 48.77688516483516
+    },
+    {
+      "text": "bir",
+      "start": 48.80203434065933,
+      "end": 49.08496256868131
+    },
+    {
+      "text": "yıllık",
+      "start": 49.11639903846153,
+      "end": 49.5690842032967
+    },
+    {
+      "text": "kira",
+      "start": 49.61938255494505,
+      "end": 49.95889642857142
+    },
+    {
+      "text": "tutarında",
+      "start": 49.99662019230769,
+      "end": 50.61906229395604
+    },
+    {
+      "text": "tazminat",
+      "start": 50.688222527472526,
+      "end": 51.25407898351648
+    },
+    {
+      "text": "öder.",
+      "start": 51.31695192307692,
+      "end": 51.71305144230769
+    },
+    {
+      "text": "Sence",
+      "start": 52.057062499999994,
+      "end": 52.45627437499999
+    },
+    {
+      "text": "bu",
+      "start": 52.50063124999999,
+      "end": 52.728752321428566
+    },
+    {
+      "text": "kural",
+      "start": 52.75409910714285,
+      "end": 53.15331098214285
+    },
+    {
+      "text": "kiracıyı",
+      "start": 53.19766785714285,
+      "end": 53.76797053571428
+    },
+    {
+      "text": "yeterince",
+      "start": 53.83133749999999,
+      "end": 54.45867044642856
+    },
+    {
+      "text": "koruyor",
+      "start": 54.528374107142845,
+      "end": 55.04164651785713
+    },
+    {
+      "text": "mu?",
+      "start": 55.098676785714275,
+      "end": 55.38382812499999
+    },
+    {
+      "text": "Yorumlara",
+      "start": 55.41551160714285,
+      "end": 56.04284455357142
+    },
+    {
+      "text": "yaz.",
+      "start": 56.1125482142857,
+      "end": 56.45472982142856
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "Ev sahibi, oğlum evlenecek, evi boşalt dedi. Peki kiracı çıkmak zorunda mı?",
+      "visual": {
+        "type": "object3d",
+        "model": "house",
+        "label": "Oğlum evlenecek",
+        "orbit": 60,
+        "cue": "boşalt"
+      },
+      "chapter": "Kira hukuku · İhtiyaç nedeniyle tahliye",
+      "headline": "Oğlum evlenecek, *çık* dedi.",
+      "source": "TBK m.350 · m.355",
+      "from": 0,
+      "durationInFrames": 174
+    },
+    {
+      "id": "ilk-tepki",
+      "say": "Çoğu kiracı bu sözü duyunca hemen taşınması gerektiğini düşünür. Ama iş o kadar basit değil.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Truck",
+            "x": 300,
+            "y": 300,
+            "size": 240,
+            "cue": "taşınması"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              470,
+              330
+            ],
+            "to": [
+              660,
+              240
+            ],
+            "bend": -0.35
+          },
+          {
+            "kind": "text",
+            "x": 710,
+            "y": 170,
+            "text": "Hemen taşın?",
+            "size": 58,
+            "font": "serif"
+          },
+          {
+            "kind": "circle",
+            "x": 300,
+            "y": 300,
+            "r": 170,
+            "color": "danger",
+            "cue": "basit"
+          },
+          {
+            "kind": "path",
+            "d": "M190 190 L410 410 M410 190 L190 410",
+            "color": "danger",
+            "width": 8,
+            "dur": 0.4
+          }
+        ]
+      },
+      "transition": "slide",
+      "chapter": "İlk tepki",
+      "headline": "Cevap: *hemen çık?*",
+      "from": 174,
+      "durationInFrames": 211
+    },
+    {
+      "id": "kural",
+      "say": "Kanun, ev sahibinin kendisi, eşi, çocukları ya da anne babası için gerçek bir konut ihtiyacı arar.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 640
+          },
+          {
+            "kind": "person",
+            "x": 150,
+            "y": 640,
+            "color": "cast1",
+            "scale": 0.82,
+            "cue": "kendisi"
+          },
+          {
+            "kind": "person",
+            "x": 360,
+            "y": 640,
+            "color": "cast3",
+            "scale": 0.82,
+            "cue": "eşi"
+          },
+          {
+            "kind": "person",
+            "x": 570,
+            "y": 640,
+            "color": "cast2",
+            "mood": "happy",
+            "scale": 0.62,
+            "cue": "çocukları"
+          },
+          {
+            "kind": "person",
+            "x": 790,
+            "y": 640,
+            "color": "muted",
+            "scale": 0.82,
+            "cue": "anne"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 150,
+            "text": "Gerçek ihtiyaç",
+            "rotate": -6,
+            "cue": "gerçek"
+          }
+        ]
+      },
+      "transition": "wipe",
+      "chapter": "Kural",
+      "headline": "İhtiyaç *gerçek* olmalı.",
+      "source": "TBK m.350",
+      "from": 385,
+      "durationInFrames": 223
+    },
+    {
+      "id": "ispat",
+      "say": "Kiracı kendi isteğiyle çıkmazsa, ev sahibi tahliye davası açar ve ihtiyacını mahkemede ispatlamak zorundadır.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "Kiracı çıkmaz",
+            "icon": "DoorClosed",
+            "cue": "çıkmazsa"
+          },
+          {
+            "label": "Tahliye davası",
+            "icon": "FileText",
+            "cue": "davası"
+          },
+          {
+            "label": "Mahkeme",
+            "icon": "Landmark",
+            "cue": "mahkemede"
+          },
+          {
+            "label": "İhtiyaç ispatı",
+            "icon": "BadgeCheck",
+            "cue": "ispatlamak"
+          }
+        ]
+      },
+      "transition": "zoom",
+      "chapter": "İspat",
+      "headline": "Söz yetmez, *dava* gerekir.",
+      "source": "TBK m.350 · Tahliye davası",
+      "from": 608,
+      "durationInFrames": 247
+    },
+    {
+      "id": "sonuc",
+      "say": "Yani kiracı hemen çıkmak zorunda değil. İhtiyaç gerçekse ve mahkeme karar verirse tahliye gerçekleşir.",
+      "visual": {
+        "type": "object3d",
+        "model": "gavel",
+        "label": "Önce mahkeme kararı",
+        "orbit": 40,
+        "cue": "karar"
+      },
+      "transition": "light",
+      "chapter": "Sonuç",
+      "headline": "Önce *mahkeme*.",
+      "from": 855,
+      "durationInFrames": 232
+    },
+    {
+      "id": "kor-nokta",
+      "say": "Asıl şaşırtan kısım: ihtiyaç diyerek kiracıyı çıkaran ev sahibi, haklı bir sebep olmadan evi üç yıl boyunca başkasına kiralayamaz.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "3 yıl",
+        "sub": "başkasına kiralayamaz",
+        "cue": "üç"
+      },
+      "transition": "flip",
+      "chapter": "Kör nokta",
+      "headline": "Üç yıl *başkasına* veremez.",
+      "source": "TBK m.355/1",
+      "from": 1087,
+      "durationInFrames": 293
+    },
+    {
+      "id": "tazminat",
+      "say": "Kurala uymazsa, eski kiracısına en az bir yıllık kira tutarında tazminat öder.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 250,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "right",
+            "cue": "eski"
+          },
+          {
+            "kind": "card",
+            "x": 640,
+            "y": 250,
+            "w": 420,
+            "label": "Tazminat · en az",
+            "value": "1 yıllık kira",
+            "cue": "tazminat"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 650,
+            "name": "Banknote",
+            "size": 170,
+            "color": "accent",
+            "cue": "kira"
+          }
+        ]
+      },
+      "transition": "blur",
+      "chapter": "Kör nokta",
+      "headline": "Uymazsa *tazminat* öder.",
+      "source": "TBK m.355/3",
+      "from": 1380,
+      "durationInFrames": 180
+    },
+    {
+      "id": "soz-sende",
+      "say": "Sence bu kural kiracıyı yeterince koruyor mu? Yorumlara yaz.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "label": "Yeterli mi, yetersiz mi?",
+        "orbit": 70,
+        "tilt": 0.6,
+        "cue": "yeterince"
+      },
+      "transition": "light",
+      "chapter": "Söz sende",
+      "headline": "Sence *yeterli* mi?",
+      "from": 1560,
+      "durationInFrames": 163
+    }
+  ]
+}
