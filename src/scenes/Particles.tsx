@@ -51,7 +51,9 @@ export const ParticlesScene: React.FC<SceneProps<V>> = ({ v, style, scene, words
     const c = ref.current?.getContext("2d");
     if (!c) return;
     c.clearRect(0, 0, CANVAS.w, CANVAS.h);
-    c.globalCompositeOperation = "lighter";
+    const dark = !!style.dark;
+    // additive light on dark pages; on paper, solid gold and navy flecks (light on light would vanish)
+    c.globalCompositeOperation = dark ? "lighter" : "source-over";
     for (const p of parts) {
       let x: number;
       let y: number;
@@ -80,17 +82,24 @@ export const ParticlesScene: React.FC<SceneProps<V>> = ({ v, style, scene, words
         a = 0.35 + 0.35 * Math.sin(frame / 17 + p.phase);
       }
       if (a <= 0.01) continue;
-      const rad = p.size * 3.2;
-      const g = c.createRadialGradient(x, y, 0, x, y, rad);
-      g.addColorStop(0, alpha(p.white ? "#FFF6E0" : style.accent, Math.min(1, a)));
-      g.addColorStop(1, alpha(style.accent, 0));
-      c.fillStyle = g;
-      c.beginPath();
-      c.arc(x, y, rad, 0, Math.PI * 2);
-      c.fill();
+      if (dark) {
+        const rad = p.size * 3.2;
+        const g = c.createRadialGradient(x, y, 0, x, y, rad);
+        g.addColorStop(0, alpha(p.white ? "#FFF6E0" : style.accent, Math.min(1, a)));
+        g.addColorStop(1, alpha(style.accent, 0));
+        c.fillStyle = g;
+        c.beginPath();
+        c.arc(x, y, rad, 0, Math.PI * 2);
+        c.fill();
+      } else {
+        c.fillStyle = alpha(p.white ? style.ink : style.accent, Math.min(1, a) * 0.85);
+        c.beginPath();
+        c.arc(x, y, p.size * 1.3, 0, Math.PI * 2);
+        c.fill();
+      }
     }
     c.globalCompositeOperation = "source-over";
-  }, [frame, parts, effect, t0, cx, cy, style.accent]);
+  }, [frame, parts, effect, t0, cx, cy, style.accent, style.ink, style.dark]);
 
   // center content: lands with the burst, materialises with the gather, sits there for rise
   const show = effect === "rise" ? spring({ frame: frame - 2, fps: vfps, config: { damping: 16 } }) : spring({ frame: frame - (effect === "burst" ? t0 - 2 : t0 - 8), fps: vfps, config: { damping: 11, stiffness: 150 } });
@@ -125,14 +134,14 @@ export const ParticlesScene: React.FC<SceneProps<V>> = ({ v, style, scene, words
               lineHeight: 1,
               letterSpacing: -3,
               color: style.ink,
-              textShadow: `0 0 40px ${alpha(style.accent, 0.55)}`,
+              textShadow: style.dark ? `0 0 40px ${alpha(style.accent, 0.55)}` : `0 6px 30px ${alpha(style.bg, 0.9)}`,
               whiteSpace: "nowrap",
             }}
           >
             {v.text.toLocaleUpperCase("tr-TR")}
           </div>
         )}
-        {v.sub && <div style={{ fontFamily: style.fontMono, fontSize: 30, letterSpacing: 5, color: style.accent, textShadow: `0 0 12px ${style.bg}, 0 0 24px ${style.bg}` }}>{v.sub.toLocaleUpperCase("tr-TR")}</div>}
+        {v.sub && <div style={{ fontFamily: style.fontMono, fontSize: 30, letterSpacing: 5, color: style.dark ? style.accent : style.ink, textShadow: `0 0 12px ${style.bg}, 0 0 24px ${style.bg}` }}>{v.sub.toLocaleUpperCase("tr-TR")}</div>}
       </div>
     </div>
   );

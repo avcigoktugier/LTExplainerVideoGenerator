@@ -13,7 +13,7 @@ Work through these steps in order. Do not skip the review step.
 ## 1. Brief (ask only if missing)
 - Topic and the single question the video answers.
 - Target length: default 35–50 s.
-- Style: `kettek-dark` (default) or `paper`. Law & Trust videos: `lawtrust-dark` (modern: near-black, LT gold, glass cards, gold dust — the house look from now on) or `lawtrust` (ivory paper, the older look).
+- Style: `kettek-dark` (default) or `paper`. Law & Trust videos: `lawtrust` (ivory paper, navy + gold — the house look, use it unless asked otherwise) or `lawtrust-dark` (near-black, glass cards, gold dust; renders ~3x slower).
 If the user gave a clear topic, don't ask — decide and say what you decided.
 
 ## 2. Research and verify
@@ -91,7 +91,7 @@ Before writing the storyboard, list what each scene must SHOW (who, what object,
 Review every new piece in the stills; fix proportions/overlaps before moving on. Never leave a red "art yok" box in a video — `npm run timeline` warns about missing art.
 
 ## 4b++. Modern scene types — pick the engine by what the scene shows
-Each moment gets the engine that draws it best (idea from the "kalem" skill, in the modern LT look). All four draw on the same 940×720 canvas as `stage`, and their beats land on `cue` words of the scene's `say` (or `at` seconds).
+Each moment gets the engine that draws it best (idea from the "kalem" skill). They work in every style, light or dark. All four draw on the same 940×720 canvas as `stage`, and their beats land on `cue` words of the scene's `say` (or `at` seconds).
 
 | The scene shows… | Type |
 |---|---|
