@@ -1,12 +1,12 @@
 #!/bin/bash
 # One-time Mac setup. Run in Terminal from the project folder:
 #   bash mac/setup-mac.sh
-# Installs project dependencies and Claude Code, then puts "KetTek Video" on the Desktop:
-# double-click → preview starts, browser tabs open, Claude is ready.
+# Installs project dependencies and Claude Code, asks for the keys (.env), then puts "LT Video" on the Desktop:
+# double-click → preview starts, browser tabs open, Claude is ready. Videos render on GitHub (npm run bulut).
 # Safe to run again (e.g. after moving the folder — the app remembers the folder's path).
 set -euo pipefail
 DIR="$(cd "$(dirname "$0")/.." && pwd)"
-APP_NAME="KetTek Video"
+APP_NAME="LT Video"
 APP="$HOME/Desktop/$APP_NAME.app"
 
 say() { printf '\n\033[1;34m==> %s\033[0m\n' "$*"; }
@@ -16,7 +16,7 @@ warn() { printf '\033[1;33m!  %s\033[0m\n' "$*"; }
 cd "$DIR"
 [ -f package.json ] || { echo "package.json not found in $DIR"; exit 1; }
 case "$DIR" in
-  "$HOME/Desktop"*|"$HOME/Documents"*) warn "The project is in Desktop/Documents. If iCloud syncs those folders, move it to $HOME/KetTekVideo first." ;;
+  "$HOME/Desktop"*|"$HOME/Documents"*) warn "The project is in Desktop/Documents. If iCloud syncs those folders, move it to $HOME/LTVideo first." ;;
 esac
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 
@@ -36,8 +36,28 @@ say "Installing project dependencies (a few minutes the first time)"
 npm ci --no-audit --no-fund
 npx remotion browser ensure
 
-[ -f .env ] || { cp .env.example .env; warn "Created .env from the template — add the ElevenLabs key: open -e .env"; }
+say "Anahtarlar (.env)"
+[ -f .env ] || cp .env.example .env
 chmod 600 .env
+# Ask only for what's still empty. Values are typed hidden and written by node, so any character is safe.
+ask() {
+  local key="$1" label="$2" cur
+  cur="$(KEY="$key" node -e 'const m=require("fs").readFileSync(".env","utf8").match(new RegExp("^"+process.env.KEY+"=(.*)$","m"));process.stdout.write(m?m[1].trim():"")')"
+  [ -n "$cur" ] && { echo "  $key: var"; return; }
+  local val=""
+  read -r -s -p "  $label (yapıştırın, ekranda görünmez; atlamak için Enter): " val; echo
+  [ -z "$val" ] && { warn "$key boş bırakıldı — sonra eklemek için: open -e $DIR/.env"; return; }
+  KEY="$key" VAL="$val" node -e '
+    const fs=require("fs"); const k=process.env.KEY, v=process.env.VAL.trim();
+    let s=fs.readFileSync(".env","utf8"); const re=new RegExp("^"+k+"=.*$","m");
+    s = re.test(s) ? s.replace(re, () => k+"="+v) : s.replace(/\n?$/, "\n"+k+"="+v+"\n");
+    fs.writeFileSync(".env", s, {mode: 0o600});'
+  echo "  $key: kaydedildi"
+}
+echo "Kurulumu yapan kişinin size gönderdiği anahtarları yapıştırın."
+ask ELEVENLABS_API_KEY "ElevenLabs anahtarı"
+ask ELEVENLABS_VOICE_ID "ElevenLabs ses kimliği (voice id)"
+ask GITHUB_TOKEN "GitHub anahtarı (github_pat_ ile başlar)"
 
 say "Claude Code"
 if ! command -v claude >/dev/null 2>&1; then

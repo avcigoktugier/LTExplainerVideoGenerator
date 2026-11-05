@@ -8,18 +8,18 @@ DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$DIR" || exit 1
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-printf '\033]0;KetTek Video\007'   # window title
+printf '\033]0;LT Video\007'   # window title
 clear
 
 up() { curl -s -o /dev/null -m 2 http://localhost:3000/; }
 pause_exit() { echo; read -r -p "Kapatmak için Enter'a basın..." _; exit 1; }
 
 if [ ! -d node_modules ]; then
-  echo "Kurulum tamamlanmamış (node_modules yok). Keti'ye haber verin: mac/setup-mac.sh çalıştırılmalı."
+  echo "Kurulum tamamlanmamış (node_modules yok). Kurulumu yapan kişiye haber verin: kurulum satırı tekrar çalıştırılmalı."
   pause_exit
 fi
 if ! command -v claude >/dev/null 2>&1; then
-  echo "Claude Code bulunamadı. Keti'ye haber verin: mac/setup-mac.sh çalıştırılmalı."
+  echo "Claude Code bulunamadı. Kurulumu yapan kişiye haber verin: kurulum satırı tekrar çalıştırılmalı."
   pause_exit
 fi
 
@@ -37,6 +37,9 @@ cleanup() {
 FINISHED=""
 trap cleanup EXIT
 trap 'exit 0' HUP INT TERM   # window closed / Ctrl+C → still clean up
+
+# pick up changes others made (new scenes, fixes) before starting; never block the session on it
+git pull -q --rebase --autostash origin master >/dev/null 2>&1 || true
 
 if up; then
   echo "Stüdyo zaten açık."
@@ -63,19 +66,20 @@ if up; then
   sleep 1
   osascript -e 'tell application "Terminal" to activate' >/dev/null 2>&1   # bring Claude back to the front
 else
-  echo "Önizleme açılamadı. Keti'ye şu dosyayı gönderin: $DIR/out/server.log"
+  echo "Önizleme açılamadı. Kurulumu yapan kişiye şu dosyayı gönderin: $DIR/out/server.log"
   pause_exit
 fi
 
 clear
 cat <<'EOF'
 
-  KetTek video stüdyosu
-  ─────────────────────
+  Law & Trust video stüdyosu
+  ─────────────────────────
   Önizleme : http://localhost:3000   (değişiklikten sonra sayfayı yenileyin)
-  Videolar : http://localhost:3001   (bitmiş videolar, İndir düğmesi)
 
-  Ne istediğinizi aşağıya Türkçe yazın. Bitince /exit yazın ya da bu pencereyi kapatın.
+  Ne istediğinizi aşağıya Türkçe yazın. Video hazır olunca "videoyu render al" deyin:
+  video internette (GitHub'da) hazırlanır, birkaç dakika sonra MASAÜSTÜNE iner.
+  Bitince /exit yazın ya da bu pencereyi kapatın.
 
 EOF
 claude

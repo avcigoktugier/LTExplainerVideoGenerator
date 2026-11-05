@@ -152,13 +152,14 @@ Read `out/review/<slug>/contact-sheet.png` (if present) and each `NN.png`. For e
 Fix the storyboard, then `npm run timeline -- <slug>` and `npm run review -- <slug> <scene-id>` for just the changed scenes (if a hyperframe scene changed, `npm run frames -- <slug>` before the review).
 Visual-only edits never need a new voice. Editing any `say` text means re-voicing (make does this automatically).
 
-## 7. Render
+## 7. Render — on GitHub
 ```bash
-npm run render -- <slug> --draft   # fast 540x960 check
-npm run render -- <slug>           # 1080x1920 final
-npm run render -- <slug> --4k      # 2160x3840
+npm run bulut -- <slug> --draft   # fast 540x960 check
+npm run bulut -- <slug>           # 1080x1920 final
+npm run bulut -- <slug> --4k      # 2160x3840
 ```
-Output goes to `out/`. Tell the user the file path and length.
+Renders on GitHub (3–8 min), then the MP4 is copied to the Desktop and `out/`. Tell the user the file name on the Desktop and the length.
+Local `npm run render -- <slug>` only when the user explicitly asks to render on this computer.
 
 ## 8. Hand-off
 Give the user, in Turkish: a post caption (2–3 lines, ends with a question to drive comments), 5–8 hashtags, and which second makes the best cover frame.
