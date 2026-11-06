@@ -6,6 +6,9 @@ Built to be driven by Claude Code: the skill in `.claude/skills/kettek-explainer
 
 ## Setup (Mac or Windows)
 
+For someone who just wants to make videos: a one-line installer with a Desktop app/shortcut —
+Mac: `mac/README.md`, Windows: `windows/README.md`. By hand, for development:
+
 1. Node.js 22+ and Claude Code installed.
 2. In this folder:
    ```bash

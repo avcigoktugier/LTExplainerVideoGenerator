@@ -26,6 +26,16 @@ const fail = (msg: string): never => {
 };
 const git = (args: string[], extra: string[] = []) => execFileSync("git", [...extra, ...args], { cwd: ROOT, encoding: "utf8" }).trim();
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+// on Windows OneDrive often moves the Desktop away from ~\Desktop: ask Windows where it really is
+const desktopDir = () => {
+  if (process.platform === "win32") {
+    const ps = join(process.env.SystemRoot ?? "C:\\Windows", "System32", "WindowsPowerShell", "v1.0", "powershell.exe");
+    const r = spawnSync(ps, ["-NoProfile", "-Command", "[Console]::OutputEncoding=[Text.Encoding]::UTF8; [Environment]::GetFolderPath('Desktop')"], { encoding: "utf8" });
+    const p = r.status === 0 ? r.stdout.trim() : "";
+    if (p && existsSync(p)) return p;
+  }
+  return join(homedir(), "Desktop");
+};
 type Run = { id: number; html_url: string; status: string; conclusion: string | null };
 
 // ---------- who / where ----------
@@ -135,7 +145,8 @@ async function main() {
   if (!existsSync(join(outDir, file))) fail(`İndirilen pakette ${file} yok.`);
 
   // ---------- 6. Desktop ----------
-  const desktop = join(homedir(), "Desktop");
+  const desktop = desktopDir();
+  mkdirSync(desktop, { recursive: true });
   let target = join(desktop, file);
   for (let n = 2; existsSync(target); n++) target = join(desktop, file.replace(/\.mp4$/, ` (${n}).mp4`));
   copyFileSync(join(outDir, file), target);
