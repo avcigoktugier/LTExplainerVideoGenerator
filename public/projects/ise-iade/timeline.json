@@ -1,0 +1,1276 @@
+{
+  "slug": "ise-iade",
+  "title": "Haksız yere işten çıkarıldın: hakların neler?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "episode": 3,
+  "transition": "slide",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2081,
+  "clips": [
+    {
+      "src": "projects/ise-iade/voice.mp3",
+      "from": 0
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 57,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 46,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 88,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 157,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 177,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 195,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 259,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 273,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 340,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 377,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 458,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 514,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 527,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 578,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 584,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 620,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 648,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 708,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 736,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 948,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 983,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1029,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1110,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/riser.mp3",
+      "from": 1265,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1289,
+      "volume": 0.28
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1388,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1428,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 1503,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1533,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1553,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1703,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1717,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1798,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1817,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 1951,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1992,
+      "volume": 0.45
+    }
+  ],
+  "words": [
+    {
+      "text": "İşveren",
+      "start": 0,
+      "end": 0.534
+    },
+    {
+      "text": "bir",
+      "start": 0.592,
+      "end": 0.697
+    },
+    {
+      "text": "sabah,",
+      "start": 0.72,
+      "end": 1.265
+    },
+    {
+      "text": "yarın",
+      "start": 1.544,
+      "end": 1.846
+    },
+    {
+      "text": "gelme",
+      "start": 1.916,
+      "end": 2.264
+    },
+    {
+      "text": "dedi.",
+      "start": 2.31,
+      "end": 2.624
+    },
+    {
+      "text": "Sebep",
+      "start": 2.949,
+      "end": 3.32
+    },
+    {
+      "text": "yok.",
+      "start": 3.39,
+      "end": 3.727
+    },
+    {
+      "text": "Bu",
+      "start": 4.11,
+      "end": 4.249
+    },
+    {
+      "text": "kadar",
+      "start": 4.284,
+      "end": 4.563
+    },
+    {
+      "text": "kolay",
+      "start": 4.621,
+      "end": 4.992
+    },
+    {
+      "text": "mı?",
+      "start": 5.039,
+      "end": 5.248
+    },
+    {
+      "text": "Çoğu",
+      "start": 5.422,
+      "end": 5.77
+    },
+    {
+      "text": "işçi,",
+      "start": 5.886,
+      "end": 6.467
+    },
+    {
+      "text": "yapacak",
+      "start": 6.711,
+      "end": 7.175
+    },
+    {
+      "text": "bir",
+      "start": 7.256,
+      "end": 7.326
+    },
+    {
+      "text": "şey",
+      "start": 7.361,
+      "end": 7.523
+    },
+    {
+      "text": "yok",
+      "start": 7.593,
+      "end": 7.779
+    },
+    {
+      "text": "sanır.",
+      "start": 7.848,
+      "end": 8.266
+    },
+    {
+      "text": "Oysa",
+      "start": 8.649,
+      "end": 9.044
+    },
+    {
+      "text": "kanun",
+      "start": 9.114,
+      "end": 9.497
+    },
+    {
+      "text": "işverene",
+      "start": 9.578,
+      "end": 10.077
+    },
+    {
+      "text": "bir",
+      "start": 10.136,
+      "end": 10.252
+    },
+    {
+      "text": "yük",
+      "start": 10.286,
+      "end": 10.484
+    },
+    {
+      "text": "yükler.",
+      "start": 10.542,
+      "end": 11.134
+    },
+    {
+      "text": "Otuz",
+      "start": 11.517,
+      "end": 11.923
+    },
+    {
+      "text": "ve",
+      "start": 11.993,
+      "end": 12.086
+    },
+    {
+      "text": "üzeri",
+      "start": 12.167,
+      "end": 12.504
+    },
+    {
+      "text": "işçili",
+      "start": 12.562,
+      "end": 12.968
+    },
+    {
+      "text": "bir",
+      "start": 13.015,
+      "end": 13.108
+    },
+    {
+      "text": "işyerinde,",
+      "start": 13.166,
+      "end": 14.06
+    },
+    {
+      "text": "altı",
+      "start": 14.338,
+      "end": 14.663
+    },
+    {
+      "text": "aylık",
+      "start": 14.698,
+      "end": 15.012
+    },
+    {
+      "text": "kıdemin",
+      "start": 15.047,
+      "end": 15.441
+    },
+    {
+      "text": "varsa,",
+      "start": 15.499,
+      "end": 16.068
+    },
+    {
+      "text": "işveren",
+      "start": 16.312,
+      "end": 16.8
+    },
+    {
+      "text": "geçerli",
+      "start": 16.869,
+      "end": 17.345
+    },
+    {
+      "text": "bir",
+      "start": 17.392,
+      "end": 17.473
+    },
+    {
+      "text": "sebep",
+      "start": 17.496,
+      "end": 17.786
+    },
+    {
+      "text": "göstermek",
+      "start": 17.856,
+      "end": 18.425
+    },
+    {
+      "text": "zorunda.",
+      "start": 18.483,
+      "end": 19.017
+    },
+    {
+      "text": "Sendika",
+      "start": 19.458,
+      "end": 19.992
+    },
+    {
+      "text": "üyeliği,",
+      "start": 20.05,
+      "end": 20.584
+    },
+    {
+      "text": "hamilelik",
+      "start": 20.654,
+      "end": 21.281
+    },
+    {
+      "text": "ya",
+      "start": 21.373,
+      "end": 21.443
+    },
+    {
+      "text": "da",
+      "start": 21.49,
+      "end": 21.559
+    },
+    {
+      "text": "hak",
+      "start": 21.606,
+      "end": 21.78
+    },
+    {
+      "text": "aramak,",
+      "start": 21.838,
+      "end": 22.372
+    },
+    {
+      "text": "geçerli",
+      "start": 22.697,
+      "end": 23.173
+    },
+    {
+      "text": "sebep",
+      "start": 23.219,
+      "end": 23.521
+    },
+    {
+      "text": "sayılmaz.",
+      "start": 23.591,
+      "end": 24.38
+    },
+    {
+      "text": "Fesih",
+      "start": 24.706,
+      "end": 25.065
+    },
+    {
+      "text": "bildiriminden",
+      "start": 25.112,
+      "end": 25.797
+    },
+    {
+      "text": "itibaren",
+      "start": 25.878,
+      "end": 26.435
+    },
+    {
+      "text": "bir",
+      "start": 26.517,
+      "end": 26.726
+    },
+    {
+      "text": "ay",
+      "start": 26.772,
+      "end": 26.842
+    },
+    {
+      "text": "içinde",
+      "start": 26.865,
+      "end": 27.295
+    },
+    {
+      "text": "arabulucuya",
+      "start": 27.364,
+      "end": 28.049
+    },
+    {
+      "text": "başvur.",
+      "start": 28.107,
+      "end": 28.723
+    },
+    {
+      "text": "Anlaşma",
+      "start": 29.106,
+      "end": 29.617
+    },
+    {
+      "text": "olmazsa,",
+      "start": 29.651,
+      "end": 30.313
+    },
+    {
+      "text": "iki",
+      "start": 30.592,
+      "end": 30.812
+    },
+    {
+      "text": "hafta",
+      "start": 30.882,
+      "end": 31.161
+    },
+    {
+      "text": "içinde",
+      "start": 31.196,
+      "end": 31.544
+    },
+    {
+      "text": "dava",
+      "start": 31.602,
+      "end": 31.939
+    },
+    {
+      "text": "açılır.",
+      "start": 31.985,
+      "end": 32.565
+    },
+    {
+      "text": "Sebebin",
+      "start": 32.949,
+      "end": 33.39
+    },
+    {
+      "text": "geçerli",
+      "start": 33.459,
+      "end": 33.877
+    },
+    {
+      "text": "olduğunu",
+      "start": 33.912,
+      "end": 34.261
+    },
+    {
+      "text": "ispatlamak,",
+      "start": 34.296,
+      "end": 35.143
+    },
+    {
+      "text": "işverenin",
+      "start": 35.387,
+      "end": 35.991
+    },
+    {
+      "text": "işidir.",
+      "start": 36.072,
+      "end": 36.676
+    },
+    {
+      "text": "Fesih",
+      "start": 37.187,
+      "end": 37.558
+    },
+    {
+      "text": "geçersizse,",
+      "start": 37.628,
+      "end": 38.58
+    },
+    {
+      "text": "işveren",
+      "start": 38.789,
+      "end": 39.253
+    },
+    {
+      "text": "seni",
+      "start": 39.311,
+      "end": 39.52
+    },
+    {
+      "text": "bir",
+      "start": 39.578,
+      "end": 39.741
+    },
+    {
+      "text": "ay",
+      "start": 39.787,
+      "end": 39.868
+    },
+    {
+      "text": "içinde",
+      "start": 39.903,
+      "end": 40.263
+    },
+    {
+      "text": "işe",
+      "start": 40.321,
+      "end": 40.542
+    },
+    {
+      "text": "başlatmalı.",
+      "start": 40.588,
+      "end": 41.436
+    },
+    {
+      "text": "Başlatmazsa,",
+      "start": 41.714,
+      "end": 42.748
+    },
+    {
+      "text": "dört",
+      "start": 42.957,
+      "end": 43.201
+    },
+    {
+      "text": "ila",
+      "start": 43.259,
+      "end": 43.444
+    },
+    {
+      "text": "sekiz",
+      "start": 43.514,
+      "end": 43.793
+    },
+    {
+      "text": "aylık",
+      "start": 43.851,
+      "end": 44.094
+    },
+    {
+      "text": "ücretin",
+      "start": 44.164,
+      "end": 44.547
+    },
+    {
+      "text": "kadar",
+      "start": 44.605,
+      "end": 44.872
+    },
+    {
+      "text": "tazminat",
+      "start": 44.93,
+      "end": 45.441
+    },
+    {
+      "text": "öder.",
+      "start": 45.511,
+      "end": 45.952
+    },
+    {
+      "text": "Dava",
+      "start": 46.463,
+      "end": 46.892
+    },
+    {
+      "text": "sürerken",
+      "start": 46.951,
+      "end": 47.508
+    },
+    {
+      "text": "boşta",
+      "start": 47.601,
+      "end": 47.972
+    },
+    {
+      "text": "geçen",
+      "start": 48.03,
+      "end": 48.344
+    },
+    {
+      "text": "süre",
+      "start": 48.402,
+      "end": 48.646
+    },
+    {
+      "text": "için",
+      "start": 48.669,
+      "end": 48.947
+    },
+    {
+      "text": "de,",
+      "start": 49.005,
+      "end": 49.273
+    },
+    {
+      "text": "en",
+      "start": 49.551,
+      "end": 49.737
+    },
+    {
+      "text": "çok",
+      "start": 49.795,
+      "end": 50.027
+    },
+    {
+      "text": "dört",
+      "start": 50.097,
+      "end": 50.294
+    },
+    {
+      "text": "aylık",
+      "start": 50.352,
+      "end": 50.584
+    },
+    {
+      "text": "ücretin",
+      "start": 50.666,
+      "end": 51.037
+    },
+    {
+      "text": "ödenir.",
+      "start": 51.095,
+      "end": 51.559
+    },
+    {
+      "text": "Ama",
+      "start": 51.942,
+      "end": 52.186
+    },
+    {
+      "text": "dikkat:",
+      "start": 52.233,
+      "end": 52.86
+    },
+    {
+      "text": "kesinleşen",
+      "start": 53.138,
+      "end": 53.858
+    },
+    {
+      "text": "karar",
+      "start": 53.928,
+      "end": 54.195
+    },
+    {
+      "text": "tebliğ",
+      "start": 54.253,
+      "end": 54.601
+    },
+    {
+      "text": "edilince,",
+      "start": 54.624,
+      "end": 55.274
+    },
+    {
+      "text": "on",
+      "start": 55.518,
+      "end": 55.704
+    },
+    {
+      "text": "işgünü",
+      "start": 55.75,
+      "end": 56.11
+    },
+    {
+      "text": "içinde",
+      "start": 56.134,
+      "end": 56.482
+    },
+    {
+      "text": "işe",
+      "start": 56.528,
+      "end": 56.726
+    },
+    {
+      "text": "başvurmazsan,",
+      "start": 56.772,
+      "end": 57.689
+    },
+    {
+      "text": "fesih",
+      "start": 57.898,
+      "end": 58.293
+    },
+    {
+      "text": "geçerli",
+      "start": 58.339,
+      "end": 58.874
+    },
+    {
+      "text": "sayılır.",
+      "start": 58.92,
+      "end": 59.512
+    },
+    {
+      "text": "Kıdem",
+      "start": 60.116,
+      "end": 60.499
+    },
+    {
+      "text": "ve",
+      "start": 60.557,
+      "end": 60.627
+    },
+    {
+      "text": "ihbar",
+      "start": 60.708,
+      "end": 61.103
+    },
+    {
+      "text": "tazminatı",
+      "start": 61.172,
+      "end": 61.822
+    },
+    {
+      "text": "ise,",
+      "start": 61.857,
+      "end": 62.252
+    },
+    {
+      "text": "kural",
+      "start": 62.461,
+      "end": 62.763
+    },
+    {
+      "text": "olarak",
+      "start": 62.833,
+      "end": 63.123
+    },
+    {
+      "text": "ayrıca",
+      "start": 63.204,
+      "end": 63.599
+    },
+    {
+      "text": "gündeme",
+      "start": 63.645,
+      "end": 64.075
+    },
+    {
+      "text": "gelir.",
+      "start": 64.121,
+      "end": 64.609
+    },
+    {
+      "text": "Sence",
+      "start": 65.213,
+      "end": 65.584
+    },
+    {
+      "text": "bir",
+      "start": 65.654,
+      "end": 65.816
+    },
+    {
+      "text": "aylık",
+      "start": 65.851,
+      "end": 66.095
+    },
+    {
+      "text": "süre",
+      "start": 66.141,
+      "end": 66.362
+    },
+    {
+      "text": "yeterli",
+      "start": 66.397,
+      "end": 66.826
+    },
+    {
+      "text": "mi?",
+      "start": 66.873,
+      "end": 67.105
+    },
+    {
+      "text": "Yorumlara",
+      "start": 67.256,
+      "end": 67.836
+    },
+    {
+      "text": "yaz.",
+      "start": 67.894,
+      "end": 68.638
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "İşveren bir sabah, yarın gelme dedi. Sebep yok. Bu kadar kolay mı?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 270,
+            "y": 660,
+            "color": "cast1",
+            "pose": "aimRight",
+            "look": "right",
+            "hair": "short",
+            "outfit": "suit",
+            "accessories": [
+              "glasses"
+            ],
+            "cue": "İşveren"
+          },
+          {
+            "kind": "person",
+            "x": 680,
+            "y": 660,
+            "color": "cast2",
+            "mood": "shocked",
+            "look": "left",
+            "hair": "long",
+            "cue": "gelme"
+          },
+          {
+            "kind": "bubble",
+            "x": 330,
+            "y": 150,
+            "text": "Yarın gelme!",
+            "variant": "speech",
+            "cue": "yarın"
+          },
+          {
+            "kind": "badge",
+            "x": 680,
+            "y": 190,
+            "symbol": "?",
+            "cue": "Sebep"
+          }
+        ]
+      },
+      "chapter": "İş hukuku · Haksız fesih",
+      "headline": "Yarın *gelme* dediler.",
+      "source": "4857 s. İş K. m.18",
+      "from": 0,
+      "durationInFrames": 160
+    },
+    {
+      "id": "ilk-tepki",
+      "say": "Çoğu işçi, yapacak bir şey yok sanır. Oysa kanun işverene bir yük yükler.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "DoorOpen",
+            "x": 290,
+            "y": 330,
+            "size": 240,
+            "cue": "işçi"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              450,
+              340
+            ],
+            "to": [
+              620,
+              250
+            ],
+            "bend": -0.35
+          },
+          {
+            "kind": "text",
+            "x": 700,
+            "y": 190,
+            "text": "Yapacak bir şey yok?",
+            "size": 50,
+            "font": "serif"
+          },
+          {
+            "kind": "circle",
+            "x": 290,
+            "y": 330,
+            "r": 170,
+            "color": "danger",
+            "cue": "Oysa"
+          },
+          {
+            "kind": "path",
+            "d": "M180 220 L400 440 M400 220 L180 440",
+            "color": "danger",
+            "width": 8,
+            "dur": 0.4
+          }
+        ]
+      },
+      "transition": "wipe",
+      "chapter": "İlk tepki",
+      "headline": "Patron *haklı* mı?",
+      "from": 160,
+      "durationInFrames": 183
+    },
+    {
+      "id": "kural",
+      "say": "Otuz ve üzeri işçili bir işyerinde, altı aylık kıdemin varsa, işveren geçerli bir sebep göstermek zorunda.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "30+ işçi",
+            "icon": "Users",
+            "cue": "Otuz"
+          },
+          {
+            "label": "6 ay kıdem",
+            "icon": "CalendarCheck",
+            "cue": "altı"
+          },
+          {
+            "label": "Belirsiz süreli sözleşme",
+            "icon": "FileSignature",
+            "cue": "işveren"
+          },
+          {
+            "label": "Geçerli sebep",
+            "icon": "BadgeCheck",
+            "cue": "geçerli"
+          }
+        ]
+      },
+      "transition": "zoom",
+      "chapter": "Kural · Geçerli sebep",
+      "headline": "Geçerli *sebep* şart.",
+      "source": "İş K. m.18/1",
+      "from": 343,
+      "durationInFrames": 238
+    },
+    {
+      "id": "sebep-olmaz",
+      "say": "Sendika üyeliği, hamilelik ya da hak aramak, geçerli sebep sayılmaz.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 120,
+            "w": 760,
+            "label": "Sebep değil",
+            "value": "Sendika",
+            "strike": true,
+            "cue": "Sendika"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 300,
+            "w": 760,
+            "label": "Sebep değil",
+            "value": "Hamilelik",
+            "strike": true,
+            "cue": "hamilelik"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 480,
+            "w": 760,
+            "label": "Sebep değil",
+            "value": "Hak aramak",
+            "strike": true,
+            "cue": "hak"
+          },
+          {
+            "kind": "stamp",
+            "x": 650,
+            "y": 640,
+            "text": "GEÇERSİZ SEBEP",
+            "rotate": -5,
+            "cue": "sayılmaz"
+          }
+        ]
+      },
+      "transition": "blur",
+      "chapter": "Kural · Sebep sayılmaz",
+      "headline": "Bunlar *sebep* olamaz.",
+      "source": "İş K. m.18/3",
+      "from": 581,
+      "durationInFrames": 158
+    },
+    {
+      "id": "surec",
+      "say": "Fesih bildiriminden itibaren bir ay içinde arabulucuya başvur. Anlaşma olmazsa, iki hafta içinde dava açılır.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            {
+              "when": "Gün 0",
+              "what": "Fesih bildirimi"
+            },
+            {
+              "when": "1 ay içinde",
+              "what": "Arabulucuya başvuru"
+            },
+            {
+              "when": "Anlaşma yok",
+              "what": "Son tutanak"
+            },
+            {
+              "when": "2 hafta içinde",
+              "what": "İşe iade davası"
+            }
+          ],
+          "active": 2
+        },
+        "cues": {
+          "e1": "bildirimi",
+          "e2": "arabulucuya",
+          "e3": "Anlaşma",
+          "e4": {
+            "word": "dava",
+            "sfx": "thud"
+          }
+        }
+      },
+      "transition": "slide",
+      "chapter": "Süreç · İşe iade",
+      "headline": "Süre *bir ay*.",
+      "source": "İş K. m.20 · 7036 s. K. m.3",
+      "from": 739,
+      "durationInFrames": 247,
+      "assetFresh": false
+    },
+    {
+      "id": "ispat",
+      "say": "Sebebin geçerli olduğunu ispatlamak, işverenin işidir.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "label": "İspat yükü: işveren",
+        "orbit": 50,
+        "tilt": -0.6,
+        "cue": "ispatlamak"
+      },
+      "transition": "light",
+      "chapter": "Süreç · İspat",
+      "headline": "İspat *işverende*.",
+      "source": "İş K. m.20/2",
+      "from": 986,
+      "durationInFrames": 127
+    },
+    {
+      "id": "sonuc",
+      "say": "Fesih geçersizse, işveren seni bir ay içinde işe başlatmalı. Başlatmazsa, dört ila sekiz aylık ücretin kadar tazminat öder.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "4–8 ay",
+        "sub": "ücret tutarında iş güvencesi tazminatı",
+        "cue": "dört"
+      },
+      "transition": "flip",
+      "chapter": "Sonuç",
+      "headline": "Ya *işe dön*, ya tazminat.",
+      "source": "İş K. m.21/1",
+      "from": 1113,
+      "durationInFrames": 278
+    },
+    {
+      "id": "bosta",
+      "say": "Dava sürerken boşta geçen süre için de, en çok dört aylık ücretin ödenir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 240,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "right",
+            "hair": "long",
+            "cue": "boşta"
+          },
+          {
+            "kind": "card",
+            "x": 640,
+            "y": 250,
+            "w": 420,
+            "label": "En çok",
+            "value": "4 aylık ücret",
+            "cue": "dört"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 650,
+            "name": "Banknote",
+            "size": 170,
+            "color": "accent",
+            "cue": "ödenir"
+          }
+        ]
+      },
+      "transition": "blur",
+      "chapter": "Sonuç · Boşta geçen süre",
+      "headline": "Bekleme de *ödenir*.",
+      "source": "İş K. m.21/3",
+      "from": 1391,
+      "durationInFrames": 165
+    },
+    {
+      "id": "kor-nokta",
+      "say": "Ama dikkat: kesinleşen karar tebliğ edilince, on işgünü içinde işe başvurmazsan, fesih geçerli sayılır.",
+      "visual": {
+        "type": "verdict",
+        "label": "Başvuru yapılmazsa",
+        "from": "Fesih geçersiz",
+        "to": "Fesih geçerli sayılır",
+        "cue": "başvurmazsan"
+      },
+      "transition": "light",
+      "chapter": "Kör nokta",
+      "headline": "*On işgünü* kuralı.",
+      "source": "İş K. m.21/6",
+      "from": 1556,
+      "durationInFrames": 245
+    },
+    {
+      "id": "ayrica",
+      "say": "Kıdem ve ihbar tazminatı ise, kural olarak ayrıca gündeme gelir.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "icon": "Briefcase",
+            "label": "Kıdem tazminatı"
+          },
+          {
+            "icon": "BellRing",
+            "label": "İhbar tazminatı"
+          }
+        ]
+      },
+      "transition": "zoom",
+      "chapter": "Kör nokta · Diğer haklar",
+      "headline": "Kıdem ve *ihbar*.",
+      "source": "1475 s. İş K. m.14 · 4857 s. İş K. m.17",
+      "from": 1801,
+      "durationInFrames": 153
+    },
+    {
+      "id": "soz-sende",
+      "say": "Sence bir aylık süre yeterli mi? Yorumlara yaz.",
+      "visual": {
+        "type": "object3d",
+        "model": "gavel",
+        "label": "Bir ay yeterli mi?",
+        "orbit": 60,
+        "cue": "yeterli"
+      },
+      "transition": "light",
+      "chapter": "Söz sende",
+      "headline": "Sence *yeterli* mi?",
+      "from": 1954,
+      "durationInFrames": 127
+    }
+  ]
+}

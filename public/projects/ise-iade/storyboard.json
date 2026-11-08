@@ -1,0 +1,383 @@
+{
+  "slug": "ise-iade",
+  "title": "Haksız yere işten çıkarıldın: hakların neler?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg"
+  },
+  "episode": 3,
+  "voice": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2"
+  },
+  "transition": "slide",
+  "scenes": [
+    {
+      "id": "hook",
+      "chapter": "İş hukuku · Haksız fesih",
+      "headline": "Yarın *gelme* dediler.",
+      "source": "4857 s. İş K. m.18",
+      "say": "İşveren bir sabah, yarın gelme dedi. Sebep yok. Bu kadar kolay mı?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 270,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "pose": "aimRight",
+            "look": "right",
+            "cue": "İşveren"
+          },
+          {
+            "kind": "person",
+            "x": 680,
+            "y": 660,
+            "color": "cast2",
+            "hair": "long",
+            "mood": "shocked",
+            "look": "left",
+            "cue": "gelme"
+          },
+          {
+            "kind": "bubble",
+            "x": 330,
+            "y": 150,
+            "text": "Yarın gelme!",
+            "variant": "speech",
+            "cue": "yarın"
+          },
+          {
+            "kind": "badge",
+            "x": 680,
+            "y": 190,
+            "symbol": "?",
+            "cue": "Sebep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ilk-tepki",
+      "chapter": "İlk tepki",
+      "headline": "Patron *haklı* mı?",
+      "say": "Çoğu işçi, yapacak bir şey yok sanır. Oysa kanun işverene bir yük yükler.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "DoorOpen",
+            "x": 290,
+            "y": 330,
+            "size": 240,
+            "cue": "işçi"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              450,
+              340
+            ],
+            "to": [
+              620,
+              250
+            ],
+            "bend": -0.35
+          },
+          {
+            "kind": "text",
+            "x": 700,
+            "y": 190,
+            "text": "Yapacak bir şey yok?",
+            "size": 50,
+            "font": "serif"
+          },
+          {
+            "kind": "circle",
+            "x": 290,
+            "y": 330,
+            "r": 170,
+            "color": "danger",
+            "cue": "Oysa"
+          },
+          {
+            "kind": "path",
+            "d": "M180 220 L400 440 M400 220 L180 440",
+            "color": "danger",
+            "width": 8,
+            "dur": 0.4
+          }
+        ]
+      },
+      "transition": "wipe"
+    },
+    {
+      "id": "kural",
+      "chapter": "Kural · Geçerli sebep",
+      "headline": "Geçerli *sebep* şart.",
+      "source": "İş K. m.18/1",
+      "say": "Otuz ve üzeri işçili bir işyerinde, altı aylık kıdemin varsa, işveren geçerli bir sebep göstermek zorunda.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "30+ işçi",
+            "icon": "Users",
+            "cue": "Otuz"
+          },
+          {
+            "label": "6 ay kıdem",
+            "icon": "CalendarCheck",
+            "cue": "altı"
+          },
+          {
+            "label": "Belirsiz süreli sözleşme",
+            "icon": "FileSignature",
+            "cue": "işveren"
+          },
+          {
+            "label": "Geçerli sebep",
+            "icon": "BadgeCheck",
+            "cue": "geçerli"
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "id": "sebep-olmaz",
+      "chapter": "Kural · Sebep sayılmaz",
+      "headline": "Bunlar *sebep* olamaz.",
+      "source": "İş K. m.18/3",
+      "say": "Sendika üyeliği, hamilelik ya da hak aramak, geçerli sebep sayılmaz.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 120,
+            "w": 760,
+            "label": "Sebep değil",
+            "value": "Sendika",
+            "strike": true,
+            "cue": "Sendika"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 300,
+            "w": 760,
+            "label": "Sebep değil",
+            "value": "Hamilelik",
+            "strike": true,
+            "cue": "hamilelik"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 480,
+            "w": 760,
+            "label": "Sebep değil",
+            "value": "Hak aramak",
+            "strike": true,
+            "cue": "hak"
+          },
+          {
+            "kind": "stamp",
+            "x": 650,
+            "y": 640,
+            "text": "GEÇERSİZ SEBEP",
+            "rotate": -5,
+            "cue": "sayılmaz"
+          }
+        ]
+      },
+      "transition": "blur"
+    },
+    {
+      "id": "surec",
+      "chapter": "Süreç · İşe iade",
+      "headline": "Süre *bir ay*.",
+      "source": "İş K. m.20 · 7036 s. K. m.3",
+      "say": "Fesih bildiriminden itibaren bir ay içinde arabulucuya başvur. Anlaşma olmazsa, iki hafta içinde dava açılır.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            {
+              "when": "Gün 0",
+              "what": "Fesih bildirimi"
+            },
+            {
+              "when": "1 ay içinde",
+              "what": "Arabulucuya başvuru"
+            },
+            {
+              "when": "Anlaşma yok",
+              "what": "Son tutanak"
+            },
+            {
+              "when": "2 hafta içinde",
+              "what": "İşe iade davası"
+            }
+          ],
+          "active": 2
+        },
+        "cues": {
+          "e1": "bildirimi",
+          "e2": "arabulucuya",
+          "e3": "Anlaşma",
+          "e4": {
+            "word": "dava",
+            "sfx": "thud"
+          }
+        }
+      },
+      "transition": "slide"
+    },
+    {
+      "id": "ispat",
+      "chapter": "Süreç · İspat",
+      "headline": "İspat *işverende*.",
+      "source": "İş K. m.20/2",
+      "say": "Sebebin geçerli olduğunu ispatlamak, işverenin işidir.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "label": "İspat yükü: işveren",
+        "orbit": 50,
+        "tilt": -0.6,
+        "cue": "ispatlamak"
+      },
+      "transition": "light"
+    },
+    {
+      "id": "sonuc",
+      "chapter": "Sonuç",
+      "headline": "Ya *işe dön*, ya tazminat.",
+      "source": "İş K. m.21/1",
+      "say": "Fesih geçersizse, işveren seni bir ay içinde işe başlatmalı. Başlatmazsa, dört ila sekiz aylık ücretin kadar tazminat öder.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "4–8 ay",
+        "sub": "ücret tutarında iş güvencesi tazminatı",
+        "cue": "dört"
+      },
+      "transition": "flip"
+    },
+    {
+      "id": "bosta",
+      "chapter": "Sonuç · Boşta geçen süre",
+      "headline": "Bekleme de *ödenir*.",
+      "source": "İş K. m.21/3",
+      "say": "Dava sürerken boşta geçen süre için de, en çok dört aylık ücretin ödenir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 240,
+            "y": 660,
+            "color": "cast2",
+            "hair": "long",
+            "mood": "happy",
+            "look": "right",
+            "cue": "boşta"
+          },
+          {
+            "kind": "card",
+            "x": 640,
+            "y": 250,
+            "w": 420,
+            "label": "En çok",
+            "value": "4 aylık ücret",
+            "cue": "dört"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 650,
+            "name": "Banknote",
+            "size": 170,
+            "color": "accent",
+            "cue": "ödenir"
+          }
+        ]
+      },
+      "transition": "blur"
+    },
+    {
+      "id": "kor-nokta",
+      "chapter": "Kör nokta",
+      "headline": "*On işgünü* kuralı.",
+      "source": "İş K. m.21/6",
+      "say": "Ama dikkat: kesinleşen karar tebliğ edilince, on işgünü içinde işe başvurmazsan, fesih geçerli sayılır.",
+      "visual": {
+        "type": "verdict",
+        "label": "Başvuru yapılmazsa",
+        "from": "Fesih geçersiz",
+        "to": "Fesih geçerli sayılır",
+        "cue": "başvurmazsan"
+      },
+      "transition": "light"
+    },
+    {
+      "id": "ayrica",
+      "chapter": "Kör nokta · Diğer haklar",
+      "headline": "Kıdem ve *ihbar*.",
+      "source": "1475 s. İş K. m.14 · 4857 s. İş K. m.17",
+      "say": "Kıdem ve ihbar tazminatı ise, kural olarak ayrıca gündeme gelir.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "icon": "Briefcase",
+            "label": "Kıdem tazminatı"
+          },
+          {
+            "icon": "BellRing",
+            "label": "İhbar tazminatı"
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "id": "soz-sende",
+      "chapter": "Söz sende",
+      "headline": "Sence *yeterli* mi?",
+      "say": "Sence bir aylık süre yeterli mi? Yorumlara yaz.",
+      "visual": {
+        "type": "object3d",
+        "model": "gavel",
+        "label": "Bir ay yeterli mi?",
+        "orbit": 60,
+        "cue": "yeterli"
+      },
+      "transition": "light"
+    }
+  ]
+}
