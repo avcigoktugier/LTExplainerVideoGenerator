@@ -6,8 +6,8 @@ For any video work, follow the `kettek-explainer` skill in `.claude/skills/`.
 ## Rendering: always on GitHub
 This computer is too weak to render. Final videos are rendered on GitHub:
 `npm run bulut -- <slug>` (add `--draft` for a quick check). It commits and pushes the project, renders it on GitHub
-(about 3–8 minutes — tell the person so and wait; don't start another render meanwhile) and puts the MP4 on the
-**Desktop**; tell them its file name when it's done. Never run `npm run render` here unless the person explicitly asks
+(about 3–8 minutes — tell the person so and wait; don't start another render meanwhile) and puts the MP4 in the **LT Videolar** folder on the
+**Desktop** and opens it in the video editor (Premiere Pro on the Mac; `VIDEO_EDITOR` in `.env` changes it, `none` turns it off); tell them its file name when it's done. Never run `npm run render` here unless the person explicitly asks
 for a render on this computer. Voice first: `bulut` refuses a project whose narration isn't voiced yet.
 If `bulut` fails, show the person its Turkish message; for a failed render, read the log the message links to
 (`gh` is not installed here — open nothing, just report the link).

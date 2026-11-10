@@ -5,10 +5,10 @@
 //   3. waits for it, downloads the video to out/ and copies it to the Desktop
 // Needs GITHUB_TOKEN in .env (a fine-grained token for this repository only: Contents + Actions read/write).
 // Falls back to the GitHub CLI's login (`gh auth token`) when the token is missing.
-import { execFileSync, spawnSync } from "node:child_process";
+import { execFileSync, spawn, spawnSync } from "node:child_process";
 import { copyFileSync, existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
-import { basename, join } from "node:path";
+import { basename, dirname, join } from "node:path";
 import { projectDir, readJson, ROOT, slugArg } from "./lib";
 
 const slug = slugArg();
@@ -144,13 +144,43 @@ async function main() {
   rmSync(zipPath, { force: true });
   if (!existsSync(join(outDir, file))) fail(`İndirilen pakette ${file} yok.`);
 
-  // ---------- 6. Desktop ----------
-  const desktop = desktopDir();
+  // ---------- 6. Desktop folder, then open in the editor ----------
+  const desktop = join(desktopDir(), process.env.VIDEO_FOLDER || "LT Videolar");
   mkdirSync(desktop, { recursive: true });
   let target = join(desktop, file);
   for (let n = 2; existsSync(target); n++) target = join(desktop, file.replace(/\.mp4$/, ` (${n}).mp4`));
   copyFileSync(join(outDir, file), target);
-  console.log(`\n✓ Video masaüstünde: ${target}  (${((Date.now() - started) / 60000).toFixed(1)} dk)`);
+  console.log(`\n✓ Video masaüstündeki klasörde: ${target}  (${((Date.now() - started) / 60000).toFixed(1)} dk)`);
+  openInEditor(target);
+}
+
+// VIDEO_EDITOR in .env: an app name ("Adobe Premiere Pro 2025", "iMovie") or a program path on Windows;
+// "none" turns it off. Unset: the newest Premiere Pro on a Mac, otherwise the system's default video app.
+function openInEditor(video: string) {
+  const want = (process.env.VIDEO_EDITOR ?? "").trim();
+  if (want.toLowerCase() === "none") return;
+  try {
+    if (process.platform === "darwin") {
+      let app = want;
+      if (!app) {
+        const premiere = spawnSync("ls", ["/Applications"], { encoding: "utf8" }).stdout
+          .split("\n").filter((a) => /^Adobe Premiere Pro/.test(a)).sort().pop();
+        app = premiere ?? "";
+      }
+      const r = spawnSync("open", app ? ["-a", app, video] : [video]);
+      if (r.status !== 0 && app) spawnSync("open", [video]); // editor missing: default app
+      spawnSync("open", [dirname(video)]); // show the folder too
+    } else if (process.platform === "win32") {
+      if (want) spawn(want, [video], { detached: true, stdio: "ignore", shell: true }).unref();
+      else spawnSync("cmd", ["/c", "start", "", video], { stdio: "ignore" });
+      spawnSync("explorer", [dirname(video)], { stdio: "ignore" });
+    } else {
+      spawn(want || "xdg-open", [video], { detached: true, stdio: "ignore" }).unref();
+    }
+    console.log("▶ Video editörde açılıyor…");
+  } catch {
+    console.log("(Video otomatik açılamadı; klasörden açabilirsiniz.)");
+  }
 }
 
 main().catch((e) => fail(e?.message ?? String(e)));
