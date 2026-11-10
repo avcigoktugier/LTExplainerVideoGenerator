@@ -1,5 +1,5 @@
-// "Dossier" format — Law Trust house look: a navy masthead block (brand, case number, segmented
-// chapter progress, § chapter label, headline with an underlined accent word), a clean paper stage
+// "Dossier" format — Law Trust house look: a navy masthead block (brand logo and the headline with an
+// underlined accent word — no case number, chapter progress or § chapter label), a clean paper stage
 // framed by corner marks, a § source tag and box-free captions with a marker-pen highlight.
 import { AbsoluteFill, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { DOSSIER_SIDE, DOSSIER_STAGE } from "../layout";
@@ -17,9 +17,7 @@ const onBand = (s: Style) => s.onBand ?? s.bg;
 export const DOSSIER = {
   side: DOSSIER_SIDE,
   headerY: 228,
-  progressY: 300,
-  kickerY: 350,
-  headlineY: 392,
+  headlineY: 290, // headline box runs from here to just above the band's edge, lines centered in it
   bandBottom: 612,
   stage: DOSSIER_STAGE,
   sourceY: 1384,
@@ -39,8 +37,6 @@ const groupBy = (scenes: TimelineScene[], keyOf: (s: TimelineScene) => string): 
   }
   return out;
 };
-
-const pad2 = (n: number) => String(n).padStart(2, "0");
 
 const Paper: React.FC<{ style: Style }> = ({ style }) => style.dark ? <DarkPage style={style} /> : (
   <AbsoluteFill style={{ backgroundColor: style.bg }}>
@@ -137,32 +133,6 @@ const Header: React.FC<{ tl: Timeline; style: Style }> = ({ tl, style }) => {
           </div>
         </div>
       )}
-      {brand?.series && (
-        <div style={{ display: "flex", alignItems: "baseline", gap: 12 }}>
-          <span style={{ fontFamily: style.fontMono, fontSize: 22, letterSpacing: 4, color: onBand(style), opacity: 0.6 }}>{trUpper(brand.series)}</span>
-          <span style={{ fontFamily: style.fontSerif, fontWeight: 700, fontSize: 46, color: style.accent }}>
-            {String(tl.episode ?? 1).padStart(3, "0")}
-          </span>
-        </div>
-      )}
-    </div>
-  );
-};
-
-// Story-style segmented bar: one segment per chapter, the current one fills as it plays
-const Progress: React.FC<{ chapters: Group[]; style: Style }> = ({ chapters, style }) => {
-  const frame = useCurrentFrame();
-  const n = chapters.length;
-  if (n < 2) return null;
-  const cur = Math.max(0, chapters.findIndex((c) => frame >= c.from && frame < c.to));
-  const p = interpolate(frame, [chapters[cur].from, chapters[cur].to], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  return (
-    <div style={{ position: "absolute", top: DOSSIER.progressY - 3, left: DOSSIER.side, right: DOSSIER.side, height: 6, display: "flex", gap: 10 }}>
-      {chapters.map((_, i) => (
-        <div key={i} style={{ flex: 1, height: 6, borderRadius: 3, background: `${onBand(style)}33`, overflow: "hidden" }}>
-          <div style={{ height: "100%", width: `${(i < cur ? 1 : i === cur ? p : 0) * 100}%`, background: i === cur ? style.accent : onBand(style) }} />
-        </div>
-      ))}
     </div>
   );
 };
@@ -197,10 +167,12 @@ const Headline: React.FC<{ text: string; style: Style }> = ({ text, style }) => 
       style={{
         position: "absolute",
         top: DOSSIER.headlineY,
+        height: DOSSIER.bandBottom - 30 - DOSSIER.headlineY,
         left: DOSSIER.side,
         right: DOSSIER.side + 20,
         display: "flex",
         flexWrap: "wrap",
+        alignContent: "center",
         gap: `0 ${size * 0.24}px`,
         fontFamily: style.fontSerif,
         fontWeight: 700,
@@ -238,32 +210,6 @@ const Headline: React.FC<{ text: string; style: Style }> = ({ text, style }) => 
           </span>
         );
       })}
-    </div>
-  );
-};
-
-const Kicker: React.FC<{ text: string; index: number; style: Style }> = ({ text, index, style }) => {
-  const frame = useCurrentFrame();
-  const o = interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" });
-  return (
-    <div
-      style={{
-        position: "absolute",
-        top: DOSSIER.kickerY - 16,
-        left: DOSSIER.side,
-        right: DOSSIER.side,
-        fontFamily: style.fontMono,
-        fontSize: 25,
-        letterSpacing: 5,
-        opacity: o,
-        whiteSpace: "nowrap",
-        overflow: "hidden",
-        textOverflow: "ellipsis",
-      }}
-    >
-      <span style={{ color: style.accent }}>§ {pad2(index + 1)}</span>
-      <span style={{ color: onBand(style), opacity: 0.45 }}> — </span>
-      <span style={{ color: onBand(style), opacity: 0.85 }}>{trUpper(text)}</span>
     </div>
   );
 };
@@ -382,23 +328,14 @@ const CaptionBar: React.FC<{ words: Word[]; style: Style; fps: number }> = ({ wo
 };
 
 export const DossierChrome: React.FC<{ tl: Timeline; style: Style }> = ({ tl, style }) => {
-  const chapters = groupBy(tl.scenes, (s) => s.chapter ?? s.headline ?? s.id);
   const headlines = groupBy(tl.scenes, (s) => s.headline ?? "");
-  const kickers = groupBy(tl.scenes, (s) => s.chapter ?? "");
   const last = tl.scenes.at(-1)!;
   const sources = groupBy(tl.scenes, (s) => s.source ?? (s === last ? tl.brand?.disclaimer ?? "" : ""));
-  const chapterIndex = (from: number) => Math.max(0, chapters.findIndex((c) => from >= c.from && from < c.to));
   return (
     <>
       <Paper style={style} />
       <Band style={style} watermark={tl.brand?.watermark} />
       <Header tl={tl} style={style} />
-      <Progress chapters={chapters} style={style} />
-      {kickers.map((g) => g.key && (
-        <Sequence key={`k${g.from}`} from={g.from} durationInFrames={g.to - g.from} name="kicker">
-          <Kicker text={g.key} index={chapterIndex(g.from)} style={style} />
-        </Sequence>
-      ))}
       {headlines.map((g) => g.key && (
         <Sequence key={`h${g.from}`} from={g.from} durationInFrames={g.to - g.from} name="headline">
           <Headline text={g.key} style={style} />

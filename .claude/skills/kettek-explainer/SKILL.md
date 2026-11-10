@@ -58,7 +58,9 @@ Moods: `happy`, `curious`, `shocked`. Image motions: `zoomIn`, `zoomOut`, `panLe
 Per-scene `"sfx": "ding"` overrides the default sound; `"sfx": "none"` mutes the scene.
 
 ## 4b. Dossier format (law firm case files)
-Use when the storyboard has `"format": "dossier"` (example: `public/projects/kiraci-tahliye/`). The layout is fixed — brand header, chapter progress dots, kicker, serif headline, illustration stage, source line, boxed captions — so you only write content.
+Use when the storyboard has `"format": "dossier"` (example: `public/projects/kiraci-tahliye/`). The layout is fixed — brand logo, serif headline, illustration stage, small source line, captions — so you only write content. There is NO case number ("VAKA N°"), chapter progress bar or § chapter label any more (the owner removed them, Nov 2026); don't set `brand.series` or `chapter`.
+
+**House rule — visual, not written (owner's request, applies to every video):** the headline is the only text on screen besides captions and the source tag. Tell the story with animation: people on a `stage`, `sketch` icons/arrows/rings, `physics` drops, `particles` for one number, `object3d`. Avoid text-heavy visuals: no `card` stacks, `bars` tables, `law-article` quotes, `verdict` text, `sketch` text strokes, long `label`/`sub` lines. Physics labels: one word. Change the visual on every scene and use more moving elements per scene (cue each one on a word).
 
 **Story structure (6–8 chapters, 45–60 s):**
 1. Hook — a concrete everyday situation, posed as a question ("Ev sahibi 'oğlum evlenecek' dedi. Çıkmak zorunda mısın?").
@@ -68,9 +70,9 @@ Use when the storyboard has `"format": "dossier"` (example: `public/projects/kir
 5. Sonuç — a `verdict` scene: the naive answer struck through, the real one lands.
 6. Kör nokta — the surprising consequence most people don't know.
 7. Söz sende — a neutral question for the comments + scales (`wobble`).
-Consecutive scenes with the same `chapter` share a progress dot; repeat the same `headline` to keep it on screen while the illustration changes.
+Repeat the same `headline` to keep it on screen while the illustration changes. The "Hook", "Söz sende" etc. names above are story beats for you, never on-screen labels.
 
-**Per scene:** `chapter` (kicker; "Konu · Alt konu" renders the second part in accent), `headline` (≤ 6 words, wrap ONE word in `*…*` for the italic accent), `source` (law + article, e.g. "TBK m.350"), `say`, `visual`.
+**Per scene:** `headline` (≤ 6 words, wrap ONE word in `*…*` for the italic accent), `source` (law + article, e.g. "TBK m.350"), `say`, `visual`.
 
 **Stage scenes** — compose the picture from parts on a 940×720 canvas. Every element appears on its `cue` word in this scene's `say` (prefix match; `"kurşun#2"` = second occurrence). Unresolved cues are reported by `npm run timeline`.
 - People/props/icons stand ON (x, y) — use one `ground` y for everyone in a row (typ. 640–680). Stamps, cards, tags, bubbles, badges, text are CENTERED on (x, y). Panels use top-left x, y + w, h.
