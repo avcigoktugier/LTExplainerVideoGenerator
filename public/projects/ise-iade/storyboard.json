@@ -5,7 +5,6 @@
   "format": "dossier",
   "brand": {
     "name": "Law & Trust",
-    "series": "VAKA N°",
     "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
     "logo": "law-trust-logo.svg",
     "watermark": "law-trust-monogram.svg"
@@ -19,7 +18,6 @@
   "scenes": [
     {
       "id": "hook",
-      "chapter": "İş hukuku · Haksız fesih",
       "headline": "Yarın *gelme* dediler.",
       "source": "4857 s. İş K. m.18",
       "say": "İşveren bir sabah, yarın gelme dedi. Sebep yok. Bu kadar kolay mı?",
@@ -58,7 +56,7 @@
             "kind": "bubble",
             "x": 330,
             "y": 150,
-            "text": "Yarın gelme!",
+            "icon": "DoorOpen",
             "variant": "speech",
             "cue": "yarın"
           },
@@ -74,7 +72,6 @@
     },
     {
       "id": "ilk-tepki",
-      "chapter": "İlk tepki",
       "headline": "Patron *haklı* mı?",
       "say": "Çoğu işçi, yapacak bir şey yok sanır. Oysa kanun işverene bir yük yükler.",
       "visual": {
@@ -83,45 +80,46 @@
           {
             "kind": "icon",
             "name": "DoorOpen",
-            "x": 290,
-            "y": 330,
-            "size": 240,
+            "x": 260,
+            "y": 340,
+            "size": 230,
             "cue": "işçi"
+          },
+          {
+            "kind": "circle",
+            "x": 260,
+            "y": 340,
+            "r": 165,
+            "color": "danger",
+            "cue": "sanır"
           },
           {
             "kind": "arrow",
             "from": [
-              450,
+              430,
               340
             ],
             "to": [
-              620,
-              250
+              600,
+              340
             ],
-            "bend": -0.35
-          },
-          {
-            "kind": "text",
-            "x": 700,
-            "y": 190,
-            "text": "Yapacak bir şey yok?",
-            "size": 50,
-            "font": "serif"
-          },
-          {
-            "kind": "circle",
-            "x": 290,
-            "y": 330,
-            "r": 170,
-            "color": "danger",
+            "bend": -0.3,
             "cue": "Oysa"
           },
           {
-            "kind": "path",
-            "d": "M180 220 L400 440 M400 220 L180 440",
-            "color": "danger",
-            "width": 8,
-            "dur": 0.4
+            "kind": "icon",
+            "name": "Scale",
+            "x": 730,
+            "y": 340,
+            "size": 230,
+            "cue": "kanun"
+          },
+          {
+            "kind": "underline",
+            "x": 600,
+            "y": 500,
+            "w": 260,
+            "cue": "yük"
           }
         ]
       },
@@ -129,7 +127,6 @@
     },
     {
       "id": "kural",
-      "chapter": "Kural · Geçerli sebep",
       "headline": "Geçerli *sebep* şart.",
       "source": "İş K. m.18/1",
       "say": "Otuz ve üzeri işçili bir işyerinde, altı aylık kıdemin varsa, işveren geçerli bir sebep göstermek zorunda.",
@@ -142,17 +139,17 @@
             "cue": "Otuz"
           },
           {
-            "label": "6 ay kıdem",
+            "label": "6 ay",
             "icon": "CalendarCheck",
             "cue": "altı"
           },
           {
-            "label": "Belirsiz süreli sözleşme",
+            "label": "Sözleşme",
             "icon": "FileSignature",
             "cue": "işveren"
           },
           {
-            "label": "Geçerli sebep",
+            "label": "Sebep",
             "icon": "BadgeCheck",
             "cue": "geçerli"
           }
@@ -162,7 +159,6 @@
     },
     {
       "id": "sebep-olmaz",
-      "chapter": "Kural · Sebep sayılmaz",
       "headline": "Bunlar *sebep* olamaz.",
       "source": "İş K. m.18/3",
       "say": "Sendika üyeliği, hamilelik ya da hak aramak, geçerli sebep sayılmaz.",
@@ -170,41 +166,55 @@
         "type": "stage",
         "elements": [
           {
-            "kind": "card",
-            "x": 470,
-            "y": 120,
-            "w": 760,
-            "label": "Sebep değil",
-            "value": "Sendika",
-            "strike": true,
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 150,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "pose": "aimRight",
+            "look": "right",
             "cue": "Sendika"
           },
           {
-            "kind": "card",
-            "x": 470,
-            "y": 300,
-            "w": 760,
-            "label": "Sebep değil",
-            "value": "Hamilelik",
-            "strike": true,
+            "kind": "icon",
+            "x": 420,
+            "y": 560,
+            "name": "Flag",
+            "size": 150,
+            "color": "accent",
+            "cue": "Sendika"
+          },
+          {
+            "kind": "icon",
+            "x": 620,
+            "y": 560,
+            "name": "Baby",
+            "size": 150,
+            "color": "accent",
             "cue": "hamilelik"
           },
           {
-            "kind": "card",
-            "x": 470,
-            "y": 480,
-            "w": 760,
-            "label": "Sebep değil",
-            "value": "Hak aramak",
-            "strike": true,
+            "kind": "icon",
+            "x": 820,
+            "y": 560,
+            "name": "Scale",
+            "size": 150,
+            "color": "accent",
             "cue": "hak"
           },
           {
-            "kind": "stamp",
-            "x": 650,
-            "y": 640,
-            "text": "GEÇERSİZ SEBEP",
-            "rotate": -5,
+            "kind": "badge",
+            "x": 150,
+            "y": 170,
+            "symbol": "x",
             "cue": "sayılmaz"
           }
         ]
@@ -213,56 +223,81 @@
     },
     {
       "id": "surec",
-      "chapter": "Süreç · İşe iade",
       "headline": "Süre *bir ay*.",
       "source": "İş K. m.20 · 7036 s. K. m.3",
       "say": "Fesih bildiriminden itibaren bir ay içinde arabulucuya başvur. Anlaşma olmazsa, iki hafta içinde dava açılır.",
       "visual": {
-        "type": "hyperframe",
-        "comp": "timeline",
-        "vars": {
-          "events": [
-            {
-              "when": "Gün 0",
-              "what": "Fesih bildirimi"
-            },
-            {
-              "when": "1 ay içinde",
-              "what": "Arabulucuya başvuru"
-            },
-            {
-              "when": "Anlaşma yok",
-              "what": "Son tutanak"
-            },
-            {
-              "when": "2 hafta içinde",
-              "what": "İşe iade davası"
-            }
-          ],
-          "active": 2
-        },
-        "cues": {
-          "e1": "bildirimi",
-          "e2": "arabulucuya",
-          "e3": "Anlaşma",
-          "e4": {
-            "word": "dava",
-            "sfx": "thud"
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Mail",
+            "x": 150,
+            "y": 330,
+            "size": 170,
+            "cue": "bildiriminden"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              250,
+              330
+            ],
+            "to": [
+              370,
+              330
+            ],
+            "bend": -0.3,
+            "cue": "ay"
+          },
+          {
+            "kind": "icon",
+            "name": "Handshake",
+            "x": 470,
+            "y": 330,
+            "size": 170,
+            "cue": "arabulucuya"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              570,
+              330
+            ],
+            "to": [
+              690,
+              330
+            ],
+            "bend": -0.3,
+            "cue": "Anlaşma"
+          },
+          {
+            "kind": "icon",
+            "name": "Landmark",
+            "x": 790,
+            "y": 330,
+            "size": 170,
+            "cue": "dava"
+          },
+          {
+            "kind": "underline",
+            "x": 160,
+            "y": 500,
+            "w": 620,
+            "cue": "açılır"
           }
-        }
+        ]
       },
       "transition": "slide"
     },
     {
       "id": "ispat",
-      "chapter": "Süreç · İspat",
       "headline": "İspat *işverende*.",
       "source": "İş K. m.20/2",
       "say": "Sebebin geçerli olduğunu ispatlamak, işverenin işidir.",
       "visual": {
         "type": "object3d",
         "model": "scales",
-        "label": "İspat yükü: işveren",
         "orbit": 50,
         "tilt": -0.6,
         "cue": "ispatlamak"
@@ -271,7 +306,6 @@
     },
     {
       "id": "sonuc",
-      "chapter": "Sonuç",
       "headline": "Ya *işe dön*, ya tazminat.",
       "source": "İş K. m.21/1",
       "say": "Fesih geçersizse, işveren seni bir ay içinde işe başlatmalı. Başlatmazsa, dört ila sekiz aylık ücretin kadar tazminat öder.",
@@ -279,14 +313,13 @@
         "type": "particles",
         "effect": "burst",
         "text": "4–8 ay",
-        "sub": "ücret tutarında iş güvencesi tazminatı",
+        "icon": "Banknote",
         "cue": "dört"
       },
       "transition": "flip"
     },
     {
       "id": "bosta",
-      "chapter": "Sonuç · Boşta geçen süre",
       "headline": "Bekleme de *ödenir*.",
       "source": "İş K. m.21/3",
       "say": "Dava sürerken boşta geçen süre için de, en çok dört aylık ücretin ödenir.",
@@ -308,22 +341,22 @@
             "cue": "boşta"
           },
           {
-            "kind": "card",
-            "x": 640,
-            "y": 250,
-            "w": 420,
-            "label": "En çok",
-            "value": "4 aylık ücret",
-            "cue": "dört"
-          },
-          {
             "kind": "icon",
             "x": 640,
-            "y": 650,
-            "name": "Banknote",
-            "size": 170,
-            "color": "accent",
-            "cue": "ödenir"
+            "y": 260,
+            "name": "Hourglass",
+            "size": 180,
+            "color": "ink",
+            "cue": "sürerken"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 640,
+            "y": 640,
+            "w": 190,
+            "cue": "ödenir",
+            "idle": "bob"
           }
         ]
       },
@@ -331,35 +364,70 @@
     },
     {
       "id": "kor-nokta",
-      "chapter": "Kör nokta",
       "headline": "*On işgünü* kuralı.",
       "source": "İş K. m.21/6",
       "say": "Ama dikkat: kesinleşen karar tebliğ edilince, on işgünü içinde işe başvurmazsan, fesih geçerli sayılır.",
       "visual": {
-        "type": "verdict",
-        "label": "Başvuru yapılmazsa",
-        "from": "Fesih geçersiz",
-        "to": "Fesih geçerli sayılır",
-        "cue": "başvurmazsan"
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Mail",
+            "x": 250,
+            "y": 330,
+            "size": 210,
+            "cue": "tebliğ"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              390,
+              330
+            ],
+            "to": [
+              560,
+              330
+            ],
+            "bend": -0.3,
+            "cue": "on"
+          },
+          {
+            "kind": "icon",
+            "name": "DoorClosed",
+            "x": 700,
+            "y": 330,
+            "size": 210,
+            "cue": "başvurmazsan"
+          },
+          {
+            "kind": "circle",
+            "x": 700,
+            "y": 330,
+            "r": 160,
+            "color": "danger",
+            "cue": "geçerli"
+          }
+        ]
       },
       "transition": "light"
     },
     {
       "id": "ayrica",
-      "chapter": "Kör nokta · Diğer haklar",
       "headline": "Kıdem ve *ihbar*.",
       "source": "1475 s. İş K. m.14 · 4857 s. İş K. m.17",
       "say": "Kıdem ve ihbar tazminatı ise, kural olarak ayrıca gündeme gelir.",
       "visual": {
-        "type": "icons",
+        "type": "physics",
         "items": [
           {
+            "label": "Kıdem",
             "icon": "Briefcase",
-            "label": "Kıdem tazminatı"
+            "cue": "Kıdem"
           },
           {
+            "label": "İhbar",
             "icon": "BellRing",
-            "label": "İhbar tazminatı"
+            "cue": "ihbar"
           }
         ]
       },
@@ -367,13 +435,11 @@
     },
     {
       "id": "soz-sende",
-      "chapter": "Söz sende",
       "headline": "Sence *yeterli* mi?",
       "say": "Sence bir aylık süre yeterli mi? Yorumlara yaz.",
       "visual": {
         "type": "object3d",
         "model": "gavel",
-        "label": "Bir ay yeterli mi?",
         "orbit": 60,
         "cue": "yeterli"
       },

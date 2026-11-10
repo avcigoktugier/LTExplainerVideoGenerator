@@ -7,7 +7,6 @@
     "name": "Law & Trust",
     "logo": "law-trust-logo.svg",
     "watermark": "law-trust-monogram.svg",
-    "series": "VAKA N°",
     "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
   },
   "episode": 1,
@@ -28,9 +27,19 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/thud.mp3",
+      "src": "sfx/pop.mp3",
+      "from": 89,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 55,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
       "from": 169,
-      "volume": 0.4
+      "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -38,19 +47,19 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/pop.mp3",
-      "from": 214,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
+      "src": "sfx/swoosh.mp3",
       "from": 283,
-      "volume": 0.22
+      "volume": 0.14
     },
     {
-      "src": "sfx/pop.mp3",
+      "src": "sfx/swoosh.mp3",
       "from": 381,
-      "volume": 0.22
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 395,
+      "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -78,44 +87,39 @@
       "volume": 0.22
     },
     {
-      "src": "sfx/thud.mp3",
+      "src": "sfx/pop.mp3",
       "from": 573,
-      "volume": 0.4
+      "volume": 0.22
     },
     {
-      "src": "sfx/swoosh.mp3",
+      "src": "sfx/whoosh.mp3",
       "from": 638,
       "volume": 0.32
     },
     {
-      "src": "sfx/pop.mp3",
-      "from": 685,
-      "volume": 0.25
+      "src": "sfx/thud.mp3",
+      "from": 716,
+      "volume": 0.3
     },
     {
-      "src": "sfx/pop.mp3",
-      "from": 748,
-      "volume": 0.25
+      "src": "sfx/thud.mp3",
+      "from": 776,
+      "volume": 0.3
     },
     {
-      "src": "sfx/ding.mp3",
-      "from": 830,
-      "volume": 0.25
+      "src": "sfx/thud.mp3",
+      "from": 858,
+      "volume": 0.3
     },
     {
-      "src": "sfx/swoosh.mp3",
+      "src": "sfx/whoosh.mp3",
       "from": 878,
       "volume": 0.32
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 946,
-      "volume": 0.25
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 960,
-      "volume": 0.25
+      "from": 1021,
+      "volume": 0.45
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -123,9 +127,14 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/tick.mp3",
+      "src": "sfx/riser.mp3",
+      "from": 1260,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
       "from": 1284,
-      "volume": 0.25
+      "volume": 0.28
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -138,7 +147,7 @@
       "volume": 0.22
     },
     {
-      "src": "sfx/click.mp3",
+      "src": "sfx/pop.mp3",
       "from": 1504,
       "volume": 0.22
     },
@@ -148,19 +157,14 @@
       "volume": 0.22
     },
     {
-      "src": "sfx/swoosh.mp3",
+      "src": "sfx/whoosh.mp3",
       "from": 1539,
       "volume": 0.32
     },
     {
-      "src": "sfx/swoosh.mp3",
-      "from": 1548,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 1631,
-      "volume": 0.22
+      "src": "sfx/ding.mp3",
+      "from": 1588,
+      "volume": 0.3
     }
   ],
   "words": [
@@ -725,38 +729,6 @@
       "id": "hook",
       "say": "Ev sahibi, oğlum evlenecek, evi boşalt dedi. Peki kiracı çıkmak zorunda mı?",
       "visual": {
-        "type": "hyperframe",
-        "comp": "case-file",
-        "vars": {
-          "title": "VAKA N° 001",
-          "label": "OLAY",
-          "lines": [
-            "Ev sahibi: oğlum evlenecek.",
-            "Talep: evi boşalt."
-          ],
-          "highlightLine": 1,
-          "stamp": "İNCELEMEDE"
-        },
-        "cues": {
-          "highlight": "evlenecek",
-          "stamp": {
-            "word": "zorunda",
-            "sfx": "thud"
-          }
-        }
-      },
-      "chapter": "Kira hukuku · İhtiyaç nedeniyle tahliye",
-      "headline": "Oğlum evlenecek, *çık* dedi.",
-      "source": "TBK m.350 · m.355",
-      "from": 0,
-      "durationInFrames": 203,
-      "asset": "projects/kiraci-tahliye/hf/hook-9b7af8fcdc.webm",
-      "assetFresh": true
-    },
-    {
-      "id": "ilk-tepki",
-      "say": "Çoğu kiracı bu sözü duyunca hemen taşınması gerektiğini düşünür. Ama iş o kadar basit değil.",
-      "visual": {
         "type": "stage",
         "elements": [
           {
@@ -765,30 +737,80 @@
           },
           {
             "kind": "person",
-            "x": 470,
+            "x": 250,
+            "y": 660,
+            "color": "cast1",
+            "pose": "aimRight",
+            "look": "right",
+            "hair": "short",
+            "outfit": "suit",
+            "accessories": [
+              "mustache"
+            ],
+            "cue": "Ev"
+          },
+          {
+            "kind": "person",
+            "x": 690,
             "y": 660,
             "color": "cast2",
-            "mood": "shocked"
+            "mood": "shocked",
+            "look": "left",
+            "cue": "boşalt"
           },
           {
             "kind": "bubble",
-            "x": 640,
-            "y": 230,
-            "icon": "Truck",
-            "variant": "thought",
-            "tail": "left",
-            "cue": "taşınması"
+            "x": 310,
+            "y": 150,
+            "icon": "DoorOpen",
+            "variant": "speech",
+            "cue": "evlenecek"
           },
           {
             "kind": "badge",
-            "x": 250,
-            "y": 300,
-            "symbol": "x",
-            "cue": "basit"
+            "x": 690,
+            "y": 170,
+            "symbol": "?",
+            "cue": "zorunda"
           }
         ]
       },
-      "chapter": "İlk tepki",
+      "headline": "Oğlum evlenecek, *çık* dedi.",
+      "source": "TBK m.350 · m.355",
+      "from": 0,
+      "durationInFrames": 203
+    },
+    {
+      "id": "ilk-tepki",
+      "say": "Çoğu kiracı bu sözü duyunca hemen taşınması gerektiğini düşünür. Ama iş o kadar basit değil.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Truck",
+            "x": 470,
+            "y": 330,
+            "size": 280,
+            "cue": "taşınması"
+          },
+          {
+            "kind": "circle",
+            "x": 470,
+            "y": 330,
+            "r": 200,
+            "color": "danger",
+            "cue": "basit"
+          },
+          {
+            "kind": "path",
+            "d": "M330 190 L610 470 M610 190 L330 470",
+            "color": "danger",
+            "width": 8,
+            "dur": 0.4
+          }
+        ]
+      },
       "headline": "Cevap: *hemen çık?*",
       "from": 203,
       "durationInFrames": 224
@@ -837,16 +859,14 @@
             "cue": "anne"
           },
           {
-            "kind": "stamp",
+            "kind": "badge",
             "x": 470,
             "y": 150,
-            "text": "Gerçek ihtiyaç",
-            "rotate": -6,
+            "symbol": "check",
             "cue": "gerçek"
           }
         ]
       },
-      "chapter": "Kural",
       "headline": "İhtiyaç *gerçek* olmalı.",
       "source": "TBK m.350",
       "from": 427,
@@ -856,59 +876,39 @@
       "id": "ispat",
       "say": "Kiracı kendi isteğiyle çıkmazsa, ev sahibi tahliye davası açar ve ihtiyacını mahkemede ispatlamak zorundadır.",
       "visual": {
-        "type": "hyperframe",
-        "comp": "timeline",
-        "vars": {
-          "events": [
-            {
-              "when": "1. adım",
-              "what": "Kiracı kendi isteğiyle çıkmaz"
-            },
-            {
-              "when": "2. adım",
-              "what": "Ev sahibi tahliye davası açar"
-            },
-            {
-              "when": "3. adım",
-              "what": "İhtiyaç mahkemede ispatlanır"
-            }
-          ],
-          "active": 3
-        },
-        "cues": {
-          "e1": {
-            "word": "çıkmazsa",
-            "sfx": "pop"
+        "type": "physics",
+        "items": [
+          {
+            "label": "Çıkmaz",
+            "icon": "DoorClosed",
+            "cue": "çıkmazsa"
           },
-          "e2": {
-            "word": "davası",
-            "sfx": "pop"
+          {
+            "label": "Dava",
+            "icon": "FileText",
+            "cue": "davası"
           },
-          "e3": {
-            "word": "ispatlamak",
-            "sfx": "ding"
+          {
+            "label": "İspat",
+            "icon": "BadgeCheck",
+            "cue": "ispatlamak"
           }
-        }
+        ]
       },
-      "chapter": "İspat",
       "headline": "Söz yetmez, *dava* gerekir.",
       "source": "TBK m.350 · Tahliye davası",
       "from": 641,
-      "durationInFrames": 240,
-      "asset": "projects/kiraci-tahliye/hf/ispat-88b870d70f.webm",
-      "assetFresh": true
+      "durationInFrames": 240
     },
     {
       "id": "sonuc",
       "say": "Yani kiracı hemen çıkmak zorunda değil. İhtiyaç gerçekse ve mahkeme karar verirse tahliye gerçekleşir.",
       "visual": {
-        "type": "verdict",
-        "label": "Kiracının durumu",
-        "from": "Hemen çıkmalı",
-        "to": "Karar beklenir",
-        "cue": "değil"
+        "type": "object3d",
+        "model": "gavel",
+        "orbit": 40,
+        "cue": "karar"
       },
-      "chapter": "Sonuç",
       "headline": "Önce *mahkeme*.",
       "from": 881,
       "durationInFrames": 212
@@ -917,29 +917,16 @@
       "id": "kor-nokta",
       "say": "Asıl şaşırtan kısım: ihtiyaç diyerek kiracıyı çıkaran ev sahibi, haklı bir sebep olmadan evi üç yıl boyunca başkasına kiralayamaz.",
       "visual": {
-        "type": "hyperframe",
-        "comp": "law-article",
-        "vars": {
-          "code": "TBK",
-          "article": "m. 355/1",
-          "text": "Kiraya veren, gereksinim amacıyla kiralananın boşaltılmasını sağladığında, haklı sebep olmaksızın, kiralananı üç yıl geçmedikçe eski kiracısından başkasına kiralayamaz.",
-          "highlight": "üç yıl geçmedikçe",
-          "note": "Yeniden kiralama yasağı"
-        },
-        "cues": {
-          "highlight": {
-            "word": "üç",
-            "sfx": "tick"
-          }
-        }
+        "type": "particles",
+        "effect": "burst",
+        "text": "3 yıl",
+        "icon": "House",
+        "cue": "üç"
       },
-      "chapter": "Kör nokta",
       "headline": "Üç yıl *başkasına* veremez.",
       "source": "TBK m.355/1",
       "from": 1093,
-      "durationInFrames": 278,
-      "asset": "projects/kiraci-tahliye/hf/kor-nokta-4a82110c41.webm",
-      "assetFresh": true
+      "durationInFrames": 278
     },
     {
       "id": "tazminat",
@@ -961,26 +948,25 @@
             "cue": "eski"
           },
           {
-            "kind": "card",
+            "kind": "icon",
             "x": 640,
-            "y": 250,
-            "w": 420,
-            "label": "Tazminat · en az",
-            "value": "1 yıllık kira",
+            "y": 280,
+            "name": "Banknote",
+            "size": 220,
+            "color": "accent",
             "cue": "tazminat"
           },
           {
-            "kind": "icon",
+            "kind": "art",
+            "name": "gold-coin",
             "x": 640,
-            "y": 650,
-            "name": "Banknote",
-            "size": 170,
-            "color": "accent",
+            "y": 640,
+            "w": 180,
+            "idle": "bob",
             "cue": "kira"
           }
         ]
       },
-      "chapter": "Kör nokta",
       "headline": "Uymazsa *tazminat* öder.",
       "source": "TBK m.355/3",
       "from": 1371,
@@ -990,28 +976,12 @@
       "id": "soz-sende",
       "say": "Sence bu kural kiracıyı yeterince koruyor mu? Yorumlara yaz.",
       "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "scales",
-            "x": 470,
-            "y": 640,
-            "tilt": 0,
-            "wobble": true,
-            "left": "Yeterli",
-            "right": "Yetersiz"
-          },
-          {
-            "kind": "bubble",
-            "x": 730,
-            "y": 520,
-            "text": "Yorumlara yaz",
-            "tail": "left",
-            "cue": "yorumlara"
-          }
-        ]
+        "type": "object3d",
+        "model": "scales",
+        "orbit": 60,
+        "tilt": 0,
+        "cue": "yeterince"
       },
-      "chapter": "Söz sende",
       "headline": "Sence *yeterli* mi?",
       "from": 1542,
       "durationInFrames": 151

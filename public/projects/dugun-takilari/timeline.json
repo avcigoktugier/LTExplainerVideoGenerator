@@ -7,7 +7,6 @@
     "name": "Law & Trust",
     "logo": "law-trust-logo.svg",
     "watermark": "law-trust-monogram.svg",
-    "series": "VAKA N°",
     "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
   },
   "episode": 2,
@@ -28,9 +27,19 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/thud.mp3",
+      "src": "sfx/swoosh.mp3",
+      "from": 44,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 72,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
       "from": 92,
-      "volume": 0.4
+      "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -63,39 +72,34 @@
       "volume": 0.22
     },
     {
-      "src": "sfx/swoosh.mp3",
+      "src": "sfx/whoosh.mp3",
       "from": 298,
       "volume": 0.32
     },
     {
-      "src": "sfx/click.mp3",
-      "from": 396,
-      "volume": 0.22
-    },
-    {
       "src": "sfx/thud.mp3",
-      "from": 343,
-      "volume": 0.4
+      "from": 396,
+      "volume": 0.45
     },
     {
-      "src": "sfx/swoosh.mp3",
+      "src": "sfx/whoosh.mp3",
       "from": 424,
       "volume": 0.32
     },
     {
-      "src": "sfx/pop.mp3",
-      "from": 472,
-      "volume": 0.25
+      "src": "sfx/thud.mp3",
+      "from": 503,
+      "volume": 0.3
     },
     {
-      "src": "sfx/pop.mp3",
-      "from": 572,
-      "volume": 0.25
+      "src": "sfx/thud.mp3",
+      "from": 600,
+      "volume": 0.3
     },
     {
-      "src": "sfx/ding.mp3",
-      "from": 656,
-      "volume": 0.25
+      "src": "sfx/thud.mp3",
+      "from": 681,
+      "volume": 0.3
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -103,9 +107,19 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/tick.mp3",
-      "from": 817,
-      "volume": 0.25
+      "src": "sfx/pop.mp3",
+      "from": 756,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 774,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 860,
+      "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -113,14 +127,14 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/thud.mp3",
-      "from": 978,
-      "volume": 0.25
+      "src": "sfx/riser.mp3",
+      "from": 954,
+      "volume": 0.18
     },
     {
-      "src": "sfx/thud.mp3",
-      "from": 992,
-      "volume": 0.25
+      "src": "sfx/ding.mp3",
+      "from": 978,
+      "volume": 0.28
     },
     {
       "src": "sfx/swoosh.mp3",
@@ -153,34 +167,39 @@
       "volume": 0.32
     },
     {
-      "src": "sfx/pop.mp3",
+      "src": "sfx/swoosh.mp3",
       "from": 1505,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 1524,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 1561,
-      "volume": 0.4
+      "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
+      "from": 1524,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1545,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1556,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1561,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/whoosh.mp3",
       "from": 1585,
       "volume": 0.32
     },
     {
-      "src": "sfx/swoosh.mp3",
-      "from": 1594,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 1655,
-      "volume": 0.22
+      "src": "sfx/ding.mp3",
+      "from": 1635,
+      "volume": 0.3
     }
   ],
   "words": [
@@ -705,33 +724,51 @@
       "id": "hook",
       "say": "Düğünde damada takılan altınlar, boşanınca kime kalır?",
       "visual": {
-        "type": "hyperframe",
-        "comp": "case-file",
-        "vars": {
-          "title": "VAKA N° 002",
-          "label": "OLAY",
-          "lines": [
-            "Çift boşanıyor.",
-            "Damada takılan altınlar?"
-          ],
-          "highlightLine": 2,
-          "stamp": "TARTIŞMALI"
-        },
-        "cues": {
-          "highlight": "damada",
-          "stamp": {
-            "word": "kime",
-            "sfx": "thud"
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Coins",
+            "x": 260,
+            "y": 330,
+            "size": 230,
+            "cue": "altınlar"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              420,
+              330
+            ],
+            "to": [
+              580,
+              330
+            ],
+            "bend": -0.3,
+            "cue": "boşanınca"
+          },
+          {
+            "kind": "icon",
+            "name": "HeartCrack",
+            "x": 720,
+            "y": 330,
+            "size": 230,
+            "cue": "boşanınca"
+          },
+          {
+            "kind": "circle",
+            "x": 260,
+            "y": 330,
+            "r": 165,
+            "color": "danger",
+            "cue": "kime"
           }
-        }
+        ]
       },
-      "chapter": "Aile hukuku · Düğün takıları",
       "headline": "Damadın altını *kimin*?",
       "source": "Yargıtay 2. HD · 2024 / 2026",
       "from": 0,
-      "durationInFrames": 133,
-      "asset": "projects/dugun-takilari/hf/hook-9f776c5b8a.webm",
-      "assetFresh": true
+      "durationInFrames": 133
     },
     {
       "id": "ilk-tepki",
@@ -807,7 +844,6 @@
           }
         ]
       },
-      "chapter": "İlk tepki",
       "headline": "Herkes der ki: *hepsi gelinin!*",
       "from": 133,
       "durationInFrames": 168
@@ -816,29 +852,11 @@
       "id": "degisim",
       "say": "Ama Yargıtay, iki bin yirmi dörtte bu görüşü değiştirdi.",
       "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "card",
-            "x": 470,
-            "y": 290,
-            "w": 520,
-            "label": "Eski görüş",
-            "value": "Hepsi gelinin",
-            "strike": true,
-            "cue": "değiştirdi"
-          },
-          {
-            "kind": "stamp",
-            "x": 470,
-            "y": 520,
-            "text": "2024",
-            "rotate": -5,
-            "cue": "iki"
-          }
-        ]
+        "type": "object3d",
+        "model": "gavel",
+        "orbit": 50,
+        "cue": "değiştirdi"
       },
-      "chapter": "Yeni kural",
       "headline": "Yargıtay *fikrini* değiştirdi.",
       "source": "Yargıtay 2. HD · 04.04.2024",
       "from": 301,
@@ -848,87 +866,107 @@
       "id": "sira",
       "say": "Artık önce eşlerin anlaşmasına bakılıyor. Anlaşma yoksa yöresel örf ve adete. O da yoksa takı, kime takıldıysa onun.",
       "visual": {
-        "type": "hyperframe",
-        "comp": "timeline",
-        "vars": {
-          "events": [
-            {
-              "when": "1. sıra",
-              "what": "Eşlerin anlaşması"
-            },
-            {
-              "when": "2. sıra",
-              "what": "Yöresel örf ve adet"
-            },
-            {
-              "when": "3. sıra",
-              "what": "Kime takıldıysa onun"
-            }
-          ],
-          "active": 3
-        },
-        "cues": {
-          "e1": {
-            "word": "anlaşmasına",
-            "sfx": "pop"
+        "type": "physics",
+        "items": [
+          {
+            "label": "Anlaşma",
+            "icon": "Handshake",
+            "cue": "anlaşmasına"
           },
-          "e2": {
-            "word": "örf",
-            "sfx": "pop"
+          {
+            "label": "Örf ve adet",
+            "icon": "Users",
+            "cue": "örf"
           },
-          "e3": {
-            "word": "takıldıysa",
-            "sfx": "ding"
+          {
+            "label": "Takılan kişi",
+            "icon": "Gift",
+            "cue": "takıldıysa"
           }
-        }
+        ]
       },
-      "chapter": "Yeni kural",
       "headline": "Önce *anlaşma*.",
       "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
       "from": 427,
-      "durationInFrames": 273,
-      "asset": "projects/dugun-takilari/hf/sira-cacdb51987.webm",
-      "assetFresh": true
+      "durationInFrames": 273
     },
     {
       "id": "karar",
       "say": "Kararda açıkça yazıyor: erkeğe ve kadına takılanlar, kural olarak kendilerine aittir.",
       "visual": {
-        "type": "hyperframe",
-        "comp": "law-article",
-        "vars": {
-          "code": "Yargıtay",
-          "article": "2. HD",
-          "text": "Aksi takdirde erkeğe ve kadına takılan/verilen ve ekonomik değer taşıyan her şey kural olarak kendilerine aittir.",
-          "highlight": "kural olarak kendilerine aittir",
-          "note": "2023/5704 E. · 2024/2402 K."
-        },
-        "cues": {
-          "highlight": {
-            "word": "kural",
-            "sfx": "tick"
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 220,
+            "y": 660,
+            "color": "cast1",
+            "look": "right",
+            "outfit": "suit",
+            "cue": "erkeğe"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 220,
+            "y": 300,
+            "w": 120,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "erkeğe"
+          },
+          {
+            "kind": "person",
+            "x": 720,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "left",
+            "hair": "bun",
+            "outfit": "dress",
+            "accessories": [
+              "veil"
+            ],
+            "cue": "kadına"
+          },
+          {
+            "kind": "art",
+            "name": "bracelet",
+            "x": 720,
+            "y": 300,
+            "w": 150,
+            "anchor": "center",
+            "idle": "sway",
+            "cue": "kadına"
+          },
+          {
+            "kind": "badge",
+            "x": 470,
+            "y": 160,
+            "symbol": "check",
+            "cue": "aittir"
           }
-        }
+        ]
       },
-      "chapter": "Kararın dili",
       "headline": "Kime takıldıysa *onun*.",
       "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
       "from": 700,
-      "durationInFrames": 197,
-      "asset": "projects/dugun-takilari/hf/karar-62c6c47915.webm",
-      "assetFresh": true
+      "durationInFrames": 197
     },
     {
       "id": "sonuc",
       "say": "Yani damada takılan çeyrek altınlar, artık kural olarak damadın sayılıyor.",
       "visual": {
-        "type": "verdict",
-        "label": "Damada takılan çeyrek altın",
-        "from": "Gelinin",
-        "to": "Damadın",
+        "type": "particles",
+        "effect": "gather",
+        "text": "Damadın",
+        "icon": "Coins",
         "cue": "artık"
       },
-      "chapter": "Sonuç",
       "headline": "Çeyrekler *damadın*.",
       "from": 897,
       "durationInFrames": 186
@@ -977,13 +1015,6 @@
             "cue": "bileziği"
           },
           {
-            "kind": "tag",
-            "x": 470,
-            "y": 400,
-            "text": "Kadına özgü",
-            "cue": "bileziği"
-          },
-          {
             "kind": "badge",
             "x": 740,
             "y": 290,
@@ -992,7 +1023,6 @@
           }
         ]
       },
-      "chapter": "İstisna",
       "headline": "Kadına özgüyse *kadının*.",
       "from": 1083,
       "durationInFrames": 282
@@ -1001,37 +1031,59 @@
       "id": "kor-nokta",
       "say": "Neyin kime takıldığını mahkemede göstermeniz gerekebilir. Düğün videosunu ve fotoğrafları bu yüzden saklayın.",
       "visual": {
-        "type": "stage",
-        "elements": [
+        "type": "sketch",
+        "strokes": [
           {
             "kind": "icon",
-            "x": 300,
-            "y": 560,
             "name": "Video",
+            "x": 230,
+            "y": 260,
             "size": 190,
-            "color": "ink",
             "cue": "videosunu"
           },
           {
             "kind": "icon",
-            "x": 640,
-            "y": 560,
             "name": "Camera",
+            "x": 710,
+            "y": 260,
             "size": 190,
-            "color": "accent",
             "cue": "fotoğrafları"
           },
           {
-            "kind": "stamp",
+            "kind": "arrow",
+            "from": [
+              260,
+              390
+            ],
+            "to": [
+              420,
+              540
+            ],
+            "bend": 0.3,
+            "cue": "bu"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              680,
+              390
+            ],
+            "to": [
+              520,
+              540
+            ],
+            "bend": -0.3
+          },
+          {
+            "kind": "icon",
+            "name": "Archive",
             "x": 470,
-            "y": 170,
-            "text": "Önemli delil",
-            "rotate": -6,
+            "y": 580,
+            "size": 160,
             "cue": "saklayın"
           }
         ]
       },
-      "chapter": "Kör nokta",
       "headline": "Videoyu *sakla*.",
       "source": "HMK m.190 · İspat yükü",
       "from": 1365,
@@ -1041,28 +1093,12 @@
       "id": "soz-sende",
       "say": "Sence yeni kural daha mı adil? Yorumlara yaz.",
       "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "scales",
-            "x": 470,
-            "y": 640,
-            "tilt": 0,
-            "wobble": true,
-            "left": "Adil",
-            "right": "Değil"
-          },
-          {
-            "kind": "bubble",
-            "x": 730,
-            "y": 520,
-            "text": "Yorumlara yaz",
-            "tail": "left",
-            "cue": "yorumlara"
-          }
-        ]
+        "type": "object3d",
+        "model": "scales",
+        "orbit": 60,
+        "tilt": 0,
+        "cue": "adil"
       },
-      "chapter": "Söz sende",
       "headline": "Sence *adil* mi?",
       "from": 1588,
       "durationInFrames": 130

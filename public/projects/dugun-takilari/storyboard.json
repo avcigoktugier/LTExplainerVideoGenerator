@@ -5,7 +5,6 @@
   "format": "dossier",
   "brand": {
     "name": "Law & Trust",
-    "series": "VAKA N°",
     "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
     "logo": "law-trust-logo.svg",
     "watermark": "law-trust-monogram.svg"
@@ -17,35 +16,54 @@
   "scenes": [
     {
       "id": "hook",
-      "chapter": "Aile hukuku · Düğün takıları",
       "headline": "Damadın altını *kimin*?",
       "source": "Yargıtay 2. HD · 2024 / 2026",
       "say": "Düğünde damada takılan altınlar, boşanınca kime kalır?",
       "visual": {
-        "type": "hyperframe",
-        "comp": "case-file",
-        "vars": {
-          "title": "VAKA N° 002",
-          "label": "OLAY",
-          "lines": [
-            "Çift boşanıyor.",
-            "Damada takılan altınlar?"
-          ],
-          "highlightLine": 2,
-          "stamp": "TARTIŞMALI"
-        },
-        "cues": {
-          "highlight": "damada",
-          "stamp": {
-            "word": "kime",
-            "sfx": "thud"
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Coins",
+            "x": 260,
+            "y": 330,
+            "size": 230,
+            "cue": "altınlar"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              420,
+              330
+            ],
+            "to": [
+              580,
+              330
+            ],
+            "bend": -0.3,
+            "cue": "boşanınca"
+          },
+          {
+            "kind": "icon",
+            "name": "HeartCrack",
+            "x": 720,
+            "y": 330,
+            "size": 230,
+            "cue": "boşanınca"
+          },
+          {
+            "kind": "circle",
+            "x": 260,
+            "y": 330,
+            "r": 165,
+            "color": "danger",
+            "cue": "kime"
           }
-        }
+        ]
       }
     },
     {
       "id": "ilk-tepki",
-      "chapter": "İlk tepki",
       "headline": "Herkes der ki: *hepsi gelinin!*",
       "say": "Çoğu kişi şöyle bilir: kim takarsa taksın, bütün takılar gelinindir.",
       "visual": {
@@ -122,116 +140,121 @@
     },
     {
       "id": "degisim",
-      "chapter": "Yeni kural",
       "headline": "Yargıtay *fikrini* değiştirdi.",
       "source": "Yargıtay 2. HD · 04.04.2024",
       "say": "Ama Yargıtay, iki bin yirmi dörtte bu görüşü değiştirdi.",
       "visual": {
-        "type": "stage",
-        "elements": [
+        "type": "object3d",
+        "model": "gavel",
+        "orbit": 50,
+        "cue": "değiştirdi"
+      }
+    },
+    {
+      "id": "sira",
+      "headline": "Önce *anlaşma*.",
+      "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
+      "say": "Artık önce eşlerin anlaşmasına bakılıyor. Anlaşma yoksa yöresel örf ve adete. O da yoksa takı, kime takıldıysa onun.",
+      "visual": {
+        "type": "physics",
+        "items": [
           {
-            "kind": "card",
-            "x": 470,
-            "y": 290,
-            "w": 520,
-            "label": "Eski görüş",
-            "value": "Hepsi gelinin",
-            "strike": true,
-            "cue": "değiştirdi"
+            "label": "Anlaşma",
+            "icon": "Handshake",
+            "cue": "anlaşmasına"
           },
           {
-            "kind": "stamp",
-            "x": 470,
-            "y": 520,
-            "text": "2024",
-            "rotate": -5,
-            "cue": "iki"
+            "label": "Örf ve adet",
+            "icon": "Users",
+            "cue": "örf"
+          },
+          {
+            "label": "Takılan kişi",
+            "icon": "Gift",
+            "cue": "takıldıysa"
           }
         ]
       }
     },
     {
-      "id": "sira",
-      "chapter": "Yeni kural",
-      "headline": "Önce *anlaşma*.",
-      "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
-      "say": "Artık önce eşlerin anlaşmasına bakılıyor. Anlaşma yoksa yöresel örf ve adete. O da yoksa takı, kime takıldıysa onun.",
-      "visual": {
-        "type": "hyperframe",
-        "comp": "timeline",
-        "vars": {
-          "events": [
-            {
-              "when": "1. sıra",
-              "what": "Eşlerin anlaşması"
-            },
-            {
-              "when": "2. sıra",
-              "what": "Yöresel örf ve adet"
-            },
-            {
-              "when": "3. sıra",
-              "what": "Kime takıldıysa onun"
-            }
-          ],
-          "active": 3
-        },
-        "cues": {
-          "e1": {
-            "word": "anlaşmasına",
-            "sfx": "pop"
-          },
-          "e2": {
-            "word": "örf",
-            "sfx": "pop"
-          },
-          "e3": {
-            "word": "takıldıysa",
-            "sfx": "ding"
-          }
-        }
-      }
-    },
-    {
       "id": "karar",
-      "chapter": "Kararın dili",
       "headline": "Kime takıldıysa *onun*.",
       "source": "Yargıtay 2. HD · 2023/5704 E. · 2024/2402 K.",
       "say": "Kararda açıkça yazıyor: erkeğe ve kadına takılanlar, kural olarak kendilerine aittir.",
       "visual": {
-        "type": "hyperframe",
-        "comp": "law-article",
-        "vars": {
-          "code": "Yargıtay",
-          "article": "2. HD",
-          "text": "Aksi takdirde erkeğe ve kadına takılan/verilen ve ekonomik değer taşıyan her şey kural olarak kendilerine aittir.",
-          "highlight": "kural olarak kendilerine aittir",
-          "note": "2023/5704 E. · 2024/2402 K."
-        },
-        "cues": {
-          "highlight": {
-            "word": "kural",
-            "sfx": "tick"
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 220,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "look": "right",
+            "cue": "erkeğe"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 220,
+            "y": 300,
+            "w": 120,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "erkeğe"
+          },
+          {
+            "kind": "person",
+            "x": 720,
+            "y": 660,
+            "color": "cast2",
+            "hair": "bun",
+            "outfit": "dress",
+            "accessories": [
+              "veil"
+            ],
+            "look": "left",
+            "mood": "happy",
+            "cue": "kadına"
+          },
+          {
+            "kind": "art",
+            "name": "bracelet",
+            "x": 720,
+            "y": 300,
+            "w": 150,
+            "anchor": "center",
+            "idle": "sway",
+            "cue": "kadına"
+          },
+          {
+            "kind": "badge",
+            "x": 470,
+            "y": 160,
+            "symbol": "check",
+            "cue": "aittir"
           }
-        }
+        ]
       }
     },
     {
       "id": "sonuc",
-      "chapter": "Sonuç",
       "headline": "Çeyrekler *damadın*.",
       "say": "Yani damada takılan çeyrek altınlar, artık kural olarak damadın sayılıyor.",
       "visual": {
-        "type": "verdict",
-        "label": "Damada takılan çeyrek altın",
-        "from": "Gelinin",
-        "to": "Damadın",
+        "type": "particles",
+        "effect": "gather",
+        "text": "Damadın",
+        "icon": "Coins",
         "cue": "artık"
       }
     },
     {
       "id": "istisna",
-      "chapter": "İstisna",
       "headline": "Kadına özgüyse *kadının*.",
       "say": "Bir istisna var: takı karşı cinse özgüyse, ona verilmiş sayılır. Damada takılan bir kadın bileziği, gelinin olur.",
       "visual": {
@@ -275,13 +298,6 @@
             "cue": "bileziği"
           },
           {
-            "kind": "tag",
-            "x": 470,
-            "y": 400,
-            "text": "Kadına özgü",
-            "cue": "bileziği"
-          },
-          {
             "kind": "badge",
             "x": 740,
             "y": 290,
@@ -293,37 +309,59 @@
     },
     {
       "id": "kor-nokta",
-      "chapter": "Kör nokta",
       "headline": "Videoyu *sakla*.",
       "source": "HMK m.190 · İspat yükü",
       "say": "Neyin kime takıldığını mahkemede göstermeniz gerekebilir. Düğün videosunu ve fotoğrafları bu yüzden saklayın.",
       "visual": {
-        "type": "stage",
-        "elements": [
+        "type": "sketch",
+        "strokes": [
           {
             "kind": "icon",
-            "x": 300,
-            "y": 560,
             "name": "Video",
+            "x": 230,
+            "y": 260,
             "size": 190,
-            "color": "ink",
             "cue": "videosunu"
           },
           {
             "kind": "icon",
-            "x": 640,
-            "y": 560,
             "name": "Camera",
+            "x": 710,
+            "y": 260,
             "size": 190,
-            "color": "accent",
             "cue": "fotoğrafları"
           },
           {
-            "kind": "stamp",
+            "kind": "arrow",
+            "from": [
+              260,
+              390
+            ],
+            "to": [
+              420,
+              540
+            ],
+            "bend": 0.3,
+            "cue": "bu"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              680,
+              390
+            ],
+            "to": [
+              520,
+              540
+            ],
+            "bend": -0.3
+          },
+          {
+            "kind": "icon",
+            "name": "Archive",
             "x": 470,
-            "y": 170,
-            "text": "Önemli delil",
-            "rotate": -6,
+            "y": 580,
+            "size": 160,
             "cue": "saklayın"
           }
         ]
@@ -331,30 +369,14 @@
     },
     {
       "id": "soz-sende",
-      "chapter": "Söz sende",
       "headline": "Sence *adil* mi?",
       "say": "Sence yeni kural daha mı adil? Yorumlara yaz.",
       "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "scales",
-            "x": 470,
-            "y": 640,
-            "tilt": 0,
-            "wobble": true,
-            "left": "Adil",
-            "right": "Değil"
-          },
-          {
-            "kind": "bubble",
-            "x": 730,
-            "y": 520,
-            "text": "Yorumlara yaz",
-            "tail": "left",
-            "cue": "yorumlara"
-          }
-        ]
+        "type": "object3d",
+        "model": "scales",
+        "orbit": 60,
+        "tilt": 0,
+        "cue": "adil"
       }
     }
   ]
