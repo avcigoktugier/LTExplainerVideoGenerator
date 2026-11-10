@@ -1,0 +1,586 @@
+{
+  "provider": "elevenlabs",
+  "clips": [
+    {
+      "src": "projects/kidem-ihbar/voice.mp3",
+      "start": 0,
+      "duration": 56.32
+    }
+  ],
+  "sceneStarts": [
+    0,
+    6.015,
+    12.145,
+    18.798000000000002,
+    25.706000000000003,
+    34.657000000000004,
+    40.648,
+    45.106,
+    48.299,
+    53.198
+  ],
+  "words": [
+    {
+      "text": "İşten",
+      "start": 0,
+      "end": 0.453
+    },
+    {
+      "text": "çıkarıldın,",
+      "start": 0.499,
+      "end": 1.138
+    },
+    {
+      "text": "eline",
+      "start": 1.184,
+      "end": 1.544
+    },
+    {
+      "text": "son",
+      "start": 1.591,
+      "end": 1.811
+    },
+    {
+      "text": "maaşın",
+      "start": 1.869,
+      "end": 2.299
+    },
+    {
+      "text": "verildi.",
+      "start": 2.368,
+      "end": 2.914
+    },
+    {
+      "text": "Alacağın",
+      "start": 3.239,
+      "end": 3.75
+    },
+    {
+      "text": "para",
+      "start": 3.82,
+      "end": 4.005
+    },
+    {
+      "text": "gerçekten",
+      "start": 4.063,
+      "end": 4.621
+    },
+    {
+      "text": "bu",
+      "start": 4.679,
+      "end": 4.76
+    },
+    {
+      "text": "kadar",
+      "start": 4.795,
+      "end": 5.085
+    },
+    {
+      "text": "mı?",
+      "start": 5.155,
+      "end": 5.399
+    },
+    {
+      "text": "Çoğu",
+      "start": 6.095,
+      "end": 6.351
+    },
+    {
+      "text": "kişi,",
+      "start": 6.397,
+      "end": 6.641
+    },
+    {
+      "text": "işveren",
+      "start": 6.664,
+      "end": 7.152
+    },
+    {
+      "text": "ne",
+      "start": 7.221,
+      "end": 7.314
+    },
+    {
+      "text": "verirse",
+      "start": 7.372,
+      "end": 7.814
+    },
+    {
+      "text": "o",
+      "start": 7.906,
+      "end": 7.976
+    },
+    {
+      "text": "sanır.",
+      "start": 8.046,
+      "end": 8.557
+    },
+    {
+      "text": "Oysa",
+      "start": 9.16,
+      "end": 9.543
+    },
+    {
+      "text": "kanun,",
+      "start": 9.601,
+      "end": 10.205
+    },
+    {
+      "text": "kalem",
+      "start": 10.321,
+      "end": 10.716
+    },
+    {
+      "text": "kalem",
+      "start": 10.786,
+      "end": 11.099
+    },
+    {
+      "text": "hak",
+      "start": 11.169,
+      "end": 11.366
+    },
+    {
+      "text": "tanır.",
+      "start": 11.447,
+      "end": 11.9
+    },
+    {
+      "text": "İlki",
+      "start": 12.225,
+      "end": 12.562
+    },
+    {
+      "text": "kıdem",
+      "start": 12.62,
+      "end": 12.945
+    },
+    {
+      "text": "tazminatı.",
+      "start": 13.015,
+      "end": 13.874
+    },
+    {
+      "text": "Kural",
+      "start": 14.257,
+      "end": 14.559
+    },
+    {
+      "text": "olarak",
+      "start": 14.629,
+      "end": 14.93
+    },
+    {
+      "text": "her",
+      "start": 15,
+      "end": 15.174
+    },
+    {
+      "text": "tam",
+      "start": 15.244,
+      "end": 15.441
+    },
+    {
+      "text": "çalışma",
+      "start": 15.511,
+      "end": 15.94
+    },
+    {
+      "text": "yılın",
+      "start": 15.964,
+      "end": 16.184
+    },
+    {
+      "text": "için,",
+      "start": 16.231,
+      "end": 16.509
+    },
+    {
+      "text": "otuz",
+      "start": 16.556,
+      "end": 16.892
+    },
+    {
+      "text": "günlük",
+      "start": 16.939,
+      "end": 17.264
+    },
+    {
+      "text": "ücretin",
+      "start": 17.334,
+      "end": 17.694
+    },
+    {
+      "text": "kadar",
+      "start": 17.752,
+      "end": 18.007
+    },
+    {
+      "text": "ödenir.",
+      "start": 18.053,
+      "end": 18.553
+    },
+    {
+      "text": "Ama",
+      "start": 18.878,
+      "end": 19.156
+    },
+    {
+      "text": "ahlak",
+      "start": 19.226,
+      "end": 19.656
+    },
+    {
+      "text": "ve",
+      "start": 19.772,
+      "end": 19.888
+    },
+    {
+      "text": "iyi",
+      "start": 19.981,
+      "end": 20.143
+    },
+    {
+      "text": "niyete",
+      "start": 20.225,
+      "end": 20.55
+    },
+    {
+      "text": "aykırı",
+      "start": 20.631,
+      "end": 21.084
+    },
+    {
+      "text": "bir",
+      "start": 21.118,
+      "end": 21.269
+    },
+    {
+      "text": "davranış",
+      "start": 21.316,
+      "end": 21.803
+    },
+    {
+      "text": "yüzünden",
+      "start": 21.862,
+      "end": 22.279
+    },
+    {
+      "text": "çıkarıldıysan,",
+      "start": 22.338,
+      "end": 23.348
+    },
+    {
+      "text": "kıdem",
+      "start": 23.591,
+      "end": 23.975
+    },
+    {
+      "text": "kural",
+      "start": 24.044,
+      "end": 24.323
+    },
+    {
+      "text": "olarak",
+      "start": 24.381,
+      "end": 24.671
+    },
+    {
+      "text": "ödenmez.",
+      "start": 24.741,
+      "end": 25.461
+    },
+    {
+      "text": "İkincisi",
+      "start": 25.786,
+      "end": 26.447
+    },
+    {
+      "text": "ihbar.",
+      "start": 26.564,
+      "end": 27.272
+    },
+    {
+      "text": "Haklı",
+      "start": 27.655,
+      "end": 28.038
+    },
+    {
+      "text": "sebep",
+      "start": 28.084,
+      "end": 28.421
+    },
+    {
+      "text": "yokken",
+      "start": 28.491,
+      "end": 28.909
+    },
+    {
+      "text": "önceden",
+      "start": 29.025,
+      "end": 29.489
+    },
+    {
+      "text": "haber",
+      "start": 29.547,
+      "end": 29.849
+    },
+    {
+      "text": "verilmeden",
+      "start": 29.919,
+      "end": 30.476
+    },
+    {
+      "text": "çıkarıldıysan,",
+      "start": 30.534,
+      "end": 31.509
+    },
+    {
+      "text": "iki",
+      "start": 31.834,
+      "end": 32.16
+    },
+    {
+      "text": "ila",
+      "start": 32.218,
+      "end": 32.473
+    },
+    {
+      "text": "sekiz",
+      "start": 32.543,
+      "end": 32.833
+    },
+    {
+      "text": "haftalık",
+      "start": 32.879,
+      "end": 33.309
+    },
+    {
+      "text": "ücretin",
+      "start": 33.378,
+      "end": 33.75
+    },
+    {
+      "text": "ödenir.",
+      "start": 33.796,
+      "end": 34.296
+    },
+    {
+      "text": "Kullanmadığın",
+      "start": 34.737,
+      "end": 35.55
+    },
+    {
+      "text": "yıllık",
+      "start": 35.631,
+      "end": 35.991
+    },
+    {
+      "text": "izinlerin",
+      "start": 36.072,
+      "end": 36.594
+    },
+    {
+      "text": "ücreti",
+      "start": 36.711,
+      "end": 37.303
+    },
+    {
+      "text": "ve",
+      "start": 37.512,
+      "end": 37.663
+    },
+    {
+      "text": "son",
+      "start": 37.721,
+      "end": 37.988
+    },
+    {
+      "text": "maaşın",
+      "start": 38.046,
+      "end": 38.498
+    },
+    {
+      "text": "da,",
+      "start": 38.557,
+      "end": 38.893
+    },
+    {
+      "text": "tam",
+      "start": 39.102,
+      "end": 39.311
+    },
+    {
+      "text": "ödenmek",
+      "start": 39.369,
+      "end": 39.776
+    },
+    {
+      "text": "zorunda.",
+      "start": 39.845,
+      "end": 40.403
+    },
+    {
+      "text": "Ödenmezse,",
+      "start": 40.728,
+      "end": 41.749
+    },
+    {
+      "text": "dava",
+      "start": 41.958,
+      "end": 42.33
+    },
+    {
+      "text": "açmadan",
+      "start": 42.365,
+      "end": 42.829
+    },
+    {
+      "text": "önce",
+      "start": 42.887,
+      "end": 43.061
+    },
+    {
+      "text": "arabulucuya",
+      "start": 43.142,
+      "end": 43.746
+    },
+    {
+      "text": "başvurman",
+      "start": 43.793,
+      "end": 44.35
+    },
+    {
+      "text": "şart.",
+      "start": 44.42,
+      "end": 44.861
+    },
+    {
+      "text": "Yani",
+      "start": 45.186,
+      "end": 45.476
+    },
+    {
+      "text": "hesap,",
+      "start": 45.523,
+      "end": 46.033
+    },
+    {
+      "text": "tek",
+      "start": 46.358,
+      "end": 46.567
+    },
+    {
+      "text": "bir",
+      "start": 46.637,
+      "end": 46.73
+    },
+    {
+      "text": "maaştan",
+      "start": 46.765,
+      "end": 47.16
+    },
+    {
+      "text": "ibaret",
+      "start": 47.194,
+      "end": 47.624
+    },
+    {
+      "text": "değil.",
+      "start": 47.694,
+      "end": 48.1
+    },
+    {
+      "text": "Ama",
+      "start": 48.379,
+      "end": 48.611
+    },
+    {
+      "text": "dikkat:",
+      "start": 48.657,
+      "end": 49.238
+    },
+    {
+      "text": "kıdem,",
+      "start": 49.354,
+      "end": 49.783
+    },
+    {
+      "text": "ihbar",
+      "start": 49.83,
+      "end": 50.213
+    },
+    {
+      "text": "ve",
+      "start": 50.271,
+      "end": 50.352
+    },
+    {
+      "text": "izin",
+      "start": 50.41,
+      "end": 50.677
+    },
+    {
+      "text": "ücreti",
+      "start": 50.735,
+      "end": 51.095
+    },
+    {
+      "text": "için",
+      "start": 51.118,
+      "end": 51.42
+    },
+    {
+      "text": "zamanaşımı",
+      "start": 51.745,
+      "end": 52.372
+    },
+    {
+      "text": "beş",
+      "start": 52.43,
+      "end": 52.651
+    },
+    {
+      "text": "yıl.",
+      "start": 52.721,
+      "end": 52.953
+    },
+    {
+      "text": "Sen",
+      "start": 53.278,
+      "end": 53.487
+    },
+    {
+      "text": "bu",
+      "start": 53.533,
+      "end": 53.615
+    },
+    {
+      "text": "haklardan",
+      "start": 53.649,
+      "end": 54.125
+    },
+    {
+      "text": "hangisini",
+      "start": 54.183,
+      "end": 54.659
+    },
+    {
+      "text": "biliyordun?",
+      "start": 54.694,
+      "end": 55.124
+    },
+    {
+      "text": "Yorumlara",
+      "start": 55.159,
+      "end": 55.658
+    },
+    {
+      "text": "yaz.",
+      "start": 55.704,
+      "end": 56.285
+    }
+  ],
+  "total": 56.32,
+  "sayHash": "e322d689b2a4"
+}

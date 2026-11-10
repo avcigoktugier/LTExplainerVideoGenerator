@@ -1,0 +1,1137 @@
+{
+  "slug": "kidem-ihbar",
+  "title": "İşten çıkarıldın: hangi paraları alırsın?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "episode": 4,
+  "transition": "slide",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1711,
+  "clips": [
+    {
+      "src": "projects/kidem-ihbar/voice.mp3",
+      "from": 0
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 15,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 36,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 56,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 122,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 177,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 200,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 218,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 275,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 324,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 361,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 497,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 561,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 619,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 742,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 768,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/tick.mp3",
+      "from": 787,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/tick.mp3",
+      "from": 793,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/tick.mp3",
+      "from": 799,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 1037,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1113,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1169,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1198,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1216,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1294,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1312,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1259,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1347,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1350,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1391,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1405,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1446,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/riser.mp3",
+      "from": 1549,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1573,
+      "volume": 0.28
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 1593,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1641,
+      "volume": 0.3
+    }
+  ],
+  "words": [
+    {
+      "text": "İşten",
+      "start": 0,
+      "end": 0.453
+    },
+    {
+      "text": "çıkarıldın,",
+      "start": 0.499,
+      "end": 1.138
+    },
+    {
+      "text": "eline",
+      "start": 1.184,
+      "end": 1.544
+    },
+    {
+      "text": "son",
+      "start": 1.591,
+      "end": 1.811
+    },
+    {
+      "text": "maaşın",
+      "start": 1.869,
+      "end": 2.299
+    },
+    {
+      "text": "verildi.",
+      "start": 2.368,
+      "end": 2.914
+    },
+    {
+      "text": "Alacağın",
+      "start": 3.239,
+      "end": 3.75
+    },
+    {
+      "text": "para",
+      "start": 3.82,
+      "end": 4.005
+    },
+    {
+      "text": "gerçekten",
+      "start": 4.063,
+      "end": 4.621
+    },
+    {
+      "text": "bu",
+      "start": 4.679,
+      "end": 4.76
+    },
+    {
+      "text": "kadar",
+      "start": 4.795,
+      "end": 5.085
+    },
+    {
+      "text": "mı?",
+      "start": 5.155,
+      "end": 5.399
+    },
+    {
+      "text": "Çoğu",
+      "start": 6.095,
+      "end": 6.351
+    },
+    {
+      "text": "kişi,",
+      "start": 6.397,
+      "end": 6.641
+    },
+    {
+      "text": "işveren",
+      "start": 6.664,
+      "end": 7.152
+    },
+    {
+      "text": "ne",
+      "start": 7.221,
+      "end": 7.314
+    },
+    {
+      "text": "verirse",
+      "start": 7.372,
+      "end": 7.814
+    },
+    {
+      "text": "o",
+      "start": 7.906,
+      "end": 7.976
+    },
+    {
+      "text": "sanır.",
+      "start": 8.046,
+      "end": 8.557
+    },
+    {
+      "text": "Oysa",
+      "start": 9.16,
+      "end": 9.543
+    },
+    {
+      "text": "kanun,",
+      "start": 9.601,
+      "end": 10.205
+    },
+    {
+      "text": "kalem",
+      "start": 10.321,
+      "end": 10.716
+    },
+    {
+      "text": "kalem",
+      "start": 10.786,
+      "end": 11.099
+    },
+    {
+      "text": "hak",
+      "start": 11.169,
+      "end": 11.366
+    },
+    {
+      "text": "tanır.",
+      "start": 11.447,
+      "end": 11.9
+    },
+    {
+      "text": "İlki",
+      "start": 12.225,
+      "end": 12.562
+    },
+    {
+      "text": "kıdem",
+      "start": 12.62,
+      "end": 12.945
+    },
+    {
+      "text": "tazminatı.",
+      "start": 13.015,
+      "end": 13.874
+    },
+    {
+      "text": "Kural",
+      "start": 14.257,
+      "end": 14.559
+    },
+    {
+      "text": "olarak",
+      "start": 14.629,
+      "end": 14.93
+    },
+    {
+      "text": "her",
+      "start": 15,
+      "end": 15.174
+    },
+    {
+      "text": "tam",
+      "start": 15.244,
+      "end": 15.441
+    },
+    {
+      "text": "çalışma",
+      "start": 15.511,
+      "end": 15.94
+    },
+    {
+      "text": "yılın",
+      "start": 15.964,
+      "end": 16.184
+    },
+    {
+      "text": "için,",
+      "start": 16.231,
+      "end": 16.509
+    },
+    {
+      "text": "otuz",
+      "start": 16.556,
+      "end": 16.892
+    },
+    {
+      "text": "günlük",
+      "start": 16.939,
+      "end": 17.264
+    },
+    {
+      "text": "ücretin",
+      "start": 17.334,
+      "end": 17.694
+    },
+    {
+      "text": "kadar",
+      "start": 17.752,
+      "end": 18.007
+    },
+    {
+      "text": "ödenir.",
+      "start": 18.053,
+      "end": 18.553
+    },
+    {
+      "text": "Ama",
+      "start": 18.878,
+      "end": 19.156
+    },
+    {
+      "text": "ahlak",
+      "start": 19.226,
+      "end": 19.656
+    },
+    {
+      "text": "ve",
+      "start": 19.772,
+      "end": 19.888
+    },
+    {
+      "text": "iyi",
+      "start": 19.981,
+      "end": 20.143
+    },
+    {
+      "text": "niyete",
+      "start": 20.225,
+      "end": 20.55
+    },
+    {
+      "text": "aykırı",
+      "start": 20.631,
+      "end": 21.084
+    },
+    {
+      "text": "bir",
+      "start": 21.118,
+      "end": 21.269
+    },
+    {
+      "text": "davranış",
+      "start": 21.316,
+      "end": 21.803
+    },
+    {
+      "text": "yüzünden",
+      "start": 21.862,
+      "end": 22.279
+    },
+    {
+      "text": "çıkarıldıysan,",
+      "start": 22.338,
+      "end": 23.348
+    },
+    {
+      "text": "kıdem",
+      "start": 23.591,
+      "end": 23.975
+    },
+    {
+      "text": "kural",
+      "start": 24.044,
+      "end": 24.323
+    },
+    {
+      "text": "olarak",
+      "start": 24.381,
+      "end": 24.671
+    },
+    {
+      "text": "ödenmez.",
+      "start": 24.741,
+      "end": 25.461
+    },
+    {
+      "text": "İkincisi",
+      "start": 25.786,
+      "end": 26.447
+    },
+    {
+      "text": "ihbar.",
+      "start": 26.564,
+      "end": 27.272
+    },
+    {
+      "text": "Haklı",
+      "start": 27.655,
+      "end": 28.038
+    },
+    {
+      "text": "sebep",
+      "start": 28.084,
+      "end": 28.421
+    },
+    {
+      "text": "yokken",
+      "start": 28.491,
+      "end": 28.909
+    },
+    {
+      "text": "önceden",
+      "start": 29.025,
+      "end": 29.489
+    },
+    {
+      "text": "haber",
+      "start": 29.547,
+      "end": 29.849
+    },
+    {
+      "text": "verilmeden",
+      "start": 29.919,
+      "end": 30.476
+    },
+    {
+      "text": "çıkarıldıysan,",
+      "start": 30.534,
+      "end": 31.509
+    },
+    {
+      "text": "iki",
+      "start": 31.834,
+      "end": 32.16
+    },
+    {
+      "text": "ila",
+      "start": 32.218,
+      "end": 32.473
+    },
+    {
+      "text": "sekiz",
+      "start": 32.543,
+      "end": 32.833
+    },
+    {
+      "text": "haftalık",
+      "start": 32.879,
+      "end": 33.309
+    },
+    {
+      "text": "ücretin",
+      "start": 33.378,
+      "end": 33.75
+    },
+    {
+      "text": "ödenir.",
+      "start": 33.796,
+      "end": 34.296
+    },
+    {
+      "text": "Kullanmadığın",
+      "start": 34.737,
+      "end": 35.55
+    },
+    {
+      "text": "yıllık",
+      "start": 35.631,
+      "end": 35.991
+    },
+    {
+      "text": "izinlerin",
+      "start": 36.072,
+      "end": 36.594
+    },
+    {
+      "text": "ücreti",
+      "start": 36.711,
+      "end": 37.303
+    },
+    {
+      "text": "ve",
+      "start": 37.512,
+      "end": 37.663
+    },
+    {
+      "text": "son",
+      "start": 37.721,
+      "end": 37.988
+    },
+    {
+      "text": "maaşın",
+      "start": 38.046,
+      "end": 38.498
+    },
+    {
+      "text": "da,",
+      "start": 38.557,
+      "end": 38.893
+    },
+    {
+      "text": "tam",
+      "start": 39.102,
+      "end": 39.311
+    },
+    {
+      "text": "ödenmek",
+      "start": 39.369,
+      "end": 39.776
+    },
+    {
+      "text": "zorunda.",
+      "start": 39.845,
+      "end": 40.403
+    },
+    {
+      "text": "Ödenmezse,",
+      "start": 40.728,
+      "end": 41.749
+    },
+    {
+      "text": "dava",
+      "start": 41.958,
+      "end": 42.33
+    },
+    {
+      "text": "açmadan",
+      "start": 42.365,
+      "end": 42.829
+    },
+    {
+      "text": "önce",
+      "start": 42.887,
+      "end": 43.061
+    },
+    {
+      "text": "arabulucuya",
+      "start": 43.142,
+      "end": 43.746
+    },
+    {
+      "text": "başvurman",
+      "start": 43.793,
+      "end": 44.35
+    },
+    {
+      "text": "şart.",
+      "start": 44.42,
+      "end": 44.861
+    },
+    {
+      "text": "Yani",
+      "start": 45.186,
+      "end": 45.476
+    },
+    {
+      "text": "hesap,",
+      "start": 45.523,
+      "end": 46.033
+    },
+    {
+      "text": "tek",
+      "start": 46.358,
+      "end": 46.567
+    },
+    {
+      "text": "bir",
+      "start": 46.637,
+      "end": 46.73
+    },
+    {
+      "text": "maaştan",
+      "start": 46.765,
+      "end": 47.16
+    },
+    {
+      "text": "ibaret",
+      "start": 47.194,
+      "end": 47.624
+    },
+    {
+      "text": "değil.",
+      "start": 47.694,
+      "end": 48.1
+    },
+    {
+      "text": "Ama",
+      "start": 48.379,
+      "end": 48.611
+    },
+    {
+      "text": "dikkat:",
+      "start": 48.657,
+      "end": 49.238
+    },
+    {
+      "text": "kıdem,",
+      "start": 49.354,
+      "end": 49.783
+    },
+    {
+      "text": "ihbar",
+      "start": 49.83,
+      "end": 50.213
+    },
+    {
+      "text": "ve",
+      "start": 50.271,
+      "end": 50.352
+    },
+    {
+      "text": "izin",
+      "start": 50.41,
+      "end": 50.677
+    },
+    {
+      "text": "ücreti",
+      "start": 50.735,
+      "end": 51.095
+    },
+    {
+      "text": "için",
+      "start": 51.118,
+      "end": 51.42
+    },
+    {
+      "text": "zamanaşımı",
+      "start": 51.745,
+      "end": 52.372
+    },
+    {
+      "text": "beş",
+      "start": 52.43,
+      "end": 52.651
+    },
+    {
+      "text": "yıl.",
+      "start": 52.721,
+      "end": 52.953
+    },
+    {
+      "text": "Sen",
+      "start": 53.278,
+      "end": 53.487
+    },
+    {
+      "text": "bu",
+      "start": 53.533,
+      "end": 53.615
+    },
+    {
+      "text": "haklardan",
+      "start": 53.649,
+      "end": 54.125
+    },
+    {
+      "text": "hangisini",
+      "start": 54.183,
+      "end": 54.659
+    },
+    {
+      "text": "biliyordun?",
+      "start": 54.694,
+      "end": 55.124
+    },
+    {
+      "text": "Yorumlara",
+      "start": 55.159,
+      "end": 55.658
+    },
+    {
+      "text": "yaz.",
+      "start": 55.704,
+      "end": 56.285
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "İşten çıkarıldın, eline son maaşın verildi. Alacağın para gerçekten bu kadar mı?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 250,
+            "y": 660,
+            "color": "cast1",
+            "pose": "aimRight",
+            "look": "right",
+            "hair": "bald",
+            "outfit": "suit",
+            "accessories": [
+              "mustache"
+            ],
+            "cue": "çıkarıldın"
+          },
+          {
+            "kind": "person",
+            "x": 690,
+            "y": 660,
+            "color": "cast2",
+            "mood": "worried",
+            "look": "left",
+            "hair": "curly",
+            "cue": "eline"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 250,
+            "w": 340,
+            "label": "Ödenen",
+            "value": "Son maaş",
+            "cue": "maaşın"
+          },
+          {
+            "kind": "badge",
+            "x": 690,
+            "y": 150,
+            "symbol": "?",
+            "cue": "gerçekten"
+          }
+        ]
+      },
+      "chapter": "İş hukuku · Fesih alacakları",
+      "headline": "Sadece *son maaş* mı?",
+      "source": "4857 s. İş K. m.32",
+      "from": 0,
+      "durationInFrames": 180
+    },
+    {
+      "id": "ilk-tepki",
+      "say": "Çoğu kişi, işveren ne verirse o sanır. Oysa kanun, kalem kalem hak tanır.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Wallet",
+            "x": 290,
+            "y": 340,
+            "size": 230,
+            "cue": "işveren"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              450,
+              340
+            ],
+            "to": [
+              620,
+              250
+            ],
+            "bend": -0.35
+          },
+          {
+            "kind": "text",
+            "x": 700,
+            "y": 190,
+            "text": "Bu kadar mı?",
+            "size": 56,
+            "font": "serif"
+          },
+          {
+            "kind": "circle",
+            "x": 290,
+            "y": 340,
+            "r": 165,
+            "color": "danger",
+            "cue": "Oysa"
+          },
+          {
+            "kind": "text",
+            "x": 700,
+            "y": 470,
+            "text": "Kalem kalem hak",
+            "size": 50,
+            "font": "serif",
+            "cue": "kalem"
+          },
+          {
+            "kind": "underline",
+            "x": 560,
+            "y": 510,
+            "w": 280
+          }
+        ]
+      },
+      "transition": "wipe",
+      "chapter": "İlk tepki",
+      "headline": "Ne verirse *o* mu?",
+      "from": 180,
+      "durationInFrames": 184
+    },
+    {
+      "id": "kidem",
+      "say": "İlki kıdem tazminatı. Kural olarak her tam çalışma yılın için, otuz günlük ücretin kadar ödenir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "1475 İş K.",
+          "article": "m. 14/1",
+          "text": "… her geçen tam yıl için işverence işçiye 30 günlük ücreti tutarında kıdem tazminatı ödenir. Bir yıldan artan süreler için de aynı oran üzerinden ödeme yapılır.",
+          "highlight": "30 günlük ücreti tutarında",
+          "note": "Kıdem tazminatı"
+        },
+        "cues": {
+          "highlight": {
+            "word": "otuz",
+            "sfx": "ding"
+          }
+        }
+      },
+      "transition": "zoom",
+      "chapter": "Kural · Kıdem tazminatı",
+      "headline": "Her yıl *30 gün*.",
+      "source": "1475 s. İş K. m.14/1",
+      "from": 364,
+      "durationInFrames": 200,
+      "assetFresh": false
+    },
+    {
+      "id": "istisna",
+      "say": "Ama ahlak ve iyi niyete aykırı bir davranış yüzünden çıkarıldıysan, kıdem kural olarak ödenmez.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 150,
+            "w": 760,
+            "label": "Geçerli sebepsiz fesih",
+            "value": "Kıdem ödenir",
+            "cue": "Ama"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 360,
+            "w": 760,
+            "label": "Ahlak ve iyi niyete aykırılık",
+            "value": "Kıdem ödenmez",
+            "strike": true,
+            "cue": "aykırı"
+          },
+          {
+            "kind": "stamp",
+            "x": 640,
+            "y": 580,
+            "text": "İSTİSNA",
+            "rotate": -6,
+            "cue": "ödenmez"
+          }
+        ]
+      },
+      "transition": "blur",
+      "chapter": "Kural · İstisna",
+      "headline": "Kıdem *ne zaman* yanar?",
+      "source": "1475 s. K. m.14/1 · İş K. m.25/II",
+      "from": 564,
+      "durationInFrames": 207
+    },
+    {
+      "id": "ihbar",
+      "say": "İkincisi ihbar. Haklı sebep yokken önceden haber verilmeden çıkarıldıysan, iki ila sekiz haftalık ücretin ödenir.",
+      "visual": {
+        "type": "bars",
+        "title": "Kıdeme göre bildirim süresi",
+        "unit": "hafta",
+        "bars": [
+          {
+            "label": "6 aydan az",
+            "value": 2
+          },
+          {
+            "label": "6 ay – 1,5 yıl",
+            "value": 4
+          },
+          {
+            "label": "1,5 – 3 yıl",
+            "value": 6
+          },
+          {
+            "label": "3 yıldan fazla",
+            "value": 8
+          }
+        ],
+        "highlight": 3
+      },
+      "transition": "slide",
+      "chapter": "Kural · İhbar tazminatı",
+      "headline": "Haber vermediyse *ihbar*.",
+      "source": "4857 s. İş K. m.17",
+      "from": 771,
+      "durationInFrames": 269
+    },
+    {
+      "id": "izin",
+      "say": "Kullanmadığın yıllık izinlerin ücreti ve son maaşın da, tam ödenmek zorunda.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "Yıllık izin ücreti",
+            "icon": "Palmtree",
+            "cue": "izinlerin"
+          },
+          {
+            "label": "Son maaş",
+            "icon": "Banknote",
+            "cue": "maaşın"
+          },
+          {
+            "label": "Tam ödeme",
+            "icon": "BadgeCheck",
+            "cue": "tam"
+          }
+        ]
+      },
+      "transition": "zoom",
+      "chapter": "Kural · Diğer alacaklar",
+      "headline": "İzin ve *maaş* da.",
+      "source": "İş K. m.59 · m.32",
+      "from": 1040,
+      "durationInFrames": 179
+    },
+    {
+      "id": "arabulucu",
+      "say": "Ödenmezse, dava açmadan önce arabulucuya başvurman şart.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Handshake",
+            "x": 290,
+            "y": 330,
+            "size": 240,
+            "cue": "arabulucuya"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              450,
+              330
+            ],
+            "to": [
+              620,
+              330
+            ],
+            "bend": -0.2
+          },
+          {
+            "kind": "icon",
+            "name": "Landmark",
+            "x": 730,
+            "y": 330,
+            "size": 180,
+            "cue": "dava"
+          },
+          {
+            "kind": "text",
+            "x": 470,
+            "y": 560,
+            "text": "Dava şartı",
+            "size": 60,
+            "font": "serif",
+            "cue": "şart"
+          },
+          {
+            "kind": "underline",
+            "x": 470,
+            "y": 600,
+            "w": 300
+          }
+        ]
+      },
+      "transition": "wipe",
+      "chapter": "Süreç · Arabuluculuk",
+      "headline": "Önce *arabulucu*.",
+      "source": "7036 s. İş Mah. K. m.3/1",
+      "from": 1219,
+      "durationInFrames": 134
+    },
+    {
+      "id": "sonuc",
+      "say": "Yani hesap, tek bir maaştan ibaret değil.",
+      "visual": {
+        "type": "verdict",
+        "label": "Çıkarılınca alacağın",
+        "from": "Sadece son maaş",
+        "to": "Maaş + kıdem + ihbar + izin",
+        "cue": "tek"
+      },
+      "transition": "light",
+      "chapter": "Sonuç",
+      "headline": "Hesap *tek kalem* değil.",
+      "source": "1475 s. K. m.14 · İş K. m.17, 59",
+      "from": 1353,
+      "durationInFrames": 96
+    },
+    {
+      "id": "kor-nokta",
+      "say": "Ama dikkat: kıdem, ihbar ve izin ücreti için zamanaşımı beş yıl.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "5 yıl",
+        "sub": "zamanaşımı süresi",
+        "cue": "beş"
+      },
+      "transition": "light",
+      "chapter": "Kör nokta · Zamanaşımı",
+      "headline": "Süre *sınırsız* değil.",
+      "source": "4857 s. İş K. Ek m.3",
+      "from": 1449,
+      "durationInFrames": 147
+    },
+    {
+      "id": "soz-sende",
+      "say": "Sen bu haklardan hangisini biliyordun? Yorumlara yaz.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "label": "Kıdem mi, ihbar mı, izin mi?",
+        "orbit": 60,
+        "tilt": 0.3,
+        "cue": "biliyordun"
+      },
+      "transition": "flip",
+      "chapter": "Söz sende",
+      "headline": "Hangisini *biliyordun*?",
+      "from": 1596,
+      "durationInFrames": 115
+    }
+  ]
+}

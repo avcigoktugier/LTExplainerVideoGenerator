@@ -1,0 +1,366 @@
+{
+  "slug": "kidem-ihbar",
+  "title": "İşten çıkarıldın: hangi paraları alırsın?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "series": "VAKA N°",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg"
+  },
+  "episode": 4,
+  "voice": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2"
+  },
+  "transition": "slide",
+  "scenes": [
+    {
+      "id": "hook",
+      "chapter": "İş hukuku · Fesih alacakları",
+      "headline": "Sadece *son maaş* mı?",
+      "source": "4857 s. İş K. m.32",
+      "say": "İşten çıkarıldın, eline son maaşın verildi. Alacağın para gerçekten bu kadar mı?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 250,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "bald",
+            "accessories": [
+              "mustache"
+            ],
+            "pose": "aimRight",
+            "look": "right",
+            "cue": "çıkarıldın"
+          },
+          {
+            "kind": "person",
+            "x": 690,
+            "y": 660,
+            "color": "cast2",
+            "hair": "curly",
+            "mood": "worried",
+            "look": "left",
+            "cue": "eline"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 250,
+            "w": 340,
+            "label": "Ödenen",
+            "value": "Son maaş",
+            "cue": "maaşın"
+          },
+          {
+            "kind": "badge",
+            "x": 690,
+            "y": 150,
+            "symbol": "?",
+            "cue": "gerçekten"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ilk-tepki",
+      "chapter": "İlk tepki",
+      "headline": "Ne verirse *o* mu?",
+      "say": "Çoğu kişi, işveren ne verirse o sanır. Oysa kanun, kalem kalem hak tanır.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Wallet",
+            "x": 290,
+            "y": 340,
+            "size": 230,
+            "cue": "işveren"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              450,
+              340
+            ],
+            "to": [
+              620,
+              250
+            ],
+            "bend": -0.35
+          },
+          {
+            "kind": "text",
+            "x": 700,
+            "y": 190,
+            "text": "Bu kadar mı?",
+            "size": 56,
+            "font": "serif"
+          },
+          {
+            "kind": "circle",
+            "x": 290,
+            "y": 340,
+            "r": 165,
+            "color": "danger",
+            "cue": "Oysa"
+          },
+          {
+            "kind": "text",
+            "x": 700,
+            "y": 470,
+            "text": "Kalem kalem hak",
+            "size": 50,
+            "font": "serif",
+            "cue": "kalem"
+          },
+          {
+            "kind": "underline",
+            "x": 560,
+            "y": 510,
+            "w": 280
+          }
+        ]
+      },
+      "transition": "wipe"
+    },
+    {
+      "id": "kidem",
+      "chapter": "Kural · Kıdem tazminatı",
+      "headline": "Her yıl *30 gün*.",
+      "source": "1475 s. İş K. m.14/1",
+      "say": "İlki kıdem tazminatı. Kural olarak her tam çalışma yılın için, otuz günlük ücretin kadar ödenir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "1475 İş K.",
+          "article": "m. 14/1",
+          "text": "… her geçen tam yıl için işverence işçiye 30 günlük ücreti tutarında kıdem tazminatı ödenir. Bir yıldan artan süreler için de aynı oran üzerinden ödeme yapılır.",
+          "highlight": "30 günlük ücreti tutarında",
+          "note": "Kıdem tazminatı"
+        },
+        "cues": {
+          "highlight": {
+            "word": "otuz",
+            "sfx": "ding"
+          }
+        }
+      },
+      "transition": "zoom"
+    },
+    {
+      "id": "istisna",
+      "chapter": "Kural · İstisna",
+      "headline": "Kıdem *ne zaman* yanar?",
+      "source": "1475 s. K. m.14/1 · İş K. m.25/II",
+      "say": "Ama ahlak ve iyi niyete aykırı bir davranış yüzünden çıkarıldıysan, kıdem kural olarak ödenmez.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 150,
+            "w": 760,
+            "label": "Geçerli sebepsiz fesih",
+            "value": "Kıdem ödenir",
+            "cue": "Ama"
+          },
+          {
+            "kind": "card",
+            "x": 470,
+            "y": 360,
+            "w": 760,
+            "label": "Ahlak ve iyi niyete aykırılık",
+            "value": "Kıdem ödenmez",
+            "strike": true,
+            "cue": "aykırı"
+          },
+          {
+            "kind": "stamp",
+            "x": 640,
+            "y": 580,
+            "text": "İSTİSNA",
+            "rotate": -6,
+            "cue": "ödenmez"
+          }
+        ]
+      },
+      "transition": "blur"
+    },
+    {
+      "id": "ihbar",
+      "chapter": "Kural · İhbar tazminatı",
+      "headline": "Haber vermediyse *ihbar*.",
+      "source": "4857 s. İş K. m.17",
+      "say": "İkincisi ihbar. Haklı sebep yokken önceden haber verilmeden çıkarıldıysan, iki ila sekiz haftalık ücretin ödenir.",
+      "visual": {
+        "type": "bars",
+        "title": "Kıdeme göre bildirim süresi",
+        "unit": "hafta",
+        "bars": [
+          {
+            "label": "6 aydan az",
+            "value": 2
+          },
+          {
+            "label": "6 ay – 1,5 yıl",
+            "value": 4
+          },
+          {
+            "label": "1,5 – 3 yıl",
+            "value": 6
+          },
+          {
+            "label": "3 yıldan fazla",
+            "value": 8
+          }
+        ],
+        "highlight": 3
+      },
+      "transition": "slide"
+    },
+    {
+      "id": "izin",
+      "chapter": "Kural · Diğer alacaklar",
+      "headline": "İzin ve *maaş* da.",
+      "source": "İş K. m.59 · m.32",
+      "say": "Kullanmadığın yıllık izinlerin ücreti ve son maaşın da, tam ödenmek zorunda.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "Yıllık izin ücreti",
+            "icon": "Palmtree",
+            "cue": "izinlerin"
+          },
+          {
+            "label": "Son maaş",
+            "icon": "Banknote",
+            "cue": "maaşın"
+          },
+          {
+            "label": "Tam ödeme",
+            "icon": "BadgeCheck",
+            "cue": "tam"
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "id": "arabulucu",
+      "chapter": "Süreç · Arabuluculuk",
+      "headline": "Önce *arabulucu*.",
+      "source": "7036 s. İş Mah. K. m.3/1",
+      "say": "Ödenmezse, dava açmadan önce arabulucuya başvurman şart.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "Handshake",
+            "x": 290,
+            "y": 330,
+            "size": 240,
+            "cue": "arabulucuya"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              450,
+              330
+            ],
+            "to": [
+              620,
+              330
+            ],
+            "bend": -0.2
+          },
+          {
+            "kind": "icon",
+            "name": "Landmark",
+            "x": 730,
+            "y": 330,
+            "size": 180,
+            "cue": "dava"
+          },
+          {
+            "kind": "text",
+            "x": 470,
+            "y": 560,
+            "text": "Dava şartı",
+            "size": 60,
+            "font": "serif",
+            "cue": "şart"
+          },
+          {
+            "kind": "underline",
+            "x": 470,
+            "y": 600,
+            "w": 300
+          }
+        ]
+      },
+      "transition": "wipe"
+    },
+    {
+      "id": "sonuc",
+      "chapter": "Sonuç",
+      "headline": "Hesap *tek kalem* değil.",
+      "source": "1475 s. K. m.14 · İş K. m.17, 59",
+      "say": "Yani hesap, tek bir maaştan ibaret değil.",
+      "visual": {
+        "type": "verdict",
+        "label": "Çıkarılınca alacağın",
+        "from": "Sadece son maaş",
+        "to": "Maaş + kıdem + ihbar + izin",
+        "cue": "tek"
+      },
+      "transition": "light"
+    },
+    {
+      "id": "kor-nokta",
+      "chapter": "Kör nokta · Zamanaşımı",
+      "headline": "Süre *sınırsız* değil.",
+      "source": "4857 s. İş K. Ek m.3",
+      "say": "Ama dikkat: kıdem, ihbar ve izin ücreti için zamanaşımı beş yıl.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "5 yıl",
+        "sub": "zamanaşımı süresi",
+        "cue": "beş"
+      },
+      "transition": "light"
+    },
+    {
+      "id": "soz-sende",
+      "chapter": "Söz sende",
+      "headline": "Hangisini *biliyordun*?",
+      "say": "Sen bu haklardan hangisini biliyordun? Yorumlara yaz.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "label": "Kıdem mi, ihbar mı, izin mi?",
+        "orbit": 60,
+        "tilt": 0.3,
+        "cue": "biliyordun"
+      },
+      "transition": "flip"
+    }
+  ]
+}
