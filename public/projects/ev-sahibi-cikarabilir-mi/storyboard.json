@@ -1,0 +1,480 @@
+{
+  "slug": "ev-sahibi-cikarabilir-mi",
+  "title": "Ev sahibi kiracıyı istediğinde çıkarabilir mi?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "transition": "fade",
+  "brand": {
+    "name": "Law & Trust",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "headline": "Yarın evi *boşalt!*",
+      "say": "Ev sahibi kapını çalıp, yarın evi boşalt dese, çıkmak zorunda mısın?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 240,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "bald",
+            "accessories": [
+              "mustache"
+            ],
+            "pose": "aimRight",
+            "mood": "neutral",
+            "look": "right",
+            "cue": "Ev"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 560,
+            "name": "DoorOpen",
+            "size": 170,
+            "color": "accent",
+            "cue": "kapını"
+          },
+          {
+            "kind": "person",
+            "x": 700,
+            "y": 660,
+            "color": "cast2",
+            "hair": "long",
+            "outfit": "dress",
+            "mood": "shocked",
+            "look": "left",
+            "cue": "boşalt"
+          },
+          {
+            "kind": "bubble",
+            "x": 300,
+            "y": 160,
+            "icon": "CalendarX",
+            "variant": "speech",
+            "cue": "yarın"
+          },
+          {
+            "kind": "badge",
+            "x": 700,
+            "y": 170,
+            "symbol": "?",
+            "cue": "zorunda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uzar",
+      "headline": "Süre bitti, sözleşme *uzar*.",
+      "source": "TBK m.347",
+      "transition": "slide",
+      "say": "Kısa cevap: hayır. Kira süresi doldu diye seni çıkaramaz, sözleşme kendiliğinden bir yıl uzar.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "CalendarDays",
+            "x": 250,
+            "y": 340,
+            "size": 220,
+            "cue": "süresi"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              390,
+              340
+            ],
+            "to": [
+              560,
+              340
+            ],
+            "bend": -0.3,
+            "cue": "kendiliğinden"
+          },
+          {
+            "kind": "icon",
+            "name": "RefreshCw",
+            "x": 700,
+            "y": 340,
+            "size": 220,
+            "cue": "bir"
+          },
+          {
+            "kind": "circle",
+            "x": 700,
+            "y": 340,
+            "r": 160,
+            "cue": "uzar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "on-yil",
+      "headline": "Sebepsiz çıkarmak? *On yıl* sonra.",
+      "source": "TBK m.347",
+      "transition": "zoom",
+      "say": "Sebep göstermeden çıkarmak için, sözleşme bittikten sonra on yıl daha geçmeli, ve üç ay önceden yazılı bildirmeli.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "10 yıl",
+        "cue": "on"
+      }
+    },
+    {
+      "id": "sebepler",
+      "headline": "Ancak *kanuni* sebeplerle.",
+      "source": "TBK m.350 · 352 · 315",
+      "transition": "wipe",
+      "say": "Bundan önce ancak kanundaki sebeplerle çıkarabilir: gerçek konut ihtiyacı, yeniden inşa, yazılı tahliye taahhüdü, ya da ödenmeyen kira.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "İhtiyaç",
+            "icon": "House",
+            "cue": "ihtiyacı"
+          },
+          {
+            "label": "İnşa",
+            "icon": "HardHat",
+            "cue": "inşa"
+          },
+          {
+            "label": "Taahhüt",
+            "icon": "PenLine",
+            "cue": "taahhüdü"
+          },
+          {
+            "label": "Borç",
+            "icon": "Banknote",
+            "cue": "ödenmeyen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ispat",
+      "headline": "İhtiyaç *ispat* edilir.",
+      "source": "TBK m.350 · m.351",
+      "transition": "slide",
+      "say": "İhtiyacı mahkemede ispatlamak zorunda. Evi yeni satın alan da, kiracıya yazıyla bildirip ancak altı ay sonra dava açabilir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 200,
+            "y": 660,
+            "color": "cast3",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "pose": "raise",
+            "look": "right",
+            "cue": "ispatlamak"
+          },
+          {
+            "kind": "art",
+            "name": "title-deed",
+            "x": 470,
+            "y": 400,
+            "w": 200,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "satın"
+          },
+          {
+            "kind": "icon",
+            "x": 730,
+            "y": 560,
+            "name": "CalendarClock",
+            "size": 190,
+            "color": "accent",
+            "cue": "altı"
+          },
+          {
+            "kind": "badge",
+            "x": 200,
+            "y": 170,
+            "symbol": "check",
+            "cue": "zorunda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "arabulucu",
+      "headline": "Davadan önce *arabulucu*.",
+      "source": "HUAK m.18/B",
+      "transition": "blur",
+      "say": "Üstelik dava açmadan önce, arabulucuya gitmek artık zorunlu. Taraflar önce masaya oturur.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "table",
+            "x": 470,
+            "y": 660,
+            "w": 360,
+            "cue": "masaya"
+          },
+          {
+            "kind": "person",
+            "x": 190,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "bald",
+            "accessories": [
+              "mustache"
+            ],
+            "look": "right",
+            "cue": "Taraflar"
+          },
+          {
+            "kind": "person",
+            "x": 470,
+            "y": 600,
+            "color": "muted",
+            "outfit": "robe",
+            "hair": "bun",
+            "accessories": [
+              "glasses"
+            ],
+            "look": "front",
+            "mood": "happy",
+            "cue": "arabulucuya"
+          },
+          {
+            "kind": "person",
+            "x": 750,
+            "y": 660,
+            "color": "cast2",
+            "hair": "long",
+            "outfit": "dress",
+            "look": "left",
+            "cue": "oturur"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 170,
+            "name": "Handshake",
+            "size": 130,
+            "color": "accent",
+            "cue": "zorunlu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kilit",
+      "headline": "Kilidi *değiştiremez*.",
+      "source": "TCK m.116",
+      "transition": "slide",
+      "say": "Peki kilidi değiştirip eşyanı dışarı atabilir mi? Hayır. İzinsiz eve girmek suçtur.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "KeyRound",
+            "x": 300,
+            "y": 330,
+            "size": 220,
+            "cue": "kilidi"
+          },
+          {
+            "kind": "icon",
+            "name": "Sofa",
+            "x": 650,
+            "y": 330,
+            "size": 220,
+            "cue": "eşyanı"
+          },
+          {
+            "kind": "circle",
+            "x": 470,
+            "y": 330,
+            "r": 300,
+            "color": "danger",
+            "cue": "Hayır"
+          },
+          {
+            "kind": "path",
+            "d": "M230 120 L710 540 M710 120 L230 540",
+            "color": "danger",
+            "width": 9,
+            "dur": 0.4,
+            "cue": "suçtur"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mahkeme",
+      "headline": "Kararı *mahkeme* verir.",
+      "transition": "light",
+      "say": "Yani kararı ev sahibi değil, mahkeme ya da icra dairesi verir.",
+      "visual": {
+        "type": "object3d",
+        "model": "gavel",
+        "orbit": 45,
+        "cue": "mahkeme"
+      }
+    },
+    {
+      "id": "uc-yil",
+      "headline": "Üç yıl *başkasına* veremez.",
+      "source": "TBK m.355",
+      "transition": "light",
+      "say": "Bir de şu var: ihtiyaç diyerek seni çıkaran, evi üç yıl başkasına kiralayamaz.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "3 yıl",
+        "cue": "üç"
+      }
+    },
+    {
+      "id": "tazminat",
+      "headline": "Kiralarsa *tazminat* öder.",
+      "source": "TBK m.355",
+      "transition": "zoom",
+      "say": "Kiralarsa, eski kiracısına en az bir yıllık kira tutarında tazminat öder.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 230,
+            "y": 660,
+            "color": "cast2",
+            "hair": "long",
+            "outfit": "dress",
+            "mood": "happy",
+            "look": "right",
+            "cue": "eski"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 300,
+            "name": "Banknote",
+            "size": 210,
+            "color": "accent",
+            "cue": "tazminat"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 560,
+            "y": 650,
+            "w": 130,
+            "idle": "bob",
+            "cue": "bir"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 720,
+            "y": 650,
+            "w": 130,
+            "idle": "bob",
+            "cue": "kira"
+          }
+        ]
+      }
+    },
+    {
+      "id": "soz-sende",
+      "headline": "Sence *dengeli* mi?",
+      "transition": "fade",
+      "say": "Sence bu kurallar, kiracıyla ev sahibi arasında dengeli mi? Yorumlara yaz.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 75,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "bald",
+            "accessories": [
+              "mustache"
+            ],
+            "look": "right",
+            "cue": "ev",
+            "scale": 0.72
+          },
+          {
+            "kind": "scales",
+            "x": 470,
+            "y": 600,
+            "tilt": 0,
+            "wobble": true,
+            "cue": "dengeli"
+          },
+          {
+            "kind": "person",
+            "x": 865,
+            "y": 660,
+            "color": "cast2",
+            "hair": "long",
+            "outfit": "dress",
+            "look": "left",
+            "cue": "kiracıyla",
+            "scale": 0.72
+          },
+          {
+            "kind": "bubble",
+            "x": 470,
+            "y": 150,
+            "icon": "MessageCircle",
+            "variant": "thought",
+            "cue": "Yorumlara"
+          }
+        ]
+      }
+    }
+  ]
+}

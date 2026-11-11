@@ -288,36 +288,9 @@ const CaptionBar: React.FC<{ words: Word[]; style: Style; fps: number }> = ({ wo
         {current.map((w, i) => {
           const said = t >= w.start;
           const now = said && t < w.end + 0.05;
-          const mark = now ? interpolate(t, [w.start, w.start + 0.12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
-          if (style.dark)
-            return (
-              <span
-                key={i}
-                style={{
-                  color: now ? style.bg : style.ink,
-                  opacity: said ? 1 : 0.32,
-                  padding: "0 12px",
-                  borderRadius: 12,
-                  background: now ? alpha(style.accent, mark) : "transparent",
-                  boxShadow: now ? `0 0 ${28 * mark}px ${alpha(style.accent, 0.45 * mark)}` : "none",
-                }}
-              >
-                {w.text}
-              </span>
-            );
+          // no marker/underline under the spoken word (owner's request): it is shown in the accent color instead
           return (
-            <span
-              key={i}
-              style={{
-                color: style.ink,
-                opacity: said ? 1 : 0.28,
-                padding: "0 6px",
-                backgroundImage: `linear-gradient(${style.accent}, ${style.accent})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "0 82%",
-                backgroundSize: `${mark * 100}% 42%`,
-              }}
-            >
+            <span key={i} style={{ color: now ? style.accent : style.ink, opacity: said ? 1 : 0.28, padding: "0 6px" }}>
               {w.text}
             </span>
           );

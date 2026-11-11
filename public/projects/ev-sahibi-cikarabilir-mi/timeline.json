@@ -1,0 +1,1492 @@
+{
+  "slug": "ev-sahibi-cikarabilir-mi",
+  "title": "Ev sahibi kiracıyı istediğinde çıkarabilir mi?",
+  "style": "lawtrust",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "transition": "fade",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2343,
+  "clips": [
+    {
+      "src": "projects/ev-sahibi-cikarabilir-mi/voice.mp3",
+      "from": 0
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 24,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 76,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 59,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 126,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 158,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 243,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 330,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 357,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 370,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 391,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/riser.mp3",
+      "from": 489,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 513,
+      "volume": 0.28
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 641,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 816,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 866,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 920,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 956,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 978,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1026,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1095,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1204,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1049,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1270,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1411,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1339,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1452,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1382,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1476,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1494,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1524,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1583,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1649,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 1675,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 1754,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1825,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/riser.mp3",
+      "from": 1909,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1933,
+      "volume": 0.28
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 2001,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2030,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2115,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2074,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2007,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 2152,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2224,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 2257,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2201,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 2282,
+      "volume": 0.22
+    }
+  ],
+  "words": [
+    {
+      "text": "Ev",
+      "start": 0,
+      "end": 0.221
+    },
+    {
+      "text": "sahibi",
+      "start": 0.279,
+      "end": 0.743
+    },
+    {
+      "text": "kapını",
+      "start": 0.789,
+      "end": 1.138
+    },
+    {
+      "text": "çalıp,",
+      "start": 1.196,
+      "end": 1.683
+    },
+    {
+      "text": "yarın",
+      "start": 1.962,
+      "end": 2.299
+    },
+    {
+      "text": "evi",
+      "start": 2.345,
+      "end": 2.485
+    },
+    {
+      "text": "boşalt",
+      "start": 2.531,
+      "end": 3.007
+    },
+    {
+      "text": "dese,",
+      "start": 3.042,
+      "end": 3.518
+    },
+    {
+      "text": "çıkmak",
+      "start": 3.692,
+      "end": 4.133
+    },
+    {
+      "text": "zorunda",
+      "start": 4.191,
+      "end": 4.586
+    },
+    {
+      "text": "mısın?",
+      "start": 4.632,
+      "end": 5.074
+    },
+    {
+      "text": "Kısa",
+      "start": 5.457,
+      "end": 5.759
+    },
+    {
+      "text": "cevap:",
+      "start": 5.805,
+      "end": 6.374
+    },
+    {
+      "text": "hayır.",
+      "start": 6.49,
+      "end": 7.082
+    },
+    {
+      "text": "Kira",
+      "start": 7.686,
+      "end": 8.046
+    },
+    {
+      "text": "süresi",
+      "start": 8.104,
+      "end": 8.464
+    },
+    {
+      "text": "doldu",
+      "start": 8.51,
+      "end": 8.8
+    },
+    {
+      "text": "diye",
+      "start": 8.847,
+      "end": 9.009
+    },
+    {
+      "text": "seni",
+      "start": 9.056,
+      "end": 9.276
+    },
+    {
+      "text": "çıkaramaz,",
+      "start": 9.311,
+      "end": 10.089
+    },
+    {
+      "text": "sözleşme",
+      "start": 10.368,
+      "end": 10.96
+    },
+    {
+      "text": "kendiliğinden",
+      "start": 11.006,
+      "end": 11.807
+    },
+    {
+      "text": "bir",
+      "start": 11.889,
+      "end": 12.074
+    },
+    {
+      "text": "yıl",
+      "start": 12.132,
+      "end": 12.249
+    },
+    {
+      "text": "uzar.",
+      "start": 12.33,
+      "end": 12.817
+    },
+    {
+      "text": "Sebep",
+      "start": 13.201,
+      "end": 13.584
+    },
+    {
+      "text": "göstermeden",
+      "start": 13.653,
+      "end": 14.327
+    },
+    {
+      "text": "çıkarmak",
+      "start": 14.385,
+      "end": 14.872
+    },
+    {
+      "text": "için,",
+      "start": 14.919,
+      "end": 15.267
+    },
+    {
+      "text": "sözleşme",
+      "start": 15.546,
+      "end": 16.091
+    },
+    {
+      "text": "bittikten",
+      "start": 16.138,
+      "end": 16.695
+    },
+    {
+      "text": "sonra",
+      "start": 16.753,
+      "end": 17.02
+    },
+    {
+      "text": "on",
+      "start": 17.09,
+      "end": 17.276
+    },
+    {
+      "text": "yıl",
+      "start": 17.334,
+      "end": 17.473
+    },
+    {
+      "text": "daha",
+      "start": 17.543,
+      "end": 17.74
+    },
+    {
+      "text": "geçmeli,",
+      "start": 17.798,
+      "end": 18.553
+    },
+    {
+      "text": "ve",
+      "start": 18.762,
+      "end": 18.878
+    },
+    {
+      "text": "üç",
+      "start": 18.959,
+      "end": 19.099
+    },
+    {
+      "text": "ay",
+      "start": 19.168,
+      "end": 19.238
+    },
+    {
+      "text": "önceden",
+      "start": 19.308,
+      "end": 19.702
+    },
+    {
+      "text": "yazılı",
+      "start": 19.784,
+      "end": 20.109
+    },
+    {
+      "text": "bildirmeli.",
+      "start": 20.155,
+      "end": 20.945
+    },
+    {
+      "text": "Bundan",
+      "start": 21.548,
+      "end": 21.908
+    },
+    {
+      "text": "önce",
+      "start": 21.978,
+      "end": 22.152
+    },
+    {
+      "text": "ancak",
+      "start": 22.21,
+      "end": 22.558
+    },
+    {
+      "text": "kanundaki",
+      "start": 22.605,
+      "end": 23.209
+    },
+    {
+      "text": "sebeplerle",
+      "start": 23.243,
+      "end": 23.917
+    },
+    {
+      "text": "çıkarabilir:",
+      "start": 23.975,
+      "end": 24.799
+    },
+    {
+      "text": "gerçek",
+      "start": 25.31,
+      "end": 25.786
+    },
+    {
+      "text": "konut",
+      "start": 25.832,
+      "end": 26.111
+    },
+    {
+      "text": "ihtiyacı,",
+      "start": 26.181,
+      "end": 26.947
+    },
+    {
+      "text": "yeniden",
+      "start": 27.33,
+      "end": 27.806
+    },
+    {
+      "text": "inşa,",
+      "start": 27.922,
+      "end": 28.642
+    },
+    {
+      "text": "yazılı",
+      "start": 28.921,
+      "end": 29.292
+    },
+    {
+      "text": "tahliye",
+      "start": 29.35,
+      "end": 29.768
+    },
+    {
+      "text": "taahhüdü,",
+      "start": 29.826,
+      "end": 30.546
+    },
+    {
+      "text": "ya",
+      "start": 30.825,
+      "end": 30.952
+    },
+    {
+      "text": "da",
+      "start": 30.999,
+      "end": 31.08
+    },
+    {
+      "text": "ödenmeyen",
+      "start": 31.161,
+      "end": 31.8
+    },
+    {
+      "text": "kira.",
+      "start": 31.87,
+      "end": 32.38
+    },
+    {
+      "text": "İhtiyacı",
+      "start": 32.764,
+      "end": 33.356
+    },
+    {
+      "text": "mahkemede",
+      "start": 33.402,
+      "end": 34.075
+    },
+    {
+      "text": "ispatlamak",
+      "start": 34.192,
+      "end": 34.911
+    },
+    {
+      "text": "zorunda.",
+      "start": 34.969,
+      "end": 35.562
+    },
+    {
+      "text": "Evi",
+      "start": 35.945,
+      "end": 36.223
+    },
+    {
+      "text": "yeni",
+      "start": 36.269,
+      "end": 36.467
+    },
+    {
+      "text": "satın",
+      "start": 36.513,
+      "end": 36.78
+    },
+    {
+      "text": "alan",
+      "start": 36.838,
+      "end": 37.059
+    },
+    {
+      "text": "da,",
+      "start": 37.117,
+      "end": 37.43
+    },
+    {
+      "text": "kiracıya",
+      "start": 37.674,
+      "end": 38.255
+    },
+    {
+      "text": "yazıyla",
+      "start": 38.313,
+      "end": 38.696
+    },
+    {
+      "text": "bildirip",
+      "start": 38.766,
+      "end": 39.242
+    },
+    {
+      "text": "ancak",
+      "start": 39.683,
+      "end": 40.066
+    },
+    {
+      "text": "altı",
+      "start": 40.136,
+      "end": 40.391
+    },
+    {
+      "text": "ay",
+      "start": 40.426,
+      "end": 40.53
+    },
+    {
+      "text": "sonra",
+      "start": 40.588,
+      "end": 40.832
+    },
+    {
+      "text": "dava",
+      "start": 40.879,
+      "end": 41.192
+    },
+    {
+      "text": "açabilir.",
+      "start": 41.227,
+      "end": 41.923
+    },
+    {
+      "text": "Üstelik",
+      "start": 42.527,
+      "end": 42.957
+    },
+    {
+      "text": "dava",
+      "start": 43.026,
+      "end": 43.317
+    },
+    {
+      "text": "açmadan",
+      "start": 43.34,
+      "end": 43.804
+    },
+    {
+      "text": "önce,",
+      "start": 43.886,
+      "end": 44.35
+    },
+    {
+      "text": "arabulucuya",
+      "start": 44.629,
+      "end": 45.314
+    },
+    {
+      "text": "gitmek",
+      "start": 45.36,
+      "end": 45.697
+    },
+    {
+      "text": "artık",
+      "start": 45.778,
+      "end": 46.01
+    },
+    {
+      "text": "zorunlu.",
+      "start": 46.08,
+      "end": 46.695
+    },
+    {
+      "text": "Taraflar",
+      "start": 47.02,
+      "end": 47.578
+    },
+    {
+      "text": "önce",
+      "start": 47.647,
+      "end": 47.891
+    },
+    {
+      "text": "masaya",
+      "start": 47.984,
+      "end": 48.379
+    },
+    {
+      "text": "oturur.",
+      "start": 48.402,
+      "end": 48.948
+    },
+    {
+      "text": "Peki",
+      "start": 49.389,
+      "end": 49.737
+    },
+    {
+      "text": "kilidi",
+      "start": 49.795,
+      "end": 50.178
+    },
+    {
+      "text": "değiştirip",
+      "start": 50.225,
+      "end": 50.735
+    },
+    {
+      "text": "eşyanı",
+      "start": 50.805,
+      "end": 51.223
+    },
+    {
+      "text": "dışarı",
+      "start": 51.27,
+      "end": 51.571
+    },
+    {
+      "text": "atabilir",
+      "start": 51.595,
+      "end": 52.047
+    },
+    {
+      "text": "mi?",
+      "start": 52.117,
+      "end": 52.396
+    },
+    {
+      "text": "Hayır.",
+      "start": 52.779,
+      "end": 53.324
+    },
+    {
+      "text": "İzinsiz",
+      "start": 53.765,
+      "end": 54.311
+    },
+    {
+      "text": "eve",
+      "start": 54.369,
+      "end": 54.52
+    },
+    {
+      "text": "girmek",
+      "start": 54.566,
+      "end": 54.903
+    },
+    {
+      "text": "suçtur.",
+      "start": 54.961,
+      "end": 55.507
+    },
+    {
+      "text": "Yani",
+      "start": 56.018,
+      "end": 56.343
+    },
+    {
+      "text": "kararı",
+      "start": 56.389,
+      "end": 56.865
+    },
+    {
+      "text": "ev",
+      "start": 56.946,
+      "end": 57.144
+    },
+    {
+      "text": "sahibi",
+      "start": 57.213,
+      "end": 57.666
+    },
+    {
+      "text": "değil,",
+      "start": 57.713,
+      "end": 58.212
+    },
+    {
+      "text": "mahkeme",
+      "start": 58.456,
+      "end": 58.967
+    },
+    {
+      "text": "ya",
+      "start": 59.001,
+      "end": 59.059
+    },
+    {
+      "text": "da",
+      "start": 59.106,
+      "end": 59.187
+    },
+    {
+      "text": "icra",
+      "start": 59.257,
+      "end": 59.663
+    },
+    {
+      "text": "dairesi",
+      "start": 59.71,
+      "end": 60.22
+    },
+    {
+      "text": "verir.",
+      "start": 60.267,
+      "end": 60.638
+    },
+    {
+      "text": "Bir",
+      "start": 61.022,
+      "end": 61.172
+    },
+    {
+      "text": "de",
+      "start": 61.196,
+      "end": 61.265
+    },
+    {
+      "text": "şu",
+      "start": 61.323,
+      "end": 61.463
+    },
+    {
+      "text": "var:",
+      "start": 61.498,
+      "end": 61.834
+    },
+    {
+      "text": "ihtiyaç",
+      "start": 62.217,
+      "end": 62.786
+    },
+    {
+      "text": "diyerek",
+      "start": 62.867,
+      "end": 63.216
+    },
+    {
+      "text": "seni",
+      "start": 63.297,
+      "end": 63.529
+    },
+    {
+      "text": "çıkaran,",
+      "start": 63.564,
+      "end": 64.075
+    },
+    {
+      "text": "evi",
+      "start": 64.11,
+      "end": 64.354
+    },
+    {
+      "text": "üç",
+      "start": 64.435,
+      "end": 64.644
+    },
+    {
+      "text": "yıl",
+      "start": 64.713,
+      "end": 64.806
+    },
+    {
+      "text": "başkasına",
+      "start": 64.864,
+      "end": 65.387
+    },
+    {
+      "text": "kiralayamaz.",
+      "start": 65.445,
+      "end": 66.443
+    },
+    {
+      "text": "Kiralarsa,",
+      "start": 66.885,
+      "end": 67.604
+    },
+    {
+      "text": "eski",
+      "start": 67.651,
+      "end": 67.964
+    },
+    {
+      "text": "kiracısına",
+      "start": 68.011,
+      "end": 68.649
+    },
+    {
+      "text": "en",
+      "start": 68.731,
+      "end": 68.87
+    },
+    {
+      "text": "az",
+      "start": 68.94,
+      "end": 69.044
+    },
+    {
+      "text": "bir",
+      "start": 69.137,
+      "end": 69.299
+    },
+    {
+      "text": "yıllık",
+      "start": 69.357,
+      "end": 69.659
+    },
+    {
+      "text": "kira",
+      "start": 69.694,
+      "end": 69.938
+    },
+    {
+      "text": "tutarında",
+      "start": 69.996,
+      "end": 70.449
+    },
+    {
+      "text": "tazminat",
+      "start": 70.495,
+      "end": 70.995
+    },
+    {
+      "text": "öder.",
+      "start": 71.064,
+      "end": 71.471
+    },
+    {
+      "text": "Sence",
+      "start": 71.912,
+      "end": 72.272
+    },
+    {
+      "text": "bu",
+      "start": 72.341,
+      "end": 72.446
+    },
+    {
+      "text": "kurallar,",
+      "start": 72.481,
+      "end": 73.143
+    },
+    {
+      "text": "kiracıyla",
+      "start": 73.351,
+      "end": 74.036
+    },
+    {
+      "text": "ev",
+      "start": 74.118,
+      "end": 74.304
+    },
+    {
+      "text": "sahibi",
+      "start": 74.373,
+      "end": 74.71
+    },
+    {
+      "text": "arasında",
+      "start": 74.733,
+      "end": 75.163
+    },
+    {
+      "text": "dengeli",
+      "start": 75.221,
+      "end": 75.627
+    },
+    {
+      "text": "mi?",
+      "start": 75.673,
+      "end": 75.894
+    },
+    {
+      "text": "Yorumlara",
+      "start": 76.068,
+      "end": 76.66
+    },
+    {
+      "text": "yaz.",
+      "start": 76.695,
+      "end": 77.369
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "Ev sahibi kapını çalıp, yarın evi boşalt dese, çıkmak zorunda mısın?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 240,
+            "y": 660,
+            "color": "cast1",
+            "pose": "aimRight",
+            "mood": "neutral",
+            "look": "right",
+            "hair": "bald",
+            "outfit": "suit",
+            "accessories": [
+              "mustache"
+            ],
+            "cue": "Ev"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 560,
+            "name": "DoorOpen",
+            "size": 170,
+            "color": "accent",
+            "cue": "kapını"
+          },
+          {
+            "kind": "person",
+            "x": 700,
+            "y": 660,
+            "color": "cast2",
+            "mood": "shocked",
+            "look": "left",
+            "hair": "long",
+            "outfit": "dress",
+            "cue": "boşalt"
+          },
+          {
+            "kind": "bubble",
+            "x": 300,
+            "y": 160,
+            "icon": "CalendarX",
+            "variant": "speech",
+            "cue": "yarın"
+          },
+          {
+            "kind": "badge",
+            "x": 700,
+            "y": 170,
+            "symbol": "?",
+            "cue": "zorunda"
+          }
+        ]
+      },
+      "headline": "Yarın evi *boşalt!*",
+      "from": 0,
+      "durationInFrames": 161
+    },
+    {
+      "id": "uzar",
+      "say": "Kısa cevap: hayır. Kira süresi doldu diye seni çıkaramaz, sözleşme kendiliğinden bir yıl uzar.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "CalendarDays",
+            "x": 250,
+            "y": 340,
+            "size": 220,
+            "cue": "süresi"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              390,
+              340
+            ],
+            "to": [
+              560,
+              340
+            ],
+            "bend": -0.3,
+            "cue": "kendiliğinden"
+          },
+          {
+            "kind": "icon",
+            "name": "RefreshCw",
+            "x": 700,
+            "y": 340,
+            "size": 220,
+            "cue": "bir"
+          },
+          {
+            "kind": "circle",
+            "x": 700,
+            "y": 340,
+            "r": 160,
+            "cue": "uzar"
+          }
+        ]
+      },
+      "transition": "slide",
+      "headline": "Süre bitti, sözleşme *uzar*.",
+      "source": "TBK m.347",
+      "from": 161,
+      "durationInFrames": 233
+    },
+    {
+      "id": "on-yil",
+      "say": "Sebep göstermeden çıkarmak için, sözleşme bittikten sonra on yıl daha geçmeli, ve üç ay önceden yazılı bildirmeli.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "10 yıl",
+        "cue": "on"
+      },
+      "transition": "zoom",
+      "headline": "Sebepsiz çıkarmak? *On yıl* sonra.",
+      "source": "TBK m.347",
+      "from": 394,
+      "durationInFrames": 250
+    },
+    {
+      "id": "sebepler",
+      "say": "Bundan önce ancak kanundaki sebeplerle çıkarabilir: gerçek konut ihtiyacı, yeniden inşa, yazılı tahliye taahhüdü, ya da ödenmeyen kira.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "İhtiyaç",
+            "icon": "House",
+            "cue": "ihtiyacı"
+          },
+          {
+            "label": "İnşa",
+            "icon": "HardHat",
+            "cue": "inşa"
+          },
+          {
+            "label": "Taahhüt",
+            "icon": "PenLine",
+            "cue": "taahhüdü"
+          },
+          {
+            "label": "Borç",
+            "icon": "Banknote",
+            "cue": "ödenmeyen"
+          }
+        ]
+      },
+      "transition": "wipe",
+      "headline": "Ancak *kanuni* sebeplerle.",
+      "source": "TBK m.350 · 352 · 315",
+      "from": 644,
+      "durationInFrames": 337
+    },
+    {
+      "id": "ispat",
+      "say": "İhtiyacı mahkemede ispatlamak zorunda. Evi yeni satın alan da, kiracıya yazıyla bildirip ancak altı ay sonra dava açabilir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 200,
+            "y": 660,
+            "color": "cast3",
+            "pose": "raise",
+            "look": "right",
+            "hair": "short",
+            "outfit": "suit",
+            "accessories": [
+              "glasses"
+            ],
+            "cue": "ispatlamak"
+          },
+          {
+            "kind": "art",
+            "name": "title-deed",
+            "x": 470,
+            "y": 400,
+            "w": 200,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "satın"
+          },
+          {
+            "kind": "icon",
+            "x": 730,
+            "y": 560,
+            "name": "CalendarClock",
+            "size": 190,
+            "color": "accent",
+            "cue": "altı"
+          },
+          {
+            "kind": "badge",
+            "x": 200,
+            "y": 170,
+            "symbol": "check",
+            "cue": "zorunda"
+          }
+        ]
+      },
+      "transition": "slide",
+      "headline": "İhtiyaç *ispat* edilir.",
+      "source": "TBK m.350 · m.351",
+      "from": 981,
+      "durationInFrames": 292
+    },
+    {
+      "id": "arabulucu",
+      "say": "Üstelik dava açmadan önce, arabulucuya gitmek artık zorunlu. Taraflar önce masaya oturur.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "table",
+            "x": 470,
+            "y": 660,
+            "w": 360,
+            "cue": "masaya"
+          },
+          {
+            "kind": "person",
+            "x": 190,
+            "y": 660,
+            "color": "cast1",
+            "look": "right",
+            "hair": "bald",
+            "outfit": "suit",
+            "accessories": [
+              "mustache"
+            ],
+            "cue": "Taraflar"
+          },
+          {
+            "kind": "person",
+            "x": 470,
+            "y": 600,
+            "color": "muted",
+            "mood": "happy",
+            "look": "front",
+            "hair": "bun",
+            "outfit": "robe",
+            "accessories": [
+              "glasses"
+            ],
+            "cue": "arabulucuya"
+          },
+          {
+            "kind": "person",
+            "x": 750,
+            "y": 660,
+            "color": "cast2",
+            "look": "left",
+            "hair": "long",
+            "outfit": "dress",
+            "cue": "oturur"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 170,
+            "name": "Handshake",
+            "size": 130,
+            "color": "accent",
+            "cue": "zorunlu"
+          }
+        ]
+      },
+      "transition": "blur",
+      "headline": "Davadan önce *arabulucu*.",
+      "source": "HUAK m.18/B",
+      "from": 1273,
+      "durationInFrames": 206
+    },
+    {
+      "id": "kilit",
+      "say": "Peki kilidi değiştirip eşyanı dışarı atabilir mi? Hayır. İzinsiz eve girmek suçtur.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "KeyRound",
+            "x": 300,
+            "y": 330,
+            "size": 220,
+            "cue": "kilidi"
+          },
+          {
+            "kind": "icon",
+            "name": "Sofa",
+            "x": 650,
+            "y": 330,
+            "size": 220,
+            "cue": "eşyanı"
+          },
+          {
+            "kind": "circle",
+            "x": 470,
+            "y": 330,
+            "r": 300,
+            "color": "danger",
+            "cue": "Hayır"
+          },
+          {
+            "kind": "path",
+            "d": "M230 120 L710 540 M710 120 L230 540",
+            "color": "danger",
+            "width": 9,
+            "dur": 0.4,
+            "cue": "suçtur"
+          }
+        ]
+      },
+      "transition": "slide",
+      "headline": "Kilidi *değiştiremez*.",
+      "source": "TCK m.116",
+      "from": 1479,
+      "durationInFrames": 199
+    },
+    {
+      "id": "mahkeme",
+      "say": "Yani kararı ev sahibi değil, mahkeme ya da icra dairesi verir.",
+      "visual": {
+        "type": "object3d",
+        "model": "gavel",
+        "orbit": 45,
+        "cue": "mahkeme"
+      },
+      "transition": "light",
+      "headline": "Kararı *mahkeme* verir.",
+      "from": 1678,
+      "durationInFrames": 150
+    },
+    {
+      "id": "uc-yil",
+      "say": "Bir de şu var: ihtiyaç diyerek seni çıkaran, evi üç yıl başkasına kiralayamaz.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "3 yıl",
+        "cue": "üç"
+      },
+      "transition": "light",
+      "headline": "Üç yıl *başkasına* veremez.",
+      "source": "TBK m.355",
+      "from": 1828,
+      "durationInFrames": 176
+    },
+    {
+      "id": "tazminat",
+      "say": "Kiralarsa, eski kiracısına en az bir yıllık kira tutarında tazminat öder.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 230,
+            "y": 660,
+            "color": "cast2",
+            "mood": "happy",
+            "look": "right",
+            "hair": "long",
+            "outfit": "dress",
+            "cue": "eski"
+          },
+          {
+            "kind": "icon",
+            "x": 640,
+            "y": 300,
+            "name": "Banknote",
+            "size": 210,
+            "color": "accent",
+            "cue": "tazminat"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 560,
+            "y": 650,
+            "w": 130,
+            "idle": "bob",
+            "cue": "bir"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 720,
+            "y": 650,
+            "w": 130,
+            "idle": "bob",
+            "cue": "kira"
+          }
+        ]
+      },
+      "transition": "zoom",
+      "headline": "Kiralarsa *tazminat* öder.",
+      "source": "TBK m.355",
+      "from": 2004,
+      "durationInFrames": 151
+    },
+    {
+      "id": "soz-sende",
+      "say": "Sence bu kurallar, kiracıyla ev sahibi arasında dengeli mi? Yorumlara yaz.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 75,
+            "y": 660,
+            "color": "cast1",
+            "look": "right",
+            "hair": "bald",
+            "outfit": "suit",
+            "accessories": [
+              "mustache"
+            ],
+            "scale": 0.72,
+            "cue": "ev"
+          },
+          {
+            "kind": "scales",
+            "x": 470,
+            "y": 600,
+            "tilt": 0,
+            "wobble": true,
+            "cue": "dengeli"
+          },
+          {
+            "kind": "person",
+            "x": 865,
+            "y": 660,
+            "color": "cast2",
+            "look": "left",
+            "hair": "long",
+            "outfit": "dress",
+            "scale": 0.72,
+            "cue": "kiracıyla"
+          },
+          {
+            "kind": "bubble",
+            "x": 470,
+            "y": 150,
+            "icon": "MessageCircle",
+            "variant": "thought",
+            "cue": "Yorumlara"
+          }
+        ]
+      },
+      "transition": "fade",
+      "headline": "Sence *dengeli* mi?",
+      "from": 2155,
+      "durationInFrames": 188
+    }
+  ]
+}

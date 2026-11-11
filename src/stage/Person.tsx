@@ -61,7 +61,7 @@ export const Person: React.FC<{
   const breath = Math.sin((frame + seed * 13) / 18) * 2;
   const hairC = hairColor ?? dark;
   const has = (a: Accessory) => accessories.includes(a);
-  const dx = profile ? 14 : 0; // face features shift toward the facing side
+  const dx = profile ? 9 : 0; // face features shift toward the facing side
   const hand = (cx: number, cy: number, r = 10) => <circle cx={cx} cy={cy} r={r} fill={face} stroke={ink} strokeWidth={4} />;
 
   return (
@@ -169,10 +169,11 @@ export const Person: React.FC<{
           )}
 
           {profile ? (
-            // one big eye on the facing side
+            // three-quarter view: BOTH eyes, shifted toward the facing side (never a single eye — owner's rule)
             <g>
-              <ellipse cx={136} cy={86} rx={15} ry={blink ? 2 : 15} fill={face} stroke={ink} strokeWidth={4} />
-              {!blink && <circle cx={141} cy={88} r={6} fill={ink} />}
+              <ellipse cx={113} cy={88} rx={4.5} ry={blink ? 1 : 5} fill={ink} />
+              <ellipse cx={145} cy={88} rx={5} ry={blink ? 1 : 5.5} fill={ink} />
+              <circle cx={158} cy={104} r={7} fill={style.accent} opacity={0.35} />
             </g>
           ) : (
             <g>
@@ -184,7 +185,11 @@ export const Person: React.FC<{
           )}
           {has("glasses") &&
             (profile ? (
-              <circle cx={136} cy={86} r={20} fill="none" stroke={ink} strokeWidth={4} />
+              <g fill="none" stroke={ink} strokeWidth={4}>
+                <circle cx={113} cy={88} r={13} />
+                <circle cx={145} cy={88} r={14} />
+                <path d="M126 88 L131 88" />
+              </g>
             ) : (
               <g fill="none" stroke={ink} strokeWidth={4}>
                 <circle cx={104} cy={88} r={14} />
@@ -193,11 +198,11 @@ export const Person: React.FC<{
               </g>
             ))}
           {mood === "shocked" ? (
-            <ellipse cx={profile ? 134 : 120} cy={114} rx={7} ry={9} fill={ink} />
+            <ellipse cx={profile ? 129 : 120} cy={114} rx={7} ry={9} fill={ink} />
           ) : (
             <path
               d={MOUTH[mood]}
-              transform={profile ? "translate(14 0)" : undefined}
+              transform={profile ? "translate(9 0)" : undefined}
               fill="none"
               stroke={ink}
               strokeWidth={4}

@@ -28,3 +28,4 @@ plus the usual `cue` / `at` / `enter`. A missing file shows a red "art yok" box 
 | gold-coin | gold coin (çeyrek altın) |
 | bracelet | gold bangle bracelet (bilezik) |
 | wedding-sash | red wedding ribbon with gold coins pinned on it |
+| title-deed | property title deed (tapu) with a house emblem and seal |
