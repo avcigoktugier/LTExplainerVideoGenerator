@@ -4,666 +4,666 @@
     {
       "src": "projects/kabul-ediyorum/voice.mp3",
       "start": 0,
-      "duration": 72.62040816326531
+      "duration": 77.79265306122448
     }
   ],
   "sceneStarts": [
     0,
-    8.001,
-    12.192,
-    23.349,
-    30.721,
-    40.729,
-    50.319,
-    58.597
+    9,
+    13.68,
+    25.347,
+    33.620000000000005,
+    43.480000000000004,
+    52.6,
+    61.728
   ],
   "words": [
     {
       "text": "Yeni",
       "start": 0,
-      "end": 0.267
+      "end": 0.24
     },
     {
       "text": "bir",
-      "start": 0.313,
-      "end": 0.406
+      "start": 0.26,
+      "end": 0.32
     },
     {
       "text": "program",
-      "start": 0.43,
-      "end": 0.906
+      "start": 0.39,
+      "end": 0.88
     },
     {
       "text": "kuruyorsun.",
-      "start": 0.975,
-      "end": 1.649
+      "start": 0.92,
+      "end": 1.88
     },
     {
       "text": "Ekranda",
-      "start": 1.927,
-      "end": 2.438
+      "start": 2.06,
+      "end": 2.72
     },
     {
       "text": "upuzun",
-      "start": 2.473,
-      "end": 2.902
+      "start": 2.773,
+      "end": 3.2
     },
     {
       "text": "bir",
-      "start": 2.961,
-      "end": 3.065
+      "start": 3.24,
+      "end": 3.36
     },
     {
       "text": "lisans",
-      "start": 3.088,
-      "end": 3.506
+      "start": 3.417,
+      "end": 3.76
     },
     {
       "text": "sözleşmesi",
-      "start": 3.529,
-      "end": 4.191
+      "start": 3.829,
+      "end": 4.48
     },
     {
       "text": "var,",
-      "start": 4.226,
-      "end": 4.563
+      "start": 4.56,
+      "end": 5.2
     },
     {
       "text": "ve",
-      "start": 4.888,
-      "end": 5.016
+      "start": 5.227,
+      "end": 5.28
     },
     {
       "text": "sen",
-      "start": 5.074,
-      "end": 5.248
+      "start": 5.42,
+      "end": 5.84
     },
     {
       "text": "okumadan,",
-      "start": 5.306,
-      "end": 5.968
+      "start": 5.92,
+      "end": 7
     },
     {
       "text": "kabul",
-      "start": 6.142,
-      "end": 6.467
+      "start": 7.06,
+      "end": 7.36
     },
     {
       "text": "ediyoruma",
-      "start": 6.513,
-      "end": 6.966
+      "start": 7.406,
+      "end": 7.92
     },
     {
       "text": "tıklıyorsun.",
-      "start": 7.012,
-      "end": 7.755
+      "start": 7.96,
+      "end": 8.8
     },
     {
       "text": "Peki",
-      "start": 8.081,
-      "end": 8.371
+      "start": 9.08,
+      "end": 9.68
     },
     {
       "text": "bu",
-      "start": 8.417,
-      "end": 8.51
+      "start": 9.84,
+      "end": 10.16
     },
     {
       "text": "tek",
-      "start": 8.568,
-      "end": 8.766
+      "start": 10.22,
+      "end": 10.4
     },
     {
       "text": "tıklama,",
-      "start": 8.847,
-      "end": 9.509
+      "start": 10.44,
+      "end": 11.04
     },
     {
       "text": "hukuken",
-      "start": 9.752,
-      "end": 10.391
+      "start": 11.168,
+      "end": 11.92
     },
     {
       "text": "bir",
-      "start": 10.461,
-      "end": 10.565
+      "start": 11.96,
+      "end": 12.08
     },
     {
       "text": "sözleşme",
-      "start": 10.588,
-      "end": 11.134
+      "start": 12.16,
+      "end": 12.72
     },
     {
       "text": "kurar",
-      "start": 11.192,
-      "end": 11.517
+      "start": 12.78,
+      "end": 13.12
     },
     {
       "text": "mı?",
-      "start": 11.587,
-      "end": 11.831
+      "start": 13.173,
+      "end": 13.44
     },
     {
       "text": "Kural",
-      "start": 12.272,
-      "end": 12.608
+      "start": 13.76,
+      "end": 14.32
     },
     {
       "text": "olarak,",
-      "start": 12.678,
-      "end": 13.247
+      "start": 14.377,
+      "end": 15.12
     },
     {
       "text": "evet.",
-      "start": 13.398,
-      "end": 13.978
+      "start": 15.2,
+      "end": 15.96
     },
     {
       "text": "Sözleşme,",
-      "start": 14.42,
-      "end": 15.337
+      "start": 16.07,
+      "end": 16.96
     },
     {
       "text": "tarafların",
-      "start": 15.546,
-      "end": 16.126
+      "start": 17.08,
+      "end": 17.68
     },
     {
       "text": "birbirine",
-      "start": 16.184,
-      "end": 16.614
+      "start": 17.726,
+      "end": 18.16
     },
     {
       "text": "uygun",
-      "start": 16.637,
-      "end": 16.939
+      "start": 18.227,
+      "end": 18.56
     },
     {
       "text": "iradeleriyle",
-      "start": 16.985,
-      "end": 17.693
+      "start": 18.64,
+      "end": 19.36
     },
     {
       "text": "kurulur.",
-      "start": 17.752,
-      "end": 18.286
+      "start": 19.413,
+      "end": 20
     },
     {
       "text": "Şirket",
-      "start": 18.611,
-      "end": 19.063
+      "start": 20.126,
+      "end": 20.88
     },
     {
       "text": "koşullarını",
-      "start": 19.122,
-      "end": 19.772
+      "start": 20.94,
+      "end": 21.44
     },
     {
       "text": "sunar,",
-      "start": 19.818,
-      "end": 20.306
+      "start": 21.5,
+      "end": 22.24
     },
     {
       "text": "sen",
-      "start": 20.515,
-      "end": 20.735
+      "start": 22.3,
+      "end": 22.48
     },
     {
       "text": "tıklayarak",
-      "start": 20.817,
-      "end": 21.478
+      "start": 22.54,
+      "end": 23.28
     },
     {
       "text": "açıkça",
-      "start": 21.594,
-      "end": 22.082
+      "start": 23.408,
+      "end": 24
     },
     {
       "text": "kabul",
-      "start": 22.14,
-      "end": 22.419
+      "start": 24.067,
+      "end": 24.4
     },
     {
       "text": "edersin.",
-      "start": 22.477,
-      "end": 23.104
+      "start": 24.453,
+      "end": 25.36
     },
     {
       "text": "Bunun",
-      "start": 23.429,
-      "end": 23.742
+      "start": 25.427,
+      "end": 25.76
     },
     {
       "text": "için",
-      "start": 23.789,
-      "end": 24.021
+      "start": 25.824,
+      "end": 26.08
     },
     {
       "text": "ıslak",
-      "start": 24.091,
-      "end": 24.45
+      "start": 26.28,
+      "end": 26.72
     },
     {
       "text": "imza",
-      "start": 24.52,
-      "end": 24.81
+      "start": 26.8,
+      "end": 27.12
     },
     {
       "text": "gerekmez.",
-      "start": 24.926,
-      "end": 25.762
+      "start": 27.187,
+      "end": 27.92
     },
     {
       "text": "Kanun",
-      "start": 26.087,
-      "end": 26.482
+      "start": 28.08,
+      "end": 28.88
     },
     {
       "text": "aksini",
-      "start": 26.54,
-      "end": 26.877
+      "start": 29.04,
+      "end": 29.68
     },
     {
       "text": "öngörmedikçe,",
-      "start": 26.947,
-      "end": 28.026
+      "start": 29.747,
+      "end": 30.72
     },
     {
       "text": "sözleşmeler",
-      "start": 28.27,
-      "end": 29.002
+      "start": 30.823,
+      "end": 31.76
     },
     {
       "text": "şekle",
-      "start": 29.071,
-      "end": 29.408
+      "start": 31.9,
+      "end": 32.4
     },
     {
       "text": "bağlı",
-      "start": 29.466,
-      "end": 29.779
+      "start": 32.467,
+      "end": 32.8
     },
     {
       "text": "değildir.",
-      "start": 29.826,
-      "end": 30.476
+      "start": 32.862,
+      "end": 33.52
     },
     {
       "text": "Lisans",
-      "start": 30.801,
-      "end": 31.242
+      "start": 33.7,
+      "end": 34.4
     },
     {
       "text": "metni,",
-      "start": 31.335,
-      "end": 31.881
+      "start": 34.46,
+      "end": 34.96
     },
     {
       "text": "şirketin",
-      "start": 32.125,
-      "end": 32.601
+      "start": 35.051,
+      "end": 35.68
     },
     {
       "text": "önceden",
-      "start": 32.682,
-      "end": 33.135
+      "start": 35.74,
+      "end": 36.16
     },
     {
       "text": "tek",
-      "start": 33.193,
-      "end": 33.355
+      "start": 36.2,
+      "end": 36.32
     },
     {
       "text": "başına",
-      "start": 33.425,
-      "end": 33.727
+      "start": 36.377,
+      "end": 36.72
     },
     {
       "text": "hazırladığı",
-      "start": 33.773,
-      "end": 34.342
+      "start": 36.76,
+      "end": 37.28
     },
     {
       "text": "genel",
-      "start": 34.4,
-      "end": 34.725
+      "start": 37.333,
+      "end": 37.6
     },
     {
       "text": "işlem",
-      "start": 34.807,
-      "end": 35.155
+      "start": 37.667,
+      "end": 38
     },
     {
       "text": "koşullarıdır.",
-      "start": 35.225,
-      "end": 36.142
+      "start": 38.06,
+      "end": 38.96
     },
     {
       "text": "Kullanıcı",
-      "start": 36.583,
-      "end": 37.163
+      "start": 39.063,
+      "end": 39.84
     },
     {
       "text": "ise",
-      "start": 37.187,
-      "end": 37.361
+      "start": 39.92,
+      "end": 40.16
     },
     {
       "text": "çoğu",
-      "start": 37.419,
-      "end": 37.628
+      "start": 40.272,
+      "end": 40.72
     },
     {
       "text": "zaman",
-      "start": 37.697,
-      "end": 37.999
+      "start": 40.773,
+      "end": 41.04
     },
     {
       "text": "tüketicidir,",
-      "start": 38.046,
-      "end": 38.882
+      "start": 41.1,
+      "end": 41.84
     },
     {
       "text": "ve",
-      "start": 39.125,
-      "end": 39.242
+      "start": 41.973,
+      "end": 42.24
     },
     {
       "text": "kanunla",
-      "start": 39.3,
-      "end": 39.822
+      "start": 42.32,
+      "end": 42.8
     },
     {
       "text": "korunur.",
-      "start": 39.892,
-      "end": 40.484
+      "start": 42.853,
+      "end": 43.36
     },
     {
       "text": "Ama",
-      "start": 40.809,
-      "end": 41.041
+      "start": 43.56,
+      "end": 44.16
     },
     {
       "text": "dikkat.",
-      "start": 41.088,
-      "end": 41.807
+      "start": 44.251,
+      "end": 45.16
     },
     {
       "text": "Önceden",
-      "start": 42.132,
-      "end": 42.643
+      "start": 45.34,
+      "end": 45.84
     },
     {
       "text": "açıkça",
-      "start": 42.713,
-      "end": 43.108
+      "start": 45.92,
+      "end": 46.32
     },
     {
       "text": "bildirilmeyen,",
-      "start": 43.166,
-      "end": 44.095
+      "start": 46.377,
+      "end": 47.52
     },
     {
       "text": "içeriğini",
-      "start": 44.42,
-      "end": 44.965
+      "start": 47.573,
+      "end": 48
     },
     {
       "text": "öğrenme",
-      "start": 45.047,
-      "end": 45.499
+      "start": 48.067,
+      "end": 48.48
     },
     {
       "text": "imkânı",
-      "start": 45.569,
-      "end": 46.068
+      "start": 48.56,
+      "end": 49.04
     },
     {
       "text": "tanınmayan",
-      "start": 46.115,
-      "end": 46.718
+      "start": 49.093,
+      "end": 49.6
     },
     {
       "text": "aleyhe",
-      "start": 46.811,
-      "end": 47.276
+      "start": 49.68,
+      "end": 50.08
     },
     {
       "text": "koşullar,",
-      "start": 47.345,
-      "end": 48.088
+      "start": 50.14,
+      "end": 50.8
     },
     {
       "text": "yazılmamış",
-      "start": 48.413,
-      "end": 49.052
+      "start": 50.928,
+      "end": 51.76
     },
     {
       "text": "sayılır.",
-      "start": 49.11,
-      "end": 49.702
+      "start": 51.82,
+      "end": 52.32
     },
     {
       "text": "Tüketici",
-      "start": 50.399,
-      "end": 50.875
+      "start": 52.68,
+      "end": 53.44
     },
     {
       "text": "aleyhine",
-      "start": 50.933,
-      "end": 51.316
+      "start": 53.48,
+      "end": 53.92
     },
     {
       "text": "dengesizlik",
-      "start": 51.362,
-      "end": 52.036
+      "start": 53.96,
+      "end": 54.56
     },
     {
       "text": "yaratan",
-      "start": 52.094,
-      "end": 52.477
+      "start": 54.6,
+      "end": 55.04
     },
     {
       "text": "haksız",
-      "start": 52.558,
-      "end": 52.953
+      "start": 55.08,
+      "end": 55.44
     },
     {
       "text": "şartlar",
-      "start": 52.999,
-      "end": 53.394
+      "start": 55.488,
+      "end": 55.84
     },
     {
       "text": "ise",
-      "start": 53.452,
-      "end": 53.603
+      "start": 55.98,
+      "end": 56.4
     },
     {
       "text": "kesin",
-      "start": 53.661,
-      "end": 54.021
+      "start": 56.48,
+      "end": 56.88
     },
     {
       "text": "olarak",
-      "start": 54.079,
-      "end": 54.393
+      "start": 56.926,
+      "end": 57.2
     },
     {
       "text": "hükümsüzdür.",
-      "start": 54.416,
-      "end": 55.356
+      "start": 57.26,
+      "end": 58.52
     },
     {
       "text": "Sözleşmenin",
-      "start": 55.867,
-      "end": 56.599
+      "start": 58.63,
+      "end": 59.36
     },
     {
       "text": "geri",
-      "start": 56.657,
-      "end": 56.866
+      "start": 59.408,
+      "end": 59.6
     },
     {
       "text": "kalanı",
-      "start": 56.912,
-      "end": 57.214
+      "start": 59.653,
+      "end": 60.24
     },
     {
       "text": "geçerli",
-      "start": 57.272,
-      "end": 57.736
+      "start": 60.32,
+      "end": 60.88
     },
     {
       "text": "kalır.",
-      "start": 57.783,
-      "end": 58.236
+      "start": 60.92,
+      "end": 61.72
     },
     {
       "text": "Yani",
-      "start": 58.677,
-      "end": 59.013
+      "start": 61.808,
+      "end": 62.16
     },
     {
       "text": "kabul",
-      "start": 59.06,
-      "end": 59.42
+      "start": 62.293,
+      "end": 62.96
     },
     {
       "text": "ediyoruma",
-      "start": 59.466,
-      "end": 59.884
+      "start": 63.006,
+      "end": 63.44
     },
     {
       "text": "basmak",
-      "start": 59.919,
-      "end": 60.302
+      "start": 63.5,
+      "end": 64
     },
     {
       "text": "bir",
-      "start": 60.36,
-      "end": 60.453
+      "start": 64.12,
+      "end": 64.48
     },
     {
       "text": "sözleşme",
-      "start": 60.476,
-      "end": 61.01
+      "start": 64.56,
+      "end": 65.12
     },
     {
       "text": "kurabilir.",
-      "start": 61.068,
-      "end": 61.742
+      "start": 65.18,
+      "end": 66.2
     },
     {
       "text": "Ama",
-      "start": 62.125,
-      "end": 62.369
+      "start": 66.31,
+      "end": 66.64
     },
     {
       "text": "bu,",
-      "start": 62.415,
-      "end": 62.821
+      "start": 66.72,
+      "end": 66.96
     },
     {
       "text": "sözleşmedeki",
-      "start": 63.03,
-      "end": 63.785
+      "start": 67.074,
+      "end": 68.16
     },
     {
       "text": "her",
-      "start": 63.855,
-      "end": 64.017
+      "start": 68.22,
+      "end": 68.4
     },
     {
       "text": "hükmün",
-      "start": 64.052,
-      "end": 64.342
+      "start": 68.44,
+      "end": 68.8
     },
     {
       "text": "geçerli",
-      "start": 64.412,
-      "end": 64.853
+      "start": 68.87,
+      "end": 69.36
     },
     {
       "text": "olduğu",
-      "start": 64.876,
-      "end": 65.178
+      "start": 69.406,
+      "end": 69.68
     },
     {
       "text": "anlamına",
-      "start": 65.248,
-      "end": 65.666
+      "start": 69.724,
+      "end": 70.08
     },
     {
       "text": "gelmez.",
-      "start": 65.724,
-      "end": 66.386
+      "start": 70.16,
+      "end": 71.16
     },
     {
       "text": "Sen",
-      "start": 66.711,
-      "end": 66.931
+      "start": 71.27,
+      "end": 71.6
     },
     {
       "text": "en",
-      "start": 67.048,
-      "end": 67.198
+      "start": 71.787,
+      "end": 72.16
     },
     {
       "text": "son",
-      "start": 67.268,
-      "end": 67.442
+      "start": 72.24,
+      "end": 72.48
     },
     {
       "text": "bir",
-      "start": 67.511,
-      "end": 67.628
+      "start": 72.52,
+      "end": 72.64
     },
     {
       "text": "lisans",
-      "start": 67.651,
-      "end": 68.046
+      "start": 72.709,
+      "end": 73.12
     },
     {
       "text": "sözleşmesini,",
-      "start": 68.069,
-      "end": 69.032
+      "start": 73.177,
+      "end": 74.08
     },
     {
       "text": "sonuna",
-      "start": 69.357,
-      "end": 69.775
+      "start": 74.22,
+      "end": 74.8
     },
     {
       "text": "kadar",
-      "start": 69.833,
-      "end": 70.089
+      "start": 74.853,
+      "end": 75.12
     },
     {
       "text": "ne",
-      "start": 70.135,
-      "end": 70.205
+      "start": 75.2,
+      "end": 75.36
     },
     {
       "text": "zaman",
-      "start": 70.263,
-      "end": 70.495
+      "start": 75.413,
+      "end": 75.68
     },
     {
       "text": "okudun?",
-      "start": 70.553,
-      "end": 71.029
+      "start": 75.76,
+      "end": 76.161
     },
     {
       "text": "Yorumlara",
-      "start": 71.145,
-      "end": 71.726
+      "start": 76.52,
+      "end": 77.28
     },
     {
       "text": "yaz.",
-      "start": 71.772,
-      "end": 72.399
+      "start": 77.38,
+      "end": 77.76
     }
   ],
-  "total": 72.62040816326531,
-  "sayHash": "70812ba6e8b4"
+  "total": 77.79265306122448,
+  "sayHash": "2825190a178a"
 }
