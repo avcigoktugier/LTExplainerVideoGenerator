@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="tr" data-composition-variables='[
+  {"id":"mode","type":"enum","label":"eula = license + Accept click; message = final message on screen","default":"eula","options":["eula","message"]},
+  {"id":"appName","type":"string","label":"Window title","default":"Kurulum Sihirbazı"},
+  {"id":"heading","type":"string","label":"Heading in the window","default":"Son Kullanıcı Lisans Sözleşmesi"},
+  {"id":"button","type":"string","label":"Accept button","default":"Kabul ediyorum"},
+  {"id":"cancel","type":"string","label":"Cancel button","default":"Vazgeç"},
+  {"id":"message","type":"string","label":"Message (mode=message)","default":"Kabul ediyorum’a basmak bir sözleşme kurabilir."},
+  {"id":"message2","type":"string","label":"Second message line (mode=message)","default":"Ancak her hükmün geçerli olduğu anlamına gelmez."},
+  {"id":"cue_click","type":"number","label":"Click time (s)","default":3.2},
+  {"id":"cue_msg2","type":"number","label":"Second line time (s)","default":2.6},
+  {"id":"duration","type":"number","label":"Scene length (s)","default":5},
+  {"id":"ink","type":"color","label":"Ink","default":"#14233c"},
+  {"id":"paper","type":"color","label":"Page","default":"#f4f6f9"},
+  {"id":"surface","type":"color","label":"Card","default":"#ffffff"},
+  {"id":"accent","type":"color","label":"Accent","default":"#2f5c9e"},
+  {"id":"accent2","type":"color","label":"Accent 2","default":"#a9b4c4"},
+  {"id":"muted","type":"color","label":"Muted","default":"#8a94a6"}
+]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=940, height=720" />
+    <link rel="stylesheet" href="assets/kettek.css" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      #stage { position: absolute; inset: 0; }
+      /* monitor */
+      #monitor { position: absolute; left: 40px; top: 20px; width: 780px; height: 520px; }
+      #bezel { position: absolute; inset: 0; border-radius: 26px; background: var(--ink); box-shadow: 0 24px 50px color-mix(in srgb, var(--ink) 22%, transparent); }
+      #screen { position: absolute; left: 18px; top: 18px; right: 18px; bottom: 18px; border-radius: 12px; overflow: hidden;
+        background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 22%, var(--paper)), var(--paper)); }
+      #neck { position: absolute; left: 370px; top: 540px; width: 120px; height: 86px; background: color-mix(in srgb, var(--ink) 85%, var(--paper));
+        clip-path: polygon(22% 0, 78% 0, 100% 100%, 0 100%); }
+      #foot { position: absolute; left: 290px; top: 622px; width: 280px; height: 18px; border-radius: 9px; background: var(--ink); }
+      /* window */
+      #win { position: absolute; left: 70px; top: 34px; width: 604px; height: 416px; border-radius: 14px; background: var(--surface);
+        box-shadow: 0 16px 40px color-mix(in srgb, var(--ink) 25%, transparent); overflow: hidden; }
+      #bar { height: 46px; background: color-mix(in srgb, var(--accent2) 30%, var(--surface)); display: flex; align-items: center; padding: 0 18px; gap: 9px;
+        border-bottom: 1px solid color-mix(in srgb, var(--accent2) 60%, var(--surface)); }
+      .dot { width: 13px; height: 13px; border-radius: 50%; background: var(--accent2); }
+      #title { margin-left: 12px; font-family: var(--sans); font-weight: 600; font-size: 22px; color: color-mix(in srgb, var(--ink) 80%, var(--surface)); }
+      #body { z-index: 2; position: absolute; left: 0; right: 0; top: 46px; bottom: 0; padding: 22px 28px; }
+      #head { display: flex; align-items: center; gap: 14px; }
+      #appicon { width: 44px; height: 44px; border-radius: 11px; background: var(--accent); position: relative; flex: 0 0 auto; }
+      #appicon::after { content: ""; position: absolute; left: 12px; top: 12px; width: 20px; height: 20px; border-radius: 5px; border: 4px solid var(--surface); box-sizing: border-box; }
+      #heading { font-family: var(--sans); font-weight: 700; font-size: 26px; color: var(--ink); }
+      #doc { clip-path: inset(0 round 10px); position: absolute; left: 28px; right: 28px; top: 128px; height: 186px; border-radius: 10px; overflow: hidden;
+        background: color-mix(in srgb, var(--accent2) 14%, var(--surface)); border: 1px solid color-mix(in srgb, var(--accent2) 55%, var(--surface)); }
+      #lines { position: absolute; left: 18px; right: 34px; top: 16px; }
+      .ln { height: 9px; border-radius: 5px; background: color-mix(in srgb, var(--ink) 22%, var(--surface)); margin-bottom: 11px; }
+      .ln.h { height: 12px; background: color-mix(in srgb, var(--ink) 45%, var(--surface)); margin-top: 8px; }
+      #sb { position: absolute; right: 8px; top: 10px; width: 8px; height: 166px; border-radius: 4px; background: color-mix(in srgb, var(--accent2) 35%, var(--surface)); }
+      #thumb { position: absolute; left: 0; top: 0; width: 8px; height: 34px; border-radius: 4px; background: var(--accent2); }
+      #btns { position: absolute; right: 28px; bottom: 26px; display: flex; gap: 16px; }
+      .btn { font-family: var(--sans); font-weight: 700; font-size: 24px; padding: 14px 26px; border-radius: 10px; position: relative; }
+      #cancel { color: color-mix(in srgb, var(--ink) 70%, var(--surface)); border: 2px solid var(--accent2); background: var(--surface); }
+      #accept { color: var(--surface); background: var(--accent); overflow: hidden; }
+      #ripple { position: absolute; left: 50%; top: 50%; width: 30px; height: 30px; margin: -15px 0 0 -15px; border-radius: 50%; background: var(--surface); opacity: 0; }
+      #ok { position: absolute; left: 50%; top: 50%; width: 120px; height: 120px; margin: -60px 0 0 -60px; border-radius: 50%; background: var(--accent);
+        display: flex; align-items: center; justify-content: center; opacity: 0; }
+      #cursor { position: absolute; left: 0; top: 0; width: 40px; height: 52px; }
+      /* message mode */
+      #msg { position: absolute; left: 0; right: 0; top: 46px; bottom: 0; display: none; flex-direction: column; align-items: center; justify-content: center; padding: 0 44px; text-align: center; }
+      #mcheck { width: 86px; height: 86px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; margin-bottom: 26px; }
+      #m1 { font-family: var(--serif); font-weight: 700; font-size: 38px; line-height: 1.2; color: var(--ink); }
+      #m2 { margin-top: 22px; padding-top: 22px; border-top: 3px solid color-mix(in srgb, var(--accent2) 60%, var(--surface));
+        font-family: var(--sans); font-weight: 600; font-size: 30px; line-height: 1.25; color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="installer" data-start="0" data-duration="5" data-width="940" data-height="720">
+      <div id="fit">
+        <div id="stage">
+          <div id="monitor">
+            <div id="bezel"></div>
+            <div id="screen">
+              <div id="win">
+                <div id="bar"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div id="title"></div></div>
+                <div id="body">
+                  <div id="head"><div id="appicon"></div><div id="heading"></div></div>
+                </div>
+                <div id="doc"><div id="lines"></div><div id="sb"><div id="thumb"></div></div></div>
+                <div id="btns"><div class="btn" id="cancel"></div><div class="btn" id="accept"><div id="ripple"></div><span id="acc"></span></div></div>
+                <div id="msg">
+                  <div id="mcheck"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+                  <div id="m1"></div>
+                  <div id="m2"></div>
+                </div>
+                <div id="ok"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+              </div>
+            </div>
+          </div>
+          <div id="neck"></div><div id="foot"></div>
+          <svg id="cursor" viewBox="0 0 40 52"><path d="M4 3 L4 40 L13.5 31 L20 46 L27 43 L20.5 28.5 L34 28.5 Z" fill="#fff" stroke="#14233c" stroke-width="3" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </div>
+    <script src="assets/kettek.js"></script>
+    <script>
+      KT.fit("#fit", 860, 720);
+      KT.text("#title", "appName");
+      KT.text("#heading", "heading");
+      KT.text("#acc", "button");
+      KT.text("#cancel", "cancel");
+      KT.text("#m1", "message");
+      KT.text("#m2", "message2");
+      if (!KT.vars.message2) document.getElementById("m2").style.display = "none";
+      var mode = KT.vars.mode === "message" ? "message" : "eula";
+
+      // A long contract: paragraphs of grey lines (deterministic widths)
+      var host = document.getElementById("lines");
+      var W = [96, 88, 93, 71, 90, 84, 97, 62, 91, 86, 79, 94, 58, 89, 95, 83, 68, 92, 87, 74];
+      for (var i = 0; i < 64; i++) {
+        var d = document.createElement("div");
+        d.className = i % 8 === 0 ? "ln h" : "ln";
+        d.style.width = (i % 8 === 0 ? 38 + (i % 3) * 8 : W[i % W.length]) + "%";
+        host.appendChild(d);
+      }
+
+      var tl = gsap.timeline({ paused: true });
+      // monitor + window open (soft)
+      tl.fromTo("#monitor, #neck, #foot", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 0);
+      tl.fromTo("#win", { opacity: 0, scale: 0.9, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.55, ease: "power3.out" }, 0.35);
+
+      if (mode === "eula") {
+        var click = Math.max(2.0, KT.cue("click", KT.dur * 0.65));
+        // the contract scrolls: long text passing by
+        var scrollEnd = click - 1.0;
+        tl.fromTo("#lines", { y: 0 }, { y: -560, duration: Math.max(0.8, scrollEnd - 0.9), ease: "power1.inOut" }, 0.9);
+        tl.fromTo("#thumb", { y: 0 }, { y: 132, duration: Math.max(0.8, scrollEnd - 0.9), ease: "power1.inOut" }, 0.9);
+        tl.fromTo("#btns", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, 0.8);
+        // cursor glides to the Accept button (positions in design px)
+        tl.fromTo("#cursor", { x: 650, y: 560, opacity: 0 }, { x: 650, y: 560, opacity: 1, duration: 0.3 }, 0.9);
+        tl.to("#cursor", { x: 586, y: 428, duration: 0.9, ease: "power2.inOut" }, click - 1.0);
+        // press
+        tl.to("#cursor", { scale: 0.85, duration: 0.1, yoyo: true, repeat: 1, transformOrigin: "10% 10%" }, click);
+        tl.to("#accept", { scale: 0.94, duration: 0.1, yoyo: true, repeat: 1 }, click);
+        tl.fromTo("#ripple", { opacity: 0.55, scale: 0 }, { opacity: 0, scale: 9, duration: 0.6, ease: "power2.out", immediateRender: false }, click);
+        tl.fromTo("#ok", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2)", immediateRender: false }, click + 0.3);
+        tl.to("#cursor", { x: 650, y: 520, duration: 0.6, ease: "power2.out" }, click + 0.45);
+        tl.to("#doc", { opacity: 0.3, duration: 0.4 }, click + 0.3);
+      } else {
+        document.getElementById("doc").style.display = "none";
+        document.getElementById("btns").style.display = "none";
+        document.getElementById("cursor").style.display = "none";
+        document.getElementById("body").style.display = "none";
+        document.getElementById("msg").style.display = "flex";
+        var t2 = Math.max(1.6, KT.cue("msg2", KT.dur * 0.5));
+        tl.fromTo("#mcheck", { scale: 0 }, { scale: 1, duration: 0.5, ease: "back.out(2)" }, 0.8);
+        tl.fromTo("#m1", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 1.0);
+        tl.fromTo("#m2", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out", immediateRender: false }, t2);
+      }
+      window.__timelines = window.__timelines || {};
+      window.__timelines["installer"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

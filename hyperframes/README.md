@@ -19,6 +19,7 @@ HyperFrames is used **only** for these scene clips. The video itself — narrati
 | `case-file` | Case folder swings up, a sheet slides out, lines write in, a highlighter marks one line, a stamp slams down | `title` (folder tab), `label`, `lines` (list, max 4), `highlightLine` (1–4, 0 = none), `stamp` ("" = none) | `highlight`, `stamp` |
 | `law-article` | Article number rolls in, the law text appears word by word, a highlighter sweeps the key phrase | `code` ("TBK"), `article` ("m. 355/1"), `text` (the article text, verbatim), `highlight` (exact words from `text`), `note` (optional footer) | `highlight` |
 | `timeline` | Numbered steps on a line that fills as each step lands; the last (or `active`) step lights up | `events` (list, max 5: `{ "when": "…", "what": "…" }` or plain text), `active` (1–5, 0 = none) | `e1` … `e5` |
+| `installer` | Computer monitor; a setup window opens, a long license scrolls, the cursor clicks "Kabul ediyorum" (mode `eula`) — or the window shows a two-line closing message (mode `message`) | `mode` (eula/message), `appName`, `heading`, `button`, `cancel`, `message`, `message2` | `click` (eula), `msg2` (message) |
 
 Every composition also receives, automatically: the style's palette (`ink`, `paper`, `surface`, `accent`, `accent2`, `muted`, `danger`, `cast1-3`) and `duration` (scene length in seconds).
 

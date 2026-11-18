@@ -1,0 +1,604 @@
+{
+  "provider": "elevenlabs",
+  "clips": [
+    {
+      "src": "projects/kabul-ediyorum/voice.mp3",
+      "start": 0,
+      "duration": 64.80979591836734
+    }
+  ],
+  "sceneStarts": [
+    0,
+    7.884,
+    11.623,
+    22.432000000000002,
+    29.560000000000002,
+    38.895,
+    47.568000000000005,
+    55.985
+  ],
+  "words": [
+    {
+      "text": "Yeni",
+      "start": 0,
+      "end": 0.29
+    },
+    {
+      "text": "bir",
+      "start": 0.337,
+      "end": 0.43
+    },
+    {
+      "text": "program",
+      "start": 0.464,
+      "end": 0.952
+    },
+    {
+      "text": "kuruyorsun.",
+      "start": 1.022,
+      "end": 1.741
+    },
+    {
+      "text": "Ekranda",
+      "start": 1.95,
+      "end": 2.45
+    },
+    {
+      "text": "upuzun",
+      "start": 2.496,
+      "end": 2.856
+    },
+    {
+      "text": "bir",
+      "start": 2.914,
+      "end": 3.007
+    },
+    {
+      "text": "lisans",
+      "start": 3.042,
+      "end": 3.448
+    },
+    {
+      "text": "sözleşmesi",
+      "start": 3.483,
+      "end": 4.133
+    },
+    {
+      "text": "var,",
+      "start": 4.168,
+      "end": 4.354
+    },
+    {
+      "text": "ve",
+      "start": 4.377,
+      "end": 4.458
+    },
+    {
+      "text": "sen",
+      "start": 4.516,
+      "end": 4.69
+    },
+    {
+      "text": "okumadan,",
+      "start": 4.76,
+      "end": 5.445
+    },
+    {
+      "text": "kabul",
+      "start": 5.77,
+      "end": 6.13
+    },
+    {
+      "text": "ediyoruma",
+      "start": 6.177,
+      "end": 6.606
+    },
+    {
+      "text": "tıklıyorsun.",
+      "start": 6.653,
+      "end": 7.454
+    },
+    {
+      "text": "Peki",
+      "start": 7.964,
+      "end": 8.278
+    },
+    {
+      "text": "bu",
+      "start": 8.324,
+      "end": 8.429
+    },
+    {
+      "text": "tek",
+      "start": 8.487,
+      "end": 8.696
+    },
+    {
+      "text": "tıklama,",
+      "start": 8.766,
+      "end": 9.451
+    },
+    {
+      "text": "hukuken",
+      "start": 9.625,
+      "end": 10.17
+    },
+    {
+      "text": "bir",
+      "start": 10.228,
+      "end": 10.321
+    },
+    {
+      "text": "sözleşme",
+      "start": 10.344,
+      "end": 10.867
+    },
+    {
+      "text": "kurar",
+      "start": 10.925,
+      "end": 11.238
+    },
+    {
+      "text": "mı?",
+      "start": 11.308,
+      "end": 11.529
+    },
+    {
+      "text": "Kural",
+      "start": 11.703,
+      "end": 12.016
+    },
+    {
+      "text": "olarak,",
+      "start": 12.086,
+      "end": 12.632
+    },
+    {
+      "text": "evet.",
+      "start": 12.725,
+      "end": 13.259
+    },
+    {
+      "text": "Sözleşme,",
+      "start": 13.769,
+      "end": 14.629
+    },
+    {
+      "text": "tarafların",
+      "start": 14.803,
+      "end": 15.395
+    },
+    {
+      "text": "birbirine",
+      "start": 15.464,
+      "end": 15.906
+    },
+    {
+      "text": "uygun",
+      "start": 15.929,
+      "end": 16.196
+    },
+    {
+      "text": "iradeleriyle",
+      "start": 16.231,
+      "end": 16.927
+    },
+    {
+      "text": "kurulur.",
+      "start": 16.985,
+      "end": 17.508
+    },
+    {
+      "text": "Şirket",
+      "start": 17.949,
+      "end": 18.367
+    },
+    {
+      "text": "koşullarını",
+      "start": 18.425,
+      "end": 19.064
+    },
+    {
+      "text": "sunar,",
+      "start": 19.098,
+      "end": 19.679
+    },
+    {
+      "text": "sen",
+      "start": 20.004,
+      "end": 20.225
+    },
+    {
+      "text": "tıklayarak",
+      "start": 20.294,
+      "end": 20.793
+    },
+    {
+      "text": "açıkça",
+      "start": 20.863,
+      "end": 21.177
+    },
+    {
+      "text": "kabul",
+      "start": 21.235,
+      "end": 21.525
+    },
+    {
+      "text": "edersin.",
+      "start": 21.571,
+      "end": 22.129
+    },
+    {
+      "text": "Bunun",
+      "start": 22.512,
+      "end": 22.825
+    },
+    {
+      "text": "için",
+      "start": 22.872,
+      "end": 23.092
+    },
+    {
+      "text": "ıslak",
+      "start": 23.162,
+      "end": 23.475
+    },
+    {
+      "text": "imza",
+      "start": 23.545,
+      "end": 23.812
+    },
+    {
+      "text": "gerekmez.",
+      "start": 23.928,
+      "end": 24.683
+    },
+    {
+      "text": "Kanun",
+      "start": 24.927,
+      "end": 25.321
+    },
+    {
+      "text": "aksini",
+      "start": 25.368,
+      "end": 25.693
+    },
+    {
+      "text": "öngörmedikçe,",
+      "start": 25.774,
+      "end": 26.842
+    },
+    {
+      "text": "sözleşmeler",
+      "start": 27.121,
+      "end": 27.806
+    },
+    {
+      "text": "şekle",
+      "start": 27.876,
+      "end": 28.177
+    },
+    {
+      "text": "bağlı",
+      "start": 28.235,
+      "end": 28.514
+    },
+    {
+      "text": "değildir.",
+      "start": 28.572,
+      "end": 29.199
+    },
+    {
+      "text": "Lisans",
+      "start": 29.64,
+      "end": 30.081
+    },
+    {
+      "text": "metni,",
+      "start": 30.163,
+      "end": 30.488
+    },
+    {
+      "text": "şirketin",
+      "start": 30.511,
+      "end": 30.964
+    },
+    {
+      "text": "önceden",
+      "start": 31.01,
+      "end": 31.405
+    },
+    {
+      "text": "tek",
+      "start": 31.475,
+      "end": 31.637
+    },
+    {
+      "text": "başına",
+      "start": 31.707,
+      "end": 31.974
+    },
+    {
+      "text": "hazırladığı",
+      "start": 32.021,
+      "end": 32.555
+    },
+    {
+      "text": "genel",
+      "start": 32.636,
+      "end": 32.973
+    },
+    {
+      "text": "işlem",
+      "start": 33.054,
+      "end": 33.425
+    },
+    {
+      "text": "koşullarıdır.",
+      "start": 33.484,
+      "end": 34.319
+    },
+    {
+      "text": "Kullanıcı",
+      "start": 34.645,
+      "end": 35.144
+    },
+    {
+      "text": "ise",
+      "start": 35.19,
+      "end": 35.388
+    },
+    {
+      "text": "çoğu",
+      "start": 35.446,
+      "end": 35.678
+    },
+    {
+      "text": "zaman",
+      "start": 35.747,
+      "end": 36.014
+    },
+    {
+      "text": "tüketicidir,",
+      "start": 36.061,
+      "end": 36.932
+    },
+    {
+      "text": "ve",
+      "start": 37.083,
+      "end": 37.21
+    },
+    {
+      "text": "kanunla",
+      "start": 37.28,
+      "end": 37.849
+    },
+    {
+      "text": "korunur.",
+      "start": 37.919,
+      "end": 38.534
+    },
+    {
+      "text": "Ama",
+      "start": 38.975,
+      "end": 39.207
+    },
+    {
+      "text": "dikkat.",
+      "start": 39.265,
+      "end": 39.927
+    },
+    {
+      "text": "Önceden",
+      "start": 40.31,
+      "end": 40.74
+    },
+    {
+      "text": "açıkça",
+      "start": 40.798,
+      "end": 41.134
+    },
+    {
+      "text": "bildirilmeyen,",
+      "start": 41.181,
+      "end": 42.075
+    },
+    {
+      "text": "içeriğini",
+      "start": 42.4,
+      "end": 42.911
+    },
+    {
+      "text": "öğrenme",
+      "start": 42.946,
+      "end": 43.352
+    },
+    {
+      "text": "imkânı",
+      "start": 43.398,
+      "end": 43.828
+    },
+    {
+      "text": "tanınmayan",
+      "start": 43.874,
+      "end": 44.385
+    },
+    {
+      "text": "aleyhe",
+      "start": 44.443,
+      "end": 44.722
+    },
+    {
+      "text": "koşullar,",
+      "start": 44.78,
+      "end": 45.546
+    },
+    {
+      "text": "yazılmamış",
+      "start": 45.871,
+      "end": 46.51
+    },
+    {
+      "text": "sayılır.",
+      "start": 46.58,
+      "end": 47.206
+    },
+    {
+      "text": "Tüketici",
+      "start": 47.648,
+      "end": 48.135
+    },
+    {
+      "text": "aleyhine",
+      "start": 48.182,
+      "end": 48.611
+    },
+    {
+      "text": "dengesizlik",
+      "start": 48.658,
+      "end": 49.285
+    },
+    {
+      "text": "yaratan",
+      "start": 49.331,
+      "end": 49.645
+    },
+    {
+      "text": "haksız",
+      "start": 49.703,
+      "end": 50.051
+    },
+    {
+      "text": "şartlar",
+      "start": 50.098,
+      "end": 50.504
+    },
+    {
+      "text": "ise",
+      "start": 50.55,
+      "end": 50.806
+    },
+    {
+      "text": "kesin",
+      "start": 51.131,
+      "end": 51.467
+    },
+    {
+      "text": "olarak",
+      "start": 51.526,
+      "end": 51.816
+    },
+    {
+      "text": "hükümsüzdür.",
+      "start": 51.839,
+      "end": 52.721
+    },
+    {
+      "text": "Sözleşmenin",
+      "start": 53.232,
+      "end": 53.94
+    },
+    {
+      "text": "geri",
+      "start": 54.01,
+      "end": 54.231
+    },
+    {
+      "text": "kalanı",
+      "start": 54.265,
+      "end": 54.579
+    },
+    {
+      "text": "geçerli",
+      "start": 54.637,
+      "end": 55.148
+    },
+    {
+      "text": "kalır.",
+      "start": 55.194,
+      "end": 55.682
+    },
+    {
+      "text": "Yani",
+      "start": 56.065,
+      "end": 56.425
+    },
+    {
+      "text": "kabul",
+      "start": 56.471,
+      "end": 56.82
+    },
+    {
+      "text": "ediyoruma",
+      "start": 56.855,
+      "end": 57.284
+    },
+    {
+      "text": "basmak",
+      "start": 57.331,
+      "end": 57.714
+    },
+    {
+      "text": "bir",
+      "start": 57.772,
+      "end": 57.865
+    },
+    {
+      "text": "sözleşme",
+      "start": 57.888,
+      "end": 58.399
+    },
+    {
+      "text": "kurabilir.",
+      "start": 58.457,
+      "end": 59.2
+    },
+    {
+      "text": "Ama",
+      "start": 59.641,
+      "end": 59.885
+    },
+    {
+      "text": "bu,",
+      "start": 59.943,
+      "end": 60.407
+    },
+    {
+      "text": "sözleşmedeki",
+      "start": 60.616,
+      "end": 61.394
+    },
+    {
+      "text": "her",
+      "start": 61.452,
+      "end": 61.591
+    },
+    {
+      "text": "hükmün",
+      "start": 61.649,
+      "end": 62.114
+    },
+    {
+      "text": "geçerli",
+      "start": 62.497,
+      "end": 63.008
+    },
+    {
+      "text": "olduğu",
+      "start": 63.043,
+      "end": 63.333
+    },
+    {
+      "text": "anlamına",
+      "start": 63.391,
+      "end": 63.82
+    },
+    {
+      "text": "gelmez.",
+      "start": 63.89,
+      "end": 64.784
+    }
+  ],
+  "total": 64.80979591836734,
+  "sayHash": "cebb7f7a6e59"
+}
