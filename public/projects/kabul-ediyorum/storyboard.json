@@ -10,7 +10,10 @@
     "logo": "law-trust-logo.svg",
     "watermark": "law-trust-monogram.svg"
   },
-  "voice": { "provider": "elevenlabs", "model": "eleven_multilingual_v2" },
+  "voice": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2"
+  },
   "scenes": [
     {
       "id": "kurulum",
@@ -19,8 +22,19 @@
       "visual": {
         "type": "hyperframe",
         "comp": "installer",
-        "vars": { "mode": "eula", "appName": "Kurulum Sihirbazı", "heading": "Son Kullanıcı Lisans Sözleşmesi", "button": "Kabul ediyorum", "cancel": "Vazgeç" },
-        "cues": { "click": { "word": "tıklıyorsun", "sfx": "click" } }
+        "vars": {
+          "mode": "eula",
+          "appName": "Kurulum Sihirbazı",
+          "heading": "Son Kullanıcı Lisans Sözleşmesi",
+          "button": "Kabul ediyorum",
+          "cancel": "Vazgeç"
+        },
+        "cues": {
+          "click": {
+            "word": "tıklıyorsun",
+            "sfx": "click"
+          }
+        }
       }
     },
     {
@@ -31,10 +45,42 @@
       "visual": {
         "type": "sketch",
         "strokes": [
-          { "kind": "icon", "name": "MousePointerClick", "x": 330, "y": 360, "size": 240, "cue": "tıklama" },
-          { "kind": "arrow", "from": [470, 330], "to": [590, 300], "bend": -0.3, "cue": "hukuken" },
-          { "kind": "icon", "name": "CircleHelp", "x": 680, "y": 300, "size": 180, "cue": "sözleşme" },
-          { "kind": "circle", "x": 680, "y": 300, "r": 130, "cue": "kurar" }
+          {
+            "kind": "icon",
+            "name": "MousePointerClick",
+            "x": 330,
+            "y": 360,
+            "size": 240,
+            "cue": "tıklama"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              470,
+              330
+            ],
+            "to": [
+              590,
+              300
+            ],
+            "bend": -0.3,
+            "cue": "hukuken"
+          },
+          {
+            "kind": "icon",
+            "name": "CircleHelp",
+            "x": 680,
+            "y": 300,
+            "size": 180,
+            "cue": "sözleşme"
+          },
+          {
+            "kind": "circle",
+            "x": 680,
+            "y": 300,
+            "r": 130,
+            "cue": "kurar"
+          }
         ]
       }
     },
@@ -47,13 +93,77 @@
       "visual": {
         "type": "stage",
         "elements": [
-          { "kind": "ground", "y": 660 },
-          { "kind": "person", "x": 180, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "pose": "aimRight", "look": "right", "cue": "Şirket" },
-          { "kind": "art", "name": "digital-contract", "x": 470, "y": 650, "w": 210, "idle": "bob", "cue": "koşullarını" },
-          { "kind": "person", "x": 760, "y": 660, "color": "cast2", "hair": "curly", "outfit": "plain", "mood": "happy", "look": "left", "cue": "tıklayarak" },
-          { "kind": "line", "from": [270, 380], "to": [360, 380], "dashed": true, "cue": "sunar" },
-          { "kind": "line", "from": [580, 380], "to": [670, 380], "dashed": true, "cue": "açıkça" },
-          { "kind": "badge", "x": 470, "y": 160, "symbol": "check", "cue": "kabul" }
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 180,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "pose": "aimRight",
+            "look": "right",
+            "cue": "Şirket"
+          },
+          {
+            "kind": "art",
+            "name": "digital-contract",
+            "x": 470,
+            "y": 650,
+            "w": 210,
+            "idle": "bob",
+            "cue": "koşullarını"
+          },
+          {
+            "kind": "person",
+            "x": 760,
+            "y": 660,
+            "color": "cast2",
+            "hair": "curly",
+            "outfit": "plain",
+            "mood": "happy",
+            "look": "left",
+            "cue": "tıklayarak"
+          },
+          {
+            "kind": "line",
+            "from": [
+              270,
+              380
+            ],
+            "to": [
+              360,
+              380
+            ],
+            "dashed": true,
+            "cue": "sunar"
+          },
+          {
+            "kind": "line",
+            "from": [
+              580,
+              380
+            ],
+            "to": [
+              670,
+              380
+            ],
+            "dashed": true,
+            "cue": "açıkça"
+          },
+          {
+            "kind": "badge",
+            "x": 470,
+            "y": 160,
+            "symbol": "check",
+            "cue": "kabul"
+          }
         ]
       }
     },
@@ -66,11 +176,50 @@
       "visual": {
         "type": "sketch",
         "strokes": [
-          { "kind": "icon", "name": "Signature", "x": 260, "y": 340, "size": 220, "cue": "ıslak" },
-          { "kind": "path", "d": "M150 230 L370 450", "color": "danger", "width": 8, "dur": 0.35, "cue": "gerekmez" },
-          { "kind": "arrow", "from": [400, 340], "to": [560, 340], "bend": -0.3, "cue": "Kanun" },
-          { "kind": "icon", "name": "MousePointerClick", "x": 690, "y": 340, "size": 220, "cue": "sözleşmeler" },
-          { "kind": "circle", "x": 690, "y": 340, "r": 150, "cue": "şekle" }
+          {
+            "kind": "icon",
+            "name": "Signature",
+            "x": 260,
+            "y": 340,
+            "size": 220,
+            "cue": "ıslak"
+          },
+          {
+            "kind": "path",
+            "d": "M150 230 L370 450",
+            "color": "danger",
+            "width": 8,
+            "dur": 0.35,
+            "cue": "gerekmez"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              400,
+              340
+            ],
+            "to": [
+              560,
+              340
+            ],
+            "bend": -0.3,
+            "cue": "Kanun"
+          },
+          {
+            "kind": "icon",
+            "name": "MousePointerClick",
+            "x": 690,
+            "y": 340,
+            "size": 220,
+            "cue": "sözleşmeler"
+          },
+          {
+            "kind": "circle",
+            "x": 690,
+            "y": 340,
+            "r": 150,
+            "cue": "şekle"
+          }
         ]
       }
     },
@@ -83,9 +232,21 @@
       "visual": {
         "type": "physics",
         "items": [
-          { "label": "Hazır metin", "icon": "FileText", "cue": "önceden" },
-          { "label": "Tek taraflı", "icon": "Building2", "cue": "tek" },
-          { "label": "Tüketici", "icon": "ShieldCheck", "cue": "tüketicidir" }
+          {
+            "label": "Hazır metin",
+            "icon": "FileText",
+            "cue": "önceden"
+          },
+          {
+            "label": "Tek taraflı",
+            "icon": "Building2",
+            "cue": "tek"
+          },
+          {
+            "label": "Tüketici",
+            "icon": "ShieldCheck",
+            "cue": "tüketicidir"
+          }
         ]
       }
     },
@@ -98,10 +259,38 @@
       "visual": {
         "type": "sketch",
         "strokes": [
-          { "kind": "icon", "name": "FileText", "x": 300, "y": 340, "size": 240, "cue": "Önceden" },
-          { "kind": "icon", "name": "EyeOff", "x": 650, "y": 340, "size": 200, "cue": "öğrenme" },
-          { "kind": "circle", "x": 470, "y": 340, "r": 290, "color": "danger", "cue": "aleyhe" },
-          { "kind": "path", "d": "M250 140 L690 540 M690 140 L250 540", "color": "danger", "width": 8, "dur": 0.4, "cue": "yazılmamış" }
+          {
+            "kind": "icon",
+            "name": "FileText",
+            "x": 300,
+            "y": 340,
+            "size": 240,
+            "cue": "Önceden"
+          },
+          {
+            "kind": "icon",
+            "name": "EyeOff",
+            "x": 650,
+            "y": 340,
+            "size": 200,
+            "cue": "öğrenme"
+          },
+          {
+            "kind": "circle",
+            "x": 470,
+            "y": 340,
+            "r": 290,
+            "color": "danger",
+            "cue": "aleyhe"
+          },
+          {
+            "kind": "path",
+            "d": "M250 140 L690 540 M690 140 L250 540",
+            "color": "danger",
+            "width": 8,
+            "dur": 0.4,
+            "cue": "yazılmamış"
+          }
         ]
       }
     },
@@ -121,9 +310,9 @@
     },
     {
       "id": "mesaj",
-      "headline": "Tıklamadan *önce* düşün.",
+      "headline": "Sen en son ne zaman *okudun*?",
       "transition": "fade",
-      "say": "Yani kabul ediyoruma basmak bir sözleşme kurabilir. Ama bu, sözleşmedeki her hükmün geçerli olduğu anlamına gelmez.",
+      "say": "Yani kabul ediyoruma basmak bir sözleşme kurabilir. Ama bu, sözleşmedeki her hükmün geçerli olduğu anlamına gelmez. Sen en son bir lisans sözleşmesini, sonuna kadar ne zaman okudun? Yorumlara yaz.",
       "visual": {
         "type": "hyperframe",
         "comp": "installer",
@@ -133,7 +322,9 @@
           "message": "“Kabul ediyorum”a basmak bir sözleşme kurabilir.",
           "message2": "Ancak sözleşmedeki her hükmün geçerli olduğu anlamına gelmez."
         },
-        "cues": { "msg2": "Ama" }
+        "cues": {
+          "msg2": "Ama"
+        }
       }
     }
   ]
