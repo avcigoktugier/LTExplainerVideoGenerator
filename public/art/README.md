@@ -30,3 +30,4 @@ plus the usual `cue` / `at` / `enter`. A missing file shows a red "art yok" box 
 | wedding-sash | red wedding ribbon with gold coins pinned on it |
 | title-deed | property title deed (tapu) with a house emblem and seal |
 | digital-contract | tablet showing a contract with a signature and a check seal |
+| nda-paper | confidentiality agreement page with a padlock emblem, two signatures and a pen |

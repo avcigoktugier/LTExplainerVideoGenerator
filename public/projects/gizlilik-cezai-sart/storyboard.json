@@ -1,0 +1,404 @@
+{
+  "slug": "gizlilik-cezai-sart",
+  "title": "Gizlilik sözleşmelerinde cezai şart",
+  "style": "lawtrust-light",
+  "format": "dossier",
+  "transition": "fade",
+  "brand": {
+    "name": "Law & Trust",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "onwK4e9ZLuTAKqWW03F9",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "imza",
+      "headline": "Bir *gizlilik* sözleşmesi.",
+      "say": "İki taraf, bir gizlilik sözleşmesi imzalıyor.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "table",
+            "x": 470,
+            "y": 660,
+            "w": 380,
+            "at": 0.1
+          },
+          {
+            "kind": "person",
+            "x": 170,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "look": "right",
+            "cue": "İki"
+          },
+          {
+            "kind": "person",
+            "x": 770,
+            "y": 660,
+            "color": "cast2",
+            "outfit": "suit",
+            "hair": "bun",
+            "look": "left",
+            "cue": "taraf"
+          },
+          {
+            "kind": "art",
+            "name": "nda-paper",
+            "x": 470,
+            "y": 560,
+            "w": 190,
+            "idle": "bob",
+            "cue": "gizlilik"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 170,
+            "text": "İMZALANDI",
+            "rotate": -6,
+            "cue": "imzalıyor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yukumluluk",
+      "headline": "Gizlilik *yükümlülüğü*.",
+      "source": "Sözleşme · Madde 3",
+      "transition": "slide",
+      "say": "Sözleşmenin kalbinde, gizlilik yükümlülüğü var. İhlal edilirse, önceden belirlenmiş bir ceza ödenecek.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "case-file",
+        "vars": {
+          "title": "GİZLİLİK SÖZLEŞMESİ",
+          "label": "TEMEL HÜKÜMLER",
+          "lines": [
+            "Taraflar ve konu",
+            "Gizlilik yükümlülüğü",
+            "Süre ve kapsam",
+            "Cezai şart"
+          ],
+          "highlightLine": 2,
+          "stamp": ""
+        },
+        "cues": {
+          "highlight": "yükümlülüğü"
+        }
+      }
+    },
+    {
+      "id": "ihlal",
+      "headline": "Gizlilik *ihlali*.",
+      "transition": "blur",
+      "say": "Sonra taraflardan biri, gizli bilgileri üçüncü bir kişiyle paylaşıyor. Bu, açık bir gizlilik ihlali.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 220,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "pose": "aimRight",
+            "look": "right",
+            "cue": "taraflardan"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 470,
+            "name": "FileLock",
+            "size": 150,
+            "color": "accent",
+            "cue": "gizli"
+          },
+          {
+            "kind": "line",
+            "from": [
+              300,
+              470
+            ],
+            "to": [
+              640,
+              470
+            ],
+            "dashed": true,
+            "cue": "paylaşıyor"
+          },
+          {
+            "kind": "person",
+            "x": 720,
+            "y": 660,
+            "color": "muted",
+            "hair": "curly",
+            "outfit": "plain",
+            "mood": "happy",
+            "look": "left",
+            "cue": "üçüncü"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 170,
+            "text": "GİZLİLİK İHLALİ",
+            "rotate": -5,
+            "cue": "ihlali"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ceza",
+      "headline": "Önceden belirlenen *ceza*.",
+      "source": "TBK m.179 · m.180",
+      "transition": "zoom",
+      "say": "Sözleşmede bunun cezası önceden yazılmış: beş milyon lira.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "5.000.000₺",
+        "cue": "beş"
+      }
+    },
+    {
+      "id": "soru",
+      "headline": "Ceza *sınırsız* olabilir mi?",
+      "transition": "slide",
+      "say": "Peki bu ceza, istenildiği kadar yüksek belirlenebilir mi?",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "TrendingUp",
+            "x": 300,
+            "y": 360,
+            "size": 240,
+            "cue": "ceza"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              440,
+              330
+            ],
+            "to": [
+              570,
+              300
+            ],
+            "bend": -0.3,
+            "cue": "istenildiği"
+          },
+          {
+            "kind": "icon",
+            "name": "CircleHelp",
+            "x": 680,
+            "y": 300,
+            "size": 180,
+            "cue": "yüksek"
+          },
+          {
+            "kind": "circle",
+            "x": 680,
+            "y": 300,
+            "r": 130,
+            "cue": "belirlenebilir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hakim",
+      "headline": "Hâkim *indirebilir*.",
+      "source": "TBK m.182",
+      "transition": "fade",
+      "say": "Taraflar cezanın miktarını serbestçe belirler. Ama son söz hâkimindir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "table",
+            "x": 300,
+            "y": 660,
+            "w": 300,
+            "at": 0.1
+          },
+          {
+            "kind": "person",
+            "x": 300,
+            "y": 600,
+            "color": "cast1",
+            "outfit": "robe",
+            "hair": "short",
+            "accessories": [
+              "glasses",
+              "beard"
+            ],
+            "hairColor": "#9AA3B2",
+            "look": "right",
+            "cue": "hâkimindir"
+          },
+          {
+            "kind": "card",
+            "x": 680,
+            "y": 330,
+            "w": 420,
+            "label": "Cezai şart",
+            "value": "₺5 milyon",
+            "cue": "miktarını"
+          },
+          {
+            "kind": "icon",
+            "x": 700,
+            "y": 560,
+            "name": "TrendingDown",
+            "size": 150,
+            "color": "accent",
+            "cue": "son"
+          }
+        ]
+      }
+    },
+    {
+      "id": "madde-182",
+      "headline": "Türk Borçlar Kanunu *182*.",
+      "source": "TBK m.182/3",
+      "transition": "light",
+      "say": "Türk Borçlar Kanunu'nun yüz seksen ikinci maddesine göre, hâkim aşırı gördüğü cezai şartı, kendiliğinden indirir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "TBK",
+          "article": "m. 182/3",
+          "text": "Hâkim, aşırı gördüğü ceza koşulunu kendiliğinden indirir.",
+          "highlight": "kendiliğinden indirir",
+          "note": "Cezanın miktarı, geçersizliği ve indirilmesi"
+        },
+        "cues": {
+          "highlight": "kendiliğinden"
+        }
+      }
+    },
+    {
+      "id": "tacir",
+      "headline": "Tacir *indirim* isteyemez.",
+      "source": "TTK m.22",
+      "transition": "wipe",
+      "say": "Ancak borçlu bir tacirse, örneğin bir şirket sahibi, Türk Ticaret Kanunu'nun yirmi ikinci maddesine göre, sırf ceza aşırı diye indirim isteyemez.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 220,
+            "y": 660,
+            "color": "cast2",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "mustache"
+            ],
+            "hairColor": "#4A5568",
+            "look": "right",
+            "mood": "worried",
+            "cue": "şirket"
+          },
+          {
+            "kind": "icon",
+            "x": 560,
+            "y": 520,
+            "name": "Building2",
+            "size": 220,
+            "color": "ink",
+            "cue": "tacirse"
+          },
+          {
+            "kind": "icon",
+            "x": 760,
+            "y": 600,
+            "name": "TrendingDown",
+            "size": 110,
+            "color": "muted",
+            "cue": "aşırı"
+          },
+          {
+            "kind": "badge",
+            "x": 760,
+            "y": 470,
+            "symbol": "x",
+            "cue": "isteyemez"
+          }
+        ]
+      }
+    },
+    {
+      "id": "istisna",
+      "headline": "Ama *ekonomik mahva* yol açamaz.",
+      "source": "Yargıtay HGK 2024/596",
+      "transition": "blur",
+      "say": "Yine de Yargıtay'a göre ceza, şirketin ekonomik mahvına yol açacak kadar ağırsa, ahlaka aykırı sayılıp kısmen geçersiz olabilir.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "orbit": 50,
+        "tilt": -0.5,
+        "cue": "ahlaka"
+      }
+    },
+    {
+      "id": "mesaj",
+      "headline": "Sence *adil* mi?",
+      "transition": "fade",
+      "say": "Kısacası, gizlilik sözleşmelerindeki cezai şartlar sınırsız değildir. Ancak tarafların hukuki statüsü, cezanın miktarı ve sözleşmenin koşulları büyük önem taşır. Sence tacirlere indirim yasağı adil mi? Yorumlara yaz.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "installer",
+        "vars": {
+          "mode": "message",
+          "monitor": false,
+          "appName": "Gizlilik Sözleşmesi · Özet",
+          "message": "Gizlilik sözleşmelerindeki cezai şartlar sınırsız değildir.",
+          "message2": "Ancak tarafların hukuki statüsü, cezanın miktarı ve sözleşmenin koşulları büyük önem taşır."
+        },
+        "cues": {
+          "msg2": "Ancak"
+        }
+      }
+    }
+  ]
+}

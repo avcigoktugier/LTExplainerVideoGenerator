@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="tr" data-composition-variables='[
   {"id":"mode","type":"enum","label":"eula = license + Accept click; message = final message on screen","default":"eula","options":["eula","message"]},
+  {"id":"monitor","type":"boolean","label":"Show the computer monitor (false = window only)","default":true},
   {"id":"appName","type":"string","label":"Window title","default":"Kurulum Sihirbazı"},
   {"id":"heading","type":"string","label":"Heading in the window","default":"Son Kullanıcı Lisans Sözleşmesi"},
   {"id":"button","type":"string","label":"Accept button","default":"Kabul ediyorum"},
@@ -106,6 +107,16 @@
       KT.text("#m2", "message2");
       if (!KT.vars.message2) document.getElementById("m2").style.display = "none";
       var mode = KT.vars.mode === "message" ? "message" : "eula";
+      if (KT.vars.monitor === false || KT.vars.monitor === "false") {
+        ["bezel", "neck", "foot"].forEach(function (id) { document.getElementById(id).style.display = "none"; });
+        document.getElementById("screen").style.background = "transparent";
+        var w = document.getElementById("win");
+        document.getElementById("screen").style.overflow = "visible";
+        document.getElementById("m1").style.fontSize = "36px";
+        document.getElementById("m2").style.fontSize = "28px";
+        w.style.left = "0px"; w.style.top = "10px"; w.style.width = "744px"; w.style.height = "560px";
+        w.style.border = "1px solid color-mix(in srgb, var(--accent2) 60%, var(--surface))";
+      }
 
       // A long contract: paragraphs of grey lines (deterministic widths)
       var host = document.getElementById("lines");

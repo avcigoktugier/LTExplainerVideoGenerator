@@ -1,0 +1,1286 @@
+{
+  "slug": "gizlilik-cezai-sart",
+  "title": "Gizlilik sözleşmelerinde cezai şart",
+  "style": "lawtrust-light",
+  "format": "dossier",
+  "brand": {
+    "name": "Law & Trust",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir."
+  },
+  "transition": "fade",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2564,
+  "clips": [
+    {
+      "src": "projects/gizlilik-cezai-sart/voice.mp3",
+      "from": 0
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 0,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 7,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 35,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 74,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 98,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 330,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 360,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 398,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 477,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 439,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/thud.mp3",
+      "from": 571,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 591,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/riser.mp3",
+      "from": 686,
+      "volume": 0.18
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 710,
+      "volume": 0.28
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 763,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 787,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 812,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 842,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 854,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 885,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1055,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/click.mp3",
+      "from": 948,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1022,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1087,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1348,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1456,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1406,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1632,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1675,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/whoosh.mp3",
+      "from": 1702,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/ding.mp3",
+      "from": 1890,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1995,
+      "volume": 0.32
+    }
+  ],
+  "words": [
+    {
+      "text": "İki",
+      "start": 0,
+      "end": 0.16
+    },
+    {
+      "text": "taraf,",
+      "start": 0.227,
+      "end": 0.64
+    },
+    {
+      "text": "bir",
+      "start": 0.76,
+      "end": 1.12
+    },
+    {
+      "text": "gizlilik",
+      "start": 1.18,
+      "end": 1.68
+    },
+    {
+      "text": "sözleşmesi",
+      "start": 1.737,
+      "end": 2.4
+    },
+    {
+      "text": "imzalıyor.",
+      "start": 2.46,
+      "end": 3.28
+    },
+    {
+      "text": "Sözleşmenin",
+      "start": 3.44,
+      "end": 4.32
+    },
+    {
+      "text": "kalbinde,",
+      "start": 4.38,
+      "end": 4.96
+    },
+    {
+      "text": "gizlilik",
+      "start": 5.08,
+      "end": 5.76
+    },
+    {
+      "text": "yükümlülüğü",
+      "start": 5.8,
+      "end": 6.4
+    },
+    {
+      "text": "var.",
+      "start": 6.46,
+      "end": 6.8
+    },
+    {
+      "text": "İhlal",
+      "start": 6.96,
+      "end": 7.44
+    },
+    {
+      "text": "edilirse,",
+      "start": 7.488,
+      "end": 8.08
+    },
+    {
+      "text": "önceden",
+      "start": 8.22,
+      "end": 8.88
+    },
+    {
+      "text": "belirlenmiş",
+      "start": 8.92,
+      "end": 9.52
+    },
+    {
+      "text": "bir",
+      "start": 9.56,
+      "end": 9.68
+    },
+    {
+      "text": "ceza",
+      "start": 9.787,
+      "end": 10.24
+    },
+    {
+      "text": "ödenecek.",
+      "start": 10.32,
+      "end": 11.04
+    },
+    {
+      "text": "Sonra",
+      "start": 11.173,
+      "end": 11.84
+    },
+    {
+      "text": "taraflardan",
+      "start": 12,
+      "end": 12.8
+    },
+    {
+      "text": "biri,",
+      "start": 12.848,
+      "end": 13.12
+    },
+    {
+      "text": "gizli",
+      "start": 13.26,
+      "end": 13.76
+    },
+    {
+      "text": "bilgileri",
+      "start": 13.84,
+      "end": 14.56
+    },
+    {
+      "text": "üçüncü",
+      "start": 14.629,
+      "end": 15.04
+    },
+    {
+      "text": "bir",
+      "start": 15.1,
+      "end": 15.28
+    },
+    {
+      "text": "kişiyle",
+      "start": 15.344,
+      "end": 15.84
+    },
+    {
+      "text": "paylaşıyor.",
+      "start": 15.9,
+      "end": 16.72
+    },
+    {
+      "text": "Bu,",
+      "start": 16.933,
+      "end": 17.44
+    },
+    {
+      "text": "açık",
+      "start": 17.584,
+      "end": 18.16
+    },
+    {
+      "text": "bir",
+      "start": 18.22,
+      "end": 18.4
+    },
+    {
+      "text": "gizlilik",
+      "start": 18.46,
+      "end": 18.96
+    },
+    {
+      "text": "ihlali.",
+      "start": 19.04,
+      "end": 19.68
+    },
+    {
+      "text": "Sözleşmede",
+      "start": 19.88,
+      "end": 20.96
+    },
+    {
+      "text": "bunun",
+      "start": 20.987,
+      "end": 21.12
+    },
+    {
+      "text": "cezası",
+      "start": 21.173,
+      "end": 21.68
+    },
+    {
+      "text": "önceden",
+      "start": 21.86,
+      "end": 22.72
+    },
+    {
+      "text": "yazılmış:",
+      "start": 22.768,
+      "end": 23.52
+    },
+    {
+      "text": "beş",
+      "start": 23.68,
+      "end": 24.16
+    },
+    {
+      "text": "milyon",
+      "start": 24.229,
+      "end": 24.64
+    },
+    {
+      "text": "lira.",
+      "start": 24.72,
+      "end": 25.44
+    },
+    {
+      "text": "Peki",
+      "start": 25.6,
+      "end": 26
+    },
+    {
+      "text": "bu",
+      "start": 26.053,
+      "end": 26.16
+    },
+    {
+      "text": "ceza,",
+      "start": 26.24,
+      "end": 27
+    },
+    {
+      "text": "istenildiği",
+      "start": 27.06,
+      "end": 27.6
+    },
+    {
+      "text": "kadar",
+      "start": 27.667,
+      "end": 28
+    },
+    {
+      "text": "yüksek",
+      "start": 28.057,
+      "end": 28.4
+    },
+    {
+      "text": "belirlenebilir",
+      "start": 28.46,
+      "end": 29.2
+    },
+    {
+      "text": "mi?",
+      "start": 29.253,
+      "end": 29.52
+    },
+    {
+      "text": "Taraflar",
+      "start": 29.696,
+      "end": 30.72
+    },
+    {
+      "text": "cezanın",
+      "start": 30.88,
+      "end": 31.52
+    },
+    {
+      "text": "miktarını",
+      "start": 31.589,
+      "end": 32.16
+    },
+    {
+      "text": "serbestçe",
+      "start": 32.22,
+      "end": 32.8
+    },
+    {
+      "text": "belirler.",
+      "start": 32.853,
+      "end": 33.44
+    },
+    {
+      "text": "Ama",
+      "start": 33.56,
+      "end": 33.92
+    },
+    {
+      "text": "son",
+      "start": 34.08,
+      "end": 34.56
+    },
+    {
+      "text": "söz",
+      "start": 34.66,
+      "end": 34.96
+    },
+    {
+      "text": "hâkimindir.",
+      "start": 35.16,
+      "end": 36.24
+    },
+    {
+      "text": "Türk",
+      "start": 36.416,
+      "end": 37.12
+    },
+    {
+      "text": "Borçlar",
+      "start": 37.16,
+      "end": 37.44
+    },
+    {
+      "text": "Kanunu'nun",
+      "start": 37.509,
+      "end": 38.16
+    },
+    {
+      "text": "yüz",
+      "start": 38.3,
+      "end": 38.72
+    },
+    {
+      "text": "seksen",
+      "start": 38.768,
+      "end": 39.04
+    },
+    {
+      "text": "ikinci",
+      "start": 39.086,
+      "end": 39.36
+    },
+    {
+      "text": "maddesine",
+      "start": 39.424,
+      "end": 40
+    },
+    {
+      "text": "göre,",
+      "start": 40.064,
+      "end": 40.48
+    },
+    {
+      "text": "hâkim",
+      "start": 40.6,
+      "end": 41.12
+    },
+    {
+      "text": "aşırı",
+      "start": 41.187,
+      "end": 41.52
+    },
+    {
+      "text": "gördüğü",
+      "start": 41.6,
+      "end": 42
+    },
+    {
+      "text": "cezai",
+      "start": 42.08,
+      "end": 42.56
+    },
+    {
+      "text": "şartı,",
+      "start": 42.64,
+      "end": 43.28
+    },
+    {
+      "text": "kendiliğinden",
+      "start": 43.36,
+      "end": 44.24
+    },
+    {
+      "text": "indirir.",
+      "start": 44.32,
+      "end": 44.96
+    },
+    {
+      "text": "Ancak",
+      "start": 45.107,
+      "end": 45.84
+    },
+    {
+      "text": "borçlu",
+      "start": 45.968,
+      "end": 46.56
+    },
+    {
+      "text": "bir",
+      "start": 46.62,
+      "end": 46.8
+    },
+    {
+      "text": "tacirse,",
+      "start": 46.88,
+      "end": 47.92
+    },
+    {
+      "text": "örneğin",
+      "start": 47.96,
+      "end": 48.32
+    },
+    {
+      "text": "bir",
+      "start": 48.36,
+      "end": 48.48
+    },
+    {
+      "text": "şirket",
+      "start": 48.537,
+      "end": 48.88
+    },
+    {
+      "text": "sahibi,",
+      "start": 48.96,
+      "end": 49.84
+    },
+    {
+      "text": "Türk",
+      "start": 49.888,
+      "end": 50.08
+    },
+    {
+      "text": "Ticaret",
+      "start": 50.13,
+      "end": 50.48
+    },
+    {
+      "text": "Kanunu'nun",
+      "start": 50.549,
+      "end": 51.2
+    },
+    {
+      "text": "yirmi",
+      "start": 51.4,
+      "end": 51.84
+    },
+    {
+      "text": "ikinci",
+      "start": 51.897,
+      "end": 52.24
+    },
+    {
+      "text": "maddesine",
+      "start": 52.304,
+      "end": 52.88
+    },
+    {
+      "text": "göre,",
+      "start": 52.944,
+      "end": 53.28
+    },
+    {
+      "text": "sırf",
+      "start": 53.44,
+      "end": 53.92
+    },
+    {
+      "text": "ceza",
+      "start": 53.973,
+      "end": 54.32
+    },
+    {
+      "text": "aşırı",
+      "start": 54.387,
+      "end": 54.72
+    },
+    {
+      "text": "diye",
+      "start": 54.816,
+      "end": 55.2
+    },
+    {
+      "text": "indirim",
+      "start": 55.3,
+      "end": 55.76
+    },
+    {
+      "text": "isteyemez.",
+      "start": 55.82,
+      "end": 56.84
+    },
+    {
+      "text": "Yine",
+      "start": 56.912,
+      "end": 57.2
+    },
+    {
+      "text": "de",
+      "start": 57.333,
+      "end": 57.6
+    },
+    {
+      "text": "Yargıtay'a",
+      "start": 57.76,
+      "end": 58.32
+    },
+    {
+      "text": "göre",
+      "start": 58.384,
+      "end": 58.64
+    },
+    {
+      "text": "ceza,",
+      "start": 58.693,
+      "end": 59.12
+    },
+    {
+      "text": "şirketin",
+      "start": 59.234,
+      "end": 60
+    },
+    {
+      "text": "ekonomik",
+      "start": 60.071,
+      "end": 60.64
+    },
+    {
+      "text": "mahvına",
+      "start": 60.7,
+      "end": 61.12
+    },
+    {
+      "text": "yol",
+      "start": 61.16,
+      "end": 61.28
+    },
+    {
+      "text": "açacak",
+      "start": 61.333,
+      "end": 61.6
+    },
+    {
+      "text": "kadar",
+      "start": 61.667,
+      "end": 62
+    },
+    {
+      "text": "ağırsa,",
+      "start": 62.08,
+      "end": 62.8
+    },
+    {
+      "text": "ahlaka",
+      "start": 63,
+      "end": 63.6
+    },
+    {
+      "text": "aykırı",
+      "start": 63.68,
+      "end": 64
+    },
+    {
+      "text": "sayılıp",
+      "start": 64.046,
+      "end": 64.4
+    },
+    {
+      "text": "kısmen",
+      "start": 64.528,
+      "end": 65.2
+    },
+    {
+      "text": "geçersiz",
+      "start": 65.26,
+      "end": 65.76
+    },
+    {
+      "text": "olabilir.",
+      "start": 65.822,
+      "end": 66.48
+    },
+    {
+      "text": "Kısacası,",
+      "start": 66.68,
+      "end": 67.76
+    },
+    {
+      "text": "gizlilik",
+      "start": 67.9,
+      "end": 68.48
+    },
+    {
+      "text": "sözleşmelerindeki",
+      "start": 68.537,
+      "end": 69.52
+    },
+    {
+      "text": "cezai",
+      "start": 69.58,
+      "end": 70
+    },
+    {
+      "text": "şartlar",
+      "start": 70.08,
+      "end": 70.56
+    },
+    {
+      "text": "sınırsız",
+      "start": 70.76,
+      "end": 71.36
+    },
+    {
+      "text": "değildir.",
+      "start": 71.413,
+      "end": 71.92
+    },
+    {
+      "text": "Ancak",
+      "start": 72.053,
+      "end": 72.72
+    },
+    {
+      "text": "tarafların",
+      "start": 72.88,
+      "end": 73.52
+    },
+    {
+      "text": "hukuki",
+      "start": 73.56,
+      "end": 74.08
+    },
+    {
+      "text": "statüsü,",
+      "start": 74.144,
+      "end": 74.88
+    },
+    {
+      "text": "cezanın",
+      "start": 75.013,
+      "end": 75.6
+    },
+    {
+      "text": "miktarı",
+      "start": 75.669,
+      "end": 76.24
+    },
+    {
+      "text": "ve",
+      "start": 76.4,
+      "end": 76.72
+    },
+    {
+      "text": "sözleşmenin",
+      "start": 76.777,
+      "end": 77.36
+    },
+    {
+      "text": "koşulları",
+      "start": 77.44,
+      "end": 78.16
+    },
+    {
+      "text": "büyük",
+      "start": 78.267,
+      "end": 78.8
+    },
+    {
+      "text": "önem",
+      "start": 78.88,
+      "end": 79.2
+    },
+    {
+      "text": "taşır.",
+      "start": 79.26,
+      "end": 80.12
+    },
+    {
+      "text": "Sence",
+      "start": 80.34,
+      "end": 80.88
+    },
+    {
+      "text": "tacirlere",
+      "start": 81.04,
+      "end": 81.76
+    },
+    {
+      "text": "indirim",
+      "start": 81.82,
+      "end": 82.16
+    },
+    {
+      "text": "yasağı",
+      "start": 82.2,
+      "end": 82.64
+    },
+    {
+      "text": "adil",
+      "start": 82.747,
+      "end": 83.04
+    },
+    {
+      "text": "mi?",
+      "start": 83.12,
+      "end": 83.56
+    },
+    {
+      "text": "Yorumlara",
+      "start": 83.7,
+      "end": 84.24
+    },
+    {
+      "text": "yaz.",
+      "start": 84.34,
+      "end": 84.72
+    }
+  ],
+  "scenes": [
+    {
+      "id": "imza",
+      "say": "İki taraf, bir gizlilik sözleşmesi imzalıyor.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "table",
+            "x": 470,
+            "y": 660,
+            "w": 380,
+            "at": 0.1
+          },
+          {
+            "kind": "person",
+            "x": 170,
+            "y": 660,
+            "color": "cast1",
+            "look": "right",
+            "hair": "short",
+            "outfit": "suit",
+            "accessories": [
+              "glasses"
+            ],
+            "cue": "İki"
+          },
+          {
+            "kind": "person",
+            "x": 770,
+            "y": 660,
+            "color": "cast2",
+            "look": "left",
+            "hair": "bun",
+            "outfit": "suit",
+            "cue": "taraf"
+          },
+          {
+            "kind": "art",
+            "name": "nda-paper",
+            "x": 470,
+            "y": 560,
+            "w": 190,
+            "idle": "bob",
+            "cue": "gizlilik"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 170,
+            "text": "İMZALANDI",
+            "rotate": -6,
+            "cue": "imzalıyor"
+          }
+        ]
+      },
+      "headline": "Bir *gizlilik* sözleşmesi.",
+      "from": 0,
+      "durationInFrames": 101
+    },
+    {
+      "id": "yukumluluk",
+      "say": "Sözleşmenin kalbinde, gizlilik yükümlülüğü var. İhlal edilirse, önceden belirlenmiş bir ceza ödenecek.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "case-file",
+        "vars": {
+          "title": "GİZLİLİK SÖZLEŞMESİ",
+          "label": "TEMEL HÜKÜMLER",
+          "lines": [
+            "Taraflar ve konu",
+            "Gizlilik yükümlülüğü",
+            "Süre ve kapsam",
+            "Cezai şart"
+          ],
+          "highlightLine": 2,
+          "stamp": ""
+        },
+        "cues": {
+          "highlight": "yükümlülüğü"
+        }
+      },
+      "transition": "slide",
+      "headline": "Gizlilik *yükümlülüğü*.",
+      "source": "Sözleşme · Madde 3",
+      "from": 101,
+      "durationInFrames": 232,
+      "assetFresh": false
+    },
+    {
+      "id": "ihlal",
+      "say": "Sonra taraflardan biri, gizli bilgileri üçüncü bir kişiyle paylaşıyor. Bu, açık bir gizlilik ihlali.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 220,
+            "y": 660,
+            "color": "cast1",
+            "pose": "aimRight",
+            "look": "right",
+            "hair": "short",
+            "outfit": "suit",
+            "accessories": [
+              "glasses"
+            ],
+            "cue": "taraflardan"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 470,
+            "name": "FileLock",
+            "size": 150,
+            "color": "accent",
+            "cue": "gizli"
+          },
+          {
+            "kind": "line",
+            "from": [
+              300,
+              470
+            ],
+            "to": [
+              640,
+              470
+            ],
+            "dashed": true,
+            "cue": "paylaşıyor"
+          },
+          {
+            "kind": "person",
+            "x": 720,
+            "y": 660,
+            "color": "muted",
+            "mood": "happy",
+            "look": "left",
+            "hair": "curly",
+            "outfit": "plain",
+            "cue": "üçüncü"
+          },
+          {
+            "kind": "stamp",
+            "x": 470,
+            "y": 170,
+            "text": "GİZLİLİK İHLALİ",
+            "rotate": -5,
+            "cue": "ihlali"
+          }
+        ]
+      },
+      "transition": "blur",
+      "headline": "Gizlilik *ihlali*.",
+      "from": 333,
+      "durationInFrames": 261
+    },
+    {
+      "id": "ceza",
+      "say": "Sözleşmede bunun cezası önceden yazılmış: beş milyon lira.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "5.000.000₺",
+        "cue": "beş"
+      },
+      "transition": "zoom",
+      "headline": "Önceden belirlenen *ceza*.",
+      "source": "TBK m.179 · m.180",
+      "from": 594,
+      "durationInFrames": 172
+    },
+    {
+      "id": "soru",
+      "say": "Peki bu ceza, istenildiği kadar yüksek belirlenebilir mi?",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "TrendingUp",
+            "x": 300,
+            "y": 360,
+            "size": 240,
+            "cue": "ceza"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              440,
+              330
+            ],
+            "to": [
+              570,
+              300
+            ],
+            "bend": -0.3,
+            "cue": "istenildiği"
+          },
+          {
+            "kind": "icon",
+            "name": "CircleHelp",
+            "x": 680,
+            "y": 300,
+            "size": 180,
+            "cue": "yüksek"
+          },
+          {
+            "kind": "circle",
+            "x": 680,
+            "y": 300,
+            "r": 130,
+            "cue": "belirlenebilir"
+          }
+        ]
+      },
+      "transition": "slide",
+      "headline": "Ceza *sınırsız* olabilir mi?",
+      "from": 766,
+      "durationInFrames": 122
+    },
+    {
+      "id": "hakim",
+      "say": "Taraflar cezanın miktarını serbestçe belirler. Ama son söz hâkimindir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "table",
+            "x": 300,
+            "y": 660,
+            "w": 300,
+            "at": 0.1
+          },
+          {
+            "kind": "person",
+            "x": 300,
+            "y": 600,
+            "color": "cast1",
+            "look": "right",
+            "hair": "short",
+            "outfit": "robe",
+            "accessories": [
+              "glasses",
+              "beard"
+            ],
+            "hairColor": "#9AA3B2",
+            "cue": "hâkimindir"
+          },
+          {
+            "kind": "card",
+            "x": 680,
+            "y": 330,
+            "w": 420,
+            "label": "Cezai şart",
+            "value": "₺5 milyon",
+            "cue": "miktarını"
+          },
+          {
+            "kind": "icon",
+            "x": 700,
+            "y": 560,
+            "name": "TrendingDown",
+            "size": 150,
+            "color": "accent",
+            "cue": "son"
+          }
+        ]
+      },
+      "transition": "fade",
+      "headline": "Hâkim *indirebilir*.",
+      "source": "TBK m.182",
+      "from": 888,
+      "durationInFrames": 202
+    },
+    {
+      "id": "madde-182",
+      "say": "Türk Borçlar Kanunu'nun yüz seksen ikinci maddesine göre, hâkim aşırı gördüğü cezai şartı, kendiliğinden indirir.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "TBK",
+          "article": "m. 182/3",
+          "text": "Hâkim, aşırı gördüğü ceza koşulunu kendiliğinden indirir.",
+          "highlight": "kendiliğinden indirir",
+          "note": "Cezanın miktarı, geçersizliği ve indirilmesi"
+        },
+        "cues": {
+          "highlight": "kendiliğinden"
+        }
+      },
+      "transition": "light",
+      "headline": "Türk Borçlar Kanunu *182*.",
+      "source": "TBK m.182/3",
+      "from": 1090,
+      "durationInFrames": 261,
+      "assetFresh": false
+    },
+    {
+      "id": "tacir",
+      "say": "Ancak borçlu bir tacirse, örneğin bir şirket sahibi, Türk Ticaret Kanunu'nun yirmi ikinci maddesine göre, sırf ceza aşırı diye indirim isteyemez.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 220,
+            "y": 660,
+            "color": "cast2",
+            "mood": "worried",
+            "look": "right",
+            "hair": "short",
+            "outfit": "suit",
+            "accessories": [
+              "mustache"
+            ],
+            "hairColor": "#4A5568",
+            "cue": "şirket"
+          },
+          {
+            "kind": "icon",
+            "x": 560,
+            "y": 520,
+            "name": "Building2",
+            "size": 220,
+            "color": "ink",
+            "cue": "tacirse"
+          },
+          {
+            "kind": "icon",
+            "x": 760,
+            "y": 600,
+            "name": "TrendingDown",
+            "size": 110,
+            "color": "muted",
+            "cue": "aşırı"
+          },
+          {
+            "kind": "badge",
+            "x": 760,
+            "y": 470,
+            "symbol": "x",
+            "cue": "isteyemez"
+          }
+        ]
+      },
+      "transition": "wipe",
+      "headline": "Tacir *indirim* isteyemez.",
+      "source": "TTK m.22",
+      "from": 1351,
+      "durationInFrames": 354
+    },
+    {
+      "id": "istisna",
+      "say": "Yine de Yargıtay'a göre ceza, şirketin ekonomik mahvına yol açacak kadar ağırsa, ahlaka aykırı sayılıp kısmen geçersiz olabilir.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "orbit": 50,
+        "tilt": -0.5,
+        "cue": "ahlaka"
+      },
+      "transition": "blur",
+      "headline": "Ama *ekonomik mahva* yol açamaz.",
+      "source": "Yargıtay HGK 2024/596",
+      "from": 1705,
+      "durationInFrames": 293
+    },
+    {
+      "id": "mesaj",
+      "say": "Kısacası, gizlilik sözleşmelerindeki cezai şartlar sınırsız değildir. Ancak tarafların hukuki statüsü, cezanın miktarı ve sözleşmenin koşulları büyük önem taşır. Sence tacirlere indirim yasağı adil mi? Yorumlara yaz.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "installer",
+        "vars": {
+          "mode": "message",
+          "monitor": false,
+          "appName": "Gizlilik Sözleşmesi · Özet",
+          "message": "Gizlilik sözleşmelerindeki cezai şartlar sınırsız değildir.",
+          "message2": "Ancak tarafların hukuki statüsü, cezanın miktarı ve sözleşmenin koşulları büyük önem taşır."
+        },
+        "cues": {
+          "msg2": "Ancak"
+        }
+      },
+      "transition": "fade",
+      "headline": "Sence *adil* mi?",
+      "from": 1998,
+      "durationInFrames": 566,
+      "assetFresh": false
+    }
+  ]
+}
