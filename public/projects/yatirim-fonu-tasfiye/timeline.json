@@ -1,6 +1,6 @@
 {
   "slug": "yatirim-fonu-tasfiye",
-  "title": "Yatırım fonu sona erince paranız ne olur?",
+  "title": "Yatırım yaptığınız fon kapandı: paranız ne olacak?",
   "style": "lawtrust-gold",
   "format": "dossier",
   "brand": {
@@ -13,7 +13,7 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "durationInFrames": 6077,
+  "durationInFrames": 1889,
   "clips": [
     {
       "src": "projects/yatirim-fonu-tasfiye/voice.mp3",
@@ -28,2195 +28,726 @@
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 18,
+      "from": 23,
       "volume": 0.22
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 109,
+      "from": 31,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 72,
       "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 151,
+      "from": 112,
       "volume": 0.32
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 157,
+      "from": 143,
       "volume": 0.22
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 172,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/click.mp3",
-      "from": 228,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 239,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 341,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/whoosh.mp3",
-      "from": 374,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 506,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 524,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 552,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 574,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 689,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 795,
+      "from": 174,
       "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 823,
+      "from": 229,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 280,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 345,
       "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 849,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 837,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 864,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 942,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1024,
+      "from": 363,
       "volume": 0.32
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 1100,
+      "from": 389,
       "volume": 0.22
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 1188,
+      "from": 446,
       "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
+      "from": 507,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 537,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 551,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 618,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 708,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 714,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 745,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 833,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 908,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 929,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 767,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 974,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1345,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/pop.mp3",
+      "from": 1351,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/pop.mp3",
       "from": 1367,
       "volume": 0.22
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 1324,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1393,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1499,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1574,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1509,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1702,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1776,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1819,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 1855,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 1926,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 1938,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2004,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2056,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2164,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 2209,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2215,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2255,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2291,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 2356,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2425,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2530,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 2583,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 2821,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2922,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 2961,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 2930,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 3006,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 3199,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/whoosh.mp3",
-      "from": 3252,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 3288,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 3315,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 3517,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/thud.mp3",
-      "from": 3541,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 3623,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 3629,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 3816,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 3884,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 3914,
-      "volume": 0.14
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 3940,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/riser.mp3",
-      "from": 4168,
-      "volume": 0.18
-    },
-    {
-      "src": "sfx/ding.mp3",
-      "from": 4192,
-      "volume": 0.28
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 4244,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/whoosh.mp3",
-      "from": 4700,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/ding.mp3",
-      "from": 4820,
-      "volume": 0.3
-    },
-    {
-      "src": "sfx/swoosh.mp3",
-      "from": 5061,
-      "volume": 0.32
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 5099,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 5136,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 5152,
+      "from": 1388,
       "volume": 0.22
     },
     {
       "src": "sfx/thud.mp3",
-      "from": 5207,
+      "from": 1432,
       "volume": 0.4
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 5250,
+      "from": 1449,
       "volume": 0.22
     },
     {
       "src": "sfx/pop.mp3",
-      "from": 5301,
+      "from": 1488,
       "volume": 0.22
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 5315,
+      "from": 1597,
       "volume": 0.32
     },
     {
-      "src": "sfx/pop.mp3",
-      "from": 5321,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 5433,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 5418,
-      "volume": 0.22
+      "src": "sfx/swoosh.mp3",
+      "from": 1651,
+      "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 5556,
-      "volume": 0.22
-    },
-    {
-      "src": "sfx/pop.mp3",
-      "from": 5614,
-      "volume": 0.22
+      "from": 1797,
+      "volume": 0.14
     },
     {
       "src": "sfx/swoosh.mp3",
-      "from": 5678,
-      "volume": 0.32
+      "from": 1836,
+      "volume": 0.14
+    },
+    {
+      "src": "sfx/swoosh.mp3",
+      "from": 1852,
+      "volume": 0.14
     }
   ],
   "words": [
     {
-      "text": "Birikimini",
+      "text": "Yatırım",
       "start": 0,
-      "end": 0.56
+      "end": 0.24
     },
     {
-      "text": "telefondan",
-      "start": 0.592,
-      "end": 1.12
+      "text": "yaptığınız",
+      "start": 0.28,
+      "end": 0.72
     },
     {
-      "text": "bir",
-      "start": 1.16,
-      "end": 1.28
+      "text": "fon",
+      "start": 0.78,
+      "end": 0.96
     },
     {
-      "text": "yatırım",
-      "start": 1.34,
-      "end": 1.76
-    },
-    {
-      "text": "fonuna",
-      "start": 1.82,
-      "end": 2.16
-    },
-    {
-      "text": "yatırdın.",
-      "start": 2.2,
-      "end": 3.2
-    },
-    {
-      "text": "Her",
-      "start": 3.24,
-      "end": 3.36
-    },
-    {
-      "text": "gün",
-      "start": 3.42,
-      "end": 3.6
-    },
-    {
-      "text": "değerine",
-      "start": 3.64,
-      "end": 4
-    },
-    {
-      "text": "bakıyorsun.",
-      "start": 4.04,
-      "end": 5.2
-    },
-    {
-      "text": "Bir",
-      "start": 5.22,
-      "end": 5.28
-    },
-    {
-      "text": "sabah",
-      "start": 5.333,
-      "end": 5.6
-    },
-    {
-      "text": "bir",
-      "start": 5.62,
-      "end": 5.68
-    },
-    {
-      "text": "bildirim",
-      "start": 5.744,
-      "end": 6.16
-    },
-    {
-      "text": "geliyor:",
-      "start": 6.23,
-      "end": 7.2
-    },
-    {
-      "text": "fonun",
-      "start": 7.26,
-      "end": 7.52
-    },
-    {
-      "text": "sona",
-      "start": 7.6,
-      "end": 7.92
-    },
-    {
-      "text": "eriyor.",
-      "start": 7.973,
-      "end": 8.48
+      "text": "kapandı.",
+      "start": 1.02,
+      "end": 1.52
     },
     {
       "text": "Peki",
-      "start": 8.76,
-      "end": 9.36
+      "start": 1.76,
+      "end": 2.32
     },
     {
-      "text": "yatırım",
-      "start": 9.46,
-      "end": 10.16
-    },
-    {
-      "text": "fonun",
-      "start": 10.2,
-      "end": 10.4
-    },
-    {
-      "text": "kapanırsa,",
-      "start": 10.48,
-      "end": 11.28
-    },
-    {
-      "text": "paran",
-      "start": 11.373,
-      "end": 11.84
+      "text": "paranız",
+      "start": 2.413,
+      "end": 2.96
     },
     {
       "text": "ne",
-      "start": 11.893,
-      "end": 12
+      "start": 3.013,
+      "end": 3.12
     },
     {
-      "text": "olur?",
-      "start": 12.064,
-      "end": 12.4
-    },
-    {
-      "text": "Fon",
-      "start": 12.64,
-      "end": 13.36
-    },
-    {
-      "text": "sona",
-      "start": 13.408,
-      "end": 13.6
-    },
-    {
-      "text": "erince",
-      "start": 13.653,
-      "end": 13.92
-    },
-    {
-      "text": "tasfiye",
-      "start": 14,
-      "end": 14.4
-    },
-    {
-      "text": "başlar.",
-      "start": 14.48,
-      "end": 15.04
-    },
-    {
-      "text": "Fondaki",
-      "start": 15.152,
-      "end": 15.76
-    },
-    {
-      "text": "hisseler,",
-      "start": 15.824,
-      "end": 16.4
-    },
-    {
-      "text": "tahviller,",
-      "start": 16.54,
-      "end": 17.44
-    },
-    {
-      "text": "mevduat",
-      "start": 17.56,
-      "end": 18.24
-    },
-    {
-      "text": "ve",
-      "start": 18.267,
-      "end": 18.32
-    },
-    {
-      "text": "diğer",
-      "start": 18.387,
-      "end": 18.72
-    },
-    {
-      "text": "varlıklar,",
-      "start": 18.78,
-      "end": 19.44
-    },
-    {
-      "text": "içtüzükteki",
-      "start": 19.653,
-      "end": 20.56
-    },
-    {
-      "text": "kurallara",
-      "start": 20.62,
-      "end": 21.04
-    },
-    {
-      "text": "göre",
-      "start": 21.104,
-      "end": 21.36
-    },
-    {
-      "text": "paraya",
-      "start": 21.5,
-      "end": 22
-    },
-    {
-      "text": "dönüştürülür.",
-      "start": 22.06,
-      "end": 22.96
-    },
-    {
-      "text": "Kalan",
-      "start": 23.14,
-      "end": 23.76
-    },
-    {
-      "text": "tutar,",
-      "start": 23.827,
-      "end": 24.24
-    },
-    {
-      "text": "yani",
-      "start": 24.368,
-      "end": 24.88
-    },
-    {
-      "text": "tasfiye",
-      "start": 25.02,
-      "end": 25.6
-    },
-    {
-      "text": "bakiyesi,",
-      "start": 25.68,
-      "end": 26.4
-    },
-    {
-      "text": "yatırımcılara",
-      "start": 26.507,
-      "end": 27.36
-    },
-    {
-      "text": "katılma",
-      "start": 27.427,
-      "end": 27.84
-    },
-    {
-      "text": "payları",
-      "start": 27.9,
-      "end": 28.24
-    },
-    {
-      "text": "oranında",
-      "start": 28.304,
-      "end": 28.72
-    },
-    {
-      "text": "dağıtılır.",
-      "start": 28.784,
-      "end": 29.52
-    },
-    {
-      "text": "Bu",
-      "start": 29.733,
-      "end": 30.16
-    },
-    {
-      "text": "aşamada,",
-      "start": 30.224,
-      "end": 31.32
-    },
-    {
-      "text": "yalnızca",
-      "start": 31.387,
-      "end": 31.92
-    },
-    {
-      "text": "pay",
-      "start": 32,
-      "end": 32.24
-    },
-    {
-      "text": "sahiplerine",
-      "start": 32.32,
-      "end": 33.04
-    },
-    {
-      "text": "ödeme",
-      "start": 33.093,
-      "end": 33.36
-    },
-    {
-      "text": "yapılabilir.",
-      "start": 33.4,
-      "end": 34.08
+      "text": "olacak?",
+      "start": 3.189,
+      "end": 3.68
     },
     {
       "text": "Fonun",
-      "start": 34.3,
-      "end": 35.04
+      "start": 3.92,
+      "end": 4.72
     },
     {
-      "text": "tüzel",
-      "start": 35.08,
-      "end": 35.36
-    },
-    {
-      "text": "kişiliği",
-      "start": 35.4,
-      "end": 35.76
-    },
-    {
-      "text": "yoktur,",
-      "start": 35.84,
-      "end": 36.64
-    },
-    {
-      "text": "dava",
-      "start": 36.68,
-      "end": 37.04
-    },
-    {
-      "text": "da",
-      "start": 37.067,
-      "end": 37.12
-    },
-    {
-      "text": "açamaz.",
-      "start": 37.2,
-      "end": 37.76
-    },
-    {
-      "text": "Onu,",
-      "start": 37.947,
-      "end": 38.48
-    },
-    {
-      "text": "kurucusu",
-      "start": 38.6,
-      "end": 39.36
-    },
-    {
-      "text": "olan",
-      "start": 39.392,
-      "end": 39.52
-    },
-    {
-      "text": "portföy",
-      "start": 39.584,
-      "end": 40
-    },
-    {
-      "text": "yönetim",
-      "start": 40.05,
-      "end": 40.4
-    },
-    {
-      "text": "şirketi",
-      "start": 40.48,
-      "end": 40.88
-    },
-    {
-      "text": "yönetir",
-      "start": 40.933,
-      "end": 41.44
-    },
-    {
-      "text": "ve",
-      "start": 41.547,
-      "end": 41.76
-    },
-    {
-      "text": "temsil",
-      "start": 41.829,
-      "end": 42.24
-    },
-    {
-      "text": "eder.",
-      "start": 42.32,
-      "end": 43
-    },
-    {
-      "text": "Bu",
-      "start": 43.12,
-      "end": 43.36
-    },
-    {
-      "text": "yüzden",
-      "start": 43.451,
-      "end": 44
-    },
-    {
-      "text": "tasfiye",
-      "start": 44.12,
-      "end": 44.64
-    },
-    {
-      "text": "payını",
-      "start": 44.7,
-      "end": 45.04
-    },
-    {
-      "text": "kurucudan",
-      "start": 45.08,
-      "end": 45.52
-    },
-    {
-      "text": "istersin.",
-      "start": 45.58,
-      "end": 46.32
-    },
-    {
-      "text": "Peki",
-      "start": 46.6,
-      "end": 47.2
-    },
-    {
-      "text": "ne",
-      "start": 47.36,
-      "end": 47.68
-    },
-    {
-      "text": "zaman",
-      "start": 47.733,
-      "end": 48
-    },
-    {
-      "text": "ödenmeli?",
-      "start": 48.064,
-      "end": 48.64
-    },
-    {
-      "text": "Kurucu",
-      "start": 48.88,
-      "end": 49.68
-    },
-    {
-      "text": "bir",
-      "start": 49.74,
-      "end": 49.92
-    },
-    {
-      "text": "dağıtım",
-      "start": 49.952,
-      "end": 50.24
-    },
-    {
-      "text": "tarihi",
-      "start": 50.309,
-      "end": 50.72
-    },
-    {
-      "text": "ilan",
-      "start": 50.8,
-      "end": 51.12
-    },
-    {
-      "text": "ettiyse,",
-      "start": 51.168,
-      "end": 51.84
-    },
-    {
-      "text": "o",
-      "start": 52.04,
-      "end": 52.24
-    },
-    {
-      "text": "gün",
-      "start": 52.28,
-      "end": 52.4
-    },
-    {
-      "text": "geçince",
-      "start": 52.46,
-      "end": 52.96
-    },
-    {
-      "text": "temerrüde",
-      "start": 53.08,
-      "end": 53.76
-    },
-    {
-      "text": "düşer.",
-      "start": 53.82,
-      "end": 54.32
-    },
-    {
-      "text": "Tarih",
-      "start": 54.48,
-      "end": 55.28
-    },
-    {
-      "text": "yoksa,",
-      "start": 55.36,
-      "end": 55.84
-    },
-    {
-      "text": "tasfiye",
-      "start": 55.98,
-      "end": 56.64
-    },
-    {
-      "text": "makul",
-      "start": 56.72,
-      "end": 57.12
-    },
-    {
-      "text": "sürede",
-      "start": 57.177,
-      "end": 57.52
-    },
-    {
-      "text": "bitmeli;",
-      "start": 57.56,
-      "end": 58.08
-    },
-    {
-      "text": "bu",
-      "start": 58.213,
-      "end": 58.48
-    },
-    {
-      "text": "durumda",
-      "start": 58.54,
-      "end": 58.96
-    },
-    {
-      "text": "ihtar",
-      "start": 59.2,
-      "end": 59.76
-    },
-    {
-      "text": "çekersin.",
-      "start": 59.82,
-      "end": 60.48
-    },
-    {
-      "text": "Gecikirse",
-      "start": 60.8,
-      "end": 61.68
-    },
-    {
-      "text": "faiz",
-      "start": 61.84,
-      "end": 62.48
-    },
-    {
-      "text": "de",
-      "start": 62.507,
-      "end": 62.56
-    },
-    {
-      "text": "istenebilir.",
-      "start": 62.62,
-      "end": 63.44
-    },
-    {
-      "text": "Ama",
-      "start": 63.62,
-      "end": 64.16
-    },
-    {
-      "text": "piyasa",
-      "start": 64.213,
-      "end": 64.56
-    },
-    {
-      "text": "düşüşünden",
-      "start": 64.6,
-      "end": 65.2
-    },
-    {
-      "text": "doğan",
-      "start": 65.24,
-      "end": 65.52
-    },
-    {
-      "text": "kayıp,",
-      "start": 65.58,
-      "end": 65.92
-    },
-    {
-      "text": "yatırımın",
-      "start": 66.01,
-      "end": 66.72
-    },
-    {
-      "text": "riskidir.",
-      "start": 66.784,
-      "end": 67.44
-    },
-    {
-      "text": "Değerinin",
-      "start": 67.587,
-      "end": 68.48
-    },
-    {
-      "text": "altında",
-      "start": 68.54,
-      "end": 68.96
-    },
-    {
-      "text": "satış",
-      "start": 69.027,
-      "end": 69.36
-    },
-    {
-      "text": "ya",
-      "start": 69.52,
-      "end": 69.84
-    },
-    {
-      "text": "da",
-      "start": 69.867,
-      "end": 69.92
-    },
-    {
-      "text": "gereksiz",
-      "start": 69.968,
-      "end": 70.4
-    },
-    {
-      "text": "gecikme",
-      "start": 70.46,
-      "end": 70.88
-    },
-    {
-      "text": "varsa,",
-      "start": 70.947,
-      "end": 71.44
+      "text": "varlıkları,",
+      "start": 4.78,
+      "end": 5.76
     },
     {
       "text": "kurucu",
-      "start": 71.56,
-      "end": 72.08
-    },
-    {
-      "text": "tazminatla",
-      "start": 72.12,
-      "end": 72.8
-    },
-    {
-      "text": "sorumlu",
-      "start": 72.85,
-      "end": 73.2
-    },
-    {
-      "text": "olur.",
-      "start": 73.264,
-      "end": 73.6
-    },
-    {
-      "text": "Kurucu",
-      "start": 73.82,
-      "end": 74.64
-    },
-    {
-      "text": "şirket",
-      "start": 74.709,
-      "end": 75.12
-    },
-    {
-      "text": "iflas",
-      "start": 75.173,
-      "end": 75.52
-    },
-    {
-      "text": "etse",
-      "start": 75.6,
-      "end": 75.84
-    },
-    {
-      "text": "bile,",
-      "start": 75.888,
-      "end": 76.24
-    },
-    {
-      "text": "fonun",
-      "start": 76.38,
-      "end": 76.88
-    },
-    {
-      "text": "malvarlığı",
-      "start": 76.94,
-      "end": 77.52
-    },
-    {
-      "text": "şirketinkinden",
-      "start": 77.566,
-      "end": 78.4
-    },
-    {
-      "text": "ayrıdır.",
-      "start": 78.544,
-      "end": 79.44
-    },
-    {
-      "text": "Fonun",
-      "start": 79.62,
-      "end": 80.24
-    },
-    {
-      "text": "varlıkları",
-      "start": 80.3,
-      "end": 80.8
-    },
-    {
-      "text": "haczedilemez,",
-      "start": 80.84,
-      "end": 81.68
-    },
-    {
-      "text": "iflas",
-      "start": 81.84,
-      "end": 82.4
-    },
-    {
-      "text": "masasına",
-      "start": 82.44,
-      "end": 82.88
-    },
-    {
-      "text": "girmez;",
-      "start": 82.92,
-      "end": 83.52
+      "start": 5.8,
+      "end": 6.08
     },
     {
       "text": "şirketin",
-      "start": 83.611,
-      "end": 84.24
+      "start": 6.137,
+      "end": 6.56
     },
     {
-      "text": "alacaklılarıyla",
-      "start": 84.32,
-      "end": 85.28
+      "text": "malvarlığından",
+      "start": 6.64,
+      "end": 7.52
     },
     {
-      "text": "yarışmazsın.",
-      "start": 85.32,
-      "end": 86.08
+      "text": "ayrıdır.",
+      "start": 7.648,
+      "end": 8.84
     },
     {
-      "text": "Kanun",
-      "start": 86.267,
-      "end": 87.2
-    },
-    {
-      "text": "bunu",
-      "start": 87.248,
-      "end": 87.44
-    },
-    {
-      "text": "açıkça",
-      "start": 87.52,
-      "end": 87.92
-    },
-    {
-      "text": "yazar:",
-      "start": 87.987,
-      "end": 88.4
-    },
-    {
-      "text": "fon",
-      "start": 88.62,
-      "end": 89.28
-    },
-    {
-      "text": "malvarlığı",
-      "start": 89.34,
-      "end": 89.92
-    },
-    {
-      "text": "haczedilemez,",
-      "start": 89.98,
-      "end": 90.96
-    },
-    {
-      "text": "ve",
-      "start": 91.12,
-      "end": 91.44
+      "text": "Şirket",
+      "start": 8.903,
+      "end": 9.28
     },
     {
       "text": "iflas",
-      "start": 91.6,
-      "end": 92.16
+      "start": 9.333,
+      "end": 9.68
+    },
+    {
+      "text": "etse",
+      "start": 9.733,
+      "end": 9.92
+    },
+    {
+      "text": "bile",
+      "start": 10.032,
+      "end": 10.48
+    },
+    {
+      "text": "iflas",
+      "start": 10.587,
+      "end": 10.96
     },
     {
       "text": "masasına",
-      "start": 92.22,
-      "end": 92.72
+      "start": 11.02,
+      "end": 11.44
     },
     {
-      "text": "dahil",
-      "start": 92.787,
-      "end": 93.12
-    },
-    {
-      "text": "edilemez.",
-      "start": 93.2,
-      "end": 94
-    },
-    {
-      "text": "Bu",
-      "start": 94.213,
-      "end": 94.64
-    },
-    {
-      "text": "durumda",
-      "start": 94.71,
-      "end": 95.2
-    },
-    {
-      "text": "Sermaye",
-      "start": 95.4,
-      "end": 96
-    },
-    {
-      "text": "Piyasası",
-      "start": 96.08,
-      "end": 96.48
-    },
-    {
-      "text": "Kurulu,",
-      "start": 96.537,
-      "end": 97.36
-    },
-    {
-      "text": "fonu",
-      "start": 97.4,
-      "end": 97.6
-    },
-    {
-      "text": "başka",
-      "start": 97.653,
-      "end": 97.92
-    },
-    {
-      "text": "bir",
-      "start": 97.96,
-      "end": 98.08
-    },
-    {
-      "text": "kurucuya",
-      "start": 98.14,
-      "end": 98.64
-    },
-    {
-      "text": "devreder.",
-      "start": 98.7,
-      "end": 99.36
-    },
-    {
-      "text": "Payını",
-      "start": 99.5,
-      "end": 100.08
-    },
-    {
-      "text": "yeni",
-      "start": 100.208,
-      "end": 100.72
-    },
-    {
-      "text": "kurucudan",
-      "start": 100.78,
-      "end": 101.2
-    },
-    {
-      "text": "istersin.",
-      "start": 101.28,
-      "end": 102
-    },
-    {
-      "text": "Devirden",
-      "start": 102.18,
-      "end": 102.96
-    },
-    {
-      "text": "önceki",
-      "start": 103.017,
-      "end": 103.36
-    },
-    {
-      "text": "yükümlülüklerden,",
-      "start": 103.4,
-      "end": 104.4
-    },
-    {
-      "text": "eski",
-      "start": 104.56,
-      "end": 105.2
-    },
-    {
-      "text": "ve",
-      "start": 105.36,
-      "end": 105.68
-    },
-    {
-      "text": "yeni",
-      "start": 105.744,
-      "end": 106
-    },
-    {
-      "text": "kurucu",
-      "start": 106.04,
-      "end": 106.56
-    },
-    {
-      "text": "birlikte",
-      "start": 106.64,
-      "end": 107.28
-    },
-    {
-      "text": "sorumludur.",
-      "start": 107.326,
-      "end": 108.44
+      "text": "girmez.",
+      "start": 11.5,
+      "end": 12.08
     },
     {
       "text": "Fon",
-      "start": 108.57,
-      "end": 108.96
+      "start": 12.28,
+      "end": 12.88
     },
     {
-      "text": "varlıklarını",
-      "start": 109,
-      "end": 109.52
+      "text": "tasfiye",
+      "start": 12.96,
+      "end": 13.44
     },
     {
-      "text": "saklayan",
-      "start": 109.58,
-      "end": 110
+      "text": "edilir,",
+      "start": 13.497,
+      "end": 14.32
     },
     {
-      "text": "kuruluş",
-      "start": 110.06,
-      "end": 110.48
+      "text": "varlıklar",
+      "start": 14.36,
+      "end": 14.8
     },
     {
-      "text": "da,",
-      "start": 110.533,
-      "end": 110.8
+      "text": "paraya",
+      "start": 14.86,
+      "end": 15.2
     },
     {
-      "text": "görevini",
-      "start": 110.88,
-      "end": 111.44
+      "text": "çevrilir,",
+      "start": 15.26,
+      "end": 16.16
     },
     {
-      "text": "ihlal",
-      "start": 111.52,
-      "end": 111.84
+      "text": "kalan",
+      "start": 16.2,
+      "end": 16.4
     },
     {
-      "text": "ederse",
-      "start": 111.904,
-      "end": 112.4
+      "text": "tutar",
+      "start": 16.467,
+      "end": 16.8
     },
     {
-      "text": "sana",
-      "start": 112.528,
-      "end": 113.04
+      "text": "yatırımcılara",
+      "start": 16.907,
+      "end": 17.84
     },
     {
-      "text": "karşı",
-      "start": 113.147,
-      "end": 113.68
+      "text": "payları",
+      "start": 17.9,
+      "end": 18.32
     },
     {
-      "text": "doğrudan",
-      "start": 113.76,
-      "end": 114.4
+      "text": "oranında",
+      "start": 18.368,
+      "end": 18.72
     },
     {
-      "text": "sorumludur.",
-      "start": 114.457,
-      "end": 115.2
-    },
-    {
-      "text": "Paran",
-      "start": 115.387,
-      "end": 116.32
-    },
-    {
-      "text": "bankada",
-      "start": 116.384,
-      "end": 116.8
-    },
-    {
-      "text": "ya",
-      "start": 116.933,
-      "end": 117.2
-    },
-    {
-      "text": "da",
-      "start": 117.227,
-      "end": 117.28
-    },
-    {
-      "text": "aracı",
-      "start": 117.333,
-      "end": 117.6
-    },
-    {
-      "text": "kurumda",
-      "start": 117.64,
-      "end": 118
-    },
-    {
-      "text": "bekliyorsa,",
-      "start": 118.04,
-      "end": 119.04
-    },
-    {
-      "text": "iadeyi",
-      "start": 119.12,
-      "end": 119.52
-    },
-    {
-      "text": "onlardan",
-      "start": 119.573,
-      "end": 120
-    },
-    {
-      "text": "istersin.",
-      "start": 120.04,
-      "end": 120.64
-    },
-    {
-      "text": "Yatırımcı",
-      "start": 120.96,
-      "end": 121.68
-    },
-    {
-      "text": "Tazmin",
-      "start": 121.72,
-      "end": 122.08
-    },
-    {
-      "text": "Merkezi",
-      "start": 122.14,
-      "end": 122.56
-    },
-    {
-      "text": "ise",
-      "start": 122.64,
-      "end": 122.88
-    },
-    {
-      "text": "yalnızca",
-      "start": 122.987,
-      "end": 123.84
-    },
-    {
-      "text": "banka",
-      "start": 123.933,
-      "end": 124.4
-    },
-    {
-      "text": "ya",
-      "start": 124.533,
-      "end": 124.8
-    },
-    {
-      "text": "da",
-      "start": 124.827,
-      "end": 124.88
-    },
-    {
-      "text": "aracı",
-      "start": 124.933,
-      "end": 125.2
-    },
-    {
-      "text": "kurum",
-      "start": 125.253,
-      "end": 125.52
-    },
-    {
-      "text": "ödeme",
-      "start": 125.573,
-      "end": 125.84
-    },
-    {
-      "text": "güçlüğüne",
-      "start": 125.893,
-      "end": 126.32
-    },
-    {
-      "text": "düşerse,",
-      "start": 126.36,
-      "end": 127.04
-    },
-    {
-      "text": "tavanlı",
-      "start": 127.2,
-      "end": 127.68
-    },
-    {
-      "text": "bir",
-      "start": 127.72,
-      "end": 127.84
-    },
-    {
-      "text": "tutarla",
-      "start": 127.893,
-      "end": 128.32
-    },
-    {
-      "text": "devreye",
-      "start": 128.38,
-      "end": 128.72
-    },
-    {
-      "text": "girer.",
-      "start": 128.78,
-      "end": 129.201
+      "text": "dağıtılır.",
+      "start": 18.784,
+      "end": 19.52
     },
     {
       "text": "Piyasa",
-      "start": 129.48,
-      "end": 130
+      "start": 19.92,
+      "end": 20.56
     },
     {
-      "text": "kaybını",
-      "start": 130.064,
-      "end": 130.4
+      "text": "düşüşünden",
+      "start": 20.6,
+      "end": 21.2
     },
     {
-      "text": "karşılamaz.",
-      "start": 130.453,
-      "end": 131.28
+      "text": "doğan",
+      "start": 21.24,
+      "end": 21.44
     },
     {
-      "text": "Zamanaşımı",
-      "start": 131.5,
-      "end": 132.56
-    },
-    {
-      "text": "için",
-      "start": 132.624,
-      "end": 132.88
-    },
-    {
-      "text": "güçlü",
-      "start": 133,
-      "end": 133.6
-    },
-    {
-      "text": "görüş",
-      "start": 133.68,
-      "end": 134.08
-    },
-    {
-      "text": "on",
-      "start": 134.24,
-      "end": 134.56
-    },
-    {
-      "text": "yıl.",
-      "start": 134.64,
-      "end": 134.96
-    },
-    {
-      "text": "Ama",
-      "start": 135.2,
-      "end": 135.92
-    },
-    {
-      "text": "beş",
-      "start": 136.02,
-      "end": 136.32
-    },
-    {
-      "text": "yıl",
-      "start": 136.38,
-      "end": 136.56
-    },
-    {
-      "text": "diyen",
-      "start": 136.6,
-      "end": 136.88
-    },
-    {
-      "text": "görüş",
-      "start": 136.933,
-      "end": 137.2
-    },
-    {
-      "text": "de",
-      "start": 137.253,
-      "end": 137.36
-    },
-    {
-      "text": "var.",
-      "start": 137.42,
-      "end": 137.68
-    },
-    {
-      "text": "O",
-      "start": 138,
-      "end": 138.32
-    },
-    {
-      "text": "yüzden",
-      "start": 138.4,
-      "end": 138.88
-    },
-    {
-      "text": "beş",
-      "start": 139.02,
-      "end": 139.44
-    },
-    {
-      "text": "yıl",
-      "start": 139.5,
-      "end": 139.68
-    },
-    {
-      "text": "dolmadan",
-      "start": 139.74,
-      "end": 140.16
-    },
-    {
-      "text": "harekete",
-      "start": 140.213,
-      "end": 140.72
-    },
-    {
-      "text": "geç.",
-      "start": 140.82,
-      "end": 141.56
-    },
-    {
-      "text": "Paran",
-      "start": 141.633,
-      "end": 142
-    },
-    {
-      "text": "ödenmezse,",
-      "start": 142.064,
-      "end": 142.96
-    },
-    {
-      "text": "önce",
-      "start": 143.072,
-      "end": 143.52
-    },
-    {
-      "text": "noterden",
-      "start": 143.56,
-      "end": 144
-    },
-    {
-      "text": "ihtar",
-      "start": 144.08,
-      "end": 144.4
-    },
-    {
-      "text": "çekip",
-      "start": 144.46,
-      "end": 144.8
-    },
-    {
-      "text": "hesap",
-      "start": 144.907,
-      "end": 145.44
-    },
-    {
-      "text": "istersin.",
-      "start": 145.5,
-      "end": 146.16
-    },
-    {
-      "text": "Sonra",
-      "start": 146.307,
-      "end": 147.04
-    },
-    {
-      "text": "arabulucuya",
-      "start": 147.168,
-      "end": 148.08
-    },
-    {
-      "text": "gidersin;",
-      "start": 148.12,
-      "end": 148.72
-    },
-    {
-      "text": "bu,",
-      "start": 148.933,
-      "end": 149.52
-    },
-    {
-      "text": "dava",
-      "start": 149.68,
-      "end": 150.16
-    },
-    {
-      "text": "açmanın",
-      "start": 150.267,
-      "end": 150.72
-    },
-    {
-      "text": "şartıdır.",
-      "start": 150.816,
-      "end": 151.92
-    },
-    {
-      "text": "Anlaşma",
-      "start": 152.053,
-      "end": 152.56
-    },
-    {
-      "text": "olmazsa,",
-      "start": 152.627,
-      "end": 153.28
-    },
-    {
-      "text": "icra",
-      "start": 153.413,
-      "end": 153.84
-    },
-    {
-      "text": "takibi",
-      "start": 153.94,
-      "end": 154.48
-    },
-    {
-      "text": "ya",
-      "start": 154.613,
-      "end": 154.88
-    },
-    {
-      "text": "da",
-      "start": 154.96,
-      "end": 155.12
-    },
-    {
-      "text": "alacak",
-      "start": 155.223,
-      "end": 155.84
-    },
-    {
-      "text": "davası.",
-      "start": 155.92,
-      "end": 156.64
-    },
-    {
-      "text": "Tacir",
-      "start": 156.86,
-      "end": 157.6
-    },
-    {
-      "text": "olmayan",
-      "start": 157.65,
-      "end": 158
-    },
-    {
-      "text": "yatırımcı",
-      "start": 158.04,
-      "end": 158.48
-    },
-    {
-      "text": "için",
-      "start": 158.544,
-      "end": 158.8
-    },
-    {
-      "text": "tüketici",
-      "start": 159,
-      "end": 159.6
-    },
-    {
-      "text": "mahkemesi",
-      "start": 159.66,
-      "end": 160.16
-    },
-    {
-      "text": "görüşü",
-      "start": 160.213,
-      "end": 160.56
-    },
-    {
-      "text": "güçlü.",
-      "start": 160.653,
-      "end": 161.52
-    },
-    {
-      "text": "Ama",
-      "start": 161.62,
-      "end": 161.92
-    },
-    {
-      "text": "ticaret",
-      "start": 161.98,
-      "end": 162.4
-    },
-    {
-      "text": "mahkemesini",
-      "start": 162.44,
-      "end": 162.96
-    },
-    {
-      "text": "görevli",
-      "start": 163.013,
-      "end": 163.36
-    },
-    {
-      "text": "sayan",
-      "start": 163.42,
-      "end": 163.68
-    },
-    {
-      "text": "kararlar",
-      "start": 163.747,
-      "end": 164.24
-    },
-    {
-      "text": "da",
-      "start": 164.267,
-      "end": 164.32
-    },
-    {
-      "text": "var;",
-      "start": 164.4,
-      "end": 164.72
-    },
-    {
-      "text": "dava",
-      "start": 164.96,
-      "end": 165.52
-    },
-    {
-      "text": "açmadan",
-      "start": 165.6,
-      "end": 166
-    },
-    {
-      "text": "önce",
-      "start": 166.08,
-      "end": 166.4
-    },
-    {
-      "text": "bölgedeki",
-      "start": 166.52,
-      "end": 167.2
-    },
-    {
-      "text": "uygulamaya",
-      "start": 167.26,
-      "end": 167.84
-    },
-    {
-      "text": "bakılmalı.",
-      "start": 167.88,
-      "end": 168.48
-    },
-    {
-      "text": "Haciz",
-      "start": 168.88,
-      "end": 169.6
-    },
-    {
-      "text": "ise",
-      "start": 169.66,
-      "end": 169.84
-    },
-    {
-      "text": "fonun",
-      "start": 169.98,
-      "end": 170.48
-    },
-    {
-      "text": "varlıklarına",
-      "start": 170.54,
-      "end": 171.12
-    },
-    {
-      "text": "değil,",
-      "start": 171.187,
-      "end": 171.6
-    },
-    {
-      "text": "kurucunun",
-      "start": 171.72,
-      "end": 172.4
-    },
-    {
-      "text": "kendi",
-      "start": 172.467,
-      "end": 172.8
-    },
-    {
-      "text": "malvarlığına",
-      "start": 172.86,
-      "end": 173.52
-    },
-    {
-      "text": "konur.",
-      "start": 173.56,
-      "end": 174
-    },
-    {
-      "text": "Böylece",
-      "start": 174.11,
-      "end": 174.88
-    },
-    {
-      "text": "diğer",
-      "start": 174.987,
-      "end": 175.52
-    },
-    {
-      "text": "yatırımcıların",
-      "start": 175.56,
-      "end": 176.24
-    },
-    {
-      "text": "payı",
-      "start": 176.3,
-      "end": 176.68
-    },
-    {
-      "text": "korunur.",
-      "start": 176.713,
-      "end": 177.12
-    },
-    {
-      "text": "Usulsüzlük",
-      "start": 177.36,
-      "end": 178.32
-    },
-    {
-      "text": "şüphesi",
-      "start": 178.368,
-      "end": 178.72
-    },
-    {
-      "text": "varsa,",
-      "start": 178.8,
-      "end": 179.44
-    },
-    {
-      "text": "Sermaye",
-      "start": 179.56,
-      "end": 180.08
-    },
-    {
-      "text": "Piyasası",
-      "start": 180.16,
-      "end": 180.56
-    },
-    {
-      "text": "Kuruluna",
-      "start": 180.613,
-      "end": 181.04
-    },
-    {
-      "text": "şikâyet",
-      "start": 181.1,
-      "end": 181.6
-    },
-    {
-      "text": "et.",
-      "start": 181.68,
-      "end": 181.92
-    },
-    {
-      "text": "Ceza",
-      "start": 182.133,
-      "end": 182.72
-    },
-    {
-      "text": "soruşturması",
-      "start": 182.784,
-      "end": 183.6
-    },
-    {
-      "text": "ancak",
-      "start": 183.733,
-      "end": 184.4
-    },
-    {
-      "text": "Kurulun",
-      "start": 184.493,
-      "end": 185.12
-    },
-    {
-      "text": "başvurusuyla",
-      "start": 185.184,
-      "end": 185.84
-    },
-    {
-      "text": "başlar",
-      "start": 185.931,
-      "end": 186.48
-    },
-    {
-      "text": "ve",
-      "start": 186.667,
-      "end": 187.04
-    },
-    {
-      "text": "hukuk",
-      "start": 187.147,
-      "end": 187.68
-    },
-    {
-      "text": "yolunun",
-      "start": 187.72,
-      "end": 188.08
-    },
-    {
-      "text": "yerine",
-      "start": 188.137,
-      "end": 188.48
-    },
-    {
-      "text": "geçmez.",
-      "start": 188.54,
-      "end": 189.28
-    },
-    {
-      "text": "Kısacası,",
-      "start": 189.46,
-      "end": 190.76
-    },
-    {
-      "text": "fonun",
-      "start": 190.85,
-      "end": 191.2
-    },
-    {
-      "text": "sona",
-      "start": 191.264,
-      "end": 191.52
-    },
-    {
-      "text": "ermesi,",
-      "start": 191.6,
-      "end": 192.32
+      "text": "kayıp,",
+      "start": 21.5,
+      "end": 21.92
     },
     {
       "text": "yatırımcının",
-      "start": 192.4,
-      "end": 193.12
+      "start": 22.013,
+      "end": 22.88
     },
     {
-      "text": "haklarının",
-      "start": 193.18,
-      "end": 193.76
+      "text": "riskidir.",
+      "start": 22.944,
+      "end": 23.68
     },
     {
-      "text": "sona",
-      "start": 193.824,
-      "end": 194.08
+      "text": "Paranızı",
+      "start": 23.787,
+      "end": 24.48
     },
     {
-      "text": "erdiği",
-      "start": 194.133,
-      "end": 194.4
+      "text": "fonun",
+      "start": 24.52,
+      "end": 24.8
     },
     {
-      "text": "anlamına",
-      "start": 194.444,
-      "end": 194.8
+      "text": "kurucusu",
+      "start": 24.84,
+      "end": 25.28
     },
     {
-      "text": "gelmez.",
-      "start": 194.86,
-      "end": 195.52
+      "text": "olan",
+      "start": 25.328,
+      "end": 25.52
     },
     {
-      "text": "Sence",
-      "start": 195.84,
-      "end": 196.4
+      "text": "şirketten",
+      "start": 25.56,
+      "end": 26.08
     },
     {
-      "text": "fon",
-      "start": 196.48,
-      "end": 196.72
+      "text": "istersiniz.",
+      "start": 26.12,
+      "end": 26.96
     },
     {
-      "text": "kapanırken",
-      "start": 196.76,
-      "end": 197.52
+      "text": "Şirket",
+      "start": 27.063,
+      "end": 27.68
     },
     {
-      "text": "yatırımcılar",
-      "start": 197.627,
-      "end": 198.48
+      "text": "iflas",
+      "start": 27.76,
+      "end": 28.16
     },
     {
-      "text": "yeterince",
-      "start": 198.547,
-      "end": 199.04
+      "text": "ettiyse,",
+      "start": 28.208,
+      "end": 28.721
     },
     {
-      "text": "bilgilendiriliyor",
-      "start": 199.1,
-      "end": 200.08
+      "text": "Es",
+      "start": 28.933,
+      "end": 29.36
     },
     {
-      "text": "mu?",
-      "start": 200.133,
-      "end": 200.32
+      "text": "Pe",
+      "start": 29.413,
+      "end": 29.52
     },
     {
-      "text": "Yorumlara",
-      "start": 200.6,
-      "end": 201.36
+      "text": "Ka'nın",
+      "start": 29.6,
+      "end": 29.92
     },
     {
-      "text": "yaz.",
-      "start": 201.46,
-      "end": 201.84
+      "text": "fonu",
+      "start": 29.98,
+      "end": 30.24
+    },
+    {
+      "text": "devrettiği",
+      "start": 30.28,
+      "end": 30.88
+    },
+    {
+      "text": "yeni",
+      "start": 30.976,
+      "end": 31.36
+    },
+    {
+      "text": "şirketten.",
+      "start": 31.4,
+      "end": 32.16
+    },
+    {
+      "text": "Ödeme",
+      "start": 32.64,
+      "end": 33.36
+    },
+    {
+      "text": "gecikirse:",
+      "start": 33.4,
+      "end": 34.16
+    },
+    {
+      "text": "önce",
+      "start": 34.288,
+      "end": 34.8
+    },
+    {
+      "text": "noter",
+      "start": 34.86,
+      "end": 35.12
+    },
+    {
+      "text": "ihtarıyla",
+      "start": 35.16,
+      "end": 35.76
+    },
+    {
+      "text": "ödeme",
+      "start": 35.893,
+      "end": 36.56
+    },
+    {
+      "text": "ve",
+      "start": 36.693,
+      "end": 36.96
+    },
+    {
+      "text": "hesap",
+      "start": 37.013,
+      "end": 37.28
+    },
+    {
+      "text": "isteyin.",
+      "start": 37.34,
+      "end": 38.36
+    },
+    {
+      "text": "Sonra",
+      "start": 38.447,
+      "end": 38.88
+    },
+    {
+      "text": "zorunlu",
+      "start": 38.97,
+      "end": 39.6
+    },
+    {
+      "text": "arabuluculuk.",
+      "start": 39.648,
+      "end": 40.76
+    },
+    {
+      "text": "Anlaşma",
+      "start": 40.88,
+      "end": 41.36
+    },
+    {
+      "text": "olmazsa",
+      "start": 41.427,
+      "end": 42.16
+    },
+    {
+      "text": "icra",
+      "start": 42.293,
+      "end": 42.72
+    },
+    {
+      "text": "takibi",
+      "start": 42.8,
+      "end": 43.36
+    },
+    {
+      "text": "ya",
+      "start": 43.493,
+      "end": 43.76
+    },
+    {
+      "text": "da",
+      "start": 43.787,
+      "end": 43.84
+    },
+    {
+      "text": "dava.",
+      "start": 43.92,
+      "end": 44.84
+    },
+    {
+      "text": "Haciz",
+      "start": 45.02,
+      "end": 45.52
+    },
+    {
+      "text": "fona",
+      "start": 45.56,
+      "end": 45.76
+    },
+    {
+      "text": "değil,",
+      "start": 45.813,
+      "end": 46.16
+    },
+    {
+      "text": "şirketin",
+      "start": 46.251,
+      "end": 46.88
+    },
+    {
+      "text": "malvarlığına",
+      "start": 46.96,
+      "end": 47.68
+    },
+    {
+      "text": "konur.",
+      "start": 47.72,
+      "end": 48.16
+    },
+    {
+      "text": "Saklayıcı",
+      "start": 48.3,
+      "end": 48.96
+    },
+    {
+      "text": "kuruluş",
+      "start": 49.01,
+      "end": 49.36
+    },
+    {
+      "text": "ve",
+      "start": 49.413,
+      "end": 49.52
+    },
+    {
+      "text": "banka",
+      "start": 49.587,
+      "end": 49.92
+    },
+    {
+      "text": "da,",
+      "start": 49.973,
+      "end": 50.16
+    },
+    {
+      "text": "şartları",
+      "start": 50.288,
+      "end": 50.96
+    },
+    {
+      "text": "varsa",
+      "start": 51.053,
+      "end": 51.52
+    },
+    {
+      "text": "sorumlu",
+      "start": 51.6,
+      "end": 52.16
+    },
+    {
+      "text": "olabilir.",
+      "start": 52.231,
+      "end": 53.2
+    },
+    {
+      "text": "Ödeme",
+      "start": 53.4,
+      "end": 53.84
+    },
+    {
+      "text": "tarihinden",
+      "start": 53.893,
+      "end": 54.4
+    },
+    {
+      "text": "itibaren",
+      "start": 54.462,
+      "end": 54.96
+    },
+    {
+      "text": "beş",
+      "start": 55.04,
+      "end": 55.28
+    },
+    {
+      "text": "yıl",
+      "start": 55.32,
+      "end": 55.44
+    },
+    {
+      "text": "dolmadan",
+      "start": 55.52,
+      "end": 56
+    },
+    {
+      "text": "harekete",
+      "start": 56.107,
+      "end": 56.72
+    },
+    {
+      "text": "geçin.",
+      "start": 56.8,
+      "end": 57.28
+    },
+    {
+      "text": "Usulsüzlük",
+      "start": 57.467,
+      "end": 58.32
+    },
+    {
+      "text": "varsa",
+      "start": 58.4,
+      "end": 58.8
+    },
+    {
+      "text": "Es",
+      "start": 58.987,
+      "end": 59.36
+    },
+    {
+      "text": "Pe",
+      "start": 59.387,
+      "end": 59.44
+    },
+    {
+      "text": "Ka'ya",
+      "start": 59.52,
+      "end": 59.84
+    },
+    {
+      "text": "şikâyet",
+      "start": 59.9,
+      "end": 60.32
+    },
+    {
+      "text": "edin,",
+      "start": 60.384,
+      "end": 60.72
+    },
+    {
+      "text": "bir",
+      "start": 60.82,
+      "end": 61.12
+    },
+    {
+      "text": "avukata",
+      "start": 61.2,
+      "end": 61.68
+    },
+    {
+      "text": "danışın.",
+      "start": 61.74,
+      "end": 62.24
     }
   ],
   "scenes": [
     {
-      "id": "yatirim",
-      "say": "Birikimini telefondan bir yatırım fonuna yatırdın. Her gün değerine bakıyorsun.",
-      "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "ground",
-            "y": 660
-          },
-          {
-            "kind": "person",
-            "x": 250,
-            "y": 660,
-            "color": "cast1",
-            "mood": "happy",
-            "look": "right",
-            "hair": "short",
-            "outfit": "suit",
-            "accessories": [
-              "glasses"
-            ],
-            "cue": "Birikimini"
-          },
-          {
-            "kind": "art",
-            "name": "phone-fund",
-            "x": 620,
-            "y": 640,
-            "w": 210,
-            "idle": "bob",
-            "cue": "telefondan"
-          },
-          {
-            "kind": "text",
-            "x": 620,
-            "y": 200,
-            "text": "Yatırım Fonum",
-            "size": 56,
-            "font": "serif",
-            "color": "ink",
-            "cue": "yatırım"
-          },
-          {
-            "kind": "art",
-            "name": "gold-coin",
-            "x": 790,
-            "y": 330,
-            "w": 90,
-            "anchor": "center",
-            "idle": "spin",
-            "cue": "değerine"
-          }
-        ]
-      },
-      "headline": "Birikimin bir *fonda*.",
-      "from": 0,
-      "durationInFrames": 154
-    },
-    {
-      "id": "bildirim",
-      "say": "Bir sabah bir bildirim geliyor: fonun sona eriyor. Peki yatırım fonun kapanırsa, paran ne olur?",
+      "id": "kapandi",
+      "say": "Yatırım yaptığınız fon kapandı. Peki paranız ne olacak?",
       "visual": {
         "type": "stage",
         "elements": [
@@ -2236,84 +767,107 @@
             "accessories": [
               "glasses"
             ],
-            "cue": "Bir"
+            "cue": "Yatırım"
           },
           {
             "kind": "art",
             "name": "phone-fund",
-            "x": 620,
+            "x": 640,
             "y": 660,
-            "w": 190,
-            "cue": "bildirim"
-          },
-          {
-            "kind": "card",
-            "x": 620,
-            "y": 250,
-            "w": 420,
-            "label": "Bildirim",
-            "value": "Fonunuz sona eriyor",
-            "cue": "sona"
+            "w": 200,
+            "idle": "bob",
+            "cue": "fon"
           },
           {
             "kind": "badge",
-            "x": 800,
-            "y": 160,
+            "x": 780,
+            "y": 250,
             "symbol": "!",
-            "cue": "eriyor"
+            "cue": "kapandı"
           },
           {
             "kind": "bubble",
             "x": 250,
-            "y": 200,
+            "y": 190,
             "icon": "CircleHelp",
             "variant": "thought",
-            "cue": "paran"
+            "cue": "paranız"
           }
         ]
       },
       "transition": "blur",
-      "headline": "Yatırım fonunuz *kapanırsa* ne olur?",
-      "from": 154,
-      "durationInFrames": 223
+      "headline": "Fon kapandı… Ya *param*?",
+      "from": 0,
+      "durationInFrames": 115
     },
     {
-      "id": "tasfiye",
-      "say": "Fon sona erince tasfiye başlar. Fondaki hisseler, tahviller, mevduat ve diğer varlıklar, içtüzükteki kurallara göre paraya dönüştürülür.",
+      "id": "kasalar",
+      "say": "Fonun varlıkları, kurucu şirketin malvarlığından ayrıdır. Şirket iflas etse bile iflas masasına girmez.",
       "visual": {
-        "type": "physics",
-        "items": [
+        "type": "stage",
+        "elements": [
           {
-            "label": "Hisse",
-            "icon": "TrendingUp",
-            "cue": "hisseler"
+            "kind": "ground",
+            "y": 640
           },
           {
-            "label": "Tahvil",
-            "icon": "FileText",
-            "cue": "tahviller"
+            "kind": "art",
+            "name": "safe-box",
+            "x": 240,
+            "y": 640,
+            "w": 250,
+            "color": "accent",
+            "cue": "varlıkları"
           },
           {
-            "label": "Mevduat",
-            "icon": "Landmark",
-            "cue": "mevduat"
+            "kind": "art",
+            "name": "safe-box",
+            "x": 700,
+            "y": 640,
+            "w": 250,
+            "color": "cast1",
+            "cue": "kurucu"
           },
           {
-            "label": "Diğer",
-            "icon": "Coins",
-            "cue": "diğer"
+            "kind": "line",
+            "from": [
+              470,
+              250
+            ],
+            "to": [
+              470,
+              640
+            ],
+            "dashed": true,
+            "cue": "ayrıdır"
+          },
+          {
+            "kind": "badge",
+            "x": 700,
+            "y": 250,
+            "symbol": "x",
+            "cue": "iflas"
+          },
+          {
+            "kind": "icon",
+            "x": 240,
+            "y": 250,
+            "name": "ShieldCheck",
+            "size": 120,
+            "color": "accent",
+            "cue": "girmez"
           }
         ]
       },
-      "transition": "slide",
-      "headline": "Önce *tasfiye* başlar.",
-      "source": "Tebliğ III-52.1 m.28",
-      "from": 377,
-      "durationInFrames": 315
+      "transition": "light",
+      "headline": "Fon varlıkları ≠ *şirket* malvarlığı",
+      "source": "SPKn m.53",
+      "from": 115,
+      "durationInFrames": 251
     },
     {
-      "id": "dagitim",
-      "say": "Kalan tutar, yani tasfiye bakiyesi, yatırımcılara katılma payları oranında dağıtılır. Bu aşamada, yalnızca pay sahiplerine ödeme yapılabilir.",
+      "id": "tasfiye",
+      "say": "Fon tasfiye edilir, varlıklar paraya çevrilir, kalan tutar yatırımcılara payları oranında dağıtılır. Piyasa düşüşünden doğan kayıp, yatırımcının riskidir.",
       "visual": {
         "type": "stage",
         "elements": [
@@ -2324,17 +878,27 @@
           {
             "kind": "icon",
             "x": 470,
-            "y": 330,
+            "y": 300,
             "name": "PieChart",
-            "size": 190,
+            "size": 180,
             "color": "accent",
-            "cue": "Kalan"
+            "cue": "tasfiye"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 640,
+            "y": 220,
+            "w": 80,
+            "anchor": "center",
+            "idle": "spin",
+            "cue": "paraya"
           },
           {
             "kind": "line",
             "from": [
               400,
-              360
+              350
             ],
             "to": [
               190,
@@ -2347,20 +911,20 @@
             "kind": "line",
             "from": [
               470,
-              380
+              390
             ],
             "to": [
               470,
               470
             ],
             "dashed": true,
-            "cue": "katılma"
+            "cue": "payları"
           },
           {
             "kind": "line",
             "from": [
               540,
-              360
+              350
             ],
             "to": [
               750,
@@ -2392,7 +956,7 @@
             "hair": "bun",
             "outfit": "dress",
             "scale": 0.62,
-            "cue": "katılma"
+            "cue": "payları"
           },
           {
             "kind": "person",
@@ -2403,53 +967,28 @@
             "hair": "curly",
             "outfit": "plain",
             "scale": 0.62,
-            "cue": "payları"
+            "cue": "oranında"
           },
           {
-            "kind": "art",
-            "name": "gold-coin",
-            "x": 260,
-            "y": 520,
-            "w": 70,
-            "anchor": "center",
-            "cue": "dağıtılır"
-          },
-          {
-            "kind": "art",
-            "name": "gold-coin",
-            "x": 560,
-            "y": 520,
-            "w": 100,
-            "anchor": "center",
-            "cue": "dağıtılır"
-          },
-          {
-            "kind": "art",
-            "name": "gold-coin",
-            "x": 860,
-            "y": 520,
-            "w": 55,
-            "anchor": "center",
-            "cue": "dağıtılır"
-          },
-          {
-            "kind": "badge",
-            "x": 610,
+            "kind": "icon",
+            "x": 790,
             "y": 230,
-            "symbol": "check",
-            "cue": "yalnızca"
+            "name": "TrendingDown",
+            "size": 120,
+            "color": "danger",
+            "cue": "düşüşünden"
           }
         ]
       },
       "transition": "zoom",
-      "headline": "Payın *oranında* ödeme.",
-      "source": "SPKn m.53/3 · Tebliğ m.28/2",
-      "from": 692,
-      "durationInFrames": 335
+      "headline": "Tasfiye → paraya çevirme → *dağıtım*",
+      "source": "Tebliğ III-52.1 m.28",
+      "from": 366,
+      "durationInFrames": 345
     },
     {
-      "id": "kurucu",
-      "say": "Fonun tüzel kişiliği yoktur, dava da açamaz. Onu, kurucusu olan portföy yönetim şirketi yönetir ve temsil eder. Bu yüzden tasfiye payını kurucudan istersin.",
+      "id": "muhatap",
+      "say": "Paranızı fonun kurucusu olan şirketten istersiniz. Şirket iflas ettiyse, Es Pe Ka'nın fonu devrettiği yeni şirketten.",
       "visual": {
         "type": "stage",
         "elements": [
@@ -2459,7 +998,7 @@
           },
           {
             "kind": "person",
-            "x": 190,
+            "x": 150,
             "y": 660,
             "color": "cast1",
             "pose": "aimRight",
@@ -2469,459 +1008,62 @@
             "accessories": [
               "glasses"
             ],
-            "cue": "Fonun"
-          },
-          {
-            "kind": "badge",
-            "x": 470,
-            "y": 200,
-            "symbol": "x",
-            "cue": "dava"
+            "cue": "Paranızı"
           },
           {
             "kind": "icon",
-            "x": 700,
-            "y": 600,
+            "x": 470,
+            "y": 630,
             "name": "Building2",
-            "size": 230,
-            "color": "ink",
-            "cue": "portföy"
-          },
-          {
-            "kind": "line",
-            "from": [
-              300,
-              440
-            ],
-            "to": [
-              570,
-              440
-            ],
-            "dashed": true,
-            "cue": "istersin"
-          },
-          {
-            "kind": "art",
-            "name": "gold-coin",
-            "x": 440,
-            "y": 380,
-            "w": 80,
-            "anchor": "center",
-            "idle": "bob",
-            "cue": "tasfiye"
-          }
-        ]
-      },
-      "transition": "wipe",
-      "headline": "Tasfiye payı *kurucudan* istenir.",
-      "source": "SPKn m.52",
-      "from": 1027,
-      "durationInFrames": 369
-    },
-    {
-      "id": "vade",
-      "say": "Peki ne zaman ödenmeli? Kurucu bir dağıtım tarihi ilan ettiyse, o gün geçince temerrüde düşer. Tarih yoksa, tasfiye makul sürede bitmeli; bu durumda ihtar çekersin.",
-      "visual": {
-        "type": "sketch",
-        "strokes": [
-          {
-            "kind": "icon",
-            "name": "CalendarDays",
-            "x": 260,
-            "y": 330,
-            "size": 230,
-            "cue": "dağıtım"
-          },
-          {
-            "kind": "circle",
-            "x": 260,
-            "y": 330,
-            "r": 160,
-            "cue": "geçince"
-          },
-          {
-            "kind": "arrow",
-            "from": [
-              420,
-              330
-            ],
-            "to": [
-              600,
-              330
-            ],
-            "bend": -0.3,
-            "cue": "Tarih"
-          },
-          {
-            "kind": "icon",
-            "name": "Hourglass",
-            "x": 720,
-            "y": 330,
-            "size": 200,
-            "cue": "makul"
-          },
-          {
-            "kind": "underline",
-            "x": 720,
-            "y": 480,
-            "w": 220,
-            "cue": "ihtar"
-          }
-        ]
-      },
-      "transition": "zoom",
-      "headline": "Ödeme *ne zaman*?",
-      "source": "TBK m.117 · Tebliğ m.28",
-      "from": 1396,
-      "durationInFrames": 426
-    },
-    {
-      "id": "faiz",
-      "say": "Gecikirse faiz de istenebilir. Ama piyasa düşüşünden doğan kayıp, yatırımın riskidir. Değerinin altında satış ya da gereksiz gecikme varsa, kurucu tazminatla sorumlu olur.",
-      "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "ground",
-            "y": 660
-          },
-          {
-            "kind": "icon",
-            "x": 470,
-            "y": 130,
-            "name": "Percent",
-            "size": 110,
-            "color": "accent",
-            "cue": "faiz"
-          },
-          {
-            "kind": "scales",
-            "x": 470,
-            "y": 660,
-            "tilt": 0,
-            "left": "Piyasa",
-            "right": "Özensizlik",
-            "cue": "piyasa"
-          },
-          {
-            "kind": "icon",
-            "x": 180,
-            "y": 420,
-            "name": "TrendingDown",
-            "size": 120,
+            "size": 190,
             "color": "muted",
-            "cue": "düşüşünden"
+            "cue": "kurucusu"
           },
           {
             "kind": "badge",
-            "x": 150,
-            "y": 140,
-            "symbol": "x",
-            "cue": "riskidir"
-          },
-          {
-            "kind": "icon",
-            "x": 760,
-            "y": 420,
-            "name": "Gavel",
-            "size": 120,
-            "color": "danger",
-            "cue": "altında"
-          },
-          {
-            "kind": "badge",
-            "x": 790,
-            "y": 140,
-            "symbol": "check",
-            "cue": "tazminatla"
-          }
-        ]
-      },
-      "transition": "slide",
-      "headline": "Faiz ve *tazminat*.",
-      "source": "TBK m.112 · m.117",
-      "from": 1822,
-      "durationInFrames": 390
-    },
-    {
-      "id": "kasalar",
-      "say": "Kurucu şirket iflas etse bile, fonun malvarlığı şirketinkinden ayrıdır. Fonun varlıkları haczedilemez, iflas masasına girmez; şirketin alacaklılarıyla yarışmazsın.",
-      "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "ground",
-            "y": 640
-          },
-          {
-            "kind": "art",
-            "name": "safe-box",
-            "x": 700,
-            "y": 640,
-            "w": 250,
-            "color": "cast1",
-            "cue": "Kurucu"
-          },
-          {
-            "kind": "badge",
-            "x": 700,
-            "y": 250,
+            "x": 470,
+            "y": 330,
             "symbol": "x",
             "cue": "iflas"
           },
           {
             "kind": "art",
             "name": "safe-box",
-            "x": 240,
-            "y": 640,
-            "w": 250,
+            "x": 620,
+            "y": 420,
+            "w": 110,
             "color": "accent",
-            "cue": "fonun"
-          },
-          {
-            "kind": "line",
-            "from": [
-              470,
-              250
-            ],
-            "to": [
-              470,
-              640
-            ],
-            "dashed": true,
-            "cue": "ayrıdır"
-          },
-          {
-            "kind": "icon",
-            "x": 240,
-            "y": 250,
-            "name": "ShieldCheck",
-            "size": 120,
-            "color": "accent",
-            "cue": "haczedilemez"
-          },
-          {
-            "kind": "person",
-            "x": 880,
-            "y": 640,
-            "color": "muted",
-            "mood": "sad",
-            "look": "left",
-            "hair": "bald",
-            "outfit": "plain",
-            "scale": 0.55,
-            "cue": "alacaklılarıyla"
-          }
-        ]
-      },
-      "transition": "light",
-      "headline": "İki *ayrı* kasa.",
-      "source": "SPKn m.53",
-      "from": 2212,
-      "durationInFrames": 374
-    },
-    {
-      "id": "madde-53",
-      "say": "Kanun bunu açıkça yazar: fon malvarlığı haczedilemez, ve iflas masasına dahil edilemez.",
-      "visual": {
-        "type": "hyperframe",
-        "comp": "law-article",
-        "vars": {
-          "code": "SPKn",
-          "article": "m. 53/2",
-          "text": "Fon mal varlığı … haczedilemez, üzerine ihtiyati tedbir konulamaz ve iflas masasına dâhil edilemez.",
-          "highlight": "iflas masasına dâhil edilemez",
-          "note": "Fon mal varlığının ayrılığı"
-        },
-        "cues": {
-          "highlight": "iflas"
-        }
-      },
-      "transition": "fade",
-      "headline": "Fon *korunur*.",
-      "source": "SPKn m.53/2",
-      "from": 2586,
-      "durationInFrames": 238,
-      "assetFresh": false
-    },
-    {
-      "id": "devir",
-      "say": "Bu durumda Sermaye Piyasası Kurulu, fonu başka bir kurucuya devreder. Payını yeni kurucudan istersin. Devirden önceki yükümlülüklerden, eski ve yeni kurucu birlikte sorumludur.",
-      "visual": {
-        "type": "stage",
-        "elements": [
-          {
-            "kind": "ground",
-            "y": 650
-          },
-          {
-            "kind": "icon",
-            "x": 180,
-            "y": 620,
-            "name": "Building2",
-            "size": 200,
-            "color": "muted",
-            "cue": "Bu"
-          },
-          {
-            "kind": "badge",
-            "x": 180,
-            "y": 330,
-            "symbol": "x",
-            "cue": "Bu"
-          },
-          {
-            "kind": "art",
-            "name": "safe-box",
-            "x": 470,
-            "y": 520,
-            "w": 150,
-            "color": "accent",
+            "anchor": "center",
             "idle": "bob",
-            "cue": "fonu"
-          },
-          {
-            "kind": "line",
-            "from": [
-              280,
-              470
-            ],
-            "to": [
-              660,
-              470
-            ],
-            "dashed": true,
-            "cue": "devreder"
+            "cue": "devrettiği"
           },
           {
             "kind": "icon",
-            "x": 760,
-            "y": 620,
+            "x": 790,
+            "y": 630,
             "name": "Building2",
-            "size": 200,
+            "size": 190,
             "color": "accent",
-            "cue": "başka"
-          },
-          {
-            "kind": "badge",
-            "x": 760,
-            "y": 330,
-            "symbol": "check",
             "cue": "yeni"
           },
           {
-            "kind": "icon",
-            "x": 470,
-            "y": 200,
-            "name": "Link",
-            "size": 110,
-            "color": "ink",
-            "cue": "birlikte"
+            "kind": "badge",
+            "x": 790,
+            "y": 330,
+            "symbol": "check",
+            "cue": "şirketten"
           }
         ]
       },
       "transition": "wipe",
-      "headline": "Fon *yeni kurucuya* geçer.",
-      "source": "SPKn m.55 · Tebliğ m.13",
-      "from": 2824,
-      "durationInFrames": 431
-    },
-    {
-      "id": "digerleri",
-      "say": "Fon varlıklarını saklayan kuruluş da, görevini ihlal ederse sana karşı doğrudan sorumludur. Paran bankada ya da aracı kurumda bekliyorsa, iadeyi onlardan istersin.",
-      "visual": {
-        "type": "physics",
-        "items": [
-          {
-            "label": "Kurucu",
-            "icon": "Building2",
-            "cue": "Fon"
-          },
-          {
-            "label": "Saklayıcı",
-            "icon": "Lock",
-            "cue": "saklayan"
-          },
-          {
-            "label": "Banka",
-            "icon": "Landmark",
-            "cue": "bankada"
-          },
-          {
-            "label": "Aracı kurum",
-            "icon": "Briefcase",
-            "cue": "aracı"
-          }
-        ]
-      },
-      "transition": "zoom",
-      "headline": "Kimler *sorumlu*?",
-      "source": "SPKn m.56",
-      "from": 3255,
-      "durationInFrames": 371
-    },
-    {
-      "id": "ytm",
-      "say": "Yatırımcı Tazmin Merkezi ise yalnızca banka ya da aracı kurum ödeme güçlüğüne düşerse, tavanlı bir tutarla devreye girer. Piyasa kaybını karşılamaz.",
-      "visual": {
-        "type": "sketch",
-        "strokes": [
-          {
-            "kind": "icon",
-            "name": "ShieldHalf",
-            "x": 290,
-            "y": 330,
-            "size": 240,
-            "cue": "Yatırımcı"
-          },
-          {
-            "kind": "underline",
-            "x": 290,
-            "y": 500,
-            "w": 240,
-            "cue": "tavanlı"
-          },
-          {
-            "kind": "icon",
-            "name": "TrendingDown",
-            "x": 680,
-            "y": 330,
-            "size": 200,
-            "cue": "Piyasa"
-          },
-          {
-            "kind": "path",
-            "d": "M570 220 L790 440 M790 220 L570 440",
-            "color": "danger",
-            "width": 8,
-            "cue": "karşılamaz"
-          }
-        ]
-      },
-      "transition": "blur",
-      "headline": "Tazmin Merkezi *sınırlı*.",
-      "source": "SPKn m.83",
-      "from": 3626,
-      "durationInFrames": 317
-    },
-    {
-      "id": "zamanasimi",
-      "say": "Zamanaşımı için güçlü görüş on yıl. Ama beş yıl diyen görüş de var. O yüzden beş yıl dolmadan harekete geç.",
-      "visual": {
-        "type": "particles",
-        "effect": "burst",
-        "text": "5 yıl",
-        "cue": "dolmadan"
-      },
-      "transition": "light",
-      "headline": "Süreyi *kaçırma*.",
-      "source": "TBK m.146 · m.147",
-      "from": 3943,
-      "durationInFrames": 304
+      "headline": "Muhatap: kurucu / *yeni* kurucu",
+      "source": "SPKn m.52 · Tebliğ m.13",
+      "from": 711,
+      "durationInFrames": 266
     },
     {
       "id": "yollar",
-      "say": "Paran ödenmezse, önce noterden ihtar çekip hesap istersin. Sonra arabulucuya gidersin; bu, dava açmanın şartıdır. Anlaşma olmazsa, icra takibi ya da alacak davası.",
+      "say": "Ödeme gecikirse: önce noter ihtarıyla ödeme ve hesap isteyin. Sonra zorunlu arabuluculuk. Anlaşma olmazsa icra takibi ya da dava.",
       "visual": {
         "type": "hyperframe",
         "comp": "timeline",
@@ -2933,52 +1075,31 @@
             },
             {
               "when": "ADIM 2",
-              "what": "Hesap talebi"
-            },
-            {
-              "when": "ADIM 3",
               "what": "Arabuluculuk"
             },
             {
-              "when": "ADIM 4",
-              "what": "Takip / dava"
+              "when": "ADIM 3",
+              "what": "İcra / Dava"
             }
           ],
-          "active": 4
+          "active": 3
         },
         "cues": {
-          "e1": "ihtar",
-          "e2": "hesap",
-          "e3": "arabulucuya",
-          "e4": "icra"
+          "e1": "noter",
+          "e2": "arabulucuya",
+          "e3": "icra"
         }
       },
       "transition": "slide",
-      "headline": "Paran *ödenmezse*.",
+      "headline": "Ödeme *gecikirse*: üç adım",
       "source": "TBK m.117 · TTK m.5/A · TKHK m.73/A",
-      "from": 4247,
-      "durationInFrames": 456,
+      "from": 977,
+      "durationInFrames": 371,
       "assetFresh": false
     },
     {
-      "id": "mahkeme",
-      "say": "Tacir olmayan yatırımcı için tüketici mahkemesi görüşü güçlü. Ama ticaret mahkemesini görevli sayan kararlar da var; dava açmadan önce bölgedeki uygulamaya bakılmalı.",
-      "visual": {
-        "type": "object3d",
-        "model": "scales",
-        "orbit": 45,
-        "tilt": -0.4,
-        "cue": "güçlü"
-      },
-      "transition": "fade",
-      "headline": "Hangi *mahkeme*?",
-      "source": "TKHK m.3 · m.73 · TTK m.4",
-      "from": 4703,
-      "durationInFrames": 361
-    },
-    {
       "id": "haciz",
-      "say": "Haciz ise fonun varlıklarına değil, kurucunun kendi malvarlığına konur. Böylece diğer yatırımcıların payı korunur.",
+      "say": "Haciz fona değil, şirketin malvarlığına konur. Saklayıcı kuruluş ve banka da, şartları varsa sorumlu olabilir.",
       "visual": {
         "type": "stage",
         "elements": [
@@ -2989,164 +1110,115 @@
           {
             "kind": "art",
             "name": "safe-box",
-            "x": 220,
+            "x": 200,
             "y": 660,
             "w": 220,
             "color": "accent",
-            "cue": "fonun"
+            "cue": "Haciz"
           },
           {
             "kind": "icon",
-            "x": 220,
-            "y": 280,
+            "x": 200,
+            "y": 300,
             "name": "ShieldCheck",
             "size": 110,
             "color": "accent",
-            "cue": "değil"
+            "cue": "fona"
           },
           {
             "kind": "icon",
-            "x": 690,
+            "x": 700,
             "y": 640,
             "name": "Building2",
             "size": 240,
             "color": "ink",
-            "cue": "kurucunun"
+            "cue": "şirketin"
           },
           {
             "kind": "stamp",
-            "x": 690,
+            "x": 700,
             "y": 300,
             "text": "HACİZ",
             "rotate": -8,
             "cue": "konur"
           },
           {
-            "kind": "person",
-            "x": 380,
-            "y": 660,
-            "color": "cast2",
-            "mood": "happy",
-            "look": "left",
-            "hair": "bun",
-            "outfit": "dress",
-            "scale": 0.55,
-            "cue": "diğer"
+            "kind": "icon",
+            "x": 420,
+            "y": 630,
+            "name": "Lock",
+            "size": 110,
+            "color": "cast1",
+            "cue": "Saklayıcı"
           },
           {
-            "kind": "person",
-            "x": 470,
-            "y": 660,
-            "color": "muted",
-            "mood": "happy",
-            "look": "left",
-            "hair": "curly",
-            "outfit": "plain",
-            "scale": 0.55,
-            "cue": "korunur"
+            "kind": "icon",
+            "x": 420,
+            "y": 420,
+            "name": "Landmark",
+            "size": 110,
+            "color": "cast1",
+            "cue": "banka"
           }
         ]
       },
-      "transition": "slide",
-      "headline": "Haciz *kurucuya*.",
-      "source": "SPKn m.53 · İİK m.257",
-      "from": 5064,
-      "durationInFrames": 254
+      "transition": "fade",
+      "headline": "Haciz → *şirkete*, fona değil",
+      "source": "SPKn m.53 · m.56",
+      "from": 1348,
+      "durationInFrames": 252
     },
     {
-      "id": "spk",
-      "say": "Usulsüzlük şüphesi varsa, Sermaye Piyasası Kuruluna şikâyet et. Ceza soruşturması ancak Kurulun başvurusuyla başlar ve hukuk yolunun yerine geçmez.",
+      "id": "sure",
+      "say": "Ödeme tarihinden itibaren beş yıl dolmadan harekete geçin. Usulsüzlük varsa Es Pe Ka'ya şikâyet edin, bir avukata danışın.",
       "visual": {
-        "type": "stage",
-        "elements": [
+        "type": "sketch",
+        "strokes": [
           {
-            "kind": "ground",
-            "y": 660
+            "kind": "icon",
+            "name": "Hourglass",
+            "x": 200,
+            "y": 300,
+            "size": 210,
+            "cue": "Ödeme"
           },
           {
-            "kind": "person",
+            "kind": "circle",
             "x": 200,
-            "y": 660,
-            "color": "cast1",
-            "pose": "raise",
-            "mood": "worried",
-            "look": "right",
-            "hair": "short",
-            "outfit": "suit",
-            "accessories": [
-              "glasses"
-            ],
-            "cue": "Usulsüzlük"
+            "y": 300,
+            "r": 150,
+            "cue": "beş"
           },
           {
-            "kind": "bubble",
-            "x": 200,
-            "y": 200,
-            "icon": "MessageSquareWarning",
-            "variant": "speech",
+            "kind": "icon",
+            "name": "Landmark",
+            "x": 480,
+            "y": 300,
+            "size": 180,
             "cue": "şikâyet"
           },
           {
             "kind": "icon",
-            "x": 690,
-            "y": 620,
-            "name": "Landmark",
-            "size": 230,
-            "color": "ink",
-            "cue": "Kuruluna"
-          },
-          {
-            "kind": "line",
-            "from": [
-              320,
-              420
-            ],
-            "to": [
-              560,
-              420
-            ],
-            "dashed": true,
-            "cue": "başvurusuyla"
-          },
-          {
-            "kind": "icon",
-            "x": 690,
-            "y": 260,
             "name": "Scale",
-            "size": 110,
-            "color": "accent",
-            "cue": "hukuk"
+            "x": 750,
+            "y": 300,
+            "size": 180,
+            "cue": "avukata"
+          },
+          {
+            "kind": "underline",
+            "x": 640,
+            "y": 450,
+            "w": 220,
+            "cue": "danışın"
           }
         ]
       },
-      "transition": "wipe",
-      "headline": "Usulsüzlükte *SPK*.",
-      "source": "SPKn m.110 · m.115",
-      "from": 5318,
-      "durationInFrames": 363
-    },
-    {
-      "id": "mesaj",
-      "say": "Kısacası, fonun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez. Sence fon kapanırken yatırımcılar yeterince bilgilendiriliyor mu? Yorumlara yaz.",
-      "visual": {
-        "type": "hyperframe",
-        "comp": "installer",
-        "vars": {
-          "mode": "message",
-          "monitor": false,
-          "appName": "Yatırım Fonu · Özet",
-          "message": "Bir yatırım fonunun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez.",
-          "message2": "Payını kurucudan iste, süreyi kaçırma."
-        },
-        "cues": {
-          "msg2": "Sence"
-        }
-      },
-      "transition": "fade",
-      "headline": "Haklarınız *devam* eder.",
-      "from": 5681,
-      "durationInFrames": 396,
-      "assetFresh": false
+      "transition": "light",
+      "headline": "5 yıl dolmadan *harekete* geçin",
+      "source": "TBK m.146 · m.147 · SPKn m.115",
+      "from": 1600,
+      "durationInFrames": 289
     }
   ]
 }
