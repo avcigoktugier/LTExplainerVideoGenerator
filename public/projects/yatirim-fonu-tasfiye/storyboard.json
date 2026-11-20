@@ -23,11 +23,53 @@
       "visual": {
         "type": "stage",
         "elements": [
-          { "kind": "ground", "y": 660 },
-          { "kind": "person", "x": 250, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "mood": "happy", "cue": "Birikimini" },
-          { "kind": "art", "name": "phone-fund", "x": 620, "y": 640, "w": 210, "idle": "bob", "cue": "telefondan" },
-          { "kind": "text", "x": 620, "y": 200, "text": "Yatırım Fonum", "size": 56, "font": "serif", "color": "ink", "cue": "yatırım" },
-          { "kind": "art", "name": "gold-coin", "x": 790, "y": 330, "w": 90, "anchor": "center", "idle": "spin", "cue": "değerine" }
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 250,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "look": "right",
+            "mood": "happy",
+            "cue": "Birikimini"
+          },
+          {
+            "kind": "art",
+            "name": "phone-fund",
+            "x": 620,
+            "y": 640,
+            "w": 210,
+            "idle": "bob",
+            "cue": "telefondan"
+          },
+          {
+            "kind": "text",
+            "x": 620,
+            "y": 200,
+            "text": "Yatırım Fonum",
+            "size": 56,
+            "font": "serif",
+            "color": "ink",
+            "cue": "yatırım"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 790,
+            "y": 330,
+            "w": 90,
+            "anchor": "center",
+            "idle": "spin",
+            "cue": "değerine"
+          }
         ]
       }
     },
@@ -39,12 +81,56 @@
       "visual": {
         "type": "stage",
         "elements": [
-          { "kind": "ground", "y": 660 },
-          { "kind": "person", "x": 250, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "mood": "shocked", "cue": "Bir" },
-          { "kind": "art", "name": "phone-fund", "x": 620, "y": 660, "w": 190, "cue": "bildirim" },
-          { "kind": "card", "x": 620, "y": 250, "w": 420, "label": "Bildirim", "value": "Fonunuz sona eriyor", "cue": "sona" },
-          { "kind": "badge", "x": 800, "y": 160, "symbol": "!", "cue": "eriyor" },
-          { "kind": "bubble", "x": 250, "y": 200, "icon": "CircleHelp", "variant": "thought", "cue": "paran" }
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "x": 250,
+            "y": 660,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "look": "right",
+            "mood": "shocked",
+            "cue": "Bir"
+          },
+          {
+            "kind": "art",
+            "name": "phone-fund",
+            "x": 620,
+            "y": 660,
+            "w": 190,
+            "cue": "bildirim"
+          },
+          {
+            "kind": "card",
+            "x": 620,
+            "y": 250,
+            "w": 420,
+            "label": "Bildirim",
+            "value": "Fonunuz sona eriyor",
+            "cue": "sona"
+          },
+          {
+            "kind": "badge",
+            "x": 800,
+            "y": 160,
+            "symbol": "!",
+            "cue": "eriyor"
+          },
+          {
+            "kind": "bubble",
+            "x": 250,
+            "y": 200,
+            "icon": "CircleHelp",
+            "variant": "thought",
+            "cue": "paran"
+          }
         ]
       }
     },
@@ -57,10 +143,26 @@
       "visual": {
         "type": "physics",
         "items": [
-          { "label": "Hisse", "icon": "TrendingUp", "cue": "hisseler" },
-          { "label": "Tahvil", "icon": "FileText", "cue": "tahviller" },
-          { "label": "Mevduat", "icon": "Landmark", "cue": "mevduat" },
-          { "label": "Diğer", "icon": "Coins", "cue": "diğer" }
+          {
+            "label": "Hisse",
+            "icon": "TrendingUp",
+            "cue": "hisseler"
+          },
+          {
+            "label": "Tahvil",
+            "icon": "FileText",
+            "cue": "tahviller"
+          },
+          {
+            "label": "Mevduat",
+            "icon": "Landmark",
+            "cue": "mevduat"
+          },
+          {
+            "label": "Diğer",
+            "icon": "Coins",
+            "cue": "diğer"
+          }
         ]
       }
     },
@@ -73,18 +175,128 @@
       "visual": {
         "type": "stage",
         "elements": [
-          { "kind": "ground", "y": 680 },
-          { "kind": "icon", "x": 470, "y": 330, "name": "PieChart", "size": 190, "color": "accent", "cue": "Kalan" },
-          { "kind": "line", "from": [400, 360], "to": [190, 470], "dashed": true, "cue": "yatırımcılara" },
-          { "kind": "line", "from": [470, 380], "to": [470, 470], "dashed": true, "cue": "katılma" },
-          { "kind": "line", "from": [540, 360], "to": [750, 470], "dashed": true, "cue": "oranında" },
-          { "kind": "person", "x": 170, "y": 680, "scale": 0.62, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "cue": "yatırımcılara" },
-          { "kind": "person", "x": 470, "y": 680, "scale": 0.62, "color": "cast2", "outfit": "dress", "hair": "bun", "look": "front", "cue": "katılma" },
-          { "kind": "person", "x": 770, "y": 680, "scale": 0.62, "color": "muted", "outfit": "plain", "hair": "curly", "look": "left", "cue": "payları" },
-          { "kind": "art", "name": "gold-coin", "x": 260, "y": 520, "w": 70, "anchor": "center", "cue": "dağıtılır" },
-          { "kind": "art", "name": "gold-coin", "x": 560, "y": 520, "w": 100, "anchor": "center", "cue": "dağıtılır" },
-          { "kind": "art", "name": "gold-coin", "x": 860, "y": 520, "w": 55, "anchor": "center", "cue": "dağıtılır" },
-          { "kind": "badge", "x": 610, "y": 230, "symbol": "check", "cue": "yalnızca" }
+          {
+            "kind": "ground",
+            "y": 680
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 330,
+            "name": "PieChart",
+            "size": 190,
+            "color": "accent",
+            "cue": "Kalan"
+          },
+          {
+            "kind": "line",
+            "from": [
+              400,
+              360
+            ],
+            "to": [
+              190,
+              470
+            ],
+            "dashed": true,
+            "cue": "yatırımcılara"
+          },
+          {
+            "kind": "line",
+            "from": [
+              470,
+              380
+            ],
+            "to": [
+              470,
+              470
+            ],
+            "dashed": true,
+            "cue": "katılma"
+          },
+          {
+            "kind": "line",
+            "from": [
+              540,
+              360
+            ],
+            "to": [
+              750,
+              470
+            ],
+            "dashed": true,
+            "cue": "oranında"
+          },
+          {
+            "kind": "person",
+            "x": 170,
+            "y": 680,
+            "scale": 0.62,
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "look": "right",
+            "cue": "yatırımcılara"
+          },
+          {
+            "kind": "person",
+            "x": 470,
+            "y": 680,
+            "scale": 0.62,
+            "color": "cast2",
+            "outfit": "dress",
+            "hair": "bun",
+            "look": "front",
+            "cue": "katılma"
+          },
+          {
+            "kind": "person",
+            "x": 770,
+            "y": 680,
+            "scale": 0.62,
+            "color": "muted",
+            "outfit": "plain",
+            "hair": "curly",
+            "look": "left",
+            "cue": "payları"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 260,
+            "y": 520,
+            "w": 70,
+            "anchor": "center",
+            "cue": "dağıtılır"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 560,
+            "y": 520,
+            "w": 100,
+            "anchor": "center",
+            "cue": "dağıtılır"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 860,
+            "y": 520,
+            "w": 55,
+            "anchor": "center",
+            "cue": "dağıtılır"
+          },
+          {
+            "kind": "badge",
+            "x": 610,
+            "y": 230,
+            "symbol": "check",
+            "cue": "yalnızca"
+          }
         ]
       }
     },
@@ -93,17 +305,188 @@
       "headline": "Tasfiye payı *kurucudan* istenir.",
       "source": "SPKn m.52",
       "transition": "wipe",
-      "say": "Fonun tüzel kişiliği yoktur. Onu, kurucusu olan portföy yönetim şirketi yönetir ve temsil eder. Bu yüzden tasfiye payı, fonun kurucusundan talep edilebilir.",
+      "say": "Fonun tüzel kişiliği yoktur, dava da açamaz. Onu, kurucusu olan portföy yönetim şirketi yönetir ve temsil eder. Bu yüzden tasfiye payını kurucudan istersin.",
       "visual": {
         "type": "stage",
         "elements": [
-          { "kind": "ground", "y": 660 },
-          { "kind": "person", "x": 190, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "pose": "aimRight", "cue": "Fonun" },
-          { "kind": "icon", "x": 700, "y": 600, "name": "Building2", "size": 230, "color": "ink", "cue": "portföy" },
-          { "kind": "tag", "x": 700, "y": 330, "text": "Portföy yönetim şirketi", "cue": "şirketi" },
-          { "kind": "line", "from": [300, 440], "to": [570, 440], "dashed": true, "cue": "talep" },
-          { "kind": "text", "x": 470, "y": 170, "text": "Tasfiye payı fonun kurucusundan", "size": 40, "font": "serif", "color": "ink", "cue": "kurucusundan" },
-          { "kind": "text", "x": 470, "y": 225, "text": "talep edilebilir", "size": 40, "font": "serif", "color": "accent", "cue": "edilebilir" }
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "x": 190,
+            "y": 660,
+            "look": "right",
+            "pose": "aimRight",
+            "cue": "Fonun"
+          },
+          {
+            "kind": "badge",
+            "x": 470,
+            "y": 200,
+            "symbol": "x",
+            "cue": "dava"
+          },
+          {
+            "kind": "icon",
+            "x": 700,
+            "y": 600,
+            "name": "Building2",
+            "size": 230,
+            "color": "ink",
+            "cue": "portföy"
+          },
+          {
+            "kind": "line",
+            "from": [
+              300,
+              440
+            ],
+            "to": [
+              570,
+              440
+            ],
+            "dashed": true,
+            "cue": "istersin"
+          },
+          {
+            "kind": "art",
+            "name": "gold-coin",
+            "x": 440,
+            "y": 380,
+            "w": 80,
+            "anchor": "center",
+            "idle": "bob",
+            "cue": "tasfiye"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vade",
+      "headline": "Ödeme *ne zaman*?",
+      "source": "TBK m.117 · Tebliğ m.28",
+      "transition": "zoom",
+      "say": "Peki ne zaman ödenmeli? Kurucu bir dağıtım tarihi ilan ettiyse, o gün geçince temerrüde düşer. Tarih yoksa, tasfiye makul sürede bitmeli; bu durumda ihtar çekersin.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "CalendarDays",
+            "x": 260,
+            "y": 330,
+            "size": 230,
+            "cue": "dağıtım"
+          },
+          {
+            "kind": "circle",
+            "x": 260,
+            "y": 330,
+            "r": 160,
+            "cue": "geçince"
+          },
+          {
+            "kind": "arrow",
+            "from": [
+              420,
+              330
+            ],
+            "to": [
+              600,
+              330
+            ],
+            "bend": -0.3,
+            "cue": "Tarih"
+          },
+          {
+            "kind": "icon",
+            "name": "Hourglass",
+            "x": 720,
+            "y": 330,
+            "size": 200,
+            "cue": "makul"
+          },
+          {
+            "kind": "underline",
+            "x": 720,
+            "y": 480,
+            "w": 220,
+            "cue": "ihtar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faiz",
+      "headline": "Faiz ve *tazminat*.",
+      "source": "TBK m.112 · m.117",
+      "transition": "slide",
+      "say": "Gecikirse faiz de istenebilir. Ama piyasa düşüşünden doğan kayıp, yatırımın riskidir. Değerinin altında satış ya da gereksiz gecikme varsa, kurucu tazminatla sorumlu olur.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 130,
+            "name": "Percent",
+            "size": 110,
+            "color": "accent",
+            "cue": "faiz"
+          },
+          {
+            "kind": "scales",
+            "x": 470,
+            "y": 660,
+            "left": "Piyasa",
+            "right": "Özensizlik",
+            "tilt": 0,
+            "cue": "piyasa"
+          },
+          {
+            "kind": "icon",
+            "x": 180,
+            "y": 420,
+            "name": "TrendingDown",
+            "size": 120,
+            "color": "muted",
+            "cue": "düşüşünden"
+          },
+          {
+            "kind": "badge",
+            "x": 150,
+            "y": 140,
+            "symbol": "x",
+            "cue": "riskidir"
+          },
+          {
+            "kind": "icon",
+            "x": 760,
+            "y": 420,
+            "name": "Gavel",
+            "size": 120,
+            "color": "danger",
+            "cue": "altında"
+          },
+          {
+            "kind": "badge",
+            "x": 790,
+            "y": 140,
+            "symbol": "check",
+            "cue": "tazminatla"
+          }
         ]
       }
     },
@@ -112,18 +495,73 @@
       "headline": "İki *ayrı* kasa.",
       "source": "SPKn m.53",
       "transition": "light",
-      "say": "Üstelik fonun malvarlığı, kurucu şirketin malvarlığından ayrıdır. Şirket batsa bile, fonun varlıkları haczedilemez, iflas masasına girmez.",
+      "say": "Kurucu şirket iflas etse bile, fonun malvarlığı şirketinkinden ayrıdır. Fonun varlıkları haczedilemez, iflas masasına girmez; şirketin alacaklılarıyla yarışmazsın.",
       "visual": {
         "type": "stage",
         "elements": [
-          { "kind": "ground", "y": 640 },
-          { "kind": "art", "name": "safe-box", "x": 240, "y": 640, "w": 250, "color": "accent", "cue": "fonun" },
-          { "kind": "tag", "x": 240, "y": 300, "text": "Fon", "cue": "fonun" },
-          { "kind": "art", "name": "safe-box", "x": 700, "y": 640, "w": 250, "color": "cast1", "cue": "kurucu" },
-          { "kind": "tag", "x": 700, "y": 300, "text": "Kurucu şirket", "cue": "kurucu" },
-          { "kind": "line", "from": [470, 250], "to": [470, 640], "dashed": true, "cue": "ayrıdır" },
-          { "kind": "badge", "x": 700, "y": 170, "symbol": "x", "cue": "batsa" },
-          { "kind": "icon", "x": 240, "y": 230, "name": "ShieldCheck", "size": 120, "color": "accent", "cue": "haczedilemez" }
+          {
+            "kind": "ground",
+            "y": 640
+          },
+          {
+            "kind": "art",
+            "name": "safe-box",
+            "x": 700,
+            "y": 640,
+            "w": 250,
+            "color": "cast1",
+            "cue": "Kurucu"
+          },
+          {
+            "kind": "badge",
+            "x": 700,
+            "y": 250,
+            "symbol": "x",
+            "cue": "iflas"
+          },
+          {
+            "kind": "art",
+            "name": "safe-box",
+            "x": 240,
+            "y": 640,
+            "w": 250,
+            "color": "accent",
+            "cue": "fonun"
+          },
+          {
+            "kind": "line",
+            "from": [
+              470,
+              250
+            ],
+            "to": [
+              470,
+              640
+            ],
+            "dashed": true,
+            "cue": "ayrıdır"
+          },
+          {
+            "kind": "icon",
+            "x": 240,
+            "y": 250,
+            "name": "ShieldCheck",
+            "size": 120,
+            "color": "accent",
+            "cue": "haczedilemez"
+          },
+          {
+            "kind": "person",
+            "x": 880,
+            "y": 640,
+            "scale": 0.55,
+            "color": "muted",
+            "outfit": "plain",
+            "hair": "bald",
+            "look": "left",
+            "mood": "sad",
+            "cue": "alacaklılarıyla"
+          }
         ]
       }
     },
@@ -143,35 +581,380 @@
           "highlight": "iflas masasına dâhil edilemez",
           "note": "Fon mal varlığının ayrılığı"
         },
-        "cues": { "highlight": "iflas" }
+        "cues": {
+          "highlight": "iflas"
+        }
+      }
+    },
+    {
+      "id": "devir",
+      "headline": "Fon *yeni kurucuya* geçer.",
+      "source": "SPKn m.55 · Tebliğ m.13",
+      "transition": "wipe",
+      "say": "Bu durumda Sermaye Piyasası Kurulu, fonu başka bir kurucuya devreder. Payını yeni kurucudan istersin. Devirden önceki yükümlülüklerden, eski ve yeni kurucu birlikte sorumludur.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 650
+          },
+          {
+            "kind": "icon",
+            "x": 180,
+            "y": 620,
+            "name": "Building2",
+            "size": 200,
+            "color": "muted",
+            "cue": "Bu"
+          },
+          {
+            "kind": "badge",
+            "x": 180,
+            "y": 330,
+            "symbol": "x",
+            "cue": "Bu"
+          },
+          {
+            "kind": "art",
+            "name": "safe-box",
+            "x": 470,
+            "y": 520,
+            "w": 150,
+            "color": "accent",
+            "idle": "bob",
+            "cue": "fonu"
+          },
+          {
+            "kind": "line",
+            "from": [
+              280,
+              470
+            ],
+            "to": [
+              660,
+              470
+            ],
+            "dashed": true,
+            "cue": "devreder"
+          },
+          {
+            "kind": "icon",
+            "x": 760,
+            "y": 620,
+            "name": "Building2",
+            "size": 200,
+            "color": "accent",
+            "cue": "başka"
+          },
+          {
+            "kind": "badge",
+            "x": 760,
+            "y": 330,
+            "symbol": "check",
+            "cue": "yeni"
+          },
+          {
+            "kind": "icon",
+            "x": 470,
+            "y": 200,
+            "name": "Link",
+            "size": 110,
+            "color": "ink",
+            "cue": "birlikte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "digerleri",
+      "headline": "Kimler *sorumlu*?",
+      "source": "SPKn m.56",
+      "transition": "zoom",
+      "say": "Fon varlıklarını saklayan kuruluş da, görevini ihlal ederse sana karşı doğrudan sorumludur. Paran bankada ya da aracı kurumda bekliyorsa, iadeyi onlardan istersin.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          {
+            "label": "Kurucu",
+            "icon": "Building2",
+            "cue": "Fon"
+          },
+          {
+            "label": "Saklayıcı",
+            "icon": "Lock",
+            "cue": "saklayan"
+          },
+          {
+            "label": "Banka",
+            "icon": "Landmark",
+            "cue": "bankada"
+          },
+          {
+            "label": "Aracı kurum",
+            "icon": "Briefcase",
+            "cue": "aracı"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ytm",
+      "headline": "Tazmin Merkezi *sınırlı*.",
+      "source": "SPKn m.83",
+      "transition": "blur",
+      "say": "Yatırımcı Tazmin Merkezi ise yalnızca banka ya da aracı kurum ödeme güçlüğüne düşerse, tavanlı bir tutarla devreye girer. Piyasa kaybını karşılamaz.",
+      "visual": {
+        "type": "sketch",
+        "strokes": [
+          {
+            "kind": "icon",
+            "name": "ShieldHalf",
+            "x": 290,
+            "y": 330,
+            "size": 240,
+            "cue": "Yatırımcı"
+          },
+          {
+            "kind": "underline",
+            "x": 290,
+            "y": 500,
+            "w": 240,
+            "cue": "tavanlı"
+          },
+          {
+            "kind": "icon",
+            "name": "TrendingDown",
+            "x": 680,
+            "y": 330,
+            "size": 200,
+            "cue": "Piyasa"
+          },
+          {
+            "kind": "path",
+            "d": "M570 220 L790 440 M790 220 L570 440",
+            "color": "danger",
+            "width": 8,
+            "cue": "karşılamaz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zamanasimi",
+      "headline": "Süreyi *kaçırma*.",
+      "source": "TBK m.146 · m.147",
+      "transition": "light",
+      "say": "Zamanaşımı için güçlü görüş on yıl. Ama beş yıl diyen görüş de var. O yüzden beş yıl dolmadan harekete geç.",
+      "visual": {
+        "type": "particles",
+        "effect": "burst",
+        "text": "5 yıl",
+        "cue": "dolmadan"
       }
     },
     {
       "id": "yollar",
       "headline": "Paran *ödenmezse*.",
-      "source": "TBK m.117 · m.508 · TTK m.5/A",
+      "source": "TBK m.117 · TTK m.5/A · TKHK m.73/A",
       "transition": "slide",
-      "say": "Peki paran ödenmezse? Önce ihtarla ödemeye çağırırsın. Sonra kurucudan hesap vermesini istersin. Anlaşma olmazsa, çoğu durumda arabulucuya gidersin. Son adım, dava.",
+      "say": "Paran ödenmezse, önce noterden ihtar çekip hesap istersin. Sonra arabulucuya gidersin; bu, dava açmanın şartıdır. Anlaşma olmazsa, icra takibi ya da alacak davası.",
       "visual": {
         "type": "hyperframe",
         "comp": "timeline",
         "vars": {
           "events": [
-            { "when": "ADIM 1", "what": "İhtar" },
-            { "when": "ADIM 2", "what": "Hesap verme talebi" },
-            { "when": "ADIM 3", "what": "Arabuluculuk" },
-            { "when": "ADIM 4", "what": "Dava" }
+            {
+              "when": "ADIM 1",
+              "what": "İhtar"
+            },
+            {
+              "when": "ADIM 2",
+              "what": "Hesap talebi"
+            },
+            {
+              "when": "ADIM 3",
+              "what": "Arabuluculuk"
+            },
+            {
+              "when": "ADIM 4",
+              "what": "Takip / dava"
+            }
           ],
           "active": 4
         },
-        "cues": { "e1": "ihtarla", "e2": "hesap", "e3": "arabulucuya", "e4": "dava" }
+        "cues": {
+          "e1": "ihtar",
+          "e2": "hesap",
+          "e3": "arabulucuya",
+          "e4": "icra"
+        }
+      }
+    },
+    {
+      "id": "mahkeme",
+      "headline": "Hangi *mahkeme*?",
+      "source": "TKHK m.3 · m.73 · TTK m.4",
+      "transition": "fade",
+      "say": "Tacir olmayan yatırımcı için tüketici mahkemesi görüşü güçlü. Ama ticaret mahkemesini görevli sayan kararlar da var; dava açmadan önce bölgedeki uygulamaya bakılmalı.",
+      "visual": {
+        "type": "object3d",
+        "model": "scales",
+        "tilt": -0.4,
+        "orbit": 45,
+        "cue": "güçlü"
+      }
+    },
+    {
+      "id": "haciz",
+      "headline": "Haciz *kurucuya*.",
+      "source": "SPKn m.53 · İİK m.257",
+      "transition": "slide",
+      "say": "Haciz ise fonun varlıklarına değil, kurucunun kendi malvarlığına konur. Böylece diğer yatırımcıların payı korunur.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "art",
+            "name": "safe-box",
+            "x": 220,
+            "y": 660,
+            "w": 220,
+            "color": "accent",
+            "cue": "fonun"
+          },
+          {
+            "kind": "icon",
+            "x": 220,
+            "y": 280,
+            "name": "ShieldCheck",
+            "size": 110,
+            "color": "accent",
+            "cue": "değil"
+          },
+          {
+            "kind": "icon",
+            "x": 690,
+            "y": 640,
+            "name": "Building2",
+            "size": 240,
+            "color": "ink",
+            "cue": "kurucunun"
+          },
+          {
+            "kind": "stamp",
+            "x": 690,
+            "y": 300,
+            "text": "HACİZ",
+            "rotate": -8,
+            "cue": "konur"
+          },
+          {
+            "kind": "person",
+            "x": 380,
+            "y": 660,
+            "scale": 0.55,
+            "color": "cast2",
+            "outfit": "dress",
+            "hair": "bun",
+            "look": "left",
+            "mood": "happy",
+            "cue": "diğer"
+          },
+          {
+            "kind": "person",
+            "x": 470,
+            "y": 660,
+            "scale": 0.55,
+            "color": "muted",
+            "outfit": "plain",
+            "hair": "curly",
+            "look": "left",
+            "mood": "happy",
+            "cue": "korunur"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spk",
+      "headline": "Usulsüzlükte *SPK*.",
+      "source": "SPKn m.110 · m.115",
+      "transition": "wipe",
+      "say": "Usulsüzlük şüphesi varsa, Sermaye Piyasası Kuruluna şikâyet et. Ceza soruşturması ancak Kurulun başvurusuyla başlar ve hukuk yolunun yerine geçmez.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          {
+            "kind": "ground",
+            "y": 660
+          },
+          {
+            "kind": "person",
+            "color": "cast1",
+            "outfit": "suit",
+            "hair": "short",
+            "accessories": [
+              "glasses"
+            ],
+            "x": 200,
+            "y": 660,
+            "look": "right",
+            "pose": "raise",
+            "mood": "worried",
+            "cue": "Usulsüzlük"
+          },
+          {
+            "kind": "bubble",
+            "x": 200,
+            "y": 200,
+            "icon": "MessageSquareWarning",
+            "variant": "speech",
+            "cue": "şikâyet"
+          },
+          {
+            "kind": "icon",
+            "x": 690,
+            "y": 620,
+            "name": "Landmark",
+            "size": 230,
+            "color": "ink",
+            "cue": "Kuruluna"
+          },
+          {
+            "kind": "line",
+            "from": [
+              320,
+              420
+            ],
+            "to": [
+              560,
+              420
+            ],
+            "dashed": true,
+            "cue": "başvurusuyla"
+          },
+          {
+            "kind": "icon",
+            "x": 690,
+            "y": 260,
+            "name": "Scale",
+            "size": 110,
+            "color": "accent",
+            "cue": "hukuk"
+          }
+        ]
       }
     },
     {
       "id": "mesaj",
       "headline": "Haklarınız *devam* eder.",
       "transition": "fade",
-      "say": "Kısacası, bir yatırım fonunun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez. Tasfiye sürecinde yatırımcıların hukuki hakları korunur. Sence fon kapanırken yatırımcılar yeterince bilgilendiriliyor mu? Yorumlara yaz.",
+      "say": "Kısacası, fonun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez. Sence fon kapanırken yatırımcılar yeterince bilgilendiriliyor mu? Yorumlara yaz.",
       "visual": {
         "type": "hyperframe",
         "comp": "installer",
@@ -180,9 +963,11 @@
           "monitor": false,
           "appName": "Yatırım Fonu · Özet",
           "message": "Bir yatırım fonunun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez.",
-          "message2": "Tasfiye sürecinde yatırımcıların hukuki hakları korunur."
+          "message2": "Payını kurucudan iste, süreyi kaçırma."
         },
-        "cues": { "msg2": "Tasfiye" }
+        "cues": {
+          "msg2": "Sence"
+        }
       }
     }
   ]

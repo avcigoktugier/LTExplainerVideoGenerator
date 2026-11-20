@@ -11,3 +11,17 @@ Kaynaklar yalnızca resmî mevzuat servisinden (mevzuat.gov.tr) alındı ve 20.1
 Avukata sorulacaklar:
 - "Tasfiye payı fonun kurucusundan talep edilebilir" cümlesi kullanıcının istediği metindir. Dayanağı: fonun tüzel kişiliği yok (m.52/1), fonu PYŞ temsil eder (m.52/3), ilişkiye vekâlet hükümleri kıyasen uygulanır (m.52/4, TBK m.508). Fırın'da bu konuda Yargıtay kararı bulunamadı.
 - Dağıtıcı/aracı kurumun (banka, aracı kurum) sorumluluğu ve Yatırımcı Tazmin Merkezi bu videonun kapsamı dışında bırakıldı.
+
+## Güncelleme 20.11.2026 — büro hukuki mütalaasına göre genişletildi
+Yeni sahnelerin kaynağı kullanıcının verdiği büro mütalaasıdır ("Yatırım Yaptığınız Fon Kapandı: Paranızı Nasıl Geri Alırsınız?"). Mütalaadaki maddeler resmî servisten ayrıca okunmadı — yayından önce avukat kontrol etmeli.
+- vade: ilan edilmiş dağıtım tarihi → o tarihte muaccel, ihtarsız temerrüt; yoksa makul süre + ihtar (TBK m.117; mütalaa 2.2.1, 3.2).
+- faiz: temerrüt faizi; piyasa düşüşü yatırımcı riski, değerinin altında satış/gereksiz gecikme → tazminat (TBK m.112; mütalaa 2.2.2).
+- kasalar/devir: fon malvarlığı iflas masasına girmez (SPKn m.53/2); SPK fonu başka kurucuya devreder, devirden önceki yükümlülüklerden eski ve yeni kurucu müteselsilen sorumlu (Tebliğ m.13; mütalaa 2.3).
+- digerleri: saklayıcı katılma payı sahiplerine doğrudan sorumlu (SPKn m.56); bakiye banka/aracı kurumdaysa iade onlardan (mütalaa 2.4.2).
+- ytm: YTM yalnız yatırım kuruluşunun (banka/aracı kurum) teslim/ödeme edememesi hâlinde, tavanlı; fiyat hareketi zararı kapsam dışı (SPKn m.83; mütalaa 2.4.3).
+- zamanasimi: büro görüşü 10 yıl (TBK m.146), 5 yıl (TBK m.147) riski var → 5 yıl dolmadan başvur (mütalaa 2.5, 3.5).
+- yollar: noter ihtarı + hesap talebi → dava şartı arabuluculuk (TTK m.5/A, TKHK m.73/A) → ilamsız takip / alacak davası (mütalaa 2.6–2.7).
+- mahkeme: tacir olmayan yatırımcı için tüketici mahkemesi görüşü güçlü; YHGK 2019/82 ve bazı BAM kararları ticaret mahkemesi (mütalaa 2.6.1).
+- haciz: fon malvarlığına değil kurucunun malvarlığına (SPKn m.53/2; mütalaa 2.7.2).
+- spk: soruşturma SPK'nın yazılı başvurusuna bağlı (SPKn m.115); ceza yolu hukuk yolunun yerine geçmez (mütalaa 2.8.3).
+- Videoya alınmayanlar (mütalaada var): belirsiz alacak davasının 7589 s. Kanunla kaldırılması, iflas masasına 1 ay kayıt süresi, idari yargı 60 gün, tam yargı, fona iade davası.
