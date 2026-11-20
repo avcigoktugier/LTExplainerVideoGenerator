@@ -1,0 +1,189 @@
+{
+  "slug": "yatirim-fonu-tasfiye",
+  "title": "Yatırım fonu sona erince paranız ne olur?",
+  "style": "lawtrust-gold",
+  "format": "dossier",
+  "transition": "fade",
+  "brand": {
+    "name": "Law & Trust",
+    "disclaimer": "Bilgilendirme amaçlıdır, hukuki tavsiye değildir.",
+    "logo": "law-trust-logo.svg",
+    "watermark": "law-trust-monogram.svg"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "onwK4e9ZLuTAKqWW03F9",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "yatirim",
+      "headline": "Birikimin bir *fonda*.",
+      "say": "Birikimini telefondan bir yatırım fonuna yatırdın. Her gün değerine bakıyorsun.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          { "kind": "ground", "y": 660 },
+          { "kind": "person", "x": 250, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "mood": "happy", "cue": "Birikimini" },
+          { "kind": "art", "name": "phone-fund", "x": 620, "y": 640, "w": 210, "idle": "bob", "cue": "telefondan" },
+          { "kind": "text", "x": 620, "y": 200, "text": "Yatırım Fonum", "size": 56, "font": "serif", "color": "ink", "cue": "yatırım" },
+          { "kind": "art", "name": "gold-coin", "x": 790, "y": 330, "w": 90, "anchor": "center", "idle": "spin", "cue": "değerine" }
+        ]
+      }
+    },
+    {
+      "id": "bildirim",
+      "headline": "Yatırım fonunuz *kapanırsa* ne olur?",
+      "transition": "blur",
+      "say": "Bir sabah bir bildirim geliyor: fonun sona eriyor. Peki yatırım fonun kapanırsa, paran ne olur?",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          { "kind": "ground", "y": 660 },
+          { "kind": "person", "x": 250, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "mood": "shocked", "cue": "Bir" },
+          { "kind": "art", "name": "phone-fund", "x": 620, "y": 660, "w": 190, "cue": "bildirim" },
+          { "kind": "card", "x": 620, "y": 250, "w": 420, "label": "Bildirim", "value": "Fonunuz sona eriyor", "cue": "sona" },
+          { "kind": "badge", "x": 800, "y": 160, "symbol": "!", "cue": "eriyor" },
+          { "kind": "bubble", "x": 250, "y": 200, "icon": "CircleHelp", "variant": "thought", "cue": "paran" }
+        ]
+      }
+    },
+    {
+      "id": "tasfiye",
+      "headline": "Önce *tasfiye* başlar.",
+      "source": "Tebliğ III-52.1 m.28",
+      "transition": "slide",
+      "say": "Fon sona erince tasfiye başlar. Fondaki hisseler, tahviller, mevduat ve diğer varlıklar, içtüzükteki kurallara göre paraya dönüştürülür.",
+      "visual": {
+        "type": "physics",
+        "items": [
+          { "label": "Hisse", "icon": "TrendingUp", "cue": "hisseler" },
+          { "label": "Tahvil", "icon": "FileText", "cue": "tahviller" },
+          { "label": "Mevduat", "icon": "Landmark", "cue": "mevduat" },
+          { "label": "Diğer", "icon": "Coins", "cue": "diğer" }
+        ]
+      }
+    },
+    {
+      "id": "dagitim",
+      "headline": "Payın *oranında* ödeme.",
+      "source": "SPKn m.53/3 · Tebliğ m.28/2",
+      "transition": "zoom",
+      "say": "Kalan tutar, yani tasfiye bakiyesi, yatırımcılara katılma payları oranında dağıtılır. Bu aşamada, yalnızca pay sahiplerine ödeme yapılabilir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          { "kind": "ground", "y": 680 },
+          { "kind": "icon", "x": 470, "y": 330, "name": "PieChart", "size": 190, "color": "accent", "cue": "Kalan" },
+          { "kind": "line", "from": [400, 360], "to": [190, 470], "dashed": true, "cue": "yatırımcılara" },
+          { "kind": "line", "from": [470, 380], "to": [470, 470], "dashed": true, "cue": "katılma" },
+          { "kind": "line", "from": [540, 360], "to": [750, 470], "dashed": true, "cue": "oranında" },
+          { "kind": "person", "x": 170, "y": 680, "scale": 0.62, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "cue": "yatırımcılara" },
+          { "kind": "person", "x": 470, "y": 680, "scale": 0.62, "color": "cast2", "outfit": "dress", "hair": "bun", "look": "front", "cue": "katılma" },
+          { "kind": "person", "x": 770, "y": 680, "scale": 0.62, "color": "muted", "outfit": "plain", "hair": "curly", "look": "left", "cue": "payları" },
+          { "kind": "art", "name": "gold-coin", "x": 260, "y": 520, "w": 70, "anchor": "center", "cue": "dağıtılır" },
+          { "kind": "art", "name": "gold-coin", "x": 560, "y": 520, "w": 100, "anchor": "center", "cue": "dağıtılır" },
+          { "kind": "art", "name": "gold-coin", "x": 860, "y": 520, "w": 55, "anchor": "center", "cue": "dağıtılır" },
+          { "kind": "badge", "x": 610, "y": 230, "symbol": "check", "cue": "yalnızca" }
+        ]
+      }
+    },
+    {
+      "id": "kurucu",
+      "headline": "Tasfiye payı *kurucudan* istenir.",
+      "source": "SPKn m.52",
+      "transition": "wipe",
+      "say": "Fonun tüzel kişiliği yoktur. Onu, kurucusu olan portföy yönetim şirketi yönetir ve temsil eder. Bu yüzden tasfiye payı, fonun kurucusundan talep edilebilir.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          { "kind": "ground", "y": 660 },
+          { "kind": "person", "x": 190, "y": 660, "color": "cast1", "outfit": "suit", "hair": "short", "accessories": ["glasses"], "look": "right", "pose": "aimRight", "cue": "Fonun" },
+          { "kind": "icon", "x": 700, "y": 600, "name": "Building2", "size": 230, "color": "ink", "cue": "portföy" },
+          { "kind": "tag", "x": 700, "y": 330, "text": "Portföy yönetim şirketi", "cue": "şirketi" },
+          { "kind": "line", "from": [300, 440], "to": [570, 440], "dashed": true, "cue": "talep" },
+          { "kind": "text", "x": 470, "y": 170, "text": "Tasfiye payı fonun kurucusundan", "size": 40, "font": "serif", "color": "ink", "cue": "kurucusundan" },
+          { "kind": "text", "x": 470, "y": 225, "text": "talep edilebilir", "size": 40, "font": "serif", "color": "accent", "cue": "edilebilir" }
+        ]
+      }
+    },
+    {
+      "id": "kasalar",
+      "headline": "İki *ayrı* kasa.",
+      "source": "SPKn m.53",
+      "transition": "light",
+      "say": "Üstelik fonun malvarlığı, kurucu şirketin malvarlığından ayrıdır. Şirket batsa bile, fonun varlıkları haczedilemez, iflas masasına girmez.",
+      "visual": {
+        "type": "stage",
+        "elements": [
+          { "kind": "ground", "y": 640 },
+          { "kind": "art", "name": "safe-box", "x": 240, "y": 640, "w": 250, "color": "accent", "cue": "fonun" },
+          { "kind": "tag", "x": 240, "y": 300, "text": "Fon", "cue": "fonun" },
+          { "kind": "art", "name": "safe-box", "x": 700, "y": 640, "w": 250, "color": "cast1", "cue": "kurucu" },
+          { "kind": "tag", "x": 700, "y": 300, "text": "Kurucu şirket", "cue": "kurucu" },
+          { "kind": "line", "from": [470, 250], "to": [470, 640], "dashed": true, "cue": "ayrıdır" },
+          { "kind": "badge", "x": 700, "y": 170, "symbol": "x", "cue": "batsa" },
+          { "kind": "icon", "x": 240, "y": 230, "name": "ShieldCheck", "size": 120, "color": "accent", "cue": "haczedilemez" }
+        ]
+      }
+    },
+    {
+      "id": "madde-53",
+      "headline": "Fon *korunur*.",
+      "source": "SPKn m.53/2",
+      "transition": "fade",
+      "say": "Kanun bunu açıkça yazar: fon malvarlığı haczedilemez, ve iflas masasına dahil edilemez.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "law-article",
+        "vars": {
+          "code": "SPKn",
+          "article": "m. 53/2",
+          "text": "Fon mal varlığı … haczedilemez, üzerine ihtiyati tedbir konulamaz ve iflas masasına dâhil edilemez.",
+          "highlight": "iflas masasına dâhil edilemez",
+          "note": "Fon mal varlığının ayrılığı"
+        },
+        "cues": { "highlight": "iflas" }
+      }
+    },
+    {
+      "id": "yollar",
+      "headline": "Paran *ödenmezse*.",
+      "source": "TBK m.117 · m.508 · TTK m.5/A",
+      "transition": "slide",
+      "say": "Peki paran ödenmezse? Önce ihtarla ödemeye çağırırsın. Sonra kurucudan hesap vermesini istersin. Anlaşma olmazsa, çoğu durumda arabulucuya gidersin. Son adım, dava.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "timeline",
+        "vars": {
+          "events": [
+            { "when": "ADIM 1", "what": "İhtar" },
+            { "when": "ADIM 2", "what": "Hesap verme talebi" },
+            { "when": "ADIM 3", "what": "Arabuluculuk" },
+            { "when": "ADIM 4", "what": "Dava" }
+          ],
+          "active": 4
+        },
+        "cues": { "e1": "ihtarla", "e2": "hesap", "e3": "arabulucuya", "e4": "dava" }
+      }
+    },
+    {
+      "id": "mesaj",
+      "headline": "Haklarınız *devam* eder.",
+      "transition": "fade",
+      "say": "Kısacası, bir yatırım fonunun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez. Tasfiye sürecinde yatırımcıların hukuki hakları korunur. Sence fon kapanırken yatırımcılar yeterince bilgilendiriliyor mu? Yorumlara yaz.",
+      "visual": {
+        "type": "hyperframe",
+        "comp": "installer",
+        "vars": {
+          "mode": "message",
+          "monitor": false,
+          "appName": "Yatırım Fonu · Özet",
+          "message": "Bir yatırım fonunun sona ermesi, yatırımcının haklarının sona erdiği anlamına gelmez.",
+          "message2": "Tasfiye sürecinde yatırımcıların hukuki hakları korunur."
+        },
+        "cues": { "msg2": "Tasfiye" }
+      }
+    }
+  ]
+}

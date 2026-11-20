@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 360">
+  <ellipse cx="100" cy="352" rx="70" ry="6" fill="var(--ink)" opacity=".12"/>
+  <rect x="14" y="8" width="172" height="336" rx="28" fill="var(--ink)" stroke="var(--ink)" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="26" y="22" width="148" height="308" rx="18" fill="var(--paper)"/>
+  <rect x="78" y="30" width="44" height="8" rx="4" fill="var(--ink)" opacity=".85"/>
+  <rect x="40" y="58" width="70" height="10" rx="5" fill="var(--ink)" opacity=".3"/>
+  <rect x="40" y="78" width="104" height="18" rx="6" fill="var(--ink)" opacity=".85"/>
+  <rect x="40" y="114" width="120" height="104" rx="12" fill="var(--main)" opacity=".12"/>
+  <path d="M50 200 L74 180 L94 188 L118 158 L136 166 L152 128" fill="none" stroke="var(--main)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="152" cy="128" r="7" fill="var(--main)" stroke="var(--ink)" stroke-width="3"/>
+  <g fill="var(--ink)" opacity=".22">
+    <rect x="40" y="236" width="120" height="10" rx="5"/>
+    <rect x="40" y="254" width="88" height="10" rx="5"/>
+  </g>
+  <rect x="40" y="280" width="120" height="34" rx="12" fill="var(--main)" stroke="var(--ink)" stroke-width="4"/>
+  <path d="M90 297 L98 305 L112 290" fill="none" stroke="var(--paper)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

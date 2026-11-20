@@ -31,3 +31,5 @@ plus the usual `cue` / `at` / `enter`. A missing file shows a red "art yok" box 
 | title-deed | property title deed (tapu) with a house emblem and seal |
 | digital-contract | tablet showing a contract with a signature and a check seal |
 | nda-paper | confidentiality agreement page with a padlock emblem, two signatures and a pen |
+| phone-fund | smartphone showing an investment app: rising chart, balance bar, confirm button |
+| safe-box | steel safe with a dial and handle (fill = `color`, e.g. accent for the fund, accent2 for the company) |

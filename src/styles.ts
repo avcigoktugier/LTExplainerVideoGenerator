@@ -141,6 +141,27 @@ export const STYLES: Record<string, Style> = {
       "flat corporate vector illustration, navy #14233C and blue #2F5C9E on white and light grey #F4F6F9, thin dark outlines, no text, no letters, no logos, centered subject, minimal clean infographic style",
     mascot: { body: "#2F5C9E", belly: "#DCE4EF", outline: "#14233C" },
   },
+  // Law & Trust, corporate navy + gold: white page, navy-black ink, gold as the single accent
+  "lawtrust-gold": {
+    name: "lawtrust-gold",
+    font: sans,
+    fontSerif: serif,
+    fontMono: mono,
+    bg: "#F5F6F8",
+    bg2: "#FFFFFF",
+    ink: "#0F1B2E",
+    muted: "#8A93A3",
+    accent: "#B8913F",
+    accent2: "#1F3A63",
+    danger: "#B5453A",
+    radius: 16,
+    grain: false,
+    grid: false,
+    cast: ["#1F3A63", "#B8913F", "#0F1B2E"],
+    imagePrompt:
+      "flat corporate vector illustration, navy #1F3A63 and gold #B8913F on white #F5F6F8, thin near-black outlines, no text, no letters, no logos, centered subject, minimal clean infographic style",
+    mascot: { body: "#B8913F", belly: "#F1E4C4", outline: "#0F1B2E" },
+  },
 };
 
 export const getStyle = (name: string): Style => STYLES[name] ?? STYLES["kettek-dark"];
